@@ -22,7 +22,7 @@ jobs:
             api/requirements.txt
             etl/requirements.txt
       - run: pip install -r api/requirements.txt -r api/requirements-dev.txt -r etl/requirements.txt
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         with:
           path: data/raw
           key: raw-${{ hashFiles('etl/mhw_etl/config.py') }}
@@ -43,7 +43,7 @@ jobs:
             api/requirements.txt
             etl/requirements.txt
       - run: pip install -r api/requirements.txt -r api/requirements-dev.txt -r etl/requirements.txt
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         with:
           path: data/raw
           key: raw-win-${{ hashFiles('etl/mhw_etl/config.py') }}
