@@ -1,0 +1,134 @@
+/* ===========================================================================
+   Libro del cazador: design tokens.
+   Palette measured from the in-game bestiary / hunter's notes screenshots.
+   Contrast (WCAG): ink on parchment 8.1:1, ink-2 6.4:1, ink-muted 5.1:1, link 5.7:1 (all AA on --paper);
+   text on wood 13:1, text-2 9:1, muted 5.9:1, gold on wood 8.7:1.
+   Two scopes: the default (parchment page, dark ink) and the wood scope (.topbar, .footer, .tabs, .wood:
+   light text on dark wood). Components only use the semantic tokens below.
+   =========================================================================== */
+:root {
+  /* ---- raw palette ---- */
+  --parchment: #d9c296;
+  --parchment-mid: #be955c;
+  --parchment-aged: #a07c57;
+  --parchment-hi: #e6d5ae;
+  --parchment-lo: #c9ab76;
+  --ink-900: #3b2717;
+  --ink-700: #503628;
+  --ink-500: #5f452c;
+  --wood-900: #201808;
+  --wood-800: #2c1a12;
+  --wood-700: #4b2b1f;
+  --wood-600: #6b4430;
+  --gold: #d8b25a;
+  --gold-hi: #f0cf7e;
+  --gold-lo: #a8802e;
+  --bookmark: #a32a1f;
+  --research: #f29500;
+  --star: #eaa62e;
+  --gem: #00d7e2;
+  --weak: #ba613e;
+  --select: #57d34a;
+
+  /* ---- semantic: parchment page (default scope) ---- */
+  --page-bg: var(--parchment);
+  --page-ink: var(--ink-900);
+  --frame: var(--wood-700);
+  --frame-dark: var(--wood-900);
+  --bg: var(--wood-900); /* outside the book */
+  --bg-2: var(--parchment-lo); /* wells: table headers, tab strips, inputs */
+  --surface: var(--parchment-hi); /* cards on the page */
+  --surface-2: #d3b98a; /* chips, tracks, hover */
+  --line: rgba(80, 54, 40, 0.3);
+  --line-strong: rgba(80, 54, 40, 0.55);
+  --text: var(--ink-900);
+  --text-2: var(--ink-700);
+  --muted: var(--ink-500);
+  --link: #6e3210;
+  --heading: var(--ink-900);
+  --accent: var(--gold);
+  --accent-2: var(--gold-hi);
+  --accent-ink: #2a1a0c; /* text on top of --accent fills */
+  --ok: #1f5a1c;
+  --no: #8a2616;
+  --warn: #6e4600;
+  --lr: #1f4f78;
+  --hr: #8a2f2f;
+  --mr: #5a2f90;
+  --focus: #1b6c9e;
+
+  /* ---- semantic: header / book chrome ---- */
+  --header-bg: linear-gradient(#3a2216, #26160d);
+  --header-ink: #f2e3bd;
+  --header-line: var(--gold-lo);
+  --header-glow: rgba(240, 207, 126, 0.35);
+
+  /* ---- layout shell ---- */
+  --header-h: 56px;
+  --nav-w: 232px;
+  --page-max: 1200px;
+  --page-max-wide: 1480px;
+  --target-min: 24px; /* WCAG 2.5.8 */
+  --target-touch: 44px; /* pointer: coarse */
+
+  /* ---- spacing, radii, shadows ---- */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+  --sp-8: 64px;
+  --radius-sm: 4px;
+  --radius: 8px;
+  --radius-lg: 14px;
+  --shadow-paper: 0 1px 0 rgba(255, 244, 214, 0.55) inset, 0 1px 3px rgba(59, 39, 23, 0.35), 0 4px 10px rgba(59, 39, 23, 0.18);
+  --shadow-page: 0 0 0 2px var(--wood-900), 0 18px 48px rgba(0, 0, 0, 0.65), inset 0 0 70px rgba(80, 54, 40, 0.38);
+  --shadow-wood: 0 2px 0 rgba(255, 220, 160, 0.08) inset, 0 6px 16px rgba(0, 0, 0, 0.5);
+  --shadow: var(--shadow-paper);
+
+  /* ---- typography ---- */
+  --font-display: "Cinzel", Georgia, serif; /* titles, ornate headers */
+  --font-read: "Noto Serif", Georgia, "Times New Roman", serif; /* text on parchment */
+  --font-data: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif; /* dense tables, badges, controls */
+  --font: var(--font-read);
+  --fs-xs: 12px;
+  --fs-sm: 13px;
+  --fs-base: 15px;
+  --fs-md: 17px;
+  --fs-lg: 20px;
+  --fs-xl: 26px;
+  --fs-2xl: 34px;
+
+  /* ---- textures (images layer over the colour/gradient fallbacks) ---- */
+  --tex-wood: url(/ui/wood.webp);
+  --tex-parchment: url(/ui/parchment.webp);
+  --tex-parchment-dark: url(/ui/parchment-dark.webp);
+
+  color-scheme: light;
+}
+
+/* ---- wood scope: light text on dark wood ---- */
+.topbar,
+.footer,
+.tabs,
+.wood {
+  --text: #f2e3bd;
+  --text-2: #d8c496;
+  --muted: #b09a6e;
+  --link: var(--gold-hi);
+  --heading: var(--gold-hi);
+  --line: rgba(240, 207, 126, 0.22);
+  --line-strong: rgba(240, 207, 126, 0.45);
+  --surface: #3a2418;
+  --surface-2: #4b2b1f;
+  --bg-2: #2a190f;
+  --ok: #8fd486;
+  --no: #f0907a;
+  --warn: #f0cf7e;
+  --focus: #9ad8ff;
+  color-scheme: dark;
+}
+
+/* prefers-reduced-motion y forced-colors: ver a11y.css */

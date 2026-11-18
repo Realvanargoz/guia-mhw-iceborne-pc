@@ -1,0 +1,359 @@
+diff -ruN orig/WorldChunkTool/ChunkOTF.cs mod/WorldChunkTool/ChunkOTF.cs
+--- orig/WorldChunkTool/ChunkOTF.cs	2026-11-15 00:12:48.776848100 -0500
++++ mod/WorldChunkTool/ChunkOTF.cs	2026-11-15 01:26:06.783910500 -0500
+@@ -19,6 +19,32 @@
+         string fileinput;
+         Dictionary<int, byte[]> ChunkCache;
+ 
++        // [mhw-guide patch] -Filter support: only file entries whose internal path starts with
++        // FilterPrefix (case-insensitive, '/' or '\', leading separators ignored) are written.
++        public string FilterPrefix = null;
++        public int FilesTotal = 0;
++        public int FilesWritten = 0;
++        public long BytesWritten = 0;
++
++        public List<string> SampleSkipped = new List<string>();
++
++        // "nativePC\" is the game-side name of the chunk root (where mods go), so a leading
++        // "nativePC\" is optional on both sides: "nativePC\ui\" and "ui\" are equivalent.
++        static string NormalizePath(string p)
++        {
++            p = p.Replace('/', '\\').TrimStart('\\');
++            if (p.StartsWith("nativePC\\", StringComparison.OrdinalIgnoreCase)) p = p.Substring(9);
++            return p;
++        }
++
++        bool PassesFilter(FileNode node)
++        {
++            if (string.IsNullOrEmpty(FilterPrefix)) return true;
++            bool ok = NormalizePath(node.EntireName).StartsWith(NormalizePath(FilterPrefix), StringComparison.OrdinalIgnoreCase);
++            if (!ok && SampleSkipped.Count < 5) SampleSkipped.Add(node.EntireName);
++            return ok;
++        }
++
+         public void Analyze(String FileInput, bool FlagBaseGame)
+         {
+             List<FileNode> itemlist = new List<FileNode>();
+@@ -36,7 +62,8 @@
+             MetaChunk = new Dictionary<long, long>();
+             ChunkOffsetDict = new Dictionary<int, long>();
+             string NamePKG = $"{Environment.CurrentDirectory}\\{Path.GetFileNameWithoutExtension(FileInput)}.pkg";
+-            Reader = new BinaryReader(File.Open(FileInput, FileMode.Open));
++            // [mhw-guide patch] read-only open (upstream used FileMode.Open = ReadWrite access on the game file)
++            Reader = new BinaryReader(File.Open(FileInput, FileMode.Open, FileAccess.Read, FileShare.Read));
+ 
+             // Read header
+             Reader.BaseStream.Seek(4, SeekOrigin.Begin);
+@@ -201,6 +228,9 @@
+                     }
+                     else if (node.IsSelected)
+                     {
++                        // [mhw-guide patch] -Filter: count every file, skip (no decompression, no write) non-matching entries
++                        if (node.IsFile) FilesTotal++;
++                        if (!PassesFilter(node)) continue;
+                         ChunkOTF CurNodeChunk = this;
+                         CurNodeChunk.cur_index = node.ChunkIndex;
+                         CurNodeChunk.cur_pointer = node.ChunkPointer;
+@@ -232,6 +262,7 @@
+                         {
+                             Console.Write($"Extracting {node.EntireName} ...                          \r");
+                             File.WriteAllBytes(BaseLocation + node.EntireName, CurNodeChunk.getOnLength(size, new byte[size], 0, FlagBaseGame));
++                            FilesWritten++; BytesWritten += size; // [mhw-guide patch]
+                         }
+                     }
+                 }
+diff -ruN orig/WorldChunkTool/PKG.cs mod/WorldChunkTool/PKG.cs
+--- orig/WorldChunkTool/PKG.cs	2026-11-15 00:12:48.789932100 -0500
++++ mod/WorldChunkTool/PKG.cs	2026-11-15 00:13:19.412491800 -0500
+@@ -15,7 +15,7 @@
+         {
+             string OutputDirectory = $"{Environment.CurrentDirectory}\\{Path.GetFileNameWithoutExtension(FileInput)}";
+             if (FlagUnpackAll) OutputDirectory = $"{Environment.CurrentDirectory}\\chunk";
+-            BinaryReader Reader = new BinaryReader(File.Open(FileInput, FileMode.Open));
++            BinaryReader Reader = new BinaryReader(File.Open(FileInput, FileMode.Open, FileAccess.Read, FileShare.Read)); // [mhw-guide patch] read-only
+             StreamWriter LogWriter = new StreamWriter($"{Path.GetFileNameWithoutExtension(FileInput)}.csv", false);
+             LogWriter.WriteLine("Index,Offset,Size,EntryType,Unk,FullPath,Directory,FileName,FileType");
+ 
+diff -ruN orig/WorldChunkTool/Program.cs mod/WorldChunkTool/Program.cs
+--- orig/WorldChunkTool/Program.cs	2026-11-15 00:12:48.800454600 -0500
++++ mod/WorldChunkTool/Program.cs	2026-11-15 01:26:09.140366700 -0500
+@@ -23,6 +23,9 @@
+         static bool FlagBaseGame = false;
+         static bool FlagAutoConfirm = false;
+         static bool FlagUnpackAll = false;
++        // [mhw-guide patch] -Filter <prefix> and -Out <dir>
++        static string FilterPrefix = null;
++        static string OutDir = null;
+ 
+         static int Main(string[] args)
+         {
+@@ -38,11 +41,27 @@
+                 Console.WriteLine("\t-AutoConfirm: No confirmations required.");
+                 Console.WriteLine("\t-BuildPKG: Build PKG file from chunks and create data sheet. No extraction. For research purposes only.");
+                 Console.WriteLine("\t-BaseGame: Switch to legacy mode for MH:W base game chunks (pre-IB update).");
++                Console.WriteLine("\t-Filter <prefix>: [patch] Only write files whose internal path starts with <prefix> (e.g. nativePC\\ui\\).");
++                Console.WriteLine("\t-Out <dir>: [patch] Output directory (files are written directly under it).");
++                Console.WriteLine("\tEnv OODLE_DLL: [patch] Oodle DLL file name next to the exe, or absolute path (default oo2core_8_win64.dll).");
+                 Console.Read();
+                 return 0;
+             }
+ 
+-            FileInput = args[0];            
++            FileInput = args[0];
++
++            // [mhw-guide patch] Pull out value options first so their values are not matched as flags.
++            List<string> flagArgs = new List<string>();
++            for (int i = 1; i < args.Length; i++)
++            {
++                if (args[i].Equals("-Filter", StringComparison.OrdinalIgnoreCase) && i + 1 < args.Length) { FilterPrefix = args[++i]; }
++                else if (args[i].Equals("-Out", StringComparison.OrdinalIgnoreCase) && i + 1 < args.Length) { OutDir = Path.GetFullPath(args[++i]); }
++                else flagArgs.Add(args[i]);
++            }
++            args = flagArgs.ToArray();
++            if (FilterPrefix != null) Utils.Print($"Filter: only writing files under '{FilterPrefix}'.", false);
++            if (OutDir != null) Utils.Print($"Output directory: {OutDir}", false);
++            Utils.RegisterOodleResolver();
+ 
+             // Set options
+             if (args.Any("-AutoConfirm".Contains)) { FlagAutoConfirm = true; Utils.Print("Auto confirmation turned on.", false); }
+@@ -59,7 +78,8 @@
+                     foreach (string ChunkFile in ChunkFiles) { Console.WriteLine($"Processing {ChunkFile}."); ProcessFile(ChunkFile); }
+                 }
+                 else ProcessFile(FileInput);
+-                if (FlagUnpackAll) { Console.WriteLine($"Output at: {Environment.CurrentDirectory}\\chunk_combined"); Console.WriteLine("Press Enter to quit"); Console.Read(); }
++                // [mhw-guide patch] honour -Out and -AutoConfirm here too
++                if (FlagUnpackAll) { Console.WriteLine($"Output at: {OutDir ?? Environment.CurrentDirectory + "\\chunk_combined"}"); if (!FlagAutoConfirm) { Console.WriteLine("Press Enter to quit"); Console.Read(); } }
+                 return 0;
+             }
+             catch (Exception e)
+@@ -73,14 +93,14 @@
+ 
+         static int ProcessFile(string FileInput)
+         {
+-            if (!File.Exists(FileInput)) { Console.WriteLine("ERROR: Specified file doesn't exist."); Console.Read(); return 1; }
++            if (!File.Exists(FileInput)) { Console.WriteLine("ERROR: Specified file doesn't exist."); if (!FlagAutoConfirm) { Console.Read(); } return 1; }
+             using (BinaryReader Reader = new BinaryReader(File.Open(FileInput, FileMode.Open, FileAccess.Read, FileShare.Read))) MagicInputFile = Reader.ReadInt32();
+             if (MagicInputFile == MagicChunk)
+             {
+                 Console.WriteLine("Chunk file detected.");
+-                if (!File.Exists($"{AppDomain.CurrentDomain.BaseDirectory}\\oo2core_8_win64.dll"))
++                if (!File.Exists(Utils.OodleDllPath())) // [mhw-guide patch] configurable via OODLE_DLL
+                 {
+-                    Console.WriteLine("ERROR: oo2core_8_win64.dll is missing. Can't decompress chunk file.");
++                    Console.WriteLine($"ERROR: {Utils.OodleDllPath()} is missing. Can't decompress chunk file.");
+                     if (!FlagAutoConfirm) { Console.Read(); }
+                     return 2;
+                 }
+@@ -94,9 +114,16 @@
+                     List<FileNode> FileCatalog = new List<FileNode>();
+                     string FilePath = $"{Environment.CurrentDirectory}\\{Path.GetFileNameWithoutExtension(FileInput)}";
+                     if (FlagUnpackAll) { FilePath = $"{Environment.CurrentDirectory}\\chunk_combined"; }
++                    if (OutDir != null) { FilePath = OutDir.TrimEnd('\\', '/'); } // [mhw-guide patch] -Out
++                    ChunkOtfInst.FilterPrefix = FilterPrefix; // [mhw-guide patch] -Filter
+                     FileCatalog = ChunkOtfInst.AnalyzeChunk(FileInput, FileCatalog, FlagBaseGame);
+                     Console.WriteLine("Extracting chunk file, please wait.");
+-                    ChunkOtfInst.ExtractSelected(FileCatalog, FilePath, FlagBaseGame);
++                    int failed = ChunkOtfInst.ExtractSelected(FileCatalog, FilePath, FlagBaseGame);
++                    // [mhw-guide patch] print counts
++                    Console.WriteLine();
++                    Console.WriteLine($"Files in index: {ChunkOtfInst.FilesTotal}; written: {ChunkOtfInst.FilesWritten} ({ChunkOtfInst.BytesWritten / 1048576.0:F1} MiB); failed: {failed}.");
++                    if (FilterPrefix != null && ChunkOtfInst.FilesWritten == 0)
++                        foreach (string p in ChunkOtfInst.SampleSkipped) Console.WriteLine($"  (sample skipped path) {p}");
+                     Utils.Print("\nFinished.", false);
+                     if (!FlagUnpackAll) { Utils.Print($"Output at: {FilePath}", false); }
+                     if (!FlagAutoConfirm) { Console.WriteLine("Press Enter to quit"); }
+diff -ruN orig/WorldChunkTool/Properties/KeySeqResource.cs mod/WorldChunkTool/Properties/KeySeqResource.cs
+--- orig/WorldChunkTool/Properties/KeySeqResource.cs	1969-12-31 19:00:00.000000000 -0500
++++ mod/WorldChunkTool/Properties/KeySeqResource.cs	2026-11-15 00:13:02.267334100 -0500
+@@ -0,0 +1,30 @@
++// [mhw-guide patch] Replacement for the ResX-generated Resources.Designer.cs.
++// Exposes the original Resources/keyseq.key (embedded unchanged) under the same
++// name the upstream code uses: Properties.Resources.keyseq
++using System.IO;
++using System.Reflection;
++
++namespace WorldChunkTool.Properties
++{
++    internal static class Resources
++    {
++        private static byte[] _keyseq;
++
++        internal static byte[] keyseq
++        {
++            get
++            {
++                if (_keyseq == null)
++                {
++                    using (Stream s = Assembly.GetExecutingAssembly().GetManifestResourceStream("WorldChunkTool.Resources.keyseq.key"))
++                    using (MemoryStream ms = new MemoryStream())
++                    {
++                        s.CopyTo(ms);
++                        _keyseq = ms.ToArray();
++                    }
++                }
++                return _keyseq;
++            }
++        }
++    }
++}
+diff -ruN orig/WorldChunkTool/Utils.cs mod/WorldChunkTool/Utils.cs
+--- orig/WorldChunkTool/Utils.cs	2026-11-15 00:12:48.830311500 -0500
++++ mod/WorldChunkTool/Utils.cs	2026-11-15 00:13:19.400261400 -0500
+@@ -1,5 +1,6 @@
+ ﻿using System;
+ using System.Collections.Generic;
++using System.IO;
+ using System.Linq;
+ using System.Runtime.InteropServices;
+ using System.Text.RegularExpressions;
+@@ -8,8 +9,29 @@
+ {
+     class Utils
+     {
++        // [mhw-guide patch] Configurable Oodle DLL.
++        // The P/Invoke keeps the upstream name; a DllImportResolver maps it to the file named by the
++        // OODLE_DLL env var (bare file name -> looked up next to the exe; or an absolute path).
++        public const string OodleImportName = "oo2core_8_win64.dll";
++
++        public static string OodleDllPath()
++        {
++            string name = Environment.GetEnvironmentVariable("OODLE_DLL");
++            if (string.IsNullOrWhiteSpace(name)) name = OodleImportName;
++            return Path.IsPathRooted(name) ? name : Path.Combine(AppContext.BaseDirectory, name);
++        }
++
++        public static void RegisterOodleResolver()
++        {
++            NativeLibrary.SetDllImportResolver(typeof(Utils).Assembly, (libraryName, assembly, searchPath) =>
++            {
++                if (libraryName == OodleImportName) return NativeLibrary.Load(OodleDllPath());
++                return IntPtr.Zero;
++            });
++        }
++
+         // Import Oodle decompression
+-        [DllImport("oo2core_8_win64.dll")]
++        [DllImport(OodleImportName)]
+         private static extern int OodleLZ_Decompress(byte[] buffer, long bufferSize, byte[] outputBuffer, long outputBufferSize, uint a, uint b, ulong c, uint d, uint e, uint f, uint g, uint h, uint i, uint threadModule);
+ 
+         // Decompress oodle chunk
+diff -ruN orig/WorldChunkTool/WorldChunkTool.csproj mod/WorldChunkTool/WorldChunkTool.csproj
+--- orig/WorldChunkTool/WorldChunkTool.csproj	2026-11-15 00:12:48.840323100 -0500
++++ mod/WorldChunkTool/WorldChunkTool.csproj	2026-11-15 00:13:02.232265800 -0500
+@@ -1,91 +1,36 @@
+-﻿<?xml version="1.0" encoding="utf-8"?>
+-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
++<Project Sdk="Microsoft.NET.Sdk">
++  <!-- [mhw-guide patch] SDK-style net8.0 project replacing the legacy .NET Framework 4.6.2 csproj,
++       so it can be cross-compiled from Linux (Docker) for win-x64. -->
+   <PropertyGroup>
+-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+-    <ProjectGuid>{7D008891-916A-4BF4-8EE4-DD5CFFE2B603}</ProjectGuid>
+     <OutputType>Exe</OutputType>
++    <TargetFramework>net8.0</TargetFramework>
++    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
++    <PlatformTarget>x64</PlatformTarget>
+     <RootNamespace>WorldChunkTool</RootNamespace>
+     <AssemblyName>WorldChunkTool</AssemblyName>
+-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+-    <FileAlignment>512</FileAlignment>
+-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+-    <TargetFrameworkProfile />
+-  </PropertyGroup>
+-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+-    <PlatformTarget>AnyCPU</PlatformTarget>
+-    <DebugSymbols>true</DebugSymbols>
+-    <DebugType>full</DebugType>
+-    <Optimize>false</Optimize>
+-    <OutputPath>bin\Debug\</OutputPath>
+-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+-    <ErrorReport>prompt</ErrorReport>
+-    <WarningLevel>4</WarningLevel>
+-    <Prefer32Bit>false</Prefer32Bit>
+-  </PropertyGroup>
+-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+-    <PlatformTarget>AnyCPU</PlatformTarget>
+-    <DebugType>pdbonly</DebugType>
+-    <Optimize>true</Optimize>
+-    <OutputPath>bin\Release\</OutputPath>
+-    <DefineConstants>TRACE</DefineConstants>
+-    <ErrorReport>prompt</ErrorReport>
+-    <WarningLevel>4</WarningLevel>
+-    <Prefer32Bit>false</Prefer32Bit>
+-  </PropertyGroup>
+-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+-    <DebugSymbols>true</DebugSymbols>
+-    <OutputPath>bin\x64\Debug\</OutputPath>
+-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+-    <DebugType>full</DebugType>
+-    <PlatformTarget>x64</PlatformTarget>
+-    <ErrorReport>prompt</ErrorReport>
+-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+-    <Prefer32Bit>true</Prefer32Bit>
+-  </PropertyGroup>
+-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+-    <OutputPath>bin\x64\Release\</OutputPath>
+-    <DefineConstants>TRACE</DefineConstants>
+-    <Optimize>true</Optimize>
+-    <DebugType>pdbonly</DebugType>
+-    <PlatformTarget>x64</PlatformTarget>
+-    <ErrorReport>prompt</ErrorReport>
+-    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+-    <Prefer32Bit>true</Prefer32Bit>
++    <Nullable>disable</Nullable>
++    <ImplicitUsings>disable</ImplicitUsings>
++    <!-- Keep the upstream Properties/AssemblyInfo.cs -->
++    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
++    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
++    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
++    <InvariantGlobalization>true</InvariantGlobalization>
++    <SelfContained>true</SelfContained>
++    <PublishSingleFile>true</PublishSingleFile>
++    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
++    <DebugType>none</DebugType>
++    <NoWarn>$(NoWarn);CS0168;CS0219;SYSLIB0011</NoWarn>
+   </PropertyGroup>
+   <ItemGroup>
+-    <Reference Include="System" />
+-    <Reference Include="System.Core" />
+-    <Reference Include="System.Xml.Linq" />
+-    <Reference Include="System.Data.DataSetExtensions" />
+-    <Reference Include="Microsoft.CSharp" />
+-    <Reference Include="System.Data" />
+-    <Reference Include="System.Net.Http" />
+-    <Reference Include="System.Xml" />
+-  </ItemGroup>
+-  <ItemGroup>
+     <Compile Include="Chunk.cs" />
+     <Compile Include="ChunkOTF.cs" />
+     <Compile Include="PKG.cs" />
+     <Compile Include="Program.cs" />
+-    <Compile Include="Properties\AssemblyInfo.cs" />
+-    <Compile Include="Properties\Resources.Designer.cs">
+-      <AutoGen>True</AutoGen>
+-      <DesignTime>True</DesignTime>
+-      <DependentUpon>Resources.resx</DependentUpon>
+-    </Compile>
+     <Compile Include="Utils.cs" />
++    <Compile Include="Properties\AssemblyInfo.cs" />
++    <!-- Replaces the ResX-generated Properties/Resources.Designer.cs (ResXFileRef needs
++         System.Windows.Forms). Same accessor (Properties.Resources.keyseq), same original bytes. -->
++    <Compile Include="Properties\KeySeqResource.cs" />
++    <EmbeddedResource Include="Resources\keyseq.key" LogicalName="WorldChunkTool.Resources.keyseq.key" />
+   </ItemGroup>
+-  <ItemGroup>
+-    <None Include="App.config" />
+-    <None Include="Resources\keyseq.key" />
+-  </ItemGroup>
+-  <ItemGroup>
+-    <EmbeddedResource Include="Properties\Resources.resx">
+-      <Generator>ResXFileCodeGenerator</Generator>
+-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+-    </EmbeddedResource>
+-  </ItemGroup>
+-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+-</Project>
+\ No newline at end of file
++</Project>

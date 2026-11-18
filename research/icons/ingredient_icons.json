@@ -1,0 +1,917 @@
+{
+ "source": "https://mhw.poedb.tw/eng/food",
+ "entries": [
+  {
+   "ingredient_id": "ing_wyvern_thigh",
+   "name_en": "Wyvern Thigh",
+   "icon_id": 114,
+   "color_id": 1,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_wyvern_thigh.webp"
+  },
+  {
+   "ingredient_id": "ing_wyvern_skirt_steak",
+   "name_en": "Wyvern Skirt Steak",
+   "icon_id": 114,
+   "color_id": 25,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_wyvern_skirt_steak.webp"
+  },
+  {
+   "ingredient_id": "ing_wyvern_egg",
+   "name_en": "Wyvern Egg",
+   "icon_id": 114,
+   "color_id": 0,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_wyvern_egg.webp"
+  },
+  {
+   "ingredient_id": "ing_wyvern_tail",
+   "name_en": "Wyvern Tail",
+   "icon_id": 114,
+   "color_id": 1,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_wyvern_tail.webp"
+  },
+  {
+   "ingredient_id": "ing_wyvern_head",
+   "name_en": "Wyvern Head",
+   "icon_id": 114,
+   "color_id": 10,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_wyvern_head.webp"
+  },
+  {
+   "ingredient_id": "ing_wyvern_filet",
+   "name_en": "Wyvern Filet",
+   "icon_id": 114,
+   "color_id": 8,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_wyvern_filet.webp"
+  },
+  {
+   "ingredient_id": "ing_tough_meat",
+   "name_en": "Tough Meat",
+   "icon_id": 114,
+   "color_id": 10,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_tough_meat.webp"
+  },
+  {
+   "ingredient_id": "ing_thorny_meat",
+   "name_en": "Thorny Meat",
+   "icon_id": 114,
+   "color_id": 11,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_thorny_meat.webp"
+  },
+  {
+   "ingredient_id": "ing_bullion_meat",
+   "name_en": "Bullion Meat",
+   "icon_id": 114,
+   "color_id": 7,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_bullion_meat.webp"
+  },
+  {
+   "ingredient_id": "ing_steeled_meat",
+   "name_en": "Steeled Meat",
+   "icon_id": 114,
+   "color_id": 8,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_steeled_meat.webp"
+  },
+  {
+   "ingredient_id": "ing_wild_chicken",
+   "name_en": "Wild Chicken",
+   "icon_id": 114,
+   "color_id": 8,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_wild_chicken.webp"
+  },
+  {
+   "ingredient_id": "ing_marinated_carpaccio",
+   "name_en": "Marinated Carpaccio",
+   "icon_id": 114,
+   "color_id": 9,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_marinated_carpaccio.webp"
+  },
+  {
+   "ingredient_id": "ing_aptonoth_meat",
+   "name_en": "Aptonoth Meat",
+   "icon_id": 114,
+   "color_id": 2,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_aptonoth_meat.webp"
+  },
+  {
+   "ingredient_id": "ing_apceroast",
+   "name_en": "Apceroast",
+   "icon_id": 114,
+   "color_id": 11,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_apceroast.webp"
+  },
+  {
+   "ingredient_id": "ing_diced_steak",
+   "name_en": "Diced Steak",
+   "icon_id": 114,
+   "color_id": 1,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_diced_steak.webp"
+  },
+  {
+   "ingredient_id": "ing_giant_sirloin",
+   "name_en": "Giant Sirloin",
+   "icon_id": 114,
+   "color_id": 8,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_giant_sirloin.webp"
+  },
+  {
+   "ingredient_id": "ing_big_bite_burger",
+   "name_en": "Big Bite Burger",
+   "icon_id": 114,
+   "color_id": 1,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_big_bite_burger.webp"
+  },
+  {
+   "ingredient_id": "ing_giga_steak",
+   "name_en": "Giga Steak",
+   "icon_id": 114,
+   "color_id": 1,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_giga_steak.webp"
+  },
+  {
+   "ingredient_id": "ing_white_liver",
+   "name_en": "White Liver",
+   "icon_id": 114,
+   "color_id": 0,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_white_liver.webp"
+  },
+  {
+   "ingredient_id": "ing_barbecued_short_rib",
+   "name_en": "Barbecued Short Rib",
+   "icon_id": 114,
+   "color_id": 25,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_barbecued_short_rib.webp"
+  },
+  {
+   "ingredient_id": "ing_tangy_tripe",
+   "name_en": "Tangy Tripe",
+   "icon_id": 114,
+   "color_id": 25,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_tangy_tripe.webp"
+  },
+  {
+   "ingredient_id": "ing_hot_heart",
+   "name_en": "Hot Heart",
+   "icon_id": 114,
+   "color_id": 14,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_hot_heart.webp"
+  },
+  {
+   "ingredient_id": "ing_rich_rump",
+   "name_en": "Rich Rump",
+   "icon_id": 114,
+   "color_id": 8,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_rich_rump.webp"
+  },
+  {
+   "ingredient_id": "ing_grand_foie_gras",
+   "name_en": "Grand Foie Gras",
+   "icon_id": 114,
+   "color_id": 24,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_grand_foie_gras.webp"
+  },
+  {
+   "ingredient_id": "ing_peon_turkey",
+   "name_en": "Peon Turkey",
+   "icon_id": 114,
+   "color_id": 1,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_peon_turkey.webp"
+  },
+  {
+   "ingredient_id": "ing_great_mutton",
+   "name_en": "Great Mutton",
+   "icon_id": 114,
+   "color_id": 7,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_great_mutton.webp"
+  },
+  {
+   "ingredient_id": "ing_herbivore_egg",
+   "name_en": "Herbivore Egg",
+   "icon_id": 114,
+   "color_id": 0,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_herbivore_egg.webp"
+  },
+  {
+   "ingredient_id": "ing_king_turkey",
+   "name_en": "King Turkey",
+   "icon_id": 114,
+   "color_id": 1,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_king_turkey.webp"
+  },
+  {
+   "ingredient_id": "ing_magma_mutton",
+   "name_en": "Magma Mutton",
+   "icon_id": 114,
+   "color_id": 14,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_magma_mutton.webp"
+  },
+  {
+   "ingredient_id": "ing_kaiser_turkey",
+   "name_en": "Kaiser Turkey",
+   "icon_id": 114,
+   "color_id": 1,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_kaiser_turkey.webp"
+  },
+  {
+   "ingredient_id": "ing_ridgemane_tuna",
+   "name_en": "Ridgemane Tuna",
+   "icon_id": 115,
+   "color_id": 3,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_ridgemane_tuna.webp"
+  },
+  {
+   "ingredient_id": "ing_serpentine_salmon",
+   "name_en": "Serpentine Salmon",
+   "icon_id": 115,
+   "color_id": 8,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_serpentine_salmon.webp"
+  },
+  {
+   "ingredient_id": "ing_courageous_eel",
+   "name_en": "Courageous Eel",
+   "icon_id": 115,
+   "color_id": 9,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_courageous_eel.webp"
+  },
+  {
+   "ingredient_id": "ing_sushifish",
+   "name_en": "Sushifish",
+   "icon_id": 115,
+   "color_id": 7,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_sushifish.webp"
+  },
+  {
+   "ingredient_id": "ing_ancient_seabream",
+   "name_en": "Ancient Seabream",
+   "icon_id": 115,
+   "color_id": 24,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_ancient_seabream.webp"
+  },
+  {
+   "ingredient_id": "ing_boorish_yellowtail",
+   "name_en": "Boorish Yellowtail",
+   "icon_id": 115,
+   "color_id": 10,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_boorish_yellowtail.webp"
+  },
+  {
+   "ingredient_id": "ing_jumbo_whelk",
+   "name_en": "Jumbo Whelk",
+   "icon_id": 115,
+   "color_id": 3,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_jumbo_whelk.webp"
+  },
+  {
+   "ingredient_id": "ing_scallop_chips",
+   "name_en": "Scallop Chips",
+   "icon_id": 115,
+   "color_id": 24,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_scallop_chips.webp"
+  },
+  {
+   "ingredient_id": "ing_choice_abalone",
+   "name_en": "Choice Abalone",
+   "icon_id": 115,
+   "color_id": 3,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_choice_abalone.webp"
+  },
+  {
+   "ingredient_id": "ing_violet_abalone",
+   "name_en": "Violet Abalone",
+   "icon_id": 115,
+   "color_id": 5,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_violet_abalone.webp"
+  },
+  {
+   "ingredient_id": "ing_precious_abalone",
+   "name_en": "Precious Abalone",
+   "icon_id": 115,
+   "color_id": 3,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_precious_abalone.webp"
+  },
+  {
+   "ingredient_id": "ing_large_horned_turban",
+   "name_en": "Large-horned Turban",
+   "icon_id": 115,
+   "color_id": 0,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_large_horned_turban.webp"
+  },
+  {
+   "ingredient_id": "ing_squad_sardine",
+   "name_en": "Squad Sardine",
+   "icon_id": 115,
+   "color_id": 0,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_squad_sardine.webp"
+  },
+  {
+   "ingredient_id": "ing_samurai_tuna",
+   "name_en": "Samurai Tuna",
+   "icon_id": 115,
+   "color_id": 4,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_samurai_tuna.webp"
+  },
+  {
+   "ingredient_id": "ing_gajau_gill",
+   "name_en": "Gajau Gill",
+   "icon_id": 115,
+   "color_id": 11,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_gajau_gill.webp"
+  },
+  {
+   "ingredient_id": "ing_gajau_liver",
+   "name_en": "Gajau Liver",
+   "icon_id": 115,
+   "color_id": 11,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_gajau_liver.webp"
+  },
+  {
+   "ingredient_id": "ing_shogun_tuna",
+   "name_en": "Shogun Tuna",
+   "icon_id": 115,
+   "color_id": 4,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_shogun_tuna.webp"
+  },
+  {
+   "ingredient_id": "ing_fiery_seabream",
+   "name_en": "Fiery Seabream",
+   "icon_id": 115,
+   "color_id": 1,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_fiery_seabream.webp"
+  },
+  {
+   "ingredient_id": "ing_bent_backed_shrimp",
+   "name_en": "Bent-backed Shrimp",
+   "icon_id": 115,
+   "color_id": 1,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_bent_backed_shrimp.webp"
+  },
+  {
+   "ingredient_id": "ing_armor_crab",
+   "name_en": "Armor Crab",
+   "icon_id": 115,
+   "color_id": 10,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_armor_crab.webp"
+  },
+  {
+   "ingredient_id": "ing_coral_shrimp",
+   "name_en": "Coral Shrimp",
+   "icon_id": 115,
+   "color_id": 8,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_coral_shrimp.webp"
+  },
+  {
+   "ingredient_id": "ing_fortress_crab",
+   "name_en": "Fortress Crab",
+   "icon_id": 115,
+   "color_id": 24,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_fortress_crab.webp"
+  },
+  {
+   "ingredient_id": "ing_queen_shrimp",
+   "name_en": "Queen Shrimp",
+   "icon_id": 115,
+   "color_id": 8,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_queen_shrimp.webp"
+  },
+  {
+   "ingredient_id": "ing_millenary_crab",
+   "name_en": "Millenary Crab",
+   "icon_id": 115,
+   "color_id": 0,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_millenary_crab.webp"
+  },
+  {
+   "ingredient_id": "ing_osseoctopus",
+   "name_en": "Osseoctopus",
+   "icon_id": 115,
+   "color_id": 1,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_osseoctopus.webp"
+  },
+  {
+   "ingredient_id": "ing_pink_caviar",
+   "name_en": "Pink Caviar",
+   "icon_id": 115,
+   "color_id": 8,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_pink_caviar.webp"
+  },
+  {
+   "ingredient_id": "ing_lily_squid",
+   "name_en": "Lily Squid",
+   "icon_id": 115,
+   "color_id": 0,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_lily_squid.webp"
+  },
+  {
+   "ingredient_id": "ing_ballerina_octopus",
+   "name_en": "Ballerina Octopus",
+   "icon_id": 115,
+   "color_id": 1,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_ballerina_octopus.webp"
+  },
+  {
+   "ingredient_id": "ing_soulful_caviar",
+   "name_en": "Soulful Caviar",
+   "icon_id": 115,
+   "color_id": 10,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_soulful_caviar.webp"
+  },
+  {
+   "ingredient_id": "ing_sovereign_squid",
+   "name_en": "Sovereign Squid",
+   "icon_id": 115,
+   "color_id": 24,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_sovereign_squid.webp"
+  },
+  {
+   "ingredient_id": "ing_magnicelery",
+   "name_en": "Magnicelery",
+   "icon_id": 116,
+   "color_id": 2,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_magnicelery.webp"
+  },
+  {
+   "ingredient_id": "ing_rapscallion",
+   "name_en": "Rapscallion",
+   "icon_id": 116,
+   "color_id": 4,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_rapscallion.webp"
+  },
+  {
+   "ingredient_id": "ing_jewel_cactus",
+   "name_en": "Jewel Cactus",
+   "icon_id": 116,
+   "color_id": 2,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_jewel_cactus.webp"
+  },
+  {
+   "ingredient_id": "ing_dragonbloom",
+   "name_en": "Dragonbloom",
+   "icon_id": 116,
+   "color_id": 1,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_dragonbloom.webp"
+  },
+  {
+   "ingredient_id": "ing_kingly_cactus",
+   "name_en": "Kingly Cactus",
+   "icon_id": 116,
+   "color_id": 2,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_kingly_cactus.webp"
+  },
+  {
+   "ingredient_id": "ing_fatty_tomato",
+   "name_en": "Fatty Tomato",
+   "icon_id": 116,
+   "color_id": 1,
+   "poedb_type": "Courage",
+   "file": "ingredients/ing_fatty_tomato.webp"
+  },
+  {
+   "ingredient_id": "ing_stonecorn",
+   "name_en": "Stonecorn",
+   "icon_id": 116,
+   "color_id": 4,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_stonecorn.webp"
+  },
+  {
+   "ingredient_id": "ing_steadfast_spud",
+   "name_en": "Steadfast Spud",
+   "icon_id": 116,
+   "color_id": 24,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_steadfast_spud.webp"
+  },
+  {
+   "ingredient_id": "ing_exquisite_shroomcap",
+   "name_en": "Exquisite Shroomcap",
+   "icon_id": 116,
+   "color_id": 0,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_exquisite_shroomcap.webp"
+  },
+  {
+   "ingredient_id": "ing_moonlit_mushroom",
+   "name_en": "Moonlit Mushroom",
+   "icon_id": 116,
+   "color_id": 5,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_moonlit_mushroom.webp"
+  },
+  {
+   "ingredient_id": "ing_spirit_shroomcap",
+   "name_en": "Spirit Shroomcap",
+   "icon_id": 116,
+   "color_id": 0,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_spirit_shroomcap.webp"
+  },
+  {
+   "ingredient_id": "ing_soiled_shroomcap",
+   "name_en": "Soiled Shroomcap",
+   "icon_id": 116,
+   "color_id": 11,
+   "poedb_type": "Resilience",
+   "file": "ingredients/ing_soiled_shroomcap.webp"
+  },
+  {
+   "ingredient_id": "ing_plumpkin",
+   "name_en": "Plumpkin",
+   "icon_id": 116,
+   "color_id": 2,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_plumpkin.webp"
+  },
+  {
+   "ingredient_id": "ing_cudgel_onion",
+   "name_en": "Cudgel Onion",
+   "icon_id": 116,
+   "color_id": 2,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_cudgel_onion.webp"
+  },
+  {
+   "ingredient_id": "ing_shinebloom",
+   "name_en": "Shinebloom",
+   "icon_id": 116,
+   "color_id": 8,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_shinebloom.webp"
+  },
+  {
+   "ingredient_id": "ing_sunkissed_grass",
+   "name_en": "Sunkissed Grass",
+   "icon_id": 116,
+   "color_id": 7,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_sunkissed_grass.webp"
+  },
+  {
+   "ingredient_id": "ing_goldbloom",
+   "name_en": "Goldbloom",
+   "icon_id": 116,
+   "color_id": 8,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_goldbloom.webp"
+  },
+  {
+   "ingredient_id": "ing_king_truffle",
+   "name_en": "King Truffle",
+   "icon_id": 116,
+   "color_id": 10,
+   "poedb_type": "Vigor",
+   "file": "ingredients/ing_king_truffle.webp"
+  },
+  {
+   "ingredient_id": "ing_aromaticelery",
+   "name_en": "Aromaticelery",
+   "icon_id": 116,
+   "color_id": 12,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_aromaticelery.webp"
+  },
+  {
+   "ingredient_id": "ing_prismatic_paprika",
+   "name_en": "Prismatic Paprika",
+   "icon_id": 116,
+   "color_id": 4,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_prismatic_paprika.webp"
+  },
+  {
+   "ingredient_id": "ing_tainted_fruit",
+   "name_en": "Tainted Fruit",
+   "icon_id": 116,
+   "color_id": 14,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_tainted_fruit.webp"
+  },
+  {
+   "ingredient_id": "ing_heavenberry",
+   "name_en": "Heavenberry",
+   "icon_id": 116,
+   "color_id": 7,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_heavenberry.webp"
+  },
+  {
+   "ingredient_id": "ing_elysian_fruit",
+   "name_en": "Elysian Fruit",
+   "icon_id": 116,
+   "color_id": 14,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_elysian_fruit.webp"
+  },
+  {
+   "ingredient_id": "ing_millionfold_cabbage",
+   "name_en": "Millionfold Cabbage",
+   "icon_id": 116,
+   "color_id": 2,
+   "poedb_type": "Acumen",
+   "file": "ingredients/ing_millionfold_cabbage.webp"
+  },
+  {
+   "ingredient_id": "ing_kut_ku_bean",
+   "name_en": "Kut-Ku Bean",
+   "icon_id": 116,
+   "color_id": 8,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_kut_ku_bean.webp"
+  },
+  {
+   "ingredient_id": "ing_molten_mango",
+   "name_en": "Molten Mango",
+   "icon_id": 116,
+   "color_id": 1,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_molten_mango.webp"
+  },
+  {
+   "ingredient_id": "ing_rockfruit",
+   "name_en": "Rockfruit",
+   "icon_id": 116,
+   "color_id": 7,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_rockfruit.webp"
+  },
+  {
+   "ingredient_id": "ing_divineapple",
+   "name_en": "Divineapple",
+   "icon_id": 116,
+   "color_id": 4,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_divineapple.webp"
+  },
+  {
+   "ingredient_id": "ing_wildfruit",
+   "name_en": "Wildfruit",
+   "icon_id": 116,
+   "color_id": 7,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_wildfruit.webp"
+  },
+  {
+   "ingredient_id": "ing_emerald_durian",
+   "name_en": "Emerald Durian",
+   "icon_id": 116,
+   "color_id": 12,
+   "poedb_type": "Artillery",
+   "file": "ingredients/ing_emerald_durian.webp"
+  },
+  {
+   "ingredient_id": "ing_tater_mud",
+   "name_en": "Tater Mud",
+   "icon_id": 117,
+   "color_id": 11,
+   "poedb_type": "Perception",
+   "file": "ingredients/ing_tater_mud.webp"
+  },
+  {
+   "ingredient_id": "ing_dragon_ale",
+   "name_en": "Dragon Ale",
+   "icon_id": 117,
+   "color_id": 2,
+   "poedb_type": "Perception",
+   "file": "ingredients/ing_dragon_ale.webp"
+  },
+  {
+   "ingredient_id": "ing_demontater_brew",
+   "name_en": "Demontater Brew",
+   "icon_id": 117,
+   "color_id": 7,
+   "poedb_type": "Perception",
+   "file": "ingredients/ing_demontater_brew.webp"
+  },
+  {
+   "ingredient_id": "ing_wyvern_amber_ale",
+   "name_en": "Wyvern Amber Ale",
+   "icon_id": 117,
+   "color_id": 11,
+   "poedb_type": "Perception",
+   "file": "ingredients/ing_wyvern_amber_ale.webp"
+  },
+  {
+   "ingredient_id": "ing_goldenfish_brew",
+   "name_en": "Goldenfish Brew",
+   "icon_id": 117,
+   "color_id": 4,
+   "poedb_type": "Perception",
+   "file": "ingredients/ing_goldenfish_brew.webp"
+  },
+  {
+   "ingredient_id": "ing_dragonkiller_sake",
+   "name_en": "Dragonkiller Sake",
+   "icon_id": 117,
+   "color_id": 24,
+   "poedb_type": "Perception",
+   "file": "ingredients/ing_dragonkiller_sake.webp"
+  },
+  {
+   "ingredient_id": "ing_hunter_s_brew",
+   "name_en": "Hunter's Brew",
+   "icon_id": 117,
+   "color_id": 4,
+   "poedb_type": "Fortune",
+   "file": "ingredients/ing_hunter_s_brew.webp"
+  },
+  {
+   "ingredient_id": "ing_star_brandy",
+   "name_en": "Star Brandy",
+   "icon_id": 117,
+   "color_id": 11,
+   "poedb_type": "Fortune",
+   "file": "ingredients/ing_star_brandy.webp"
+  },
+  {
+   "ingredient_id": "ing_master_ale",
+   "name_en": "Master Ale",
+   "icon_id": 117,
+   "color_id": 10,
+   "poedb_type": "Fortune",
+   "file": "ingredients/ing_master_ale.webp"
+  },
+  {
+   "ingredient_id": "ing_ratha_whiskey",
+   "name_en": "Ratha Whiskey",
+   "icon_id": 117,
+   "color_id": 1,
+   "poedb_type": "Fortune",
+   "file": "ingredients/ing_ratha_whiskey.webp"
+  },
+  {
+   "ingredient_id": "ing_astera_beer",
+   "name_en": "Astera Beer",
+   "icon_id": 117,
+   "color_id": 7,
+   "poedb_type": "Fortune",
+   "file": "ingredients/ing_astera_beer.webp"
+  },
+  {
+   "ingredient_id": "ing_blessed_wine",
+   "name_en": "Blessed Wine",
+   "icon_id": 117,
+   "color_id": 14,
+   "poedb_type": "Fortune",
+   "file": "ingredients/ing_blessed_wine.webp"
+  },
+  {
+   "ingredient_id": "ing_greathorn_s_gulp",
+   "name_en": "Greathorn's Gulp",
+   "icon_id": 117,
+   "color_id": 24,
+   "poedb_type": "Preparation",
+   "file": "ingredients/ing_greathorn_s_gulp.webp"
+  },
+  {
+   "ingredient_id": "ing_auspicious_ale",
+   "name_en": "Auspicious Ale",
+   "icon_id": 117,
+   "color_id": 22,
+   "poedb_type": "Preparation",
+   "file": "ingredients/ing_auspicious_ale.webp"
+  },
+  {
+   "ingredient_id": "ing_butterbrew",
+   "name_en": "Butterbrew",
+   "icon_id": 117,
+   "color_id": 2,
+   "poedb_type": "Preparation",
+   "file": "ingredients/ing_butterbrew.webp"
+  },
+  {
+   "ingredient_id": "ing_fortified_honeywine",
+   "name_en": "Fortified Honeywine",
+   "icon_id": 117,
+   "color_id": 7,
+   "poedb_type": "Preparation",
+   "file": "ingredients/ing_fortified_honeywine.webp"
+  },
+  {
+   "ingredient_id": "ing_entrancing_alembic",
+   "name_en": "Entrancing Alembic",
+   "icon_id": 117,
+   "color_id": 4,
+   "poedb_type": "Preparation",
+   "file": "ingredients/ing_entrancing_alembic.webp"
+  },
+  {
+   "ingredient_id": "ing_tequila_de_locos",
+   "name_en": "Tequila de Locos",
+   "icon_id": 117,
+   "color_id": 25,
+   "poedb_type": "Preparation",
+   "file": "ingredients/ing_tequila_de_locos.webp"
+  },
+  {
+   "ingredient_id": "ing_glacial_vodka",
+   "name_en": "Glacial Vodka",
+   "icon_id": 117,
+   "color_id": 3,
+   "poedb_type": "Trailblazer",
+   "file": "ingredients/ing_glacial_vodka.webp"
+  },
+  {
+   "ingredient_id": "ing_toasting_tequila",
+   "name_en": "Toasting Tequila",
+   "icon_id": 117,
+   "color_id": 7,
+   "poedb_type": "Trailblazer",
+   "file": "ingredients/ing_toasting_tequila.webp"
+  },
+  {
+   "ingredient_id": "ing_snowmelt_snifter",
+   "name_en": "Snowmelt Snifter",
+   "icon_id": 117,
+   "color_id": 6,
+   "poedb_type": "Trailblazer",
+   "file": "ingredients/ing_snowmelt_snifter.webp"
+  },
+  {
+   "ingredient_id": "ing_frostpeak_fizz",
+   "name_en": "Frostpeak Fizz",
+   "icon_id": 117,
+   "color_id": 10,
+   "poedb_type": "Trailblazer",
+   "file": "ingredients/ing_frostpeak_fizz.webp"
+  },
+  {
+   "ingredient_id": "ing_crystal_quaff",
+   "name_en": "Crystal Quaff",
+   "icon_id": 117,
+   "color_id": 0,
+   "poedb_type": "Trailblazer",
+   "file": "ingredients/ing_crystal_quaff.webp"
+  },
+  {
+   "ingredient_id": "ing_searing_spirit",
+   "name_en": "Searing Spirit",
+   "icon_id": 117,
+   "color_id": 1,
+   "poedb_type": "Trailblazer",
+   "file": "ingredients/ing_searing_spirit.webp"
+  }
+ ]
+}

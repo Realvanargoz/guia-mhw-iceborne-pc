@@ -1,0 +1,135 @@
+{
+ "topic": "gathering_rules",
+ "retrieved_at": "2026-11-15",
+ "notes": "Reglas de recolección (no son filas de puntos, por eso no usa topic gathering).",
+ "entries": {
+  "skills": [
+   {
+    "id": "botanist",
+    "name_en": "Botanist",
+    "name_es": "Experto en recursos",
+    "max_level": 4,
+    "effect_es": "+1 objeto consumible por recolección: nv1 hierbas; nv2 +frutas/nueces/semillas; nv3 +insectos; nv4 +setas.",
+    "decorations": [
+     "Botany Jewel 1 (nv1)",
+     "Botany Jewel+ 4 (nv2)",
+     "Hard Botany Jewel+ 4 (nv4)"
+    ],
+    "sources": [
+     {
+      "title": "Fextralife - Botanist",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist"
+     }
+    ]
+   },
+   {
+    "id": "geologist",
+    "name_en": "Geologist",
+    "name_es": "Experto en minerales",
+    "max_level": 3,
+    "effect_es": "+1 recolección extra: nv1 montones de huesos; nv2 +puntos especiales; nv3 +puntos de recolección y afloramientos.",
+    "decorations": [
+     "Geology Jewel 1",
+     "Geology Jewel+ 4",
+     "Hard Geology Jewel 4 (nv3)"
+    ],
+    "notes_es": "En Tierras Guía permite recoger dos veces los materiales soltados por la mayoría de monstruos.",
+    "sources": [
+     {
+      "title": "Fextralife - Geologist",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Geologist"
+     },
+     {
+      "title": "Fextralife - Guiding Lands",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+     }
+    ]
+   },
+   {
+    "id": "master_gatherer",
+    "name_en": "Master Gatherer",
+    "name_es": "Experto en recolección",
+    "max_level": 1,
+    "effect_es": "Recolecta más rápido y evita el retroceso por monstruos pequeños (no los grandes).",
+    "sources": [
+     {
+      "title": "Fextralife - Master Gatherer",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Master+Gatherer"
+     }
+    ]
+   },
+   {
+    "id": "honey_hunter",
+    "name_en": "Honey Hunter",
+    "name_es": "Experto en miel",
+    "max_level": 1,
+    "effect_es": "+1 miel por recolección.",
+    "sources": [
+     {
+      "title": "Fextralife - Honey Hunter",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Honey+Hunter"
+     }
+    ]
+   },
+   {
+    "id": "foragers_luck",
+    "name_en": "Forager's Luck",
+    "name_es": "Suerte del mendigo",
+    "max_level": 1,
+    "effect_es": "Aumenta la probabilidad de que reaparezcan puntos de recolección raros.",
+    "sources": [
+     {
+      "title": "Fextralife - Forager's Luck",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Forager%27s+Luck"
+     }
+    ]
+   }
+  ],
+  "tools": [],
+  "palico_and_meals": [
+   {
+    "id": "felyne_harvester",
+    "name_en": "Felyne Harvester",
+    "effect_es": "Habilidad felyne de cantina que Fextralife recomienda para farmear Tierras Guía. Efecto exacto no verificado (queda para R1/cantina).",
+    "needs_review": true,
+    "sources": [
+     {
+      "title": "Fextralife - Guiding Lands",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   {
+    "text_es": "Tierras Guía: minerales y huesos suben por barras de progreso propias de cada recurso y región (no por el nivel de región). Hay 3 fases (amarillo/naranja/rojo); al llenar la barra sale un Afloramiento/Montón de huesos gigante con 1 material de nivel 4 garantizado y la barra se reinicia.",
+    "sources": [
+     {
+      "title": "Fextralife - Guiding Lands",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+     }
+    ]
+   },
+   {
+    "text_es": "Los nodos de las Tierras Guía reaparecen al salir de la región, así que conviene alternar dos regiones contiguas. Fextralife recomienda Intimidator, Resistencia a parálisis (Vespoides), Master Gatherer, Geologist 3, Flinch Free, Manto Ghillie o Assassin's Hood y Dung Pods.",
+    "needs_review": true,
+    "sources": [
+     {
+      "title": "Fextralife - Guiding Lands",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+     }
+    ]
+   },
+   {
+    "text_es": "Arrecife Escarchado: hace falta Bebida caliente (Hot Pepper) o la decoración Warming contra el frío; hay manantiales termales en las zonas 1, 2, 6, 13 y 17.",
+    "needs_review": true,
+    "sources": [
+     {
+      "title": "Fextralife - Hoarfrost Reach",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Hoarfrost+Reach"
+     }
+    ]
+   }
+  ]
+ }
+}

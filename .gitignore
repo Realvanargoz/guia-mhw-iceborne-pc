@@ -1,0 +1,56 @@
+# ---------------------------------------------------------------------------
+# Datos personales y generados: NUNCA se publican
+# ---------------------------------------------------------------------------
+# Toda la carpeta de datos local: partida (saves/), user.db (tu progreso), copias de seguridad,
+# extracción del juego (raw/, ~2,5 GB), iconos del juego (icons/, contenido de Capcom), informes y temporales.
+/data/
+# Volcados de Postgres, capturas de referencia con datos personales, catálogo generado, staging del build
+/build/
+# Ejecutables y paquetes: se publican como Release en GitHub, no en el repositorio
+/dist/
+.env
+*.dump
+user.db
+user.db-*
+
+# ---------------------------------------------------------------------------
+# Entornos y cachés
+# ---------------------------------------------------------------------------
+.venv/
+.venv-build/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.tsbuildinfo
+web/dist/
+# Copias generadas desde la raíz por web/scripts/copy-legal.mjs (prebuild)
+web/public/legal/
+
+# ---------------------------------------------------------------------------
+# Binarios y código de terceros con licencia propia
+# ---------------------------------------------------------------------------
+# WorldChunkTool.exe + oo2core_9_win64.dll (Oodle, propietario): cada usuario los obtiene por su cuenta
+tools/bin/
+# GSAP (licencia propia de GreenSock): ver design/README.md para obtenerlo
+design/vendor/
+design/out/
+design/work/
+design/.hyperframes/
+
+# ---------------------------------------------------------------------------
+# Herramientas internas y notas de trabajo
+# ---------------------------------------------------------------------------
+.kombai/
+scripts/notebook_mcp.py
+scripts/refresh-notebook-token.ps1
+# Herramientas de raspado de webs (términos de uso): se publican solo sus resultados (semillas JSON)
+research/**/scrape_*.py
+research/**/parse_*.py
+research/**/build_seed.py
+Docs/estado-portable.md
+Docs/extraccion_datos.md
+Docs/resumen.md
+# Docker/Postgres antiguos (solo en local durante la transición)
+legacy/
+docker-compose.legacy.yml

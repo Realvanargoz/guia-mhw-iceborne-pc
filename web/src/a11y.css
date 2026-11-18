@@ -1,0 +1,140 @@
+/* ===========================================================================
+   Capa transversal (se carga la última): objetivos mínimos, puntero táctil,
+   hover-less, movimiento reducido con alternativa y alto contraste de Windows.
+   =========================================================================== */
+
+/* ---- objetivos: 24 px como mínimo (WCAG 2.5.8) en controles aislados ---- */
+:where(button, .btn, .btn-link, .chip, .tab, summary, select, input[type="search"], input.filter, input[type="text"], input[type="number"]) {
+  min-block-size: var(--target-min);
+}
+:where(a, button, span).chip,
+:where(a.badge, button.badge) {
+  min-block-size: var(--target-min);
+  display: inline-flex;
+  align-items: center;
+}
+.btn-link {
+  min-inline-size: var(--target-min);
+  padding-block: 2px;
+}
+summary {
+  display: list-item;
+  padding-block: 3px;
+}
+/* filas-enlace (nombre + icono) en listas: toda la fila es objetivo */
+.elink {
+  display: inline-flex;
+  align-items: center;
+  min-block-size: var(--target-min);
+}
+.brand {
+  min-block-size: var(--target-min);
+}
+.check {
+  min-block-size: var(--target-min);
+}
+.check input {
+  inline-size: 18px;
+  block-size: 18px;
+}
+
+/* ---- puntero táctil: 44 px en los controles principales ---- */
+@media (pointer: coarse) {
+  :is(.btn, .chip, .tab, summary, select, input[type="search"], input.filter, input[type="text"], input[type="number"], .check, .elink, .btn-link) {
+    min-block-size: var(--target-touch);
+  }
+  :is(a, button, span).chip,
+  a.badge,
+  .ranksel__r,
+  .cal__day,
+  .cal__nav,
+  select {
+    min-block-size: var(--target-touch);
+  }
+  html .cn-opts select, html .cn-filter select, html .cn-filter input, html .cn-save__row input,
+  html .cn-save__row button, html .cn-btn2, html select.cn-sel {
+    min-block-size: var(--target-touch);
+  }
+  .cal__nav {
+    min-inline-size: var(--target-touch);
+  }
+  .btn-link {
+    min-inline-size: var(--target-touch);
+  }
+  .check input {
+    inline-size: 22px;
+    block-size: 22px;
+  }
+  /* iOS/Windows táctil: evita el zoom al enfocar */
+  :is(input, select, textarea) {
+    font-size: max(16px, 1em);
+  }
+}
+
+/* ---- sin hover: nada depende de pasar el ratón ---- */
+@media (hover: none) {
+  .name__en {
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: inline !important;
+  }
+}
+
+/* ---- movimiento reducido: se mantiene el cambio de estado, se quita el movimiento ---- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  /* bucles decorativos fuera; el estado sigue visible sin animar */
+  .crown, [class*="crown"], [class*="skel"], .bg-skel, .hprof-spin {
+    animation: none !important;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-iteration-count: 1 !important;
+    animation-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  /* las transiciones de color/borde se conservan como cambio instantáneo suave */
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ---- alto contraste de Windows ---- */
+@media (forced-colors: active) {
+  :focus-visible {
+    outline: 3px solid Highlight !important;
+    outline-offset: 2px;
+  }
+  :is(.btn, .chip, .tab, .badge, .nav__a, .hbtn, select, input, textarea, summary, .st-slot__item, .cal__cell, .bst__row) {
+    border: 1px solid ButtonText;
+    forced-color-adjust: auto;
+  }
+  :is(.nav__a--on, .chip--on, .tab--on, [aria-current="page"], [aria-selected="true"], [aria-pressed="true"]) {
+    background: Highlight !important;
+    color: HighlightText !important;
+    border-color: Highlight;
+    forced-color-adjust: none;
+  }
+  .topbar, .nav, .footer, .main, .dlg {
+    border-color: CanvasText;
+    background-image: none !important;
+  }
+  .main, .dlg {
+    background: Canvas !important;
+    color: CanvasText !important;
+  }
+  a {
+    color: LinkText;
+  }
+  .bst__row--on, .bst__row--on * {
+    color: HighlightText !important;
+  }
+  .skip:focus {
+    outline: 3px solid Highlight;
+  }
+}

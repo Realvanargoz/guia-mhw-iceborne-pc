@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><defs><linearGradient id="mhw-cs-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fafcfd"/><stop offset=".5" stop-color="#b4bec6"/><stop offset="1" stop-color="#707c87"/></linearGradient></defs>
+<path d="M3.2 17.5 L2.4 7.6 L8 12.2 L12 4.6 L16 12.2 L21.6 7.6 L20.8 17.5Z" fill="url(#mhw-cs-g)" stroke="#46505a" stroke-width="1" stroke-linejoin="round"/>
+<rect x="3" y="17.3" width="18" height="3.4" rx="1" fill="url(#mhw-cs-g)" stroke="#46505a" stroke-width="1"/>
+<circle cx="2.6" cy="7" r="1.7" fill="#fafcfd" stroke="#46505a" stroke-width=".8"/><circle cx="12" cy="4" r="1.8" fill="#fafcfd" stroke="#46505a" stroke-width=".8"/><circle cx="21.4" cy="7" r="1.7" fill="#fafcfd" stroke="#46505a" stroke-width=".8"/>
+<circle cx="12" cy="19" r="1.2" fill="#2e8fb5" stroke="#46505a" stroke-width=".5"/><circle cx="7" cy="19" r=".7" fill="#2e8fb5"/><circle cx="17" cy="19" r=".7" fill="#2e8fb5"/>
+<path d="M5 15.6 L4.5 11 L7.4 13.4" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width=".9" stroke-linecap="round"/></svg>

@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "research seed: achievements",
+  "type": "object",
+  "required": [
+    "topic",
+    "entries"
+  ],
+  "properties": {
+    "topic": {
+      "const": "achievements"
+    },
+    "notebook": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "slug",
+          "name_en",
+          "description_en",
+          "guide_es",
+          "sources"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "name_en": {
+            "type": "string"
+          },
+          "name_es": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "description_en": {
+            "type": "string"
+          },
+          "description_es": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "category": {
+            "enum": [
+              "story",
+              "hunting",
+              "collection",
+              "crafting",
+              "social",
+              "misc",
+              "iceborne"
+            ]
+          },
+          "hidden": {
+            "type": "boolean"
+          },
+          "guide_es": {
+            "type": "string"
+          },
+          "steps_es": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "related": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "type",
+                "name_en"
+              ],
+              "properties": {
+                "type": {
+                  "enum": [
+                    "item",
+                    "monster",
+                    "quest",
+                    "armor",
+                    "armor_set",
+                    "location",
+                    "skill",
+                    "weapon",
+                    "layered",
+                    "guide",
+                    "achievement"
+                  ]
+                },
+                "name_en": {
+                  "type": "string"
+                },
+                "note_es": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "sort_order": {
+            "type": "integer"
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "pattern": "^https?://"
+                },
+                "note": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "needs_review": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+# Allowlist for dist/GuiaMHW (paths relative to that folder, forward slashes, case-insensitive).
+# Glob rules (fnmatch): '*' also matches '/', so 'a/*.webp' covers nested files. A file NOT matched here FAILS the
+# check (scripts/check_package.py). Forbidden patterns are hard-coded in check_package.py and always win.
+
+# --- launcher
+GuiaMHW.exe
+
+# --- PyInstaller runtime (onedir, _internal == sys._MEIPASS)
+_internal/base_library.zip
+_internal/python3*.dll
+_internal/vcruntime*.dll
+_internal/msvcp*.dll
+_internal/ucrtbase.dll
+_internal/api-ms-win-*.dll
+_internal/libcrypto-*.dll
+_internal/libssl-*.dll
+_internal/sqlite3.dll
+_internal/libffi-*.dll
+_internal/zlib*.dll
+_internal/*.pyd
+
+# --- Python package metadata that PyInstaller copies for importlib.metadata (no data, small)
+_internal/*.dist-info/METADATA
+_internal/*.dist-info/RECORD
+_internal/*.dist-info/WHEEL
+_internal/*.dist-info/INSTALLER
+_internal/*.dist-info/entry_points.txt
+_internal/*.dist-info/REQUESTED
+_internal/*.dist-info/top_level.txt
+_internal/*.dist-info/licenses/*
+_internal/*.dist-info/LICENSE*
+
+# --- savereader package data (4 JSON files)
+_internal/app/savereader/data/equipment.json
+_internal/app/savereader/data/jewels.json
+_internal/app/savereader/data/monsters128.json
+_internal/app/savereader/data/quest_order.json
+
+# --- catalog (read-only game data)
+_internal/catalog.db
+
+# --- research files the API reads at runtime (builds.py, melder.py). Nothing else from research/.
+_internal/research/builds/solo_rules.json
+_internal/research/builds/gathering_rules.json
+_internal/research/builds/loot_rules.json
+_internal/research/melder/melder.json
+_internal/research/melder/melder_data.json
+
+# --- web app (vite dist; fonts: woff2 only, no source maps)
+_internal/web/index.html
+_internal/web/legal/*.txt
+_internal/web/manifest.webmanifest
+_internal/web/assets/*.js
+_internal/web/assets/*.css
+_internal/web/assets/*.woff2
+_internal/web/brand/*.png
+_internal/web/ui/*.png
+_internal/web/ui/*.svg
+_internal/web/ui/*.webp
+_internal/web/ui/*.jpg
+_internal/web/ui/*.webm
+
+# --- icons (never icons/ui)
+_internal/icons/monsters/*.webp
+_internal/icons/items/*.webp
+_internal/icons/decorations/*.webp
+_internal/icons/equip/*.webp
+_internal/icons/ingredients/*.webp
+_internal/icons/ui-named/*.webp

@@ -1,0 +1,92 @@
+/* <dialog> nativo: fondo inerte, Escape y trampa de foco los da el navegador. */
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.dlg {
+  padding: 0;
+  border: 3px solid var(--wood-700);
+  border-radius: var(--radius);
+  background-color: var(--page-bg);
+  background-image: var(--tex-parchment);
+  color: var(--page-ink);
+  box-shadow: var(--shadow-page);
+  max-width: min(92vw, 720px);
+  max-height: min(90dvh, 900px);
+  overscroll-behavior: contain;
+}
+.dlg::backdrop {
+  background: rgba(20, 10, 4, 0.62);
+}
+.dlg__body {
+  display: flex;
+  flex-direction: column;
+  max-height: inherit;
+  padding: 16px 20px 20px;
+  overflow: auto;
+}
+.dlg__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.dlg__title {
+  font-family: var(--font-display);
+  font-size: var(--fs-lg);
+  margin: 0;
+}
+.dlg__x {
+  min-width: var(--target-min);
+  min-height: var(--target-min);
+  padding: 4px 10px;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+.dlg--drawer {
+  margin: 0;
+  height: 100dvh;
+  max-height: 100dvh;
+  width: min(86vw, 320px);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  background-color: var(--wood-800);
+  background-image: var(--tex-wood);
+  color: #f2e3bd;
+  --text: #f2e3bd;
+  --text-2: #d8c496;
+  --muted: #b09a6e;
+  --link: var(--gold-hi);
+  --heading: var(--gold-hi);
+  --line: rgba(240, 207, 126, 0.22);
+  --surface: #3a2418;
+}
+@media (max-width: 600px) {
+  .dlg--modal {
+    margin: auto 0 0;
+    max-width: 100vw;
+    width: 100vw;
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  }
+}
+@media (pointer: coarse) {
+  .dlg__x {
+    min-width: var(--target-touch);
+    min-height: var(--target-touch);
+  }
+}
+@media (forced-colors: active) {
+  .dlg {
+    border-color: CanvasText;
+  }
+}

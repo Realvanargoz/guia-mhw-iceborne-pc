@@ -1,0 +1,420 @@
+{
+ "topic": "loot",
+ "retrieved_at": "2026-11-15",
+ "notes": "Solo MHW Iceborne PC. Piezas que dan cada habilidad: consultar armor_skills en la BD.",
+ "entries": {
+  "skills": [
+   {
+    "id": "carving_master",
+    "name_en": "Carving Master",
+    "name_es": "Despiece extra",
+    "max_level": 1,
+    "effect_es": "Permite tallar una vez más el cadáver (no funciona si te unes a la misión ya empezada).",
+    "granted_by": [
+     {
+      "set_bonus_en": "Commission Guidance",
+      "pieces": 4
+     },
+     {
+      "set_bonus_en": "Guild Pride",
+      "pieces": 4
+     }
+    ],
+    "affects": "Nº de tallas del cuerpo",
+    "sources": [
+     {
+      "title": "Fextralife - Carving Master",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Carving+Master"
+     }
+    ]
+   },
+   {
+    "id": "carving_pro",
+    "name_en": "Carving Pro",
+    "name_es": "Experto en despiece",
+    "max_level": 1,
+    "effect_es": "Evita el retroceso al tallar. Solo frente a monstruos pequeños (Girros, etc.); no frente a los grandes. No cambia el botín.",
+    "affects": "Comodidad al tallar, no probabilidad",
+    "notes_es": "Equipo según la wiki: Passionate Body Alpha+, Commission Vambraces Alpha, Hornetaur Coil (y variantes), Gatherer's Charm. Lista exacta: armor_skills en la BD.",
+    "sources": [
+     {
+      "title": "Fextralife - Carving Pro",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Carving+Pro"
+     }
+    ]
+   },
+   {
+    "id": "good_luck",
+    "name_en": "Good Luck",
+    "name_es": "Buena suerte",
+    "max_level": 1,
+    "effect_es": "Buena probabilidad de recompensas extra al terminar la misión (sin efecto si te unes ya empezada).",
+    "granted_by": [
+     {
+      "set_bonus_en": "Legiana Blessing",
+      "pieces": 3
+     },
+     {
+      "set_bonus_en": "Legiana Favor",
+      "pieces": 2
+     },
+     {
+      "set_bonus_en": "Guild Pride",
+      "pieces": 2
+     }
+    ],
+    "numbers": "No hay % publicado en las wikis consultadas",
+    "needs_review": true,
+    "sources": [
+     {
+      "title": "Fextralife - Good Luck",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Good+Luck"
+     }
+    ]
+   },
+   {
+    "id": "great_luck",
+    "name_en": "Great Luck",
+    "name_es": "Recompensas extra",
+    "max_level": 1,
+    "effect_es": "Alta probabilidad de recompensas extra (no funciona uniéndote a media misión). Con el Gala Suit aumenta a menudo el nº de recompensas.",
+    "granted_by": [
+     {
+      "set_bonus_en": "Guild Guidance",
+      "pieces": 4
+     },
+     {
+      "set_bonus_en": "Astera Blessing",
+      "pieces": 5
+     },
+     {
+      "set_bonus_en": "Kirin Divinity",
+      "pieces": 3
+     },
+     {
+      "set_bonus_en": "New World",
+      "pieces": 4
+     }
+    ],
+    "numbers": "Sin % publicado",
+    "needs_review": true,
+    "notes_es": "Los requisitos de piezas coinciden con la BD (armor_set_bonus_ranks). No está confirmado si Good Luck y Great Luck se acumulan.",
+    "sources": [
+     {
+      "title": "Fextralife - Great Luck",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Great+Luck"
+     },
+     {
+      "title": "Fextralife - Good Luck",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Good+Luck"
+     }
+    ]
+   },
+   {
+    "id": "partbreaker",
+    "name_en": "Partbreaker",
+    "name_es": "Bonus rompe-partes",
+    "max_level": 3,
+    "effect_es": "Daño a partes +10/+20/+30% (nv1/2/3) solo para romper o cortar partes que cambian el modelo del monstruo (cola, cuernos). No ayuda a alcanzar el umbral de heridas (tropiezo) ni a partes que no cambian el modelo. No funciona en los cuernos de Kulve Taroth en el área 4 (sí en su manto dorado y placas del cuerno).",
+    "affects": "Rotura de partes -> tablas de botín de rotura y de cola",
+    "granted_by_decorations": [
+     "Destroyer Jewel 2 (nv1)",
+     "Destroyer/X Jewel 4 (nv1)"
+    ],
+    "granted_by_charms": [
+     "Breaker Charm I/II/III (nv1/2/3)"
+    ],
+    "sources": [
+     {
+      "title": "Fextralife - Partbreaker",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Partbreaker"
+     }
+    ]
+   },
+   {
+    "id": "free_meal",
+    "name_en": "Free Meal / Free Meal Secret",
+    "name_es": "Comida gratis / clave",
+    "effect_es": "Probabilidad de comer gratis en la cantina (25/50/75% por nivel; Secret sube el nivel máximo). Es de cantina, no de botín; se trata en la guía de cantina (R1).",
+    "notes_es": "Valores 25/50/75% tomados de skill_levels en la BD.",
+    "sources": [
+     {
+      "title": "MHWorldData (tabla mhw.monster_rewards de la BD local)",
+      "url": "https://github.com/gatheringhallstudios/MHWorldData",
+      "note": "datos extraidos del juego; consulta local a la BD, sin pagina propia"
+     }
+    ]
+   }
+  ],
+  "tools": [
+   {
+    "id": "bandit_mantle",
+    "name_en": "Bandit Mantle",
+    "name_es": "Manto de bandido",
+    "how_to_get_es": "Misión opcional de 5★ «Redefining the Power Couple» (Rathian y Rathalos).",
+    "duration_s": 180,
+    "recharge_s": 210,
+    "effect_es": "Mientras está activo, al atacar al monstruo suelta objetos de intercambio dorados (escamas/pieles) que se venden al proveedor por zenny. NO cambia la probabilidad de los materiales normales del monstruo.",
+    "mechanics": [
+     "Según la wiki, el resultado depende del daño total infligido al monstruo.",
+     "Las caídas las ven todos los miembros del grupo y los efectos se acumulan: 4 cazadores con el manto activo dan mucho más botín.",
+     "Hay que equiparlo y activarlo antes de atacar.",
+     "Cuanto mayor es el rango del monstruo, mejores son los objetos."
+    ],
+    "drop_table_note_es": "En la BD (condición «Bandit Mantle» de monster_rewards, 199 filas, 68 monstruos) cada monstruo tiene casi siempre 2 resultados por rango, normalmente 70/30 entre dos objetos consecutivos de la escala. Ej.: Gran Jagras LR 70% Escama astillada / 30% Escama grande; HR 70% grande / 30% bonita; MR 70% bonita / 30% lustrosa. Rathalos MR 70% lustrosa / 30% reluciente. Velkhana MR 70% gigante / 30% magnífica.",
+    "trade_in_values": [
+     [
+      "Chipped Scale",
+      "Escama astillada",
+      500
+     ],
+     [
+      "Large Scale",
+      "Escama grande",
+      1000
+     ],
+     [
+      "Beautiful Scale",
+      "Escama bonita",
+      2000
+     ],
+     [
+      "Lustrous Scale",
+      "Escama lustrosa",
+      3000
+     ],
+     [
+      "Glimmering Scale",
+      "Escama reluciente",
+      5000
+     ],
+     [
+      "Giant Scale",
+      "Escama gigante",
+      8000
+     ],
+     [
+      "Magnificent Pelt",
+      "Piel espléndida",
+      9000
+     ],
+     [
+      "Magnificent Scale",
+      "Escama magnífica",
+      10000
+     ]
+    ],
+    "needs_review": true,
+    "review_note": "No se publica cuántos objetos salen por activación ni la frecuencia por golpe. Un snippet de Game8 hablaba de 5000z para un objeto, contradice la lista; los precios de la BD (sell_price) coinciden con Fextralife.",
+    "sources": [
+     {
+      "title": "Fextralife - Bandit Mantle",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bandit+Mantle"
+     },
+     {
+      "title": "Samurai Gamers - Bandit Mantle",
+      "url": "https://samurai-gamers.com/?p=158964"
+     },
+     {
+      "title": "Kiranico - Specialized Tools",
+      "url": "https://mhworld.kiranico.com/en/specialtools"
+     },
+     {
+      "title": "poedb - Mantles",
+      "url": "https://mhw.poedb.tw/eng/mantles"
+     },
+     {
+      "title": "Game8 - Trade-in Items",
+      "url": "https://game8.co/games/Monster-Hunter-World/archives/311319"
+     },
+     {
+      "title": "MHWorldData (tabla mhw.monster_rewards de la BD local)",
+      "url": "https://github.com/gatheringhallstudios/MHWorldData",
+      "note": "datos extraidos del juego; consulta local a la BD, sin pagina propia"
+     }
+    ]
+   }
+  ],
+  "palico": [
+   {
+    "id": "plunderblade",
+    "name_en": "Plunderblade",
+    "name_es": "Plunderblade (hoja saqueadora)",
+    "type": "Gadget del camarada",
+    "how_to_get_es": "Misión secundaria «Grimalkyne Tribes» en el Valle Putrefacto (Rotten Vale); hace falta carne cruda.",
+    "tiers": [
+     {
+      "name": "Plunderblade",
+      "effect_es": "El camarada salta y roba materiales del monstruo; los recibes al volver. Máximo 4 materiales robados por monstruo. Más competencia = menos enfriamiento y más variedad de materiales."
+     },
+     {
+      "name": "Palarang",
+      "effect_es": "Lanza la hoja como bumerán y el monstruo suelta un material (como una caída normal) que debes recoger tú."
+     },
+     {
+      "name": "Mount and Plunder (MR)",
+      "effect_es": "Monta al monstruo y provoca caídas doradas: solo objetos de intercambio (zenny). Más competencia = más objetos por uso: 2-3 al inicio, 4 al nivel 15."
+     }
+    ],
+    "gadget_levels_note": "Fextralife: nv5 Palarang, nv6 Plunderblade a demanda, nv10 Palarang a demanda, nv11 Mount and Plunder, nv15 Mount and Plunder a demanda.",
+    "db_note_es": "La BD tiene la condición «Plunderblade» (monster_rewards), p. ej. Rathalos MR: Córtex 42%, Shard 31%, Fellwing 26%. Tabla propia por monstruo.",
+    "needs_review": true,
+    "review_note": "La wiki es ambigua con los niveles (la tabla de gadgets dice 1-15 y la ficha lista 5/6/10/11/15). Verificar en juego.",
+    "sources": [
+     {
+      "title": "Fextralife - Plunderblade",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Plunderblade"
+     },
+     {
+      "title": "Fextralife - Palico Gadgets",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Palico+Gadgets"
+     },
+     {
+      "title": "MHWorldData (tabla mhw.monster_rewards de la BD local)",
+      "url": "https://github.com/gatheringhallstudios/MHWorldData",
+      "note": "datos extraidos del juego; consulta local a la BD, sin pagina propia"
+     }
+    ]
+   },
+   {
+    "id": "other_gadgets",
+    "name_en": "Otros gadgets (Vigorwasp, Flashfly, Shieldspire, Coral Orchestra, Meowlotov)",
+    "effect_es": "No afectan a botín ni recolección (curación, trampas, aggro, buffs, bombas).",
+    "sources": [
+     {
+      "title": "Fextralife - Palico Gadgets",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Palico+Gadgets"
+     }
+    ]
+   },
+   {
+    "id": "palico_bonus",
+    "name_en": "Palico Bonus (condición de recompensa)",
+    "effect_es": "La BD recoge una condición «Palico Bonus» en la tabla de recompensas; las wikis consultadas no explican su mecánica.",
+    "needs_review": true,
+    "sources": [
+     {
+      "title": "MHWorldData (tabla mhw.monster_rewards de la BD local)",
+      "url": "https://github.com/gatheringhallstudios/MHWorldData",
+      "note": "datos extraidos del juego; consulta local a la BD, sin pagina propia"
+     }
+    ]
+   }
+  ],
+  "tips": [
+   {
+    "id": "break_parts",
+    "text_es": "Herir o romper partes añade chances de las tablas «Wound/Break X» del monstruo (p. ej. Rathalos MR, herida en cabeza: 67% Córtex, 27% Shard, 5% Rubí). Cortar la cola abre la tabla «Tail Carve». Partbreaker ayuda a cortar cola/cuernos pero no a las heridas.",
+    "sources": [
+     {
+      "title": "MHWorldData (tabla mhw.monster_rewards de la BD local)",
+      "url": "https://github.com/gatheringhallstudios/MHWorldData",
+      "note": "datos extraidos del juego; consulta local a la BD, sin pagina propia"
+     },
+     {
+      "title": "Fextralife - Partbreaker",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Partbreaker"
+     }
+    ]
+   },
+   {
+    "id": "capture_vs_kill",
+    "text_es": "Capturar da la tabla «Carve / Capture» (sin talla de cola ni de cuerpo separada) y suele recomendarse en general; matar permite tallar cuerpo (+1 con Carving Master) y cola. Para una pieza concreta, mira en la ficha del monstruo qué tabla la contiene. Las guías no son unánimes (algunas dicen que es igual).",
+    "needs_review": true,
+    "sources": [
+     {
+      "title": "Samurai Gamers - Capturing Guide",
+      "url": "https://samurai-gamers.com/monsterhunterworld/capturing-guide/"
+     },
+     {
+      "title": "MHWorldData (tabla mhw.monster_rewards de la BD local)",
+      "url": "https://github.com/gatheringhallstudios/MHWorldData",
+      "note": "datos extraidos del juego; consulta local a la BD, sin pagina propia"
+     }
+    ]
+   },
+   {
+    "id": "reward_slots",
+    "text_es": "Las investigaciones tienen casillas de bonificación (bronce/plata/oro; las de Tempered, púrpura, dan decoraciones y Streamstones). Cada casilla usa una tabla propia (BD: Hunt (Bronze), Investigation (Silver/Gold/Purple)).",
+    "sources": [
+     {
+      "title": "Fextralife - Investigations",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Investigations"
+     },
+     {
+      "title": "MHWorldData (tabla mhw.monster_rewards de la BD local)",
+      "url": "https://github.com/gatheringhallstudios/MHWorldData",
+      "note": "datos extraidos del juego; consulta local a la BD, sin pagina propia"
+     }
+    ]
+   },
+   {
+    "id": "gl_geologist_double",
+    "text_es": "Con Geologist (1+) en las Tierras Guía puedes recoger dos veces los materiales soltados por la mayoría de monstruos (no Gran Jagras, Dodogama, Kulu-Ya-Ku).",
+    "needs_review": true,
+    "sources": [
+     {
+      "title": "Fextralife - Geologist",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Geologist"
+     }
+    ]
+   },
+   {
+    "id": "gl_tail_lure",
+    "text_es": "Tierras Guía: cada talla de cola de un Tempered da un señuelo y cada muerte otro; sirven para atraer monstruos a voluntad. Guarda los de elder para regiones de nivel 7 (Grandes Gemas Spiritvein).",
+    "sources": [
+     {
+      "title": "Fextralife - Guiding Lands",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+     }
+    ]
+   }
+  ],
+  "combos": [
+   {
+    "id": "carving_stack",
+    "text_es": "Más talla y más recompensas: Carving Master (Commission Guidance 4p o Guild Pride 4p) añade una talla; Good Luck/Great Luck aumentan las recompensas finales. Guild Pride (Guildwork/Guild Palace Alpha+/Beta+) da Carving Master (4p) y Good Luck (2p) a la vez.",
+    "effects": [
+     "carving_master",
+     "good_luck"
+    ],
+    "needs_review": true,
+    "review_note": "Nº exacto de recompensas extra y si Good y Great Luck se acumulan: sin confirmar.",
+    "sources": [
+     {
+      "title": "Fextralife - Carving Master",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Carving+Master"
+     },
+     {
+      "title": "Fextralife - Good Luck",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Good+Luck"
+     }
+    ]
+   },
+   {
+    "id": "zenny_party",
+    "text_es": "Farmeo de zenny: 4 cazadores con Manto de bandido activo a la vez y camarada con Plunderblade (Mount and Plunder).",
+    "sources": [
+     {
+      "title": "Fextralife - Bandit Mantle",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Bandit+Mantle"
+     },
+     {
+      "title": "Fextralife - Plunderblade",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Plunderblade"
+     }
+    ]
+   },
+   {
+    "id": "tail_horn",
+    "text_es": "Colas y cuernos: Partbreaker alto (Breaker Charm III + piezas/Destroyer Jewel), atacar la parte y luego tallar la cola.",
+    "sources": [
+     {
+      "title": "Fextralife - Partbreaker",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Partbreaker"
+     }
+    ]
+   }
+  ]
+ }
+}

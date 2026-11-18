@@ -1,0 +1,80 @@
+{
+  "_comment": "ignore_fields: key names ignored anywhere in any body. ignore_paths: [endpoint glob on 'METHOD /path?query', json-path glob with [*] for indexes]. Do not allowlist real data.",
+  "ignore_fields": [
+    "data_bytes",
+    "rules_hash",
+    "load_ms",
+    "from_table",
+    "elapsed_ms"
+  ],
+  "ignore_paths": [
+    {
+      "endpoint": "GET /api/calendar/now",
+      "paths": [
+        "$.now"
+      ]
+    },
+    {
+      "endpoint": "GET /api/builds/goal/recoleccion",
+      "paths": [
+        "$.builds[[]1[]].charm.*",
+        "$.builds[[]1[]].charm.*.*",
+        "$.builds[[]1[]].charm.*.*.*",
+        "$.builds[[]1[]].decorations.*",
+        "$.builds[[]1[]].decorations[[]0[]].*",
+        "$.builds[[]1[]].decorations[[]0[]].*.*",
+        "$.builds[[]1[]].decorations[[]0[]].*.*.*"
+      ],
+      "_why": "empate exacto de puntuacion (35.0): Postgres desempataba por orden fisico; SQLite desempata por id"
+    },
+    {
+      "endpoint": "GET /api/items/338",
+      "paths": [
+        "$.sources.monsters[*].best.*"
+      ],
+      "_why": "mejor fuente entre condiciones con la misma probabilidad: empate sin ORDER BY en Postgres"
+    },
+    {
+      "endpoint": "GET /api/profile/status",
+      "paths": [
+        "$.save_mounted",
+        "$.save_mtime",
+        "$.save_path",
+        "$.save_size",
+        "$.stats_mounted",
+        "$.stored_copy_bytes"
+      ],
+      "_why": "entorno: la carpeta de Steam solo estaba montada en Docker; la deteccion nativa es P2-9"
+    }
+  ],
+  "unordered_paths": [
+    {
+      "endpoint": "GET /api/*",
+      "paths": [
+        "$.skills",
+        "$.recipe",
+        "$.pieces[*].skills",
+        "$.pieces[*].recipe",
+        "$.total_materials",
+        "$.sources.monsters[*].ranks.*",
+        "$.set_bonuses",
+        "$.armor",
+        "$.quests",
+        "$.monsters",
+        "$.items",
+        "$.areas[*].items",
+        "$.areas[*].monsters",
+        "$.rewards.*[*].items",
+        "$.rewards.*.*.items"
+      ],
+      "_why": "listas sin ORDER BY en Postgres (orden fisico tras UPDATE): se comparan como conjuntos"
+    },
+    {
+      "endpoint": "GET /api/progress*",
+      "paths": [
+        "$"
+      ],
+      "_why": "lista sin ORDER BY en Postgres"
+    }
+  ]
+}

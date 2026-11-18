@@ -1,0 +1,4 @@
+# Development / test dependencies for api/. Install on top of api/requirements.txt.
+# httpx is needed by Starlette TestClient (used by the API tests).
+pytest==8.4.2
+httpx==0.28.1

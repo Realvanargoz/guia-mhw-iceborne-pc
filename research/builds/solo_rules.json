@@ -1,0 +1,1313 @@
+{
+ "version": 1,
+ "retrieved_at": "2026-11-15",
+ "scope_es": "Reglas para recomendar un set de supervivencia en solitario (MHW: Iceborne, PC), independiente del arma. Los pesos son prioridades relativas decididas a partir de las fuentes; no son números del juego. Los efectos por nivel salen del texto del juego (MHWorldData) y se contrastan con las wikis.",
+ "scoring": {
+  "formula_es": "puntuación = Σ peso(habilidad) × curva(habilidad)[nivel] + Σ elementos del monstruo (daño + plaga) + peso_defensa × defensa_máx/referencia_rango + 0.12 × ofensiva. La curva es la fracción de utilidad acumulada por nivel (0 = nada, 1 = efecto completo).",
+  "offense_tiebreak": 0.12,
+  "defense_weight": 8.0,
+  "element": {
+   "damage_weight": 5.0,
+   "clip_min": -15,
+   "clip_max": 20,
+   "blight_threshold": 20,
+   "blight_threshold_es": "20 puntos de resistencia a un elemento evitan su plaga (Fextralife Elemental Resistances y Status Effects).",
+   "sources": [
+    "fx_elemres",
+    "fx_status"
+   ]
+  }
+ },
+ "rank_rules": {
+  "LR": {
+   "armor_rarity": [
+    1,
+    4
+   ],
+   "deco_rarity": null,
+   "charm_rarity": [
+    1,
+    4
+   ],
+   "note_es": "En rango bajo no hay joyas: las ranuras se muestran libres. Las joyas llegan con los geodas de rango alto.",
+   "sources": [
+    "fx_decorations",
+    "gg_feystones"
+   ]
+  },
+  "HR": {
+   "armor_rarity": [
+    5,
+    8
+   ],
+   "deco_rarity": [
+    5,
+    8
+   ],
+   "charm_rarity": [
+    1,
+    8
+   ],
+   "rare_deco_from": 7,
+   "hard_deco_from": 8,
+   "note_es": "Joyas de tamaño 1-3 de geodas de rango alto (rareza 5-8). Las de rareza 8 son poco frecuentes.",
+   "needs_review": true
+  },
+  "MR": {
+   "armor_rarity": [
+    9,
+    12
+   ],
+   "deco_rarity": [
+    5,
+    12
+   ],
+   "charm_rarity": [
+    1,
+    12
+   ],
+   "rare_deco_from": 11,
+   "hard_deco_from": 12,
+   "note_es": "Rango maestro: añade joyas de tamaño 4 (rareza 9-12). Las de rareza 12 (p. ej. Bonus ataque+ o Anti rugidos+) salen sobre todo de geodas sellados y Tierras Guía, así que se marcan como difíciles.",
+   "needs_review": true
+  }
+ },
+ "progression": {
+  "applies_to_rank": "MR",
+  "title_updates": [
+   {
+    "tier": 1,
+    "monsters": [
+     "Rajang"
+    ]
+   },
+   {
+    "tier": 2,
+    "monsters": [
+     "Stygian Zinogre",
+     "Safi'jiiva"
+    ]
+   },
+   {
+    "tier": 3,
+    "monsters": [
+     "Furious Rajang",
+     "Raging Brachydios"
+    ]
+   },
+   {
+    "tier": 3.5,
+    "monsters": [
+     "Kulve Taroth"
+    ],
+    "note_es": "Kulve Taroth en rango maestro llegó con la versión 13.50."
+   },
+   {
+    "tier": 4,
+    "monsters": [
+     "Alatreon",
+     "Frostfang Barioth"
+    ]
+   },
+   {
+    "tier": 5,
+    "monsters": [
+     "Fatalis"
+    ]
+   }
+  ],
+  "gamma_plus_sets": {
+   "Namielle γ+": 3.5,
+   "Velkhana γ+": 5
+  },
+  "monsterless_rarity12_tier": 5,
+  "rule_es": "En modo 'progreso' (rango maestro) no se recomiendan piezas de monstruos de una actualización gratuita posterior al monstruo que vas a cazar, ni sets γ+ (templados arcaicos) ni sets de evento de rareza 12 sin monstruo, salvo que ese monstruo sea igual o posterior. Así Teostra no recibe la armadura de Fatalis.",
+  "sources": [
+   "mhwiki_iceborne",
+   "gs_tu4",
+   "siliconera_roadmap"
+  ],
+  "needs_review": true
+ },
+ "progression_cap_es": "Modo 'progreso' (por defecto): solo piezas y amuletos de rareza ≤ la del set del propio monstruo en ese rango (lo que razonablemente puedes fabricar cuando lo cazas). Modo 'completo': todo el rango.",
+ "skills": {
+  "Health Boost": {
+   "weight": 10,
+   "curve": [
+    0,
+    0.3,
+    0.6,
+    1.0
+   ],
+   "category": "core",
+   "reason_es": "Más vida máxima (+15/+30/+50): margen para encajar golpes fuertes sin caer.",
+   "sources": [
+    "game_data",
+    "mhwiki_health_boost",
+    "gw_melee",
+    "g8_sns",
+    "fx_fatalis",
+    "fx_namielle"
+   ]
+  },
+  "Evade Window": {
+   "weight": 7,
+   "curve": [
+    0,
+    0.3,
+    0.55,
+    0.75,
+    0.9,
+    1.0
+   ],
+   "category": "core",
+   "reason_es": "Más fotogramas de invulnerabilidad al rodar: perdona errores de sincronización.",
+   "sources": [
+    "game_data",
+    "fx_evade",
+    "mhwiki_evade_window",
+    "gw_melee",
+    "fx_rbrachy"
+   ]
+  },
+  "Divine Blessing": {
+   "weight": 6,
+   "curve": [
+    0,
+    0.16,
+    0.31,
+    0.52,
+    0.63,
+    1.0
+   ],
+   "category": "mitigation",
+   "reason_es": "25 % de probabilidad (40 % a nivel 5) de reducir el daño un 15/30/50/60 %. Niveles 4-5 requieren Protección divina clave.",
+   "sources": [
+    "game_data",
+    "fx_divine",
+    "mhwiki_divine_blessing",
+    "fx_fatalis",
+    "fx_velkhana"
+   ]
+  },
+  "Recovery Speed": {
+   "weight": 4,
+   "curve": [
+    0,
+    0.5,
+    0.8,
+    1.0
+   ],
+   "category": "core",
+   "reason_es": "La vida roja vuelve 2/3/4 veces más rápido: menos pociones.",
+   "sources": [
+    "game_data",
+    "mhwiki_recovery_speed"
+   ]
+  },
+  "Recovery Up": {
+   "weight": 3,
+   "curve": [
+    0,
+    0.35,
+    0.7,
+    1.0
+   ],
+   "category": "core",
+   "reason_es": "Las curaciones curan un 10/20/30 % más.",
+   "sources": [
+    "game_data",
+    "mhwiki_recovery_up"
+   ]
+  },
+  "Defense Boost": {
+   "weight": 4,
+   "curve": [
+    0,
+    0.1,
+    0.2,
+    0.35,
+    0.5,
+    0.6,
+    0.8,
+    1.0
+   ],
+   "category": "mitigation",
+   "reason_es": "Más defensa (y +3/+5 a todas las resistencias desde el nivel 4).",
+   "sources": [
+    "game_data",
+    "mhwiki_defense_boost"
+   ]
+  },
+  "Evade Extender": {
+   "weight": 2,
+   "curve": [
+    0,
+    0.4,
+    0.75,
+    1.0
+   ],
+   "category": "mobility",
+   "reason_es": "Rodar más lejos para salir del área del ataque.",
+   "sources": [
+    "game_data",
+    "g8_sns",
+    "fx_rbrachy"
+   ]
+  },
+  "Stun Resistance": {
+   "weight": 2,
+   "curve": [
+    0,
+    0.6,
+    0.9,
+    1.0
+   ],
+   "category": "ailment",
+   "reason_es": "Evita quedar aturdido tras varios golpes seguidos, lo que en solitario suele acabar en carro.",
+   "sources": [
+    "game_data",
+    "kira_status",
+    "mhwiki_stun_resistance",
+    "fx_frajang"
+   ]
+  },
+  "Constitution": {
+   "weight": 1.5,
+   "curve": [
+    0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+   ],
+   "category": "stamina",
+   "reason_es": "Rodar y bloquear gasta menos aguante.",
+   "sources": [
+    "game_data",
+    "mhwiki_constitution"
+   ]
+  },
+  "Stamina Surge": {
+   "weight": 1.5,
+   "curve": [
+    0,
+    0.35,
+    0.7,
+    1.0
+   ],
+   "category": "stamina",
+   "reason_es": "El aguante se recupera más rápido.",
+   "sources": [
+    "game_data",
+    "mhwiki_stamina_surge"
+   ]
+  },
+  "Item Prolonger": {
+   "weight": 1,
+   "curve": [
+    0,
+    0.3,
+    0.6,
+    1.0
+   ],
+   "category": "comfort",
+   "reason_es": "Prolonga pociones de dureza/fuerza demoníaca y mantos.",
+   "sources": [
+    "game_data",
+    "mhwiki_item_prolonger"
+   ]
+  },
+  "Marathon Runner": {
+   "weight": 0.5,
+   "curve": [
+    0,
+    0.35,
+    0.7,
+    1.0
+   ],
+   "category": "stamina",
+   "reason_es": "Correr y cargar gasta menos aguante.",
+   "sources": [
+    "game_data"
+   ]
+  },
+  "Flinch Free": {
+   "weight": 0.4,
+   "curve": [
+    0,
+    0.6,
+    0.8,
+    1.0
+   ],
+   "category": "comfort",
+   "reason_es": "Evita que los aliados te tumben; en solitario aporta poco (peso bajo a propósito).",
+   "sources": [
+    "game_data",
+    "mhwiki_flinch_free"
+   ]
+  },
+  "Guts": {
+   "weight": 4,
+   "curve": [
+    0,
+    1.0
+   ],
+   "category": "set_bonus",
+   "reason_es": "Sobrevives una vez con 1 PV a un golpe que te habría derrotado (bonus de set).",
+   "sources": [
+    "game_data"
+   ]
+  },
+  "Super Recovery": {
+   "weight": 2,
+   "curve": [
+    0,
+    1.0
+   ],
+   "category": "set_bonus",
+   "reason_es": "Las curaciones pueden recuperar más allá de la vida roja.",
+   "sources": [
+    "game_data"
+   ]
+  },
+  "Hasten Recovery": {
+   "weight": 3,
+   "curve": [
+    0,
+    1.0
+   ],
+   "category": "set_bonus",
+   "reason_es": "Regeneras vida mientras golpeas al monstruo.",
+   "sources": [
+    "game_data"
+   ]
+  },
+  "Stamina Cap Up": {
+   "weight": 1,
+   "curve": [
+    0,
+    1.0
+   ],
+   "category": "set_bonus",
+   "reason_es": "Aguante máximo mayor.",
+   "sources": [
+    "game_data"
+   ]
+  },
+  "True Gaia's Veil": {
+   "weight": 1,
+   "curve": [
+    0,
+    1.0
+   ],
+   "category": "set_bonus",
+   "reason_es": "Con manto puesto: anti temblores, anti rugidos 5, anti viento máximo y mejora de balance.",
+   "sources": [
+    "game_data"
+   ]
+  },
+  "Gaia's Veil": {
+   "weight": 0.7,
+   "curve": [
+    0,
+    1.0
+   ],
+   "category": "set_bonus",
+   "reason_es": "Con manto puesto: anti viento 3, anti rugidos 3, anti temblores 3.",
+   "sources": [
+    "game_data"
+   ]
+  },
+  "Blight Resistance": {
+   "weight": 0,
+   "curve": [
+    0,
+    0.5,
+    0.75,
+    1.0
+   ],
+   "category": "element",
+   "reason_es": "Reduce (50/75 %) o anula a nivel 3 las plagas elementales (no nitro, veneno ni efluvio).",
+   "sources": [
+    "game_data",
+    "fx_blight",
+    "mhwiki_blight_resistance"
+   ]
+  },
+  "Guard": {
+   "weight": 0,
+   "curve": [
+    0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+   ],
+   "category": "weapon_specific",
+   "reason_es": "Solo para armas con escudo: el recomendador no lo puntúa (neutral al arma), el evaluador sí lo muestra.",
+   "sources": [
+    "game_data",
+    "g8_sns"
+   ]
+  },
+  "Guard Up": {
+   "weight": 0,
+   "curve": [
+    0,
+    1.0
+   ],
+   "category": "weapon_specific",
+   "reason_es": "Solo para armas con escudo.",
+   "sources": [
+    "game_data",
+    "g8_sns"
+   ]
+  }
+ },
+ "ailment_map": {
+  "poison": {
+   "label_es": "envenena",
+   "skills": [
+    {
+     "skill": "Poison Resistance",
+     "weight": 6,
+     "curve": [
+      0,
+      0.35,
+      0.6,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "kira_status",
+    "fx_rathalos"
+   ]
+  },
+  "paralysis": {
+   "label_es": "paraliza",
+   "skills": [
+    {
+     "skill": "Paralysis Resistance",
+     "weight": 9,
+     "curve": [
+      0,
+      0.3,
+      0.6,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "kira_status"
+   ]
+  },
+  "sleep": {
+   "label_es": "duerme",
+   "skills": [
+    {
+     "skill": "Sleep Resistance",
+     "weight": 9,
+     "curve": [
+      0,
+      0.3,
+      0.6,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "kira_status"
+   ]
+  },
+  "stun": {
+   "label_es": "aturde",
+   "skills": [
+    {
+     "skill": "Stun Resistance",
+     "weight": 5,
+     "curve": [
+      0,
+      0.6,
+      0.9,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "kira_status",
+    "fx_kulu"
+   ]
+  },
+  "bleed": {
+   "label_es": "provoca sangrado",
+   "skills": [
+    {
+     "skill": "Bleeding Resistance",
+     "weight": 6,
+     "curve": [
+      0,
+      0.35,
+      0.6,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "kira_status"
+   ]
+  },
+  "blastblight": {
+   "label_es": "provoca nitroplaga",
+   "skills": [
+    {
+     "skill": "Blast Resistance",
+     "weight": 7,
+     "curve": [
+      0,
+      0.35,
+      0.6,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "kira_status",
+    "fx_rbrachy"
+   ]
+  },
+  "defense_down": {
+   "label_es": "reduce tu defensa",
+   "skills": [
+    {
+     "skill": "Iron Skin",
+     "weight": 5,
+     "curve": [
+      0,
+      0.5,
+      0.75,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "kira_status"
+   ]
+  },
+  "effluvia": {
+   "label_es": "acumula efluvio",
+   "skills": [
+    {
+     "skill": "Effluvia Resistance",
+     "weight": 6,
+     "curve": [
+      0,
+      0.35,
+      0.6,
+      1.0
+     ]
+    },
+    {
+     "skill": "Effluvial Expert",
+     "weight": 2,
+     "curve": [
+      0,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "kira_status",
+    "fx_vaal"
+   ]
+  },
+  "mud": {
+   "label_es": "te embarra",
+   "skills": [
+    {
+     "skill": "Muck Resistance",
+     "weight": 3,
+     "curve": [
+      0,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "kira_status"
+   ]
+  },
+  "heat_aura": {
+   "label_es": "tiene un aura de calor que hace daño",
+   "skills": [
+    {
+     "skill": "Heat Guard",
+     "weight": 4,
+     "curve": [
+      0,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "fx_teostra"
+   ]
+  },
+  "roar:small": {
+   "label_es": "ruge (rugido débil)",
+   "skills": [
+    {
+     "skill": "Earplugs",
+     "weight": 4,
+     "curve": [
+      0,
+      0.2,
+      0.45,
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "mhwiki_earplugs",
+    "gw_gs"
+   ]
+  },
+  "roar:large": {
+   "label_es": "ruge fuerte",
+   "skills": [
+    {
+     "skill": "Earplugs",
+     "weight": 6,
+     "curve": [
+      0,
+      0.12,
+      0.25,
+      0.45,
+      0.7,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "mhwiki_earplugs",
+    "fx_teostra",
+    "gw_gs"
+   ]
+  },
+  "wind:small": {
+   "label_es": "genera viento débil",
+   "skills": [
+    {
+     "skill": "Windproof",
+     "weight": 3,
+     "curve": [
+      0,
+      0.2,
+      0.45,
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "mhwiki_windproof"
+   ]
+  },
+  "wind:large": {
+   "label_es": "genera viento fuerte",
+   "skills": [
+    {
+     "skill": "Windproof",
+     "weight": 5,
+     "curve": [
+      0,
+      0.12,
+      0.25,
+      0.45,
+      0.7,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "mhwiki_windproof"
+   ]
+  },
+  "wind:extreme": {
+   "label_es": "genera viento extremo (solo el bonus de set Anti ráfagas lo anula del todo)",
+   "skills": [
+    {
+     "skill": "Windproof",
+     "weight": 4,
+     "curve": [
+      0,
+      0.1,
+      0.2,
+      0.4,
+      0.6,
+      0.8
+     ]
+    },
+    {
+     "skill": "Nullify Wind Pressure",
+     "weight": 6,
+     "curve": [
+      0,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "fx_kushala"
+   ]
+  },
+  "tremor:small": {
+   "label_es": "provoca temblores leves",
+   "skills": [
+    {
+     "skill": "Tremor Resistance",
+     "weight": 3,
+     "curve": [
+      0,
+      1.0,
+      1.0,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "mhwiki_tremor_resistance"
+   ]
+  },
+  "tremor:large": {
+   "label_es": "provoca temblores fuertes",
+   "skills": [
+    {
+     "skill": "Tremor Resistance",
+     "weight": 5,
+     "curve": [
+      0,
+      0.4,
+      0.65,
+      1.0
+     ]
+    }
+   ],
+   "sources": [
+    "game_data",
+    "mhwiki_tremor_resistance"
+   ]
+  }
+ },
+ "blights": {
+  "fireblight": {
+   "element": "fire",
+   "label_es": "quema (fuegoplaga)",
+   "blight_weight": 5,
+   "extra": [],
+   "effect_es": "la fuegoplaga drena vida y frena su recuperación"
+  },
+  "waterblight": {
+   "element": "water",
+   "label_es": "moja (aguaplaga)",
+   "blight_weight": 3,
+   "extra": [
+    {
+     "skill": "Stamina Surge",
+     "weight": 2
+    }
+   ],
+   "effect_es": "la aguaplaga ralentiza la recuperación de aguante"
+  },
+  "thunderblight": {
+   "element": "thunder",
+   "label_es": "electrocuta (rayoplaga)",
+   "blight_weight": 5,
+   "extra": [
+    {
+     "skill": "Stun Resistance",
+     "weight": 2
+    }
+   ],
+   "effect_es": "la rayoplaga hace que te aturdan antes"
+  },
+  "iceblight": {
+   "element": "ice",
+   "label_es": "congela (hieloplaga)",
+   "blight_weight": 4,
+   "extra": [
+    {
+     "skill": "Constitution",
+     "weight": 2
+    }
+   ],
+   "effect_es": "la hieloplaga aumenta el gasto de aguante"
+  },
+  "dragonblight": {
+   "element": "dragon",
+   "label_es": "usa dracoplaga",
+   "blight_weight": 1.5,
+   "extra": [],
+   "effect_es": "la dracoplaga anula el elemento de tu arma (no te hace daño)"
+  },
+  "sources": [
+   "kira_status",
+   "fx_status",
+   "fx_elemres",
+   "fx_blight"
+  ]
+ },
+ "elemental_resistance_skills": {
+  "fire": "Fire Resistance",
+  "water": "Water Resistance",
+  "thunder": "Thunder Resistance",
+  "ice": "Ice Resistance",
+  "dragon": "Dragon Resistance",
+  "per_level": [
+   0,
+   6,
+   12,
+   20
+  ],
+  "lv3_defense": 10,
+  "sources": [
+   "game_data",
+   "mhwiki_fire_resistance"
+  ]
+ },
+ "offense_skills": {
+  "Attack Boost": {
+   "weight": 6,
+   "max": 7
+  },
+  "Critical Eye": {
+   "weight": 5,
+   "max": 7
+  },
+  "Weakness Exploit": {
+   "weight": 6,
+   "max": 3
+  },
+  "Critical Boost": {
+   "weight": 5,
+   "max": 3
+  },
+  "Agitator": {
+   "weight": 5,
+   "max": 7
+  },
+  "Peak Performance": {
+   "weight": 3,
+   "max": 3
+  },
+  "Maximum Might": {
+   "weight": 3,
+   "max": 5
+  },
+  "Latent Power": {
+   "weight": 2,
+   "max": 7
+  },
+  "Non-elemental Boost": {
+   "weight": 2,
+   "max": 1
+  },
+  "Partbreaker": {
+   "weight": 2,
+   "max": 3
+  },
+  "Critical Draw": {
+   "weight": 1,
+   "max": 3
+  },
+  "Focus": {
+   "weight": 1,
+   "max": 3
+  },
+  "Handicraft": {
+   "weight": 2,
+   "max": 5
+  },
+  "Coalescence": {
+   "weight": 2,
+   "max": 3
+  },
+  "Resentment": {
+   "weight": 2,
+   "max": 5
+  },
+  "note_es": "Solo para la puntuación 'ofensiva' informativa y como desempate (12 %). No depende del arma, así que no incluye habilidades de munición ni de elemento."
+ },
+ "monster_overrides": {
+  "Rathalos": {
+   "add": [
+    "stun"
+   ],
+   "sources": [
+    "fx_rathalos"
+   ],
+   "note_es": "Fextralife también le atribuye aturdimiento.",
+   "needs_review": true
+  },
+  "Kushala Daora": {
+   "add": [
+    "stun"
+   ],
+   "sources": [
+    "fx_kushala"
+   ],
+   "note_es": "Anti viento 3 anula su viento normal, pero no el de enfurecido; Anti ráfagas (bonus de set) lo anula todo.",
+   "needs_review": true
+  },
+  "Kulu-Ya-Ku": {
+   "add": [
+    "stun"
+   ],
+   "sources": [
+    "fx_kulu"
+   ],
+   "note_es": "Golpes con roca que aturden.",
+   "needs_review": true
+  },
+  "Teostra": {
+   "add": [
+    "heat_aura"
+   ],
+   "sources": [
+    "fx_teostra"
+   ],
+   "note_es": "Anti calor anula el daño del aura y de los charcos de fuego (no la fuegoplaga). Los anti rugidos son 'esenciales' según Fextralife."
+  },
+  "Raging Brachydios": {
+   "add": [
+    "blastblight",
+    "roar:large"
+   ],
+   "sources": [
+    "fx_rbrachy"
+   ],
+   "note_es": "MHWorldData no trae sus estados; Fextralife recomienda Anti nitro, Bonus salud, Anti rugidos e Intervalo de evasión.",
+   "needs_review": true
+  },
+  "Furious Rajang": {
+   "add": [
+    "thunderblight",
+    "stun",
+    "roar:large"
+   ],
+   "sources": [
+    "fx_frajang"
+   ],
+   "note_es": "MHWorldData no trae sus estados; su agarre provoca rayoplaga y suele aturdir."
+  },
+  "Safi'jiiva": {
+   "add": [
+    "fireblight",
+    "roar:large"
+   ],
+   "sources": [
+    "fx_safi"
+   ],
+   "note_es": "MHWorldData no trae sus estados; Fextralife indica fuego/fuegoplaga y recomienda Bonus salud.",
+   "needs_review": true
+  },
+  "Fatalis": {
+   "boost": {
+    "Health Boost": 3,
+    "Divine Blessing": 3
+   },
+   "sources": [
+    "fx_fatalis"
+   ],
+   "note_es": "Fextralife recomienda Bonus salud, Protección divina, Anti fuego y Anti plagas: algunos ataques matan de un golpe."
+  },
+  "Alatreon": {
+   "boost": {
+    "Health Boost": 2
+   },
+   "sources": [
+    "fx_alatreon"
+   ],
+   "note_es": "Daño muy alto; la mecánica de Juicio Escatón exige daño elemental (ofensivo, fuera de estas reglas)."
+  },
+  "Namielle": {
+   "boost": {
+    "Health Boost": 2
+   },
+   "sources": [
+    "fx_namielle"
+   ],
+   "note_es": "'Extremadamente difícil sin Bonus salud 3' (Fextralife)."
+  },
+  "Velkhana": {
+   "boost": {
+    "Divine Blessing": 2
+   },
+   "sources": [
+    "fx_velkhana"
+   ],
+   "note_es": "Fextralife sugiere Anti hielo o Protección divina."
+  },
+  "Great Jagras": {
+   "add": [],
+   "sources": [
+    "fx_great_jagras"
+   ],
+   "note_es": "Sin elemento ni estados (Fextralife): se usan las prioridades genéricas."
+  }
+ },
+ "ignored_ailment_keys": {
+  "regional": "MHWorldData marca 'regional' sin explicar el efecto; se ignora."
+ },
+ "not_in_mhw_es": "Fuego infernal (Hellfire), burbujas (Bubbleblight) y telaraña (Webbed) son estados de Monster Hunter Rise; no existen en MHW: Iceborne, así que no hay reglas para ellos.",
+ "sources": {
+  "game_data": {
+   "title": "MHWorldData (texto del juego por nivel de habilidad, estados de monstruos)",
+   "url": "https://github.com/gatheringhallstudios/MHWorldData"
+  },
+  "fx_elemres": {
+   "title": "Fextralife: Elemental Resistances",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Elemental+Resistances"
+  },
+  "fx_status": {
+   "title": "Fextralife: Status Effects",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Status+Effects"
+  },
+  "fx_blight": {
+   "title": "Fextralife: Blight Resistance",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Blight+Resistance"
+  },
+  "fx_evade": {
+   "title": "Fextralife: Evade Window",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Evade+Window"
+  },
+  "fx_divine": {
+   "title": "Fextralife: Divine Blessing",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Divine+Blessing"
+  },
+  "fx_decorations": {
+   "title": "Fextralife: Decorations",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Decorations"
+  },
+  "gg_feystones": {
+   "title": "GamerGuides: Feystones",
+   "url": "https://gamerguides.com/monster-hunter-world/guide/walkthrough/general-information/feystones"
+  },
+  "kira_status": {
+   "title": "Kiranico: Status guide",
+   "url": "https://mhworld.kiranico.com/guide/status"
+  },
+  "mhwiki_health_boost": {
+   "title": "Monster Hunter Wiki: Health Boost (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Health_Boost_(MHWI)"
+  },
+  "mhwiki_evade_window": {
+   "title": "Monster Hunter Wiki: Evade Window (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Evade_Window_(MHWI)"
+  },
+  "mhwiki_divine_blessing": {
+   "title": "Monster Hunter Wiki: Divine Blessing (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Divine_Blessing_(MHWI)"
+  },
+  "mhwiki_recovery_speed": {
+   "title": "Monster Hunter Wiki: Recovery Speed (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Recovery_Speed_(MHWI)"
+  },
+  "mhwiki_recovery_up": {
+   "title": "Monster Hunter Wiki: Recovery Up (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Recovery_Up_(MHWI)"
+  },
+  "mhwiki_defense_boost": {
+   "title": "Monster Hunter Wiki: Defense Boost (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Defense_Boost_(MHWI)"
+  },
+  "mhwiki_stun_resistance": {
+   "title": "Monster Hunter Wiki: Stun Resistance (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Stun_Resistance_(MHWI)"
+  },
+  "mhwiki_constitution": {
+   "title": "Monster Hunter Wiki: Constitution (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Constitution_(MHWI)"
+  },
+  "mhwiki_stamina_surge": {
+   "title": "Monster Hunter Wiki: Stamina Surge (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Stamina_Surge_(MHWI)"
+  },
+  "mhwiki_item_prolonger": {
+   "title": "Monster Hunter Wiki: Item Prolonger (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Item_Prolonger_(MHWI)"
+  },
+  "mhwiki_flinch_free": {
+   "title": "Monster Hunter Wiki: Flinch Free (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Flinch_Free_(MHWI)"
+  },
+  "mhwiki_blight_resistance": {
+   "title": "Monster Hunter Wiki: Blight Resistance (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Blight_Resistance_(MHWI)"
+  },
+  "mhwiki_earplugs": {
+   "title": "Monster Hunter Wiki: Earplugs (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Earplugs_(MHWI)"
+  },
+  "mhwiki_windproof": {
+   "title": "Monster Hunter Wiki: Windproof (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Windproof_(MHWI)"
+  },
+  "mhwiki_tremor_resistance": {
+   "title": "Monster Hunter Wiki: Tremor Resistance (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Tremor_Resistance_(MHWI)"
+  },
+  "mhwiki_fire_resistance": {
+   "title": "Monster Hunter Wiki: Fire Resistance (MHWI)",
+   "url": "https://monsterhunterwiki.org/wiki/Fire_Resistance_(MHWI)"
+  },
+  "gw_melee": {
+   "title": "GameWith: Best Melee Weapons Loadout Guide (Iceborne)",
+   "url": "https://gamewith.net/monsterhunterworld-iceborne/article/show/10832"
+  },
+  "gw_gs": {
+   "title": "GameWith: Great Sword builds (High Stability Build)",
+   "url": "https://gamewith.net/monsterhunterworld-iceborne/article/show/10838"
+  },
+  "g8_sns": {
+   "title": "Game8: Best Sword and Shield skills",
+   "url": "https://game8.co/games/Monster-Hunter-World/archives/305212"
+  },
+  "fx_teostra": {
+   "title": "Fextralife: Teostra",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Teostra"
+  },
+  "fx_rathalos": {
+   "title": "Fextralife: Rathalos",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Rathalos"
+  },
+  "fx_kushala": {
+   "title": "Fextralife: Kushala Daora",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Kushala+Daora"
+  },
+  "fx_kulu": {
+   "title": "Fextralife: Kulu-Ya-Ku",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Kulu-Ya-Ku"
+  },
+  "fx_vaal": {
+   "title": "Fextralife: Vaal Hazak",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Vaal+Hazak"
+  },
+  "fx_rbrachy": {
+   "title": "Fextralife: Raging Brachydios",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Raging+Brachydios"
+  },
+  "fx_frajang": {
+   "title": "Fextralife: Furious Rajang",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Furious+Rajang"
+  },
+  "fx_safi": {
+   "title": "Fextralife: Safi'jiiva",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Safi'jiiva"
+  },
+  "fx_fatalis": {
+   "title": "Fextralife: Fatalis",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Fatalis"
+  },
+  "fx_alatreon": {
+   "title": "Fextralife: Alatreon",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Alatreon"
+  },
+  "fx_namielle": {
+   "title": "Fextralife: Namielle",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Namielle"
+  },
+  "fx_velkhana": {
+   "title": "Fextralife: Velkhana",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Velkhana"
+  },
+  "mhwiki_iceborne": {
+   "title": "Monster Hunter Wiki: Monster Hunter World: Iceborne (actualizaciones gratuitas)",
+   "url": "https://monsterhunterwiki.org/wiki/Monster_Hunter_World:_Iceborne"
+  },
+  "gs_tu4": {
+   "title": "GameSpot: Iceborne Title Update 4 (Alatreon, Frostfang Barioth)",
+   "url": "https://gamespot.com/articles/monster-hunter-world-iceborne-title-update-4-out-n/1100-6479363/"
+  },
+  "siliconera_roadmap": {
+   "title": "Siliconera: Monster Hunter World: Iceborne 2020 Roadmap",
+   "url": "https://siliconera.com/?p=820014"
+  },
+  "fx_great_jagras": {
+   "title": "Fextralife: Great Jagras",
+   "url": "https://monsterhunterworld.wiki.fextralife.com/Great+Jagras"
+  }
+ },
+ "needs_review": [
+  {
+   "id": "weights",
+   "what_es": "Los pesos relativos de habilidades (Bonus salud 10, Intervalo de evasión 7, Protección divina 6...) son una decisión de diseño a partir de las guías, no un dato del juego.",
+   "default": "valores actuales",
+   "see": "open_questions.md#1"
+  },
+  {
+   "id": "stun_overrides",
+   "what_es": "Rathalos, Kushala Daora y Kulu-Ya-Ku 'aturden' solo según Fextralife (MHWorldData no lo marca).",
+   "default": "se añade 'stun' con peso 5",
+   "see": "open_questions.md#2"
+  },
+  {
+   "id": "safi_element",
+   "what_es": "Elemento de Safi'jiiva: Fextralife dice fuego/fuegoplaga; falta una segunda fuente.",
+   "default": "fuego",
+   "see": "open_questions.md#3"
+  },
+  {
+   "id": "blastscourge",
+   "what_es": "¿Anti nitro 3 evita la 'Blastscourge' de Brachydios Furioso o solo la nitroplaga normal?",
+   "default": "se pondera Anti nitro igual que con nitroplaga",
+   "see": "open_questions.md#4"
+  },
+  {
+   "id": "deco_difficulty",
+   "what_es": "La dificultad de las joyas se deduce de su rareza (HR ≥7 rara, 8 difícil; MR ≥11 rara, 12 difícil), no de las tablas de geodas.",
+   "default": "umbrales actuales",
+   "see": "open_questions.md#5"
+  },
+  {
+   "id": "set_bonus_mixing",
+   "what_es": "Se cuenta el bonus de set por bonus_id, mezclando piezas α/β/γ y HR/MR que comparten bonus (p. ej. Teostra α y Teostra α+).",
+   "default": "se mezclan",
+   "see": "open_questions.md#6"
+  },
+  {
+   "id": "progression_tiers",
+   "what_es": "El filtro de progreso usa el orden de las actualizaciones gratuitas y la rareza del set del propio monstruo; los sets de evento sin monstruo de rareza 12 se tratan como del TU5.",
+   "default": "orden actual",
+   "see": "open_questions.md#7"
+  },
+  {
+   "id": "earplugs_curve",
+   "what_es": "Valor parcial de Anti rugidos 1-4 frente a rugido fuerte (curva 0.12/0.25/0.45/0.7/1).",
+   "default": "curva actual",
+   "see": "open_questions.md#8"
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+# In-process save reader (api/app/savereader): Blowfish-ECB + AES-128-ECB only.
+# Verified 2026-11-17 with CPython 3.14 on Windows x64 (binary wheel, latest on PyPI).
+# Modules actually loaded: Crypto.Cipher.{AES,Blowfish,_mode_ecb}, Crypto.Util.{_raw_api,_cpu_features,_file_system},
+# Crypto.Random; native: Cipher/_raw_{aes,aesni,blowfish,ecb}.pyd + Util/_cpuid_c.pyd (~85 KB of the ~4.8 MB package).
+pycryptodome==4.5.0

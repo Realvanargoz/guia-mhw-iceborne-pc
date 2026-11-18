@@ -1,0 +1,133 @@
+/* ===========================================================================
+   Cromo del libro: barras de scroll y dock flotante (Volver / Subir).
+   Usa los tokens de theme.css (madera, oro, pergamino).
+   =========================================================================== */
+
+/* ---- barras de scroll: una ranura de madera oscura con un tirador de madera y borde dorado ----
+   Nota: no se usa `scrollbar-color`, porque en Chromium anula el estilo ::-webkit-scrollbar. */
+*::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+*::-webkit-scrollbar-track {
+  background: rgba(32, 24, 8, 0.55);
+  border-radius: 8px;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.6);
+}
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, var(--wood-600), var(--wood-700));
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  border-radius: 8px;
+  box-shadow: inset 0 0 0 1px var(--gold-lo);
+  min-height: 40px;
+  min-width: 40px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(90deg, var(--gold-lo), var(--wood-600));
+  background-clip: padding-box;
+  box-shadow: inset 0 0 0 1px var(--gold-hi);
+}
+*::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(90deg, var(--gold), var(--gold-lo));
+  background-clip: padding-box;
+}
+*::-webkit-scrollbar-button {
+  display: none;
+}
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+/* barras horizontales (tablas): el degradado va en vertical */
+*::-webkit-scrollbar-thumb:horizontal {
+  background-image: linear-gradient(180deg, var(--wood-600), var(--wood-700));
+}
+*::-webkit-scrollbar-thumb:horizontal:hover {
+  background-image: linear-gradient(180deg, var(--gold-lo), var(--wood-600));
+}
+/* el índice lateral y los cajones de madera: barra más fina para no robar ancho */
+.nav::-webkit-scrollbar,
+.nav--drawer::-webkit-scrollbar {
+  width: 10px;
+}
+@media (forced-colors: active) {
+  *::-webkit-scrollbar-thumb {
+    background: ButtonText;
+    box-shadow: none;
+  }
+  *::-webkit-scrollbar-track {
+    background: Canvas;
+    box-shadow: none;
+  }
+}
+
+/* ---- botón «Volver» de la barra superior ---- */
+.hbtn--back {
+  padding: 0;
+  min-width: var(--target-touch);
+}
+.hbtn--back:hover {
+  color: var(--gold-hi);
+}
+
+/* ---- dock flotante ---- */
+.fnav {
+  position: fixed;
+  right: max(18px, env(safe-area-inset-right));
+  bottom: max(18px, env(safe-area-inset-bottom));
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  animation: fnav-in 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes fnav-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fnav__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--target-touch);
+  height: var(--target-touch);
+  padding: 0;
+  color: var(--gold-hi);
+  background-color: var(--wood-800);
+  background-image: var(--tex-wood), linear-gradient(#3a2216, #1f120a);
+  border: 1px solid var(--gold-lo);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-wood);
+  cursor: pointer;
+  transition: transform 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+.fnav__btn:hover {
+  color: #fff3c9;
+  border-color: var(--gold-hi);
+  transform: translateY(-1px);
+}
+.fnav__btn:active {
+  transform: translateY(1px);
+}
+.fnav__btn:focus-visible {
+  outline: 2px solid var(--gold-hi);
+  outline-offset: 2px;
+}
+@media (forced-colors: active) {
+  .fnav__btn {
+    background: ButtonFace;
+    color: ButtonText;
+    border-color: ButtonText;
+  }
+}
+@media print {
+  .fnav {
+    display: none;
+  }
+}

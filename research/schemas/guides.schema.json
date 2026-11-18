@@ -1,0 +1,206 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "research seed: guides",
+  "type": "object",
+  "required": [
+    "topic",
+    "entries"
+  ],
+  "properties": {
+    "topic": {
+      "const": "guides"
+    },
+    "notebook": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "slug",
+          "kind",
+          "title_es",
+          "summary_es",
+          "sources"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "kind": {
+            "enum": [
+              "progression",
+              "unlock",
+              "farming",
+              "map",
+              "event",
+              "cooking",
+              "gathering",
+              "loot"
+            ]
+          },
+          "title_es": {
+            "type": "string"
+          },
+          "title_en": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "summary_es": {
+            "type": "string"
+          },
+          "body_md_es": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "steps_es": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "related": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "type",
+                "name_en"
+              ],
+              "properties": {
+                "type": {
+                  "enum": [
+                    "item",
+                    "monster",
+                    "quest",
+                    "armor",
+                    "armor_set",
+                    "location",
+                    "skill",
+                    "weapon",
+                    "layered",
+                    "guide",
+                    "achievement"
+                  ]
+                },
+                "name_en": {
+                  "type": "string"
+                },
+                "note_es": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "pattern": "^https?://"
+                },
+                "note": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "needs_review": {
+            "type": "boolean"
+          },
+          "videos": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "youtube_id",
+                "title"
+              ],
+              "properties": {
+                "youtube_id": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "channel": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "lang": {
+                  "enum": [
+                    "es",
+                    "en"
+                  ]
+                },
+                "views": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ]
+                },
+                "likes": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ]
+                },
+                "low_confidence": {
+                  "type": "boolean"
+                },
+                "published": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "duration_s": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ]
+                },
+                "url": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "retrieved_at": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "goal": "recoleccion",
+  "retrieved_at": "2026-11-15",
+  "label_es": "Recolección eficiente",
+  "scope_es": "Prioriza habilidades que dan objetos extra al recolectar y recolectan más rápido; el resto de la puntuación sigue siendo la defensa del motor. Los pesos son prioridades relativas decididas a partir de las fuentes, no números del juego.",
+  "notes_es": [
+    "Para recolectar en el Arrecife Escarchado hace falta además protegerse del frío (bebida caliente o decoración Warming); el motor no lo contempla.",
+    "Fextralife recomienda para farmear las Tierras Guía: Master Gatherer, Geologist 3, Intimidator, resistencia a parálisis, Flinch Free y capa Ghillie o Assassin's Hood (solo Geologist y Master Gatherer están puntuadas aquí)."
+  ],
+  "weights": {
+    "Botanist": {
+      "weight": 8,
+      "curve": [
+        0,
+        0.3,
+        0.6,
+        0.85,
+        1.0
+      ],
+      "reason_es": "+1 objeto consumible por recolección (hierbas, luego frutas, insectos y setas según el nivel)",
+      "sources": [
+        "fx_botanist"
+      ]
+    },
+    "Geologist": {
+      "weight": 8,
+      "curve": [
+        0,
+        0.35,
+        0.7,
+        1.0
+      ],
+      "reason_es": "+1 recolección extra en huesos, puntos especiales y afloramientos; en Tierras Guía permite recoger dos veces lo que sueltan los monstruos",
+      "sources": [
+        "fx_geologist",
+        "fx_gl"
+      ]
+    },
+    "Master Gatherer": {
+      "weight": 6,
+      "curve": [
+        0,
+        1.0
+      ],
+      "reason_es": "recolectas más rápido y los monstruos pequeños no te interrumpen",
+      "sources": [
+        "fx_gathering_rules"
+      ]
+    },
+    "Honey Hunter": {
+      "weight": 2,
+      "curve": [
+        0,
+        1.0
+      ],
+      "reason_es": "+1 miel por recolección",
+      "sources": [
+        "fx_gathering_rules"
+      ]
+    },
+    "Forager's Luck": {
+      "weight": 5,
+      "curve": [
+        0,
+        1.0
+      ],
+      "reason_es": "aumenta la probabilidad de que reaparezcan puntos de recolección raros",
+      "sources": [
+        "fx_gathering_rules"
+      ]
+    }
+  },
+  "sources": {
+    "fx_botanist": {
+      "title": "Fextralife: Botanist",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist"
+    },
+    "fx_geologist": {
+      "title": "Fextralife: Geologist",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Geologist"
+    },
+    "fx_gl": {
+      "title": "Fextralife: Guiding Lands",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    },
+    "fx_gathering_rules": {
+      "title": "Semilla research/loot/gathering_rules.json (cuaderno 9efbfc77)",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Master+Gatherer"
+    },
+    "fx_carving": {
+      "title": "Fextralife: Carving Master",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Carving+Master"
+    },
+    "fx_partbreaker": {
+      "title": "Fextralife: Partbreaker",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Partbreaker"
+    },
+    "game_data": {
+      "title": "MHWorldData (texto del juego por habilidad y bonus de set)",
+      "url": "https://github.com/gatheringhallstudios/MHWorldData"
+    }
+  },
+  "needs_review": true
+}

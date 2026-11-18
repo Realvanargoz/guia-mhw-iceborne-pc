@@ -1,0 +1,276 @@
+# q|type|limit  (type may be empty; q is URL-encoded by capture.py)
+rathalos||40
+rathalos||5
+rathalos||200
+rathalos|monster|20
+rathalos|monster|1
+rathalo||40
+azur rathalos||40
+azur rathalos||5
+Azure Rathalos||40
+Azure Rathalos||200
+rathian||40
+rathian||5
+rathian|item|20
+Rathalos Azur||40
+nergigante||40
+nergigante||5
+nergigante||200
+Nergigante ||40
+Nergigante |monster|1
+zinogre||40
+zinogre||5
+zinogre|weapon|20
+jagras||40
+jagras||200
+gran jagras||40
+gran jagras||5
+great jagras||40
+espada||40
+espada||5
+espada||200
+espada|armor|20
+espada larga||40
+long sword||40
+long sword||5
+long sword|monster|1
+gran espada||40
+gran espada||200
+arco||40
+arco||5
+arco|skill|20
+cuero||40
+leather||40
+leather||5
+leather||200
+pocion||40
+poción||40
+poción||5
+poción|decoration|20
+antidoto||40
+antidoto||200
+antidoto|monster|1
+antídoto||40
+antídoto||5
+mega pocion||40
+potion||40
+potion||5
+potion||200
+potion|quest|20
+a||40
+e||40
+e||5
+ñ||40
+ñ||200
+ü||40
+ü||5
+ü|armor_set|20
+ü|monster|1
+ra||40
+aj||40
+aj||5
+aj||200
+xx||40
+z||40
+z||5
+z|charm|20
+ataque||40
+ataque||200
+attack boost||40
+attack boost||5
+bonus de ataque||40
+bonus de ataque|monster|1
+critico||40
+critico||5
+critico||200
+critico|location|20
+crítico||40
+evade||40
+evade||5
+evasion||40
+evasion||200
+evasión||40
+evasión||5
+evasión|layered|20
+%||40
+_||40
+_||5
+_||200
+_|monster|1
+100%||40
+a_b||40
+a_b||5
+a_b|achievement|20
+50% off||40
+50% off||200
+rath%||40
+rath%||5
+_athalos||40
+\||40
+\||5
+\||200
+\|guide|20
+'||40
+'|monster|1
+"||40
+"||5
+; drop table||40
+; drop table||200
+<script>||40
+<script>||5
+<script>|monster|20
+   ||40
+  rath  ||40
+  rath  ||5
+  rath  ||200
+||40
+kulve taroth||40
+kulve taroth||5
+kulve taroth|item|20
+kulve taroth|monster|1
+kulve||40
+kulve||200
+Kulve Taroth Alatreon||40
+Kulve Taroth Alatreon||5
+alatreon||40
+safi'jiiva||40
+safi'jiiva||5
+safi'jiiva||200
+safi'jiiva|weapon|20
+safijiva||40
+safi||40
+safi||5
+raging brachydios||40
+raging brachydios||200
+raging brachydios|monster|1
+brachydios||40
+brachydios||5
+brachydios|armor|20
+brakydios||40
+bazelgeuse||40
+bazelgeuse||5
+bazelgeuse||200
+fatalis||40
+armadura||40
+armadura||5
+armadura|skill|20
+hunter||40
+hunter||200
+cazador||40
+cazador||5
+cazador|monster|1
+cantina||40
+canteen||40
+canteen||5
+canteen||200
+canteen|decoration|20
+kjárr||40
+kjarr||40
+kjarr||5
+dragonbone||40
+dragonbone||200
+hueso||40
+hueso||5
+hueso|quest|20
+scale||40
+scale|monster|1
+escama||40
+escama||5
+escama||200
+Lunastra||40
+lunastra's||40
+lunastra's||5
+lunastra's|armor_set|20
+máscara||40
+máscara||200
+mask||40
+mask||5
+Ñandú||40
+über||40
+über||5
+über||200
+über|charm|20
+über|monster|1
+naïve||40
+ﬁsh||40
+ﬁsh||5
+ＲＡＴＨ||40
+ＲＡＴＨ||200
+日本語||40
+日本語||5
+日本語|location|20
+αβγ||40
+zorah magdaros||40
+zorah magdaros||5
+zorah magdaros||200
+Teostra||40
+Teostra|monster|1
+teostra x||40
+teostra x||5
+teostra x|layered|20
+xenojiiva||40
+xenojiiva||200
+xeno'jiiva||40
+xeno'jiiva||5
+xeno jiiva||40
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa||40
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa||5
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa||200
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa|achievement|20
+rathalos rathalos rathalos rathalos rathalos rathalos rathalos rathalos rathalos rathalos rathalos rathalos ||40
+la espada del dragon antiguo de fuego y hielo y trueno y agua y dragon y mas cosas muy largas||40
+la espada del dragon antiguo de fuego y hielo y trueno y agua y dragon y mas cosas muy largas||5
+la espada del dragon antiguo de fuego y hielo y trueno y agua y dragon y mas cosas muy largas|monster|1
+ab||40
+ab||200
+12||40
+12||5
+12|guide|20
+1||40
+10||40
+10||5
+10||200
+iron||40
+hierro||40
+hierro||5
+hierro|monster|20
+iron bow||40
+iron bow||200
+iron bow|monster|1
+ancient forest||40
+ancient forest||5
+bosque primigenio||40
+logro||40
+logro||5
+logro||200
+logro|item|20
+achievement||40
+guia||40
+guia||5
+guide||40
+guide||200
+superpuesta||40
+superpuesta||5
+superpuesta|weapon|20
+superpuesta|monster|1
+layered||40
+charm||40
+charm||5
+charm||200
+amuleto||40
+joya||40
+joya||5
+joya|armor|20
+decoration||40
+decoration||200
+skill||40
+skill||5
+habilidad||40
+habilidad|monster|1
+mision||40
+mision||5
+mision||200
+mision|skill|20
+quest||40
+monstruo||40
+monstruo||5

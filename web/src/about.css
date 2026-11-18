@@ -1,0 +1,47 @@
+/* Página «Acerca de»: lectura cómoda sobre pergamino (ancho de línea contenido). */
+.about {
+  max-width: 78ch;
+  margin-inline: auto;
+}
+.about p,
+.about li {
+  line-height: 1.65;
+}
+.about__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 8px;
+}
+.about__note {
+  padding: 10px 14px;
+  background: color-mix(in srgb, var(--gold) 14%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--gold-lo) 55%, transparent);
+  border-radius: var(--radius);
+}
+.about__credits,
+.about__list {
+  padding-left: 1.2em;
+  display: grid;
+  gap: 8px;
+}
+.about__credits .badge {
+  margin-left: 8px;
+}
+.about__what {
+  color: var(--text-2);
+}
+.about__tech {
+  width: 100%;
+  margin-bottom: 12px;
+}
+.about__fine {
+  font-size: var(--fs-sm);
+  color: var(--muted);
+  margin-top: 16px;
+}
+.about a {
+  overflow-wrap: anywhere;
+}

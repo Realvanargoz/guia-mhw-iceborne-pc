@@ -1,0 +1,1 @@
+{"name":"mhw-design","private":true,"version":"1.0.0","type":"module","license":"UNLICENSED","description":"Original decorative UI art for the MHW guide, authored with HyperFrames","scripts":{"render":"node build.mjs"},"dependencies":{"gsap":"3.13.0","hyperframes":"0.9.52"}}

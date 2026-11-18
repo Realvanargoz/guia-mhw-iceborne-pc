@@ -1,0 +1,5132 @@
+{
+ "topic": "gathering",
+ "retrieved_at": "2026-11-15",
+ "notes": "Hoarfrost Reach: materiales por zona (1-17) segun Game8, solo MR, sin porcentajes ni nodos. Guiding Lands: minerales y huesos por region y nivel (Fextralife); los nodos normales de hierbas/bayas de Guiding Lands NO estan cubiertos (ver open_questions.md).",
+ "entries": [
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 1,
+   "rank": "MR",
+   "item_en": "Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 1,
+   "rank": "MR",
+   "item_en": "Nulberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 1,
+   "rank": "MR",
+   "item_en": "Slinger Torch",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 1,
+   "rank": "MR",
+   "item_en": "Godbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 1,
+   "rank": "MR",
+   "item_en": "Watermoss",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 1,
+   "rank": "MR",
+   "item_en": "Herb",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 1,
+   "rank": "MR",
+   "item_en": "Flowfern",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 1,
+   "rank": "MR",
+   "item_en": "Rime Beetle",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 1,
+   "rank": "MR",
+   "item_en": "Hot Pepper",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Sirve para hacer la Bebida caliente (necesaria en el frío).",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    },
+    {
+     "title": "Fextralife - Hoarfrost Reach",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Hoarfrost+Reach",
+     "note": "lista de materiales de toda la zona (sin desglose por área)"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 1,
+   "rank": "MR",
+   "item_en": "Gloamgrass Bud",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 1,
+   "rank": "MR",
+   "item_en": "Young Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 1,
+   "rank": "MR",
+   "item_en": "Exquisite Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 1,
+   "rank": "MR",
+   "item_en": "Millennium Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Spider Web",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Slinger Torch",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Flamenut",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Ivy",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Latchberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Blastnut",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Honey",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Dreamcore Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Dragoncore Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Young Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Exquisite Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Spiritvein Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Millennium Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Dragonvein Coal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 2,
+   "rank": "MR",
+   "item_en": "Dragonvein Shard",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 3,
+   "rank": "MR",
+   "item_en": "Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 3,
+   "rank": "MR",
+   "item_en": "Nulberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 3,
+   "rank": "MR",
+   "item_en": "Slashberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 3,
+   "rank": "MR",
+   "item_en": "Flamenut",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 3,
+   "rank": "MR",
+   "item_en": "Latchberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 3,
+   "rank": "MR",
+   "item_en": "Herb",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 3,
+   "rank": "MR",
+   "item_en": "Hot Pepper",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Sirve para hacer la Bebida caliente (necesaria en el frío).",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    },
+    {
+     "title": "Fextralife - Hoarfrost Reach",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Hoarfrost+Reach",
+     "note": "lista de materiales de toda la zona (sin desglose por área)"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 3,
+   "rank": "MR",
+   "item_en": "Thick Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 3,
+   "rank": "MR",
+   "item_en": "Frozen Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 3,
+   "rank": "MR",
+   "item_en": "Dragonbone Artifact",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Nulberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Spider Web",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Slashberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Bitterbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Honey",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Snow Herb",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Young Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Exquisite Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Meldspar Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Gracium",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Eltalite Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Purecrystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Millennium Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Dragonvein Coal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 4,
+   "rank": "MR",
+   "item_en": "Dragonvein Shard",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 5,
+   "rank": "MR",
+   "item_en": "Blue Mushroom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 5,
+   "rank": "MR",
+   "item_en": "Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 5,
+   "rank": "MR",
+   "item_en": "Nulberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 5,
+   "rank": "MR",
+   "item_en": "Slinger Torch",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 5,
+   "rank": "MR",
+   "item_en": "Herb",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 5,
+   "rank": "MR",
+   "item_en": "Snow Herb",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 5,
+   "rank": "MR",
+   "item_en": "Hot Pepper",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Sirve para hacer la Bebida caliente (necesaria en el frío).",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    },
+    {
+     "title": "Fextralife - Hoarfrost Reach",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Hoarfrost+Reach",
+     "note": "lista de materiales de toda la zona (sin desglose por área)"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 5,
+   "rank": "MR",
+   "item_en": "Young Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 5,
+   "rank": "MR",
+   "item_en": "Exquisite Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 5,
+   "rank": "MR",
+   "item_en": "Thick Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 5,
+   "rank": "MR",
+   "item_en": "Frozen Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 5,
+   "rank": "MR",
+   "item_en": "Dragonbone Artifact",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 5,
+   "rank": "MR",
+   "item_en": "Millennium Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Nulberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Bomberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Fire Herb",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Slashberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Wiggly Litchi",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Slinger Torch",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Flamenut",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Latchberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Bitterbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Honey",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Dung",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Dreamcore Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Dragoncore Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Hot Pepper",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Sirve para hacer la Bebida caliente (necesaria en el frío).",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    },
+    {
+     "title": "Fextralife - Hoarfrost Reach",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Hoarfrost+Reach",
+     "note": "lista de materiales de toda la zona (sin desglose por área)"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Thick Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Spiritvein Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Frozen Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Dragonbone Artifact",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Dragonvein Coal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 6,
+   "rank": "MR",
+   "item_en": "Dragonvein Shard",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Nulberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Adamant Seed",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Brightmoss",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Flashbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Godbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Thunderbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Hot Pepper",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Sirve para hacer la Bebida caliente (necesaria en el frío).",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    },
+    {
+     "title": "Fextralife - Hoarfrost Reach",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Hoarfrost+Reach",
+     "note": "lista de materiales de toda la zona (sin desglose por área)"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Thick Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Frozen Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Snowpeak Icebloom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Icebloom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Meldspar Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Gracium",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Eltalite Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Dragonbone Artifact",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Purecrystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Moonlight Icebloom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Dragonvein Coal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 7,
+   "rank": "MR",
+   "item_en": "Dragonvein Shard",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Baitbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Bomberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Paratoad",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Toadstool",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Sleep Herb",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Blastnut",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Honey",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Needleberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Brightmoss",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Godbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Parashroom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Watermoss",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Dragonstrike Nut",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Sleeptoad",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Snow Herb",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Dragonfell Berry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Thick Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Frozen Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Snowpeak Icebloom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Icebloom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Meldspar Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Gracium",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Eltalite Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Dragonbone Artifact",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Poisonlantern",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Purecrystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Petalcryst",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Objeto de cuenta (puntos de recursos, 210 pts). Según Fextralife solo aparece en un punto único durante el evento «Flourishing: Frozen Foliage»; el nodo no es permanente [needs_review].",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    },
+    {
+     "title": "Fextralife - Petalcryst",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Petalcryst"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Moonlight Icebloom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Dragonvein Coal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 8,
+   "rank": "MR",
+   "item_en": "Dragonvein Shard",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 9,
+   "rank": "MR",
+   "item_en": "Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 9,
+   "rank": "MR",
+   "item_en": "Baitbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 9,
+   "rank": "MR",
+   "item_en": "Whetfish Fin",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 9,
+   "rank": "MR",
+   "item_en": "Smokenut",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 9,
+   "rank": "MR",
+   "item_en": "Slashberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 9,
+   "rank": "MR",
+   "item_en": "Needleberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 9,
+   "rank": "MR",
+   "item_en": "Flashbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 9,
+   "rank": "MR",
+   "item_en": "Godbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 9,
+   "rank": "MR",
+   "item_en": "Blazenut",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 9,
+   "rank": "MR",
+   "item_en": "King Marlin",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 9,
+   "rank": "MR",
+   "item_en": "Thick Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 9,
+   "rank": "MR",
+   "item_en": "Frozen Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 9,
+   "rank": "MR",
+   "item_en": "Dragonbone Artifact",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 10,
+   "rank": "MR",
+   "item_en": "Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 10,
+   "rank": "MR",
+   "item_en": "Antidote Herb",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 10,
+   "rank": "MR",
+   "item_en": "Slinger Torch",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 10,
+   "rank": "MR",
+   "item_en": "Exciteshroom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 10,
+   "rank": "MR",
+   "item_en": "Needleberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 10,
+   "rank": "MR",
+   "item_en": "Herb",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 10,
+   "rank": "MR",
+   "item_en": "Snow Herb",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 10,
+   "rank": "MR",
+   "item_en": "Thick Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 10,
+   "rank": "MR",
+   "item_en": "Frozen Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 10,
+   "rank": "MR",
+   "item_en": "Dragonbone Artifact",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 11,
+   "rank": "MR",
+   "item_en": "Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 11,
+   "rank": "MR",
+   "item_en": "Nulberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 11,
+   "rank": "MR",
+   "item_en": "Brightmoss",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 11,
+   "rank": "MR",
+   "item_en": "Flashbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 11,
+   "rank": "MR",
+   "item_en": "Thunderbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 11,
+   "rank": "MR",
+   "item_en": "Burst Arowana Scale",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 11,
+   "rank": "MR",
+   "item_en": "Meldspar Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 11,
+   "rank": "MR",
+   "item_en": "Gracium",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 11,
+   "rank": "MR",
+   "item_en": "Eltalite Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 11,
+   "rank": "MR",
+   "item_en": "Purecrystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 11,
+   "rank": "MR",
+   "item_en": "Dragonvein Coal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 11,
+   "rank": "MR",
+   "item_en": "Dragonvein Shard",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 12,
+   "rank": "MR",
+   "item_en": "Baitbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 12,
+   "rank": "MR",
+   "item_en": "Spider Web",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 12,
+   "rank": "MR",
+   "item_en": "Slinger Torch",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 12,
+   "rank": "MR",
+   "item_en": "Thick Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 12,
+   "rank": "MR",
+   "item_en": "Frozen Bone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 12,
+   "rank": "MR",
+   "item_en": "Dragonbone Artifact",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Blue Mushroom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Nulberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Bomberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Fire Herb",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Slashberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Slinger Torch",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Adamant Seed",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Needleberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Flashbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Mandragora",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Herb",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Dragonstrike Nut",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Blazenut",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Chillshroom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Dreamcore Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Dragoncore Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Hot Pepper",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Sirve para hacer la Bebida caliente (necesaria en el frío).",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    },
+    {
+     "title": "Fextralife - Hoarfrost Reach",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Hoarfrost+Reach",
+     "note": "lista de materiales de toda la zona (sin desglose por área)"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Spiritvein Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Meldspar Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Gracium",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Eltalite Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Purecrystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Hot Spring Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Dragonvein Coal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 13,
+   "rank": "MR",
+   "item_en": "Dragonvein Shard",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Nulberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Blastnut",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Honey",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Flashbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Gloamgrass Bud",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Young Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Exquisite Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Meldspar Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Gracium",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Eltalite Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Purecrystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Millennium Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Dragonvein Coal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Dragonvein Shard",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 14,
+   "rank": "MR",
+   "item_en": "Snow White",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 15,
+   "rank": "MR",
+   "item_en": "Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 15,
+   "rank": "MR",
+   "item_en": "Spider Web",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 15,
+   "rank": "MR",
+   "item_en": "Needleberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 15,
+   "rank": "MR",
+   "item_en": "Hot Pepper",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Sirve para hacer la Bebida caliente (necesaria en el frío).",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    },
+    {
+     "title": "Fextralife - Hoarfrost Reach",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Hoarfrost+Reach",
+     "note": "lista de materiales de toda la zona (sin desglose por área)"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 15,
+   "rank": "MR",
+   "item_en": "Snowpeak Icebloom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 15,
+   "rank": "MR",
+   "item_en": "Icebloom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 15,
+   "rank": "MR",
+   "item_en": "Moonlight Icebloom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 16,
+   "rank": "MR",
+   "item_en": "Stone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "[needs_review] No figura en la tabla items de la BD: probablemente vida endémica, munición de resortera o nodo especial, no un objeto recolectable normal.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 16,
+   "rank": "MR",
+   "item_en": "Meldspar Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 16,
+   "rank": "MR",
+   "item_en": "Gracium",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 16,
+   "rank": "MR",
+   "item_en": "Eltalite Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 16,
+   "rank": "MR",
+   "item_en": "Purecrystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 16,
+   "rank": "MR",
+   "item_en": "Dragonvein Coal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 16,
+   "rank": "MR",
+   "item_en": "Dragonvein Shard",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Blue Mushroom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Might Seed",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Bomberry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Nitroshroom",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Blastnut",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Flashbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Godbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Thunderbug",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Dragonfell Berry",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Dreamcore Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Dragoncore Ore",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Young Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Exquisite Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Spiritvein Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Millennium Butterbur",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": null,
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Dragonvein Coal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Hoarfrost Reach",
+   "area": 17,
+   "rank": "MR",
+   "item_en": "Dragonvein Shard",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Mineral de punto de minería.",
+   "sources": [
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862",
+     "note": "lista de materiales por zona (solo MR); sin porcentajes ni nº de nodos"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Decayed Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Forest, nivel de recurso 1 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 6 y 7 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Forest Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Forest, nivel de recurso 2 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 6 y 7 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Prosperous Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Forest, nivel de recurso 3 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 6 y 7 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Guiding Forest Crystal",
+   "stack": 1,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Forest, nivel 4 (Mining Outcrops). Solo sale (1 garantizado) de Afloramientos gigantes, que aparecen al llenar la barra de ese recurso; probabilidad muy baja en nodos normales con la barra en fase 3. Fextralife sitúa los nodos en las zonas 6 y 7 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Cracked Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Wildspire, nivel de recurso 1 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 8 y 9 [needs_review: numeración no verificada]. (Fextralife lo llama también «Weathered Crystal» en otra tabla: contradicción de nombre [needs_review]).",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Wasteland Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Wildspire, nivel de recurso 2 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 8 y 9 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Serene Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Wildspire, nivel de recurso 3 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 8 y 9 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Guiding Wasteland Crystal",
+   "stack": 1,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Wildspire, nivel 4 (Mining Outcrops). Solo sale (1 garantizado) de Afloramientos gigantes, que aparecen al llenar la barra de ese recurso; probabilidad muy baja en nodos normales con la barra en fase 3. Fextralife sitúa los nodos en las zonas 8 y 9 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Pale Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Coral, nivel de recurso 1 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 10 y 11 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Reef Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Coral, nivel de recurso 2 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 10 y 11 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Deepsea Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Coral, nivel de recurso 3 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 10 y 11 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Guiding Reef Crystal",
+   "stack": 1,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Coral, nivel 4 (Mining Outcrops). Solo sale (1 garantizado) de Afloramientos gigantes, que aparecen al llenar la barra de ese recurso; probabilidad muy baja en nodos normales con la barra en fase 3. Fextralife sitúa los nodos en las zonas 10 y 11 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Distorted Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Rotted, nivel de recurso 1 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 12 y 13 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Effluvial Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Rotted, nivel de recurso 2 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 12 y 13 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Twilight Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Rotted, nivel de recurso 3 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 12 y 13 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Guiding Effluvial Crystal",
+   "stack": 1,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Rotted, nivel 4 (Mining Outcrops). Solo sale (1 garantizado) de Afloramientos gigantes, que aparecen al llenar la barra de ese recurso; probabilidad muy baja en nodos normales con la barra en fase 3. Fextralife sitúa los nodos en las zonas 12 y 13 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Melted Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Volcanic, nivel de recurso 1 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Magma Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Volcanic, nivel de recurso 2 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Hellfire Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Volcanic, nivel de recurso 3 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Guiding Magma Crystal",
+   "stack": 1,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Volcanic, nivel 4 (Mining Outcrops). Solo sale (1 garantizado) de Afloramientos gigantes, que aparecen al llenar la barra de ese recurso; probabilidad muy baja en nodos normales con la barra en fase 3.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Frozen Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Tundra, nivel de recurso 1 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Rime Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Tundra, nivel de recurso 2 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Daybreak Crystal",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Tundra, nivel de recurso 3 (Mining Outcrops). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Guiding Rime Crystal",
+   "stack": 1,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Tundra, nivel 4 (Mining Outcrops). Solo sale (1 garantizado) de Afloramientos gigantes, que aparecen al llenar la barra de ese recurso; probabilidad muy baja en nodos normales con la barra en fase 3.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Mossy Greatbone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Forest, nivel de recurso 1 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 6 y 7 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Woodland Greatbone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Forest, nivel de recurso 2 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 6 y 7 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Slumbering Greatbone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Forest, nivel de recurso 3 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 6 y 7 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Guiding Forest Dragonbone",
+   "stack": 1,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Forest, nivel 4 (Bonepiles). Solo sale (1 garantizado) de Montones de huesos gigantes, que aparecen al llenar la barra de ese recurso; probabilidad muy baja en nodos normales con la barra en fase 3. Fextralife sitúa los nodos en las zonas 6 y 7 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Weathered Cragbone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Wildspire, nivel de recurso 1 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 8 y 9 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Wasteland Cragbone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Wildspire, nivel de recurso 2 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 8 y 9 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Tempered Cragbone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Wildspire, nivel de recurso 3 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 8 y 9 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Guiding Wasteland Dragonbone",
+   "stack": 1,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Wildspire, nivel 4 (Bonepiles). Solo sale (1 garantizado) de Montones de huesos gigantes, que aparecen al llenar la barra de ese recurso; probabilidad muy baja en nodos normales con la barra en fase 3. Fextralife sitúa los nodos en las zonas 8 y 9 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Vivid Crimsonbone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Coral, nivel de recurso 1 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 10 y 11 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Coral Crimsonbone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Coral, nivel de recurso 2 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 10 y 11 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Vibrant Crimsonbone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Coral, nivel de recurso 3 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 10 y 11 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Guiding Reef Dragonbone",
+   "stack": 1,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Coral, nivel 4 (Bonepiles). Solo sale (1 garantizado) de Montones de huesos gigantes, que aparecen al llenar la barra de ese recurso; probabilidad muy baja en nodos normales con la barra en fase 3. Fextralife sitúa los nodos en las zonas 10 y 11 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Malformed Frenzybone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Rotted, nivel de recurso 1 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 12 y 13 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Effluvial Frenzybone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Rotted, nivel de recurso 2 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 12 y 13 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Afflicted Frenzybone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Rotted, nivel de recurso 3 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región. Fextralife sitúa los nodos en las zonas 12 y 13 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Guiding Rotted Dragonbone",
+   "stack": 1,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Rotted, nivel 4 (Bonepiles). Solo sale (1 garantizado) de Montones de huesos gigantes, que aparecen al llenar la barra de ese recurso; probabilidad muy baja en nodos normales con la barra en fase 3. Fextralife sitúa los nodos en las zonas 12 y 13 [needs_review: numeración no verificada].",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Simmering Wildbone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Volcanic, nivel de recurso 1 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Volcanic Wildbone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Volcanic, nivel de recurso 2 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Dragonscorched Wildbone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Volcanic, nivel de recurso 3 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Guiding Volcanic Dragonbone",
+   "stack": 1,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Volcanic, nivel 4 (Bonepiles). Solo sale (1 garantizado) de Montones de huesos gigantes, que aparecen al llenar la barra de ese recurso; probabilidad muy baja en nodos normales con la barra en fase 3.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Hoary Icebone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Tundra, nivel de recurso 1 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Tundra Icebone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Tundra, nivel de recurso 2 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Everfrost Icebone",
+   "stack": null,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Tundra, nivel de recurso 3 (Bonepiles). El nodo de nivel N da materiales de nivel N y, raramente, N+1. El nivel de recurso depende de la barra de progreso propia de cada recurso/región, no del nivel de región.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  },
+  {
+   "location_en": "Guiding Lands",
+   "area": null,
+   "rank": "MR",
+   "item_en": "Guiding Tundra Dragonbone",
+   "stack": 1,
+   "percentage": null,
+   "nodes": null,
+   "notes_es": "Región Tundra, nivel 4 (Bonepiles). Solo sale (1 garantizado) de Montones de huesos gigantes, que aparecen al llenar la barra de ese recurso; probabilidad muy baja en nodos normales con la barra en fase 3.",
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    }
+   ]
+  }
+ ]
+}

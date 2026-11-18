@@ -1,0 +1,112 @@
+{
+ "topic": "festivals",
+ "retrieved_at": "2026-11-15",
+ "notes": "Desde la actualización del 4 de diciembre de 2020, Capcom indica que los festivales de Astera y Seliana vuelven en bloques de dos semanas a lo largo del año, según la estación. No publica fechas fijas para PC: el periodo activo se ve en el tablón de avisos del juego. Los festivales de Astera y Seliana de la misma estación van a la vez. Los nombres en español de los festivales son descriptivos; los tickets llevan su nombre oficial.",
+ "entries": [
+  {
+   "slug": "spring",
+   "season": "spring",
+   "name_es": "Festival de primavera",
+   "astera_en": "Spring Blossom Fest",
+   "seliana_en": "Full Bloom Fest",
+   "theme": "spring",
+   "sort_order": 1,
+   "summary_es": "Festival de las flores en Astera y Seliana. Durante el festival hay rebajas diarias, bonificación por iniciar sesión, encargos limitados y vuelven muchas misiones de evento.",
+   "tickets": [
+    {"item_en": "Spring Blossom Ticket", "note_es": "Ticket de Astera (rango alto)."},
+    {"item_en": "Full Bloom Ticket", "note_es": "Ticket de Seliana."},
+    {"item_en": "VIP Full Bloom Ticket", "note_es": "Recompensa especial en rango maestro; sirve para la superpuesta Rosas."}
+   ],
+   "layered": [{"slug": "rose", "name_es": "Rosas (superpuesta)"}],
+   "known_periods": [{"start": "2021-03-12", "end": "2021-03-26", "source": "https://game8.co/games/Monster-Hunter-World/archives/292523"}],
+   "sources": [
+    {"title": "Capcom: calendario oficial de misiones de evento (rotación de festivales)", "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"},
+    {"title": "Game8: Seliana Fests", "url": "https://game8.co/games/Monster-Hunter-World/archives/292523"},
+    {"title": "Kiranico: Rose (materiales de la superpuesta)", "url": "https://mhworld.kiranico.com/es/armorseries"}
+   ]
+  },
+  {
+   "slug": "summer",
+   "season": "summer",
+   "name_es": "Festival de verano",
+   "astera_en": "Summer Twilight Fest",
+   "seliana_en": "Sizzling Spice Fest",
+   "theme": "summer",
+   "sort_order": 2,
+   "summary_es": "Festival de verano en Astera y Seliana, con decoración, platos y tickets propios.",
+   "tickets": [
+    {"item_en": "Summer Twilight Ticket", "note_es": "Ticket de Astera: superpuestas Buceo y Gafas oscuras."},
+    {"item_en": "VIP Sizzling Spice Ticket", "note_es": "Ticket VIP de Seliana: superpuesta Pasión."}
+   ],
+   "layered": [{"slug": "diver", "name_es": "Buceo (superpuesta)"}, {"slug": "shadow-shades", "name_es": "Gafas oscuras (superpuesta)"}, {"slug": "passion", "name_es": "Pasión (superpuesta)"}],
+   "known_periods": [],
+   "sources": [
+    {"title": "Capcom: calendario oficial de misiones de evento (rotación de festivales)", "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"},
+    {"title": "Game8: Seliana Fests", "url": "https://game8.co/games/Monster-Hunter-World/archives/292523"}
+   ]
+  },
+  {
+   "slug": "autumn",
+   "season": "autumn",
+   "name_es": "Festival de otoño",
+   "astera_en": "Autumn Harvest Fest",
+   "seliana_en": "Fun Fright Fest",
+   "theme": "autumn",
+   "sort_order": 3,
+   "summary_es": "Festival de la cosecha en Astera y de los sustos en Seliana.",
+   "tickets": [
+    {"item_en": "Autumn Harvest Ticket", "note_es": "Ticket de Astera: superpuesta Cosecha."},
+    {"item_en": "Fun Fright Ticket", "note_es": "Ticket de Seliana."},
+    {"item_en": "VIP Fun Fright Ticket", "note_es": "Ticket VIP de Seliana: superpuesta Endemoniado."}
+   ],
+   "layered": [{"slug": "harvest", "name_es": "Cosecha (superpuesta)"}, {"slug": "demonlord", "name_es": "Endemoniado (superpuesta)"}],
+   "known_periods": [],
+   "sources": [
+    {"title": "Capcom: calendario oficial de misiones de evento (rotación de festivales)", "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"},
+    {"title": "Game8: Seliana Fests", "url": "https://game8.co/games/Monster-Hunter-World/archives/292523"}
+   ]
+  },
+  {
+   "slug": "winter",
+   "season": "winter",
+   "name_es": "Festival de invierno",
+   "astera_en": "Winter Star Fest",
+   "seliana_en": "Holiday Joy Fest",
+   "theme": "winter",
+   "sort_order": 4,
+   "summary_es": "Festival de la estrella de invierno en Astera y fiesta lunar en Seliana.",
+   "tickets": [
+    {"item_en": "Winter Star Ticket", "note_es": "Ticket de Astera: superpuesta Orión."},
+    {"item_en": "Joyful Ticket", "note_es": "Ticket de Seliana (Vale lunar)."},
+    {"item_en": "VIP Joyful Ticket", "note_es": "Ticket VIP de Seliana: superpuesta Feng Huo."}
+   ],
+   "layered": [{"slug": "orion", "name_es": "Orión (superpuesta)"}, {"slug": "oolong", "name_es": "Feng Huo (superpuesta)"}],
+   "known_periods": [],
+   "sources": [
+    {"title": "Capcom: calendario oficial de misiones de evento (rotación de festivales)", "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"},
+    {"title": "Fextralife: Master Rank Event Quests (Winter Star Fest / Holiday Joy Fest)", "url": "https://monsterhunterworld.wiki.fextralife.com/Festivals"}
+   ]
+  },
+  {
+   "slug": "appreciation",
+   "season": "appreciation",
+   "name_es": "Gran Festival de Gratitud",
+   "astera_en": "Appreciation Fest",
+   "seliana_en": "Grand Appreciation Fest",
+   "theme": "appreciation",
+   "sort_order": 5,
+   "summary_es": "Festival de agradecimiento: tres vales de la suerte al día al iniciar sesión, además de un Vale astral, encargos limitados que cambian a diario y misiones de evento.",
+   "tickets": [
+    {"item_en": "Appreciation Ticket", "note_es": "Ticket de Astera: superpuesta Traje de gala."},
+    {"item_en": "Gratitude Ticket", "note_es": "Ticket de Seliana (Vale astral): set Astral α+."},
+    {"item_en": "VIP Gratitude Ticket", "note_es": "Ticket VIP de Seliana: superpuesta Astral."}
+   ],
+   "layered": [{"slug": "gala-suit", "name_es": "Traje de gala (superpuesta)"}, {"slug": "astral", "name_es": "Astral (superpuesta)"}],
+   "known_periods": [],
+   "sources": [
+    {"title": "Fextralife: Grand Appreciation Fest", "url": "https://monsterhunterworld.wiki.fextralife.com/Grand+Appreciation+Fest"},
+    {"title": "Capcom: calendario oficial de misiones de evento (rotación de festivales)", "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"}
+   ]
+  }
+ ]
+}

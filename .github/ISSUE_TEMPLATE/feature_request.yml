@@ -1,0 +1,26 @@
+name: Sugerencia
+description: Propón una mejora o una función nueva
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: ¿Qué necesitas o qué problema quieres resolver?
+    validations:
+      required: true
+  - type: textarea
+    id: propuesta
+    attributes:
+      label: Propuesta
+      description: Cómo te gustaría que funcionara.
+    validations:
+      required: true
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Alternativas consideradas
+  - type: textarea
+    id: fuentes
+    attributes:
+      label: Fuentes (si propones datos nuevos)
+      description: Enlaces donde se pueda comprobar la información.

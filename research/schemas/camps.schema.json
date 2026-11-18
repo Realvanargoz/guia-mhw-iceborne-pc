@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "research seed: camps",
+  "type": "object",
+  "required": [
+    "topic",
+    "entries"
+  ],
+  "properties": {
+    "topic": {
+      "const": "camps"
+    },
+    "notebook": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "location_en",
+          "name_en",
+          "sources"
+        ],
+        "properties": {
+          "location_en": {
+            "type": "string"
+          },
+          "name_en": {
+            "type": "string"
+          },
+          "name_es": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "area": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "unlock_es": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "pattern": "^https?://"
+                },
+                "note": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

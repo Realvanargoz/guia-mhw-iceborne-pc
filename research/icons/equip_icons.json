@@ -1,0 +1,41 @@
+{
+ "_source": "https://mhw.poedb.tw/eng/weapons/<tipo>/<rareza>, /armorset/37, /charms (cache data/raw/poedb)",
+ "file_pattern": "equip/{tipo}-{rareza}.webp (tipo = mhw.weapons.weapon_type, mhw.armor.type, 'charm' o 'armorset'; rareza 1-12)",
+ "icon_ids": {
+  "great-sword": 241,
+  "long-sword": 242,
+  "sword-and-shield": 240,
+  "dual-blades": 243,
+  "hammer": 246,
+  "hunting-horn": 247,
+  "lance": 244,
+  "gunlance": 245,
+  "switch-axe": 248,
+  "charge-blade": 249,
+  "insect-glaive": 250,
+  "light-bowgun": 251,
+  "heavy-bowgun": 252,
+  "bow": 253,
+  "head": 224,
+  "chest": 225,
+  "arms": 226,
+  "waist": 227,
+  "legs": 228,
+  "charm": 229,
+  "armorset": 230
+ },
+ "rarity_color_ids": {
+  "1": 10,
+  "2": 0,
+  "3": 2,
+  "4": 21,
+  "5": 6,
+  "6": 20,
+  "7": 16,
+  "8": 7,
+  "9": 8,
+  "10": 15,
+  "11": 4,
+  "12": 27
+ }
+}

@@ -1,0 +1,8 @@
+# Dependencias de ejecución (app nativa, SQLite). Versiones probadas y limpias en pip-audit (S2, 2026-11-17).
+# Sin psycopg ni uvicorn[standard]: no se necesitan y engordan el paquete.
+fastapi==0.163.2
+starlette==1.10.0
+pydantic==2.14.3
+uvicorn==0.34.0
+python-multipart==0.0.34
+pycryptodome==4.5.0

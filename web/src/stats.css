@@ -1,0 +1,67 @@
+/* Estadísticas del cazador + marcas de progreso en armaduras y misiones */
+.stats .section { margin-top: var(--sp-5); }
+.st-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: var(--sp-2); margin: var(--sp-3) 0; }
+.st-facts--tight { margin: var(--sp-2) 0; }
+.st-fact { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: var(--sp-2) var(--sp-3); }
+.st-fact dt { font-size: var(--fs-xs); color: var(--muted); }
+.st-fact dd { margin: 2px 0 0; font-weight: 700; font-size: var(--fs-md); overflow-wrap: anywhere; }
+.st-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: var(--sp-3) var(--sp-4); box-shadow: var(--shadow-paper); }
+.st-card h3 { margin: 0 0 var(--sp-2); font-family: var(--font-display); font-size: var(--fs-md); color: var(--heading); }
+.st-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: var(--sp-3); margin-top: var(--sp-3); }
+.st-h3 { font-family: var(--font-display); font-size: var(--fs-md); margin: var(--sp-4) 0 var(--sp-2); color: var(--heading); }
+.st-quote { margin: var(--sp-2) 0 0; font-style: italic; color: var(--text-2); }
+.st-hint { margin: var(--sp-2) 0; padding: var(--sp-2) var(--sp-3); border: 1px dashed var(--line-strong); border-radius: var(--radius); color: var(--text-2); font-size: var(--fs-sm); }
+.st-empty { padding: var(--sp-4); border: 1px dashed var(--line-strong); border-radius: var(--radius-lg); background: var(--surface); display: grid; gap: var(--sp-3); justify-items: start; }
+.st-counts { margin-top: var(--sp-2); }
+
+.st-bars { list-style: none; margin: var(--sp-2) 0; padding: 0; display: grid; gap: 6px; }
+.st-bar { display: grid; grid-template-columns: minmax(110px, 38%) 1fr auto; align-items: center; gap: var(--sp-2); font-size: var(--fs-sm); }
+.st-bar__label { display: inline-flex; align-items: center; gap: 6px; min-width: 0; font-weight: 600; }
+.st-bar__track { height: 10px; background: #3b2717; border: 1px solid #1a1006; border-radius: 3px; box-shadow: inset 0 1px 3px rgba(0,0,0,.7); overflow: hidden; }
+.st-bar__fill { display: block; height: 100%; background: linear-gradient(#ffb94a, var(--research) 55%, #c97500); }
+.st-bar__num { color: var(--text-2); font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+
+.st-crowns { display: flex; gap: var(--sp-4); flex-wrap: wrap; margin-top: var(--sp-2); }
+.st-crown { display: inline-flex; align-items: center; gap: 6px; font-size: var(--fs-md); }
+.st-top { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); gap: 2px var(--sp-4); counter-reset: top; }
+.st-top li { counter-increment: top; border-bottom: 1px solid var(--line); }
+.st-top__a { display: flex; align-items: center; gap: var(--sp-2); padding: 6px 4px; color: var(--text); flex-wrap: wrap; }
+.st-top__a::before { content: counter(top) "."; width: 1.6em; color: var(--muted); font-variant-numeric: tabular-nums; }
+.st-top__n { font-weight: 600; }
+.st-regions { list-style: none; padding: 0; margin: var(--sp-3) 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr)); gap: var(--sp-2); }
+.st-region { display: grid; gap: 2px; }
+.st-slots { list-style: none; padding: 0; margin: var(--sp-3) 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr)); gap: var(--sp-2); }
+.st-slot { display: grid; gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: var(--sp-2) var(--sp-3); }
+.st-slot__k { font-size: var(--fs-xs); color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.st-slot__item { display: inline-flex; align-items: center; gap: var(--sp-2); font-weight: 600; }
+.st-toggle { margin: var(--sp-2) 0; }
+.st-loadouts { list-style: none; padding: 0; margin: var(--sp-2) 0; display: grid; gap: 2px; }
+.st-loadout { display: grid; gap: 2px; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.st-loadout__items { display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: var(--fs-sm); }
+
+/* Armaduras y misiones: marcas de la partida */
+.card--own { position: relative; }
+.st-own { display: grid; gap: 4px; font-size: var(--fs-sm); }
+.st-own--none { color: var(--muted); }
+.st-ribbon { position: absolute; top: 8px; right: -6px; background: var(--ok); color: #f4f0dc; font: 700 11px/1 var(--font-data); padding: 5px 10px 5px 8px; border-radius: 3px 0 0 3px; box-shadow: 0 1px 3px rgba(0,0,0,.4); }
+.st-ribbon::after { content: ""; position: absolute; right: 0; bottom: -5px; border: 3px solid transparent; border-top-color: #0f2f0d; border-right-color: #0f2f0d; }
+.st-summary { background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--radius); padding: var(--sp-2) var(--sp-3); margin: var(--sp-2) 0 var(--sp-3); display: grid; gap: 4px; }
+.st-summary b { color: var(--heading); }
+.st-have { display: inline-flex; align-items: center; gap: 4px; font-weight: 700; color: var(--ok); font-size: var(--fs-sm); white-space: nowrap; }
+.st-have::before { content: "✓"; display: inline-grid; place-items: center; width: 16px; height: 16px; border-radius: 50%; background: var(--ok); color: #f4f0dc; font-size: 11px; }
+.st-have--no { color: var(--muted); font-weight: 600; }
+.st-have--no::before { content: "–"; background: var(--line-strong); }
+.st-done { display: inline-flex; align-items: center; gap: 4px; color: var(--ok); font-weight: 700; font-size: var(--fs-sm); }
+.st-done::before { content: "✓"; display: inline-grid; place-items: center; width: 16px; height: 16px; border-radius: 50%; background: var(--ok); color: #f4f0dc; font-size: 11px; }
+.table tr.st-row--own td:first-child { box-shadow: inset 3px 0 0 var(--ok); }
+.st-note { font-size: var(--fs-sm); color: var(--muted); margin: 4px 0 var(--sp-3); }
+.st-pbar { height: 8px; }
+
+@media (max-width: 560px) {
+  .st-bar { grid-template-columns: 1fr auto; }
+  .st-bar__track { grid-column: 1 / -1; grid-row: 2; }
+  .st-grid { grid-template-columns: 1fr; }
+}
+.tile--stats { display: block; margin: var(--sp-3) 0; }
+.st-summary .pbar, .st-own .pbar { grid-template-columns: 1fr auto; margin: 2px 0; }
+.table .st-have { margin-left: 8px; }

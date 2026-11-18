@@ -1,0 +1,1675 @@
+{
+ "topic": "quest_availability",
+ "retrieved_at": "2026-11-15",
+ "notes": "Generado a partir del calendario oficial de Capcom (una sola página para todas las plataformas). Asedios: el de Safi'jiiva y el de Kulve Taroth (con «The Eternal Gold Rush») se alternan cada dos semanas.",
+ "entries": [
+  {
+   "quest_en": "USJ: Gold Star Treatment",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Lessons of the Wild",
+   "pc_available": false,
+   "pc_notes_es": "Exclusiva de PS4 según el calendario oficial de Capcom (colaboración con Horizon Zero Dawn). Nunca llegó a PC.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    },
+    {
+     "title": "Capcom: calendario de eventos de Steam, capturas de 2018 a 2020",
+     "url": "https://web.archive.org/web/2019*/http://game.capcom.com/world/steam/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Proving",
+   "pc_available": false,
+   "pc_notes_es": "Exclusiva de PS4 según el calendario oficial de Capcom (colaboración con Horizon Zero Dawn). Nunca llegó a PC.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    },
+    {
+     "title": "Capcom: calendario de eventos de Steam, capturas de 2018 a 2020",
+     "url": "https://web.archive.org/web/2019*/http://game.capcom.com/world/steam/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "A Rush of Blood",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "USJ Blazing Azure Stars!",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Code: Red",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "A Visitor from Eorzea (Extreme)",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Heart of the Nora",
+   "pc_available": false,
+   "pc_notes_es": "Exclusiva de PS4 según el calendario oficial de Capcom (colaboración con Horizon Zero Dawn). Nunca llegó a PC.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    },
+    {
+     "title": "Capcom: calendario de eventos de Steam, capturas de 2018 a 2020",
+     "url": "https://web.archive.org/web/2019*/http://game.capcom.com/world/steam/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Contract: Woodland Spirit",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Up at the Crack of Dawn",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Chew The Fat",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Where Sun Meets Moon",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Timberland Troublemakers",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Ya-Ku With That?",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Every Hunter's Dream",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Wicked Wildspire Warfare",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Kirin The Myth",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Poison Posse",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Midnight Mayhem",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Mosswinin' and Dinin'",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Gaze Upon the Dawn",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Scrapping with the Shamos",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "A Flash in the Pan",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Egg Lovers United",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Wiggle Me This",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Triple Threat Throwdown",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "A Royal Pain",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Kings Know No Fear",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Deep Green Blues",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Coral Waltz",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Effluvial Opera",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Rock N' Roll Recess",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "This is How Revolts Start",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Greatest Jagras",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Name's Lavasioth!",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Scorn of the Sun",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Eye of the Storm",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Heralds of Destruction Cry",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "When Blue Dust Surpasses Red Lust",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Undying Alpenglow",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Like a Moth to the Flame",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Keeper of the Otherworld",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "A Simple Task",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Tracking the Delivery",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Snow & Cherry Blossoms",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "No Tomorrow for Usurpers",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Thronetaker",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Down the Dark, Muddy Path",
+   "pc_available": true,
+   "pc_notes_es": "Colaboración con Street Fighter V. Llegó a Steam del 30/09 al 05/11/2020 y desde diciembre de 2020 está en la rotación permanente.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    },
+    {
+     "title": "Capcom: colaboración con Street Fighter V en Steam (30/09-05/11/2020)",
+     "url": "https://web.archive.org/web/20210412224540/http://monsterhunterworld.com/pc/us/topics/dlc_streetfighter/"
+    }
+   ]
+  },
+  {
+   "quest_en": "Empress in Full Bloom I",
+   "pc_available": true,
+   "pc_notes_es": "Colaboración con Street Fighter V. Llegó a Steam del 30/09 al 05/11/2020 y desde diciembre de 2020 está en la rotación permanente.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    },
+    {
+     "title": "Capcom: colaboración con Street Fighter V en Steam (30/09-05/11/2020)",
+     "url": "https://web.archive.org/web/20210412224540/http://monsterhunterworld.com/pc/us/topics/dlc_streetfighter/"
+    }
+   ]
+  },
+  {
+   "quest_en": "Empress in Full Bloom II",
+   "pc_available": true,
+   "pc_notes_es": "Colaboración con Street Fighter V. Llegó a Steam del 30/09 al 05/11/2020 y desde diciembre de 2020 está en la rotación permanente.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    },
+    {
+     "title": "Capcom: colaboración con Street Fighter V en Steam (30/09-05/11/2020)",
+     "url": "https://web.archive.org/web/20210412224540/http://monsterhunterworld.com/pc/us/topics/dlc_streetfighter/"
+    }
+   ]
+  },
+  {
+   "quest_en": "Empress in Full Bloom III",
+   "pc_available": true,
+   "pc_notes_es": "Colaboración con Street Fighter V. Llegó a Steam del 30/09 al 05/11/2020 y desde diciembre de 2020 está en la rotación permanente.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    },
+    {
+     "title": "Capcom: colaboración con Street Fighter V en Steam (30/09-05/11/2020)",
+     "url": "https://web.archive.org/web/20210412224540/http://monsterhunterworld.com/pc/us/topics/dlc_streetfighter/"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Awakened Satsui No Hado I",
+   "pc_available": true,
+   "pc_notes_es": "Colaboración con Street Fighter V. Llegó a Steam del 30/09 al 05/11/2020 y desde diciembre de 2020 está en la rotación permanente.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    },
+    {
+     "title": "Capcom: colaboración con Street Fighter V en Steam (30/09-05/11/2020)",
+     "url": "https://web.archive.org/web/20210412224540/http://monsterhunterworld.com/pc/us/topics/dlc_streetfighter/"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Awakened Satsui No Hado II",
+   "pc_available": true,
+   "pc_notes_es": "Colaboración con Street Fighter V. Llegó a Steam del 30/09 al 05/11/2020 y desde diciembre de 2020 está en la rotación permanente.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    },
+    {
+     "title": "Capcom: colaboración con Street Fighter V en Steam (30/09-05/11/2020)",
+     "url": "https://web.archive.org/web/20210412224540/http://monsterhunterworld.com/pc/us/topics/dlc_streetfighter/"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Awakened Satsui No Hado III",
+   "pc_available": true,
+   "pc_notes_es": "Colaboración con Street Fighter V. Llegó a Steam del 30/09 al 05/11/2020 y desde diciembre de 2020 está en la rotación permanente.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    },
+    {
+     "title": "Capcom: colaboración con Street Fighter V en Steam (30/09-05/11/2020)",
+     "url": "https://web.archive.org/web/20210412224540/http://monsterhunterworld.com/pc/us/topics/dlc_streetfighter/"
+    }
+   ]
+  },
+  {
+   "quest_en": "Vespoid Infestation!",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Challenge Quest 2: Beginner",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Gajalaka Outbreak!",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Gale & Fangs Slay Event 1",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Gale & Fangs Slay Event 2",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Gale & Fangs Slay Event 3",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Deviljho Slay Event",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "What Lurks In The Forest",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "When Law Meets War",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Nergigante Slay Event 1",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Nergigante Slay Event 2",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Nergigante Slay Event 3",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Nergigante Slay Event 4",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Best of the Best",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Hunter and The Blue Empress",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Challenge Quest 1: Expert",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Challenge Quest 2: Expert",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Red Dragon",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "USJ: Shine On Forever",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "USJ: Ballet of Frost",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Survivor",
+   "pc_available": false,
+   "pc_notes_es": "Exclusiva de PS4 según el calendario oficial de Capcom (colaboración con Horizon Zero Dawn). Nunca llegó a PC.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Firebreak",
+   "pc_available": false,
+   "pc_notes_es": "Exclusiva de PS4 según el calendario oficial de Capcom (colaboración con Horizon Zero Dawn). Nunca llegó a PC.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Into the Frozen Wilds",
+   "pc_available": false,
+   "pc_notes_es": "Exclusiva de PS4 según el calendario oficial de Capcom (colaboración con Horizon Zero Dawn). Nunca llegó a PC.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Pearl Snatchers",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Trophy Fishin'",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Desert Desserts",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "A Bunch of Sticks in the Mud",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Duffel Duty",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Flora Frostbite",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Skyward Snipers",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "A Fish to Whet Your Appetite",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Fetching Light Pearls",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "A New Troublemaker in Town",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Colorful Carnival",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Balloon Fight",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Every Hunter's Dream II",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Paolumu Lullabies",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Camoflawed",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Kadachi Twins",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "A Curious Experiment",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Fired-Up Bruisers",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Every Hunter's Dream III",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "50 Shades of White",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "When the Swift Meets the Roar",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Seeing is Believing",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Desert Dash",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Servants of the Vale",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Scores of Ores",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Beef is Never a Mi-steak",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "We Three Kings",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Winter Blues",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "A Reason Behind The Hunger",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "RE: Return of the Bioweapon",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "A Chilling Entrance",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Old Dog, New Trick",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Moonlit Howl",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "A Glance of Silver",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Moon is a Harsh Queen",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Scars Tell the Whole Story",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Muscle Monkey Madness",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "A Shocking Climax",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Yodeling in the Forest",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Heavy Metal in the Waste",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Symphony of the Coral",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Rotten Canzone",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Ballad of the Hoarfrost",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Wolf Out of Hell",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Wrath of Thunder Descends",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Ode to the Destruction",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Distant Dark Tide",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Last White Knight",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Don't Forget The Earplugs!",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Monkey Business",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Naked Truth",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Place Where Winter Sleeps",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "In the Tempest's Wake",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Day of Ruin",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Cold Never Bothered Me",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Mew are Number One!",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Tears from Nirvana",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Mighty Muscle Monkey Madness",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "A Farewell to Zinogre",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Brand New Brute",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The True Tyrant",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Farewell to the Frozen",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Wearer of the Iceborne Crown",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "A Star That Will Never Dim",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Aiming for the Light",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Fear No Scars",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "Power and Technique",
+   "pc_available": true,
+   "pc_notes_es": "Disponible en PC: desde el 4 de diciembre de 2020 casi todas las misiones de evento están siempre disponibles (hay que jugar en línea).",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RM), captura del 26/03/2026",
+     "url": "https://web.archive.org/web/20260326202225/https://game.capcom.com/world/us/schedule-master.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The New World",
+   "pc_available": false,
+   "pc_notes_es": "Colaboración con la película Monster Hunter (Artemis). Estuvo en PC, pero Capcom la retiró de todas las plataformas el 2 de diciembre de 2021 y no tiene previsto recuperarla.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "To Our World",
+   "pc_available": false,
+   "pc_notes_es": "Colaboración con la película Monster Hunter (Artemis). Estuvo en PC, pero Capcom la retiró de todas las plataformas el 2 de diciembre de 2021 y no tiene previsto recuperarla.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "SDF: Silent, Deadly, and Fierce",
+   "pc_available": false,
+   "pc_notes_es": "Colaboración con Assassin's Creed (Bayek). Estuvo en PC, pero Capcom la retiró de todas las plataformas el 2 de diciembre de 2021 y no tiene previsto recuperarla.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  },
+  {
+   "quest_en": "The Assassin",
+   "pc_available": false,
+   "pc_notes_es": "Colaboración con Assassin's Creed (Bayek). Estuvo en PC, pero Capcom la retiró de todas las plataformas el 2 de diciembre de 2021 y no tiene previsto recuperarla.",
+   "sources": [
+    {
+     "title": "Capcom: calendario oficial de misiones de evento (RB/RA), captura del 20/01/2026",
+     "url": "https://web.archive.org/web/20260120103548/https://game.capcom.com/world/us/schedule.html"
+    }
+   ]
+  }
+ ]
+}

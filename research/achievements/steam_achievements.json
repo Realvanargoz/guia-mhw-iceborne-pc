@@ -1,0 +1,3151 @@
+{
+ "topic": "achievements",
+ "retrieved_at": "2026-11-15",
+ "notes": "Lista oficial de Steam (app 582010): 50 logros del juego base y 50 de Iceborne, con nombre y descripción oficiales en inglés y español. Guías contrastadas entre PowerPyx, la Monster Hunter Wiki y Fextralife.",
+ "entries": [
+  {
+   "slug": "conqueror-of-the-new-world",
+   "name_en": "Conqueror of the New World",
+   "name_es": "El Nuevo Mundo es tuyo",
+   "description_en": "Unlock all achievements for Monster Hunter: World.",
+   "description_es": "Desbloquea todos los logros de Monster Hunter: World.",
+   "category": "misc",
+   "hidden": false,
+   "guide_es": "Se desbloquea al conseguir los otros 49 logros del juego base (Achievement1 a Achievement49). No requiere Iceborne.",
+   "sort_order": 1,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "welcome-to-the-new-world",
+   "name_en": "Welcome to the New World",
+   "name_es": "Bienvenido al Nuevo Mundo",
+   "description_en": "Earn the right to take on two-star assignments.",
+   "description_es": "Gana el derecho a emprender encargos de dos estrellas.",
+   "category": "story",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Se obtiene al avanzar la historia de Rango Bajo hasta los encargos de 2★.",
+   "sort_order": 2,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "nothing-stops-this-commission",
+   "name_en": "Nothing Stops This Commission",
+   "name_es": "Nada detiene a la comisión",
+   "description_en": "Earn the right to take on three-star assignments.",
+   "description_es": "Gana el derecho a emprender encargos de tres estrellas.",
+   "category": "story",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Se obtiene al desbloquear los encargos de 3★.",
+   "sort_order": 3,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "defender-of-astera",
+   "name_en": "Defender of Astera",
+   "name_es": "Defensor de Astera",
+   "description_en": "Earn the right to take on four-star assignments.",
+   "description_es": "Gana el derecho a emprender encargos de cuatro estrellas.",
+   "category": "story",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Se obtiene al desbloquear los encargos de 4★.",
+   "sort_order": 4,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "into-the-deep",
+   "name_en": "Into the Deep",
+   "name_es": "En las profundidades",
+   "description_en": "Earn the right to take on five-star assignments.",
+   "description_es": "Gana el derecho a emprender encargos de cinco estrellas.",
+   "category": "story",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Se obtiene al desbloquear los encargos de 5★.",
+   "sort_order": 5,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "death-begets-life",
+   "name_en": "Death Begets Life",
+   "name_es": "La muerte crea vida",
+   "description_en": "Successfully guide Zorah Magdaros.",
+   "description_es": "Consigue repeler a Zorah Magdaros.",
+   "category": "story",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Corresponde al segundo enfrentamiento con Zorah Magdaros, el que desbloquea los encargos de 6★ (Rango Alto).",
+   "sort_order": 6,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ],
+   "related": [
+    {
+     "type": "monster",
+     "name_en": "Zorah Magdaros"
+    }
+   ]
+  },
+  {
+   "slug": "the-empress-of-the-highlands",
+   "name_en": "The Empress of the Highlands",
+   "name_es": "Emperatriz de las tierras altas",
+   "description_en": "Earn the right to take on seven-star assignments.",
+   "description_es": "Gana el derecho a emprender encargos de siete estrellas.",
+   "category": "story",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Se obtiene al desbloquear los encargos de 7★.",
+   "sort_order": 7,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "one-shall-stand-one-shall-fall",
+   "name_en": "One Shall Stand, One Shall Fall",
+   "name_es": "Sólo puede quedar uno",
+   "description_en": "Earn the right to take on eight-star assignments.",
+   "description_es": "Gana el derecho a emprender encargos de ocho estrellas.",
+   "category": "story",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Se obtiene al desbloquear los encargos de 8★.",
+   "sort_order": 8,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "the-sapphire-star",
+   "name_en": "The Sapphire Star",
+   "name_es": "La Estrella Azul",
+   "description_en": "Solve the mystery of the Elder Crossing.",
+   "description_es": "Resuelve el misterio de la migración de los Ancianos.",
+   "category": "story",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Se obtiene al terminar la historia del juego base y derrotar al jefe final.",
+   "sort_order": 9,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ],
+   "related": [
+    {
+     "type": "monster",
+     "name_en": "Xeno'jiiva"
+    }
+   ]
+  },
+  {
+   "slug": "the-hunters-life-for-me",
+   "name_en": "The Hunters Life for Me",
+   "name_es": "Nacido para cazar",
+   "description_en": "Complete 50 optional quests.",
+   "description_es": "Completa 50 misiones opcionales.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Completa 50 misiones opcionales cualesquiera. Se aceptan en el tablón de misiones de Astera o hablando con la Coordinadora; los PNJ con «!» dan más. Hay muchas más de 50 y se pueden repetir tras la historia.",
+   "sort_order": 10,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "an-inquisitive-mind",
+   "name_en": "An Inquisitive Mind",
+   "name_es": "Mente despierta",
+   "description_en": "Complete your first investigation.",
+   "description_es": "Completa tu primera investigación.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Completa tu primera investigación. Se registran en el Centro de Recursos de Astera (Gestionar investigaciones) y se inician desde el tablón de misiones.",
+   "sort_order": 11,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "the-franchise-hunter",
+   "name_en": "The Franchise Hunter",
+   "name_es": "Cazador investigador",
+   "description_en": "Complete 50 investigations.",
+   "description_es": "Completa 50 investigaciones.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Completa 50 investigaciones de cualquier tipo. Las de monstruos pequeños son las más rápidas. Combínalo con la búsqueda de coronas, que también se hace con investigaciones.",
+   "sort_order": 12,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "step-into-the-arena",
+   "name_en": "Step into the Arena",
+   "name_es": "Gladiador novato",
+   "description_en": "Complete your first arena quest.",
+   "description_es": "Completa tu primera misión de la Arena.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Completa una misión de la Arena. Se aceptan con el encargado de la Arena en la Sala de reunión de Astera; usan equipo predefinido.",
+   "sort_order": 13,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Arena"
+    }
+   ]
+  },
+  {
+   "slug": "nowhere-to-go-but-up",
+   "name_en": "Nowhere to Go but Up",
+   "name_es": "Hacia la cima",
+   "description_en": "Complete 50 arena quests.",
+   "description_es": "Completa 50 misiones de la Arena.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Completa 50 misiones de la Arena (las de desafío también cuentan como Arena). Se pueden repetir las mismas; en pareja van más rápido. El contador está en tu tarjeta del gremio.",
+   "sort_order": 14,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Arena"
+    }
+   ]
+  },
+  {
+   "slug": "new-world-settler",
+   "name_en": "New World Settler",
+   "name_es": "Colono del Nuevo Mundo",
+   "description_en": "Establish five camps.",
+   "description_es": "Establece cinco campamentos.",
+   "category": "collection",
+   "hidden": false,
+   "guide_es": "Establece cinco campamentos. La historia desbloquea tres campamentos extra (Bosque Primigenio, Yermo de Agujas y Valle Putrefacto). Para el resto: encuentra el lugar del campamento en el mapa, recibe la misión de entrega y complétala en el Centro de Recursos.",
+   "sort_order": 15,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "the-art-of-camouflage",
+   "name_en": "The Art of Camouflage",
+   "name_es": "El arte del camuflaje",
+   "description_en": "Escape the Jagras pack by hiding in some shrubs.",
+   "description_es": "Escapa del grupo de Jagras escondiéndote en los arbustos.",
+   "category": "story",
+   "hidden": false,
+   "guide_es": "Logro de historia automático, imposible de perder. Ocurre en el prólogo: escóndete con la Coordinadora en los arbustos hasta que se vaya la manada de Jagras. Suele ser el primer logro del juego.",
+   "sort_order": 16,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "angling-for-a-bite",
+   "name_en": "Angling for a Bite",
+   "name_es": "Desayuno de campeones",
+   "description_en": "Catch your first fish.",
+   "description_es": "Consigue pescar por primera vez.",
+   "category": "misc",
+   "hidden": false,
+   "guide_es": "Pesca tu primer pez. La caña de pescar es un objeto fijo del inventario desde que llegas a Astera. Un sitio fácil: la charca al este del Campamento Suroeste (1) del Bosque Primigenio.",
+   "sort_order": 17,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Ancient Forest"
+    }
+   ]
+  },
+  {
+   "slug": "mmm-so-tasty",
+   "name_en": "Mmm, So Tasty!",
+   "name_es": "Chef de barbacoa",
+   "description_en": "Cook your first well-done steak.",
+   "description_es": "Cocina un filete al punto por primera vez.",
+   "category": "misc",
+   "hidden": false,
+   "guide_es": "Cocina un Filete al punto (Well-done Steak) con el asador de barbacoa (objeto fijo del inventario) usando Carne cruda. Retíralo justo al final de la canción, antes de que se queme: si sale crudo, es pronto; si sale quemado, es tarde.",
+   "sort_order": 18,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ],
+   "related": [
+    {
+     "type": "item",
+     "name_en": "Well-done Steak"
+    },
+    {
+     "type": "item",
+     "name_en": "Raw Meat"
+    }
+   ]
+  },
+  {
+   "slug": "the-bigger-they-are",
+   "name_en": "The Bigger They Are...",
+   "name_es": "Jinete de colosos",
+   "description_en": "Mount your first monster.",
+   "description_es": "Monta a un monstruo por primera vez.",
+   "category": "misc",
+   "hidden": false,
+   "guide_es": "Monta un monstruo grande por primera vez: golpéalo con un ataque aéreo (saltando desde un desnivel o con un ataque que te impulse) hasta iniciar la monta.",
+   "sort_order": 19,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "a-living-fossil",
+   "name_en": "A Living Fossil",
+   "name_es": "Fósil viviente",
+   "description_en": "Capture a fish known as ",
+   "description_es": "Pesca un pez catalogado como \"fósil viviente\".",
+   "category": "collection",
+   "hidden": true,
+   "guide_es": "Pesca un Petricanto (Petricanths), el «fósil viviente». Es una aparición muy rara: Valle Putrefacto, zona 15, en el estanque de peces dorados a la izquierda de los Saqueadores; también en el Lecho de los Ancianos, zona 8 (Campamento Este). Es un pez grande, así que requiere el minijuego de pesca; no muevas el cebo. Cualquier rango y hora. Para la fauna rara: ponte el Manto de camuflaje (Ghillie Mantle), deja a tu camarada en el campamento y, si no aparece, viaja a otro mapa (no a otro campamento del mismo mapa) y vuelve para reiniciar la aparición.",
+   "sort_order": 20,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Fextralife: Petricanths",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Petricanths"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Rotten Vale"
+    },
+    {
+     "type": "location",
+     "name_en": "Elder's Recess"
+    }
+   ]
+  },
+  {
+   "slug": "snuggles-for-all",
+   "name_en": "Snuggles for All",
+   "name_es": "Cazador de peluches",
+   "description_en": "Capture a fluffy, snuggly creature.",
+   "description_es": "Captura a una criatura suave y achuchable.",
+   "category": "collection",
+   "hidden": true,
+   "guide_es": "Captura con la red un Rascón plumón (Downy Crake): pajarito blanco que aparece muy rara vez en grupo sobre el lomo de los Aptonoth del Bosque Primigenio (zonas 1 y 8) y de los Apceros del Yermo de Agujas (zonas 1, 4 y 8); también sobre el Mantagrell anciano en los Altiplanos Coralinos (zonas 11 y 13). Se oye su piar cuando está cerca. Cualquier rango y hora. Para la fauna rara: ponte el Manto de camuflaje (Ghillie Mantle), deja a tu camarada en el campamento y, si no aparece, viaja a otro mapa (no a otro campamento del mismo mapa) y vuelve para reiniciar la aparición.",
+   "sort_order": 21,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Fextralife: Downy Crake",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Downy+Crake"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Ancient Forest"
+    },
+    {
+     "type": "location",
+     "name_en": "Wildspire Waste"
+    },
+    {
+     "type": "location",
+     "name_en": "Coral Highlands"
+    }
+   ]
+  },
+  {
+   "slug": "bristles-for-all",
+   "name_en": "Bristles for All",
+   "name_es": "Captura rasposa",
+   "description_en": "Capture a stiff, bristly creature.",
+   "description_es": "Captura a una criatura rígida y rasposa.",
+   "category": "collection",
+   "hidden": true,
+   "guide_es": "Captura con la red un Rascón erizado (Bristly Crake): pajarito negro sobre el lomo de los Mosswine del Valle Putrefacto (zonas 3-5, a la izquierda al salir del campamento 1 junto a un túnel, y zona 15 sobre el estanque de peces dorados). También en el Lecho de los Ancianos (zonas 5 y 11, sobre un Gastodon). Revisa ambos puntos en cada visita. Para la fauna rara: ponte el Manto de camuflaje (Ghillie Mantle), deja a tu camarada en el campamento y, si no aparece, viaja a otro mapa (no a otro campamento del mismo mapa) y vuelve para reiniciar la aparición.",
+   "sort_order": 22,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Fextralife: Bristly Crake",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Bristly+Crake"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Rotten Vale"
+    },
+    {
+     "type": "location",
+     "name_en": "Elder's Recess"
+    }
+   ]
+  },
+  {
+   "slug": "rainbow-bright",
+   "name_en": "Rainbow Bright",
+   "name_es": "Cazador multicolor",
+   "description_en": "Capture a creature that glitters like a rainbow.",
+   "description_es": "Captura a una criatura que brille como un arco iris.",
+   "category": "collection",
+   "hidden": true,
+   "guide_es": "Captura con la red un Hercudromo prisma (Prism Hercudrome), insecto en un tronco que solo aparece al amanecer o al anochecer (el icono del sol parpadea). No huye. Punto fácil: Bosque Primigenio, zona 1, tronco frente a la playa del sureste junto a macizos de flores. Otros: Yermo zona 10, Altiplanos zona 11, Valle zona 11, Lecho zona 3, Arroyo de Escarcha zona 17.",
+   "sort_order": 23,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Fextralife: Prism Hercudrome",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Prism+Hercudrome"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Ancient Forest"
+    }
+   ]
+  },
+  {
+   "slug": "commissioned-work",
+   "name_en": "Commissioned Work",
+   "name_es": "A por el ascenso",
+   "description_en": "Obtain 100,000 research points.",
+   "description_es": "Consigue 100.000 puntos de investigación.",
+   "category": "misc",
+   "hidden": false,
+   "guide_es": "Acumula 100.000 puntos de investigación a lo largo de la partida (no hace falta tenerlos a la vez; cuenta lo ganado aunque lo gastes). Salen de rastros, recompensas de misión y plantas de investigación; llega solo mientras subes rango.",
+   "sort_order": 24,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "bourgeois-hunter",
+   "name_en": "Bourgeois Hunter",
+   "name_es": "Cazador millonario",
+   "description_en": "Possess 1,000,000 zenny.",
+   "description_es": "En algún momento has llegado a poseer 1.000.000 de zenis.",
+   "category": "misc",
+   "hidden": false,
+   "guide_es": "Ten 1.000.000 de zenis a la vez. Llega de forma natural en el endgame; si te falta, vende materiales de monstruo en el Puesto de provisiones (Vender > desde el cofre).",
+   "sort_order": 25,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "impregnable-defense",
+   "name_en": "Impregnable Defense",
+   "name_es": "Defensa impenetrable",
+   "description_en": "Obtain five highly rare pieces of armor.",
+   "description_es": "Consigue cinco piezas de armadura de rareza alta.",
+   "category": "crafting",
+   "hidden": false,
+   "guide_es": "Fabrica cinco piezas de armadura de rareza 8 (la máxima del juego base). Las de dragones ancianos de Rango Alto sirven; tendrás materiales de sobra al cazar 50 dragones ancianos para Azote de leyendas.",
+   "sort_order": 26,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "power-is-everything",
+   "name_en": "Power is Everything",
+   "name_es": "El poder lo es todo",
+   "description_en": "Obtain five highly rare weapons.",
+   "description_es": "Consigue cinco armas de rareza alta.",
+   "category": "crafting",
+   "hidden": false,
+   "guide_es": "Fabrica o mejora cinco armas hasta rareza 8 (máxima del juego base). Los árboles de dragones ancianos llegan a rareza 8 con pocas mejoras.",
+   "sort_order": 27,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "movin-on-up",
+   "name_en": "Movin On Up",
+   "name_es": "Subiendo peldaños",
+   "description_en": "Move into an upgraded room.",
+   "description_es": "Múdate a un hogar mejor.",
+   "category": "story",
+   "hidden": false,
+   "guide_es": "Al desbloquear los encargos de 7★ puedes mudarte: habla con la ama de llaves en tu habitación de Astera y elige «Mudarse a una habitación nueva».",
+   "sort_order": 28,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "first-friends",
+   "name_en": "First Friends",
+   "name_es": "Amigos en todas partes",
+   "description_en": "Befriend your first Tailraider.",
+   "description_es": "Conoce a tu primer amigo buscatrufos.",
+   "category": "collection",
+   "hidden": false,
+   "guide_es": "Haz amistad con tu primer camarada buscatrufos (Tailraider): son Palicos que aparecen al azar por los mapas (icono «Palicos» en el mapa, punto verde sobre la cabeza). Acércate a uno y se une automáticamente.",
+   "sort_order": 29,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "bosom-buddies",
+   "name_en": "Bosom Buddies",
+   "name_es": "Experto en cachivaches",
+   "description_en": "Raise the proficiency of any Palico Gadget to level 10.",
+   "description_es": "Alcanza destreza 10 con un cachivache de camarada.",
+   "category": "misc",
+   "hidden": false,
+   "guide_es": "Sube cualquier cachivache de camarada a destreza 10 (por ejemplo, el Espray de avispas). La destreza sube sola con cada misión; suele salir hacia los encargos de 5★-6★.",
+   "sort_order": 30,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "monster-ph-d",
+   "name_en": "Monster Ph.D.",
+   "name_es": "Doctorado en monstruos",
+   "description_en": "Max out the research level (up to high rank) for many monsters.",
+   "description_es": "Lleva al máximo (hasta rango alto) el nivel de investigación de muchos monstruos.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Lleva al máximo el nivel de investigación de Rango Bajo y Rango Alto de los monstruos grandes del lanzamiento del juego base (los añadidos por actualizaciones no son necesarios). Sube con rastros, cazas, capturas y roturas; consúltalo en el Centro de Investigación Ecológica.",
+   "sort_order": 31,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "temper-temper",
+   "name_en": "Temper Temper",
+   "name_es": "Élite del Nuevo Mundo",
+   "description_en": "Hunt your first tempered monster.",
+   "description_es": "Caza tu primer monstruo curtido.",
+   "category": "hunting",
+   "hidden": true,
+   "guide_es": "Caza o captura tu primer monstruo curtido. Los curtidos solo aparecen en investigaciones (fondo morado) que se desbloquean al recoger rastros azules en expediciones de Rango Alto. El logro salta en la pantalla de resultados.",
+   "sort_order": 32,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "indomitable",
+   "name_en": "Indomitable",
+   "name_es": "Leyenda del Nuevo Mundo",
+   "description_en": "Hunt 50 tempered monsters.",
+   "description_es": "Caza a 50 monstruos curtidos.",
+   "category": "hunting",
+   "hidden": true,
+   "guide_es": "Completa 50 investigaciones de monstruos curtidos (puedes repetir el mismo monstruo). Si te quedas sin investigaciones, recoge rastros azules en expediciones de Rango Alto.",
+   "sort_order": 33,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "miniature-crown",
+   "name_en": "Miniature Crown",
+   "name_es": "Mini-realeza",
+   "description_en": "Record your first miniature crown for monsters that appear from low or high rank.",
+   "description_es": "Consigue tu primera minicorona para un monstruo aparecido en rango alto o bajo.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Consigue tu primera minicorona (cualquiera). Las coronas salen al cazar o capturar un monstruo mucho más pequeño o más grande de lo normal (alrededor de un 25 % de diferencia). Las misiones de historia, la Arena y casi todas las opcionales tienen tamaño fijo y no dan coronas: juega investigaciones, mejor las de 15 minutos o 1 debilitamiento, de 3 a 5 intentos, con monstruos curtidos o con 3 monstruos. Compruébalas en el Centro de Investigación Ecológica (Guía de monstruos grandes, columnas Menor y Mayor).",
+   "sort_order": 34,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "miniature-crown-collector",
+   "name_en": "Miniature Crown Collector",
+   "name_es": "Mini-monarca",
+   "description_en": "Obtain a miniature crown for 10 or more monsters that appear from low or high rank.",
+   "description_es": "Consigue una minicorona para 10 o más monstruos aparecidos en rango alto o bajo.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Consigue minicorona de oro en 10 monstruos distintos. Las minicoronas siempre son de oro, por eso son más raras que las coronas grandes. Las coronas salen al cazar o capturar un monstruo mucho más pequeño o más grande de lo normal (alrededor de un 25 % de diferencia). Las misiones de historia, la Arena y casi todas las opcionales tienen tamaño fijo y no dan coronas: juega investigaciones, mejor las de 15 minutos o 1 debilitamiento, de 3 a 5 intentos, con monstruos curtidos o con 3 monstruos. Compruébalas en el Centro de Investigación Ecológica (Guía de monstruos grandes, columnas Menor y Mayor).",
+   "sort_order": 35,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "miniature-crown-master",
+   "name_en": "Miniature Crown Master",
+   "name_es": "Rey de mini-reyes",
+   "description_en": "Obtain a miniature crown for many monsters in your hunting log.",
+   "description_es": "Consigue una minicorona para muchos monstruos de tu registro de cazador.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Consigue minicorona en casi todos los monstruos del juego base: 28 monstruos (todos menos Zorah Magdaros y Xeno'jiiva, de tamaño fijo). Los monstruos añadidos por actualizaciones no cuentan. Las coronas salen al cazar o capturar un monstruo mucho más pequeño o más grande de lo normal (alrededor de un 25 % de diferencia). Las misiones de historia, la Arena y casi todas las opcionales tienen tamaño fijo y no dan coronas: juega investigaciones, mejor las de 15 minutos o 1 debilitamiento, de 3 a 5 intentos, con monstruos curtidos o con 3 monstruos. Compruébalas en el Centro de Investigación Ecológica (Guía de monstruos grandes, columnas Menor y Mayor).",
+   "sort_order": 36,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "giant-crown",
+   "name_en": "Giant Crown",
+   "name_es": "Mega-realeza",
+   "description_en": "Record your first silver crown or higher for monsters that appear from low or high rank.",
+   "description_es": "Consigue tu primera corona de plata o superior para un monstruo aparecido en rango alto o bajo.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Consigue tu primera corona grande; para este logro vale una corona de plata. Las coronas salen al cazar o capturar un monstruo mucho más pequeño o más grande de lo normal (alrededor de un 25 % de diferencia). Las misiones de historia, la Arena y casi todas las opcionales tienen tamaño fijo y no dan coronas: juega investigaciones, mejor las de 15 minutos o 1 debilitamiento, de 3 a 5 intentos, con monstruos curtidos o con 3 monstruos. Compruébalas en el Centro de Investigación Ecológica (Guía de monstruos grandes, columnas Menor y Mayor).",
+   "sort_order": 37,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "giant-crown-collector",
+   "name_en": "Giant Crown Collector",
+   "name_es": "Mega-monarca",
+   "description_en": "Obtain a gold crown for 10 or more monsters that appear from low or high rank.",
+   "description_es": "Consigue una corona de oro para 10 o más monstruos aparecidos en rango alto o bajo.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Consigue corona grande de ORO en 10 monstruos distintos (la plata no cuenta). Las coronas salen al cazar o capturar un monstruo mucho más pequeño o más grande de lo normal (alrededor de un 25 % de diferencia). Las misiones de historia, la Arena y casi todas las opcionales tienen tamaño fijo y no dan coronas: juega investigaciones, mejor las de 15 minutos o 1 debilitamiento, de 3 a 5 intentos, con monstruos curtidos o con 3 monstruos. Compruébalas en el Centro de Investigación Ecológica (Guía de monstruos grandes, columnas Menor y Mayor).",
+   "sort_order": 38,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "giant-crown-master",
+   "name_en": "Giant Crown Master",
+   "name_es": "Rey de reyes",
+   "description_en": "Obtain a gold crown for many monsters in your hunting log.",
+   "description_es": "Consigue una corona de oro para muchos monstruos de tu registro de cazador.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Consigue corona grande de oro en casi todos los monstruos del juego base: 28 (todos menos Zorah Magdaros y Xeno'jiiva). La plata no cuenta. Las coronas salen al cazar o capturar un monstruo mucho más pequeño o más grande de lo normal (alrededor de un 25 % de diferencia). Las misiones de historia, la Arena y casi todas las opcionales tienen tamaño fijo y no dan coronas: juega investigaciones, mejor las de 15 minutos o 1 debilitamiento, de 3 a 5 intentos, con monstruos curtidos o con 3 monstruos. Compruébalas en el Centro de Investigación Ecológica (Guía de monstruos grandes, columnas Menor y Mayor).",
+   "sort_order": 39,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "capture-novice",
+   "name_en": "Capture Novice",
+   "name_es": "Capturador novato",
+   "description_en": "Capture your first monster.",
+   "description_es": "Captura a tu primer monstruo.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Captura tu primer monstruo: debilítalo hasta que cojee (icono de calavera en el mapa), atrápalo con una Trampa de choque o de foso y lánzale dos Bombas tranquilizantes. El smart biólogo de Astera da la misión tutorial «Snatch the Snatcher» al llegar a 3★.",
+   "sort_order": 40,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ],
+   "related": [
+    {
+     "type": "item",
+     "name_en": "Tranq Bomb"
+    },
+    {
+     "type": "item",
+     "name_en": "Shock Trap"
+    },
+    {
+     "type": "item",
+     "name_en": "Pitfall Trap"
+    }
+   ]
+  },
+  {
+   "slug": "capture-pro",
+   "name_en": "Capture Pro",
+   "name_es": "Capturador experto",
+   "description_en": "Capture 50 monsters.",
+   "description_es": "Captura a 50 monstruos.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Captura 50 monstruos grandes (de cualquier rango). Empieza a capturar desde la historia en lugar de matar. Los dragones ancianos no se pueden capturar.",
+   "sort_order": 41,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ],
+   "related": [
+    {
+     "type": "item",
+     "name_en": "Tranq Bomb"
+    },
+    {
+     "type": "item",
+     "name_en": "Shock Trap"
+    },
+    {
+     "type": "item",
+     "name_en": "Pitfall Trap"
+    }
+   ]
+  },
+  {
+   "slug": "elderslayer",
+   "name_en": "Elderslayer",
+   "name_es": "Azote de leyendas",
+   "description_en": "Slay 50 elder dragons.",
+   "description_es": "Abate a 50 dragones ancianos.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Abate 50 dragones ancianos (de cualquier rango; Zorah Magdaros no cuenta porque no se mata). Lo más rápido es repetir la misión de Kirin de 5★ tras la historia, o investigaciones de ancianos.",
+   "sort_order": 42,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ],
+   "related": [
+    {
+     "type": "monster",
+     "name_en": "Kirin"
+    }
+   ]
+  },
+  {
+   "slug": "monster-slayer",
+   "name_en": "Monster Slayer",
+   "name_es": "Azote de las bestias",
+   "description_en": "Hunt 100 large monsters.",
+   "description_es": "Abate a 100 monstruos grandes.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Caza (mata o captura) 100 monstruos grandes de cualquier rango. Sale solo jugando.",
+   "sort_order": 43,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "monster-hunter",
+   "name_en": "Monster Hunter",
+   "name_es": "Monster Hunter",
+   "description_en": "Hunt 500 large monsters.",
+   "description_es": "Caza a 500 monstruos grandes.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Caza 500 monstruos grandes de cualquier rango. Llega mientras subes a Rango de cazador 100; los monstruos de Rango Bajo en grupo sirven para acelerar.",
+   "sort_order": 44,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "help",
+   "name_en": "HELP!",
+   "name_es": "¡Ayuda!",
+   "description_en": "Fire an SOS flare for the first time.",
+   "description_es": "Lanza por primera vez una bengala de auxilio.",
+   "category": "social",
+   "hidden": false,
+   "guide_es": "Durante una misión, abre el menú > Comunicación > Lanzar bengala de auxilio. Requiere estar conectado en línea.",
+   "sort_order": 45,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "i-am-the-reinforcements",
+   "name_en": "I Am the Reinforcements",
+   "name_es": "Yo soy los refuerzos",
+   "description_en": "Respond to an SOS flare, and help complete 10 quests.",
+   "description_es": "Acude a una bengala de auxilio y ayuda a acabar 10 misiones.",
+   "category": "social",
+   "hidden": false,
+   "guide_es": "Responde a 10 bengalas de auxilio y completa esas misiones: tablón de misiones > Unirse a una misión > Responder a bengala de auxilio.",
+   "sort_order": 46,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "hunters-united",
+   "name_en": "Hunters United",
+   "name_es": "Cazadores unidos",
+   "description_en": "Complete a quest via multiplayer.",
+   "description_es": "Completa una misión en multijugador.",
+   "category": "social",
+   "hidden": false,
+   "guide_es": "Completa una misión con al menos otro jugador.",
+   "sort_order": 47,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "hunters-united-forever",
+   "name_en": "Hunters United Forever",
+   "name_es": "Cazadores unidos para siempre",
+   "description_en": "Complete 100 quests via multiplayer.",
+   "description_es": "Completa 100 misiones en multijugador.",
+   "category": "social",
+   "hidden": false,
+   "guide_es": "Completa 100 misiones en multijugador; las respuestas a bengalas también cuentan. Conviene empezar pronto, desde la historia.",
+   "sort_order": 48,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "spreading-the-word",
+   "name_en": "Spreading the Word",
+   "name_es": "La fama y la gloria",
+   "description_en": "Collect over 50 Guild Cards.",
+   "description_es": "Recibe 50 tarjetas del gremio o más.",
+   "category": "social",
+   "hidden": false,
+   "guide_es": "Recibe más de 50 tarjetas del gremio de otros jugadores. Envía la tuya desde la lista de jugadores (menú > Comunicación) en sesiones concurridas; muchos devuelven la suya.",
+   "sort_order": 49,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "established-hunter",
+   "name_en": "Established Hunter",
+   "name_es": "Cazador veterano",
+   "description_en": "Reach hunter rank 100.",
+   "description_es": "Alcanza el rango de cazador 100.",
+   "category": "hunting",
+   "hidden": false,
+   "guide_es": "Alcanza Rango de cazador (RC) 100. Durante la historia el RC está limitado a 16, pero la experiencia sobrante se suma al terminarla. Tras la historia, los monstruos de endgame dan más.",
+   "sort_order": 50,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-trophy-guide-roadmap/"
+    }
+   ]
+  },
+  {
+   "slug": "conqueror-of-the-hinterlands",
+   "name_en": "Conqueror of the Hinterlands",
+   "name_es": "Cazador de sangre fría",
+   "description_en": "Unlock all achievements for Monster Hunter World: Iceborne.",
+   "description_es": "Desbloquea todos los logros de Monster Hunter World: Iceborne.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Se desbloquea al conseguir los otros 49 logros de Iceborne (Achievement51 a Achievement99). Es independiente del logro de completar el juego base.",
+   "sort_order": 51,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "the-beginning-of-a-new-expedition",
+   "name_en": "The Beginning of a New Expedition",
+   "name_es": "El comienzo de una nueva expedición",
+   "description_en": "Earn the right to take on one-star master rank assignments.",
+   "description_es": "Gana acceso a encargos maestros de una estrella.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Completa la primera misión de Iceborne, «Baptism by Ice».",
+   "sort_order": 52,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "quest",
+     "name_en": "Baptism by Ice"
+    },
+    {
+     "type": "monster",
+     "name_en": "Beotodus"
+    }
+   ]
+  },
+  {
+   "slug": "time-to-get-serious",
+   "name_en": "Time to Get Serious",
+   "name_es": "Hora de ponerse serios",
+   "description_en": "Earn the right to take on two-star master rank assignments.",
+   "description_es": "Gana acceso a encargos maestros de dos estrellas.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Completa la misión «Ready to Strike».",
+   "sort_order": 53,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "quest",
+     "name_en": "Ready to Strike"
+    }
+   ]
+  },
+  {
+   "slug": "the-elusive-elder-dragon",
+   "name_en": "The Elusive Elder Dragon",
+   "name_es": "El elusivo dragón anciano",
+   "description_en": "Earn the right to take on three-star master rank assignments.",
+   "description_es": "Gana acceso a encargos maestros de tres estrellas.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Completa la misión «Blizzard Blitz».",
+   "sort_order": 54,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "quest",
+     "name_en": "Blizzard Blitz"
+    }
+   ]
+  },
+  {
+   "slug": "indomitable-spirit",
+   "name_en": "Indomitable Spirit",
+   "name_es": "Espíritu indómito",
+   "description_en": "Earn the right to take on four-star master rank assignments.",
+   "description_es": "Gana acceso a encargos maestros de cuatro estrellas.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Completa la misión «When the Mist Taketh You».",
+   "sort_order": 55,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "quest",
+     "name_en": "When the Mist Taketh You"
+    },
+    {
+     "type": "monster",
+     "name_en": "Shrieking Legiana"
+    }
+   ]
+  },
+  {
+   "slug": "the-old-everwyrm",
+   "name_en": "The Old Everwyrm",
+   "name_es": "El Omnidragón",
+   "description_en": "Earn the right to take on five-star master rank assignments.",
+   "description_es": "Gana acceso a encargos maestros de cinco estrellas.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Completa la misión «The Iceborne Wyvern».",
+   "sort_order": 56,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "quest",
+     "name_en": "The Iceborne Wyvern"
+    },
+    {
+     "type": "monster",
+     "name_en": "Velkhana"
+    }
+   ]
+  },
+  {
+   "slug": "an-end-and-a-beginning",
+   "name_en": "An End and a Beginning",
+   "name_es": "Un final y un comienzo",
+   "description_en": "Solve the mystery of the Old Everwyrm.",
+   "description_es": "Resuelve el misterio del Omnidragón.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Completa la última misión de la historia de Iceborne, «Paean of Guidance» (6★ maestro).",
+   "sort_order": 57,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "quest",
+     "name_en": "Paean of Guidance"
+    },
+    {
+     "type": "monster",
+     "name_en": "Shara Ishvalda"
+    }
+   ]
+  },
+  {
+   "slug": "to-the-land-of-discoveries",
+   "name_en": "To the Land of Discoveries",
+   "name_es": "La tierra de los descubrimientos",
+   "description_en": "Reach the Guiding Lands.",
+   "description_es": "Alcanza las Tierras Destino.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Tras «Paean of Guidance», habla con el Jefe de campo en Seliana para ir a las Tierras Destino y termina la primera misión allí (al cumplir los objetivos, vuelve desde el menú > Regresar de la expedición).",
+   "sort_order": 58,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Guiding Lands"
+    }
+   ]
+  },
+  {
+   "slug": "evolving-ecology",
+   "name_en": "Evolving Ecology",
+   "name_es": "Ecología evolutiva",
+   "description_en": "Raise any region to level 7.",
+   "description_es": "Llega al nivel 7 de cualquier bioma.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Sube cualquier bioma de las Tierras Destino a nivel 7. Los niveles suben matando o capturando monstruos y recogiendo rastros en ese bioma; concéntrate en uno porque subir uno baja otros. Según PowerPyx, el tope es nivel 4 al llegar; sube a 5 con la misión especial de MR 49, a 6 con la de MR 69 y a 7 al derrotar a Nergigante Regio (MR 99). Pendiente de revisar: PowerPyx sitúa los topes en MR 49, 69 y 99 (cifras de antes de los parches); la Monster Hunter Wiki solo exige la misión de Nergigante Regio. Hay que confirmar los topes exactos tras las actualizaciones de título.",
+   "sort_order": 59,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "steps_es": [
+    "Llega a las Tierras Destino (logro La tierra de los descubrimientos).",
+    "Elige un bioma y caza ahí a sus monstruos.",
+    "Quita los topes con las misiones especiales de MR y, por último, con Nergigante Regio (MR 99).",
+    "Sube ese bioma hasta el nivel 7."
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Guiding Lands"
+    },
+    {
+     "type": "monster",
+     "name_en": "Ruiner Nergigante"
+    }
+   ],
+   "needs_review": true
+  },
+  {
+   "slug": "in-search-of-rare-materials",
+   "name_en": "In Search of Rare Materials",
+   "name_es": "Búsqueda de materiales raros",
+   "description_en": "Gather materials at rare outcrops and bonepiles.",
+   "description_es": "Consigue materiales en afloramientos mineros y pilas de huesos gigantes.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "En las Tierras Destino, extrae de afloramientos y pilas de huesos normales hasta que aparezcan un Afloramiento minero gigante y una Pila de huesos gigante, y recoge de ambos. Sale solo jugando allí.",
+   "sort_order": 60,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Guiding Lands"
+    }
+   ]
+  },
+  {
+   "slug": "insatiable-investigator",
+   "name_en": "Insatiable Investigator",
+   "name_es": "Investigador insaciable",
+   "description_en": "Analyze 50 special tracks.",
+   "description_es": "Analiza 50 feromonas.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Analiza 50 feromonas (rastros especiales) en las Tierras Destino. Las barras de feromonas aparecen arriba a la derecha y se llenan cazando, rompiendo partes o recogiendo rastros del tipo de monstruo indicado; al completarlas puedes atraer a ese monstruo hablando con la Coordinadora en un campamento.",
+   "sort_order": 61,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Guiding Lands"
+    }
+   ]
+  },
+  {
+   "slug": "fate-s-conclusion",
+   "name_en": "Fate's Conclusion",
+   "name_es": "El final del destino",
+   "description_en": "Slay Ruiner Nergigante in the Guiding Lands, removing the cap on maximum master rank.",
+   "description_es": "Abate a un Nergigante Regio en las Tierras Destino, eliminando el límite de rango maestro máximo.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Al llegar a Rango maestro 99 se desbloquea la misión «To the Very Ends with You» contra Nergigante Regio en las Tierras Destino. Derrótalo para eliminar el tope de MR. Es débil al dragón y al trueno; sus púas causan hemorragia.",
+   "sort_order": 62,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "monster",
+     "name_en": "Ruiner Nergigante"
+    },
+    {
+     "type": "quest",
+     "name_en": "To the Very Ends with You"
+    },
+    {
+     "type": "location",
+     "name_en": "Guiding Lands"
+    }
+   ]
+  },
+  {
+   "slug": "master-explorer",
+   "name_en": "Master Explorer",
+   "name_es": "Explorador experto",
+   "description_en": "Establish all camps in the Hoarfrost Reach.",
+   "description_es": "Establece todos los campamentos en el Arroyo de Escarcha.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Establece los 5 campamentos del Arroyo de Escarcha. Igual que en los otros mapas: descubre el lugar, completa la misión de entrega asociada y quedará disponible.",
+   "sort_order": 63,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Hoarfrost Reach"
+    }
+   ]
+  },
+  {
+   "slug": "source-of-relaxation",
+   "name_en": "Source of Relaxation",
+   "name_es": "Fuente de relajación",
+   "description_en": "Spend some time in a natural hot spring.",
+   "description_es": "Quédate un rato en una fuente termal natural.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Métete un rato en cualquier fuente termal natural del Arroyo de Escarcha (hay varias, por ejemplo en la zona 2).",
+   "sort_order": 64,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Hoarfrost Reach"
+    }
+   ]
+  },
+  {
+   "slug": "clutch-claw-neophyte",
+   "name_en": "Clutch Claw Neophyte",
+   "name_es": "Neófito de la garra retráctil",
+   "description_en": "Study the ways of the clutch claw.",
+   "description_es": "Estudia todas las posibilidades de la garra retráctil.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Completa la misión tutorial opcional «Learning the Clutch» (Rango Bajo), disponible al llegar a Seliana.",
+   "sort_order": 65,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "quest",
+     "name_en": "Learning the Clutch"
+    }
+   ]
+  },
+  {
+   "slug": "golden-gleam",
+   "name_en": "Golden Gleam",
+   "name_es": "Destello dorado",
+   "description_en": "Capture a creature with a golden gleam in the Hoarfrost Reach.",
+   "description_es": "Captura a una criatura con un brillo dorado en el Arroyo de Escarcha.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Captura con la red un Macaco termal dorado (Goldspring Macaque), variante dorada de los macacos de las fuentes termales del Arroyo de Escarcha (zonas 2, 6, 13 y 17). Más probable al amanecer o primera hora con cielo despejado. Para la fauna rara: ponte el Manto de camuflaje (Ghillie Mantle), deja a tu camarada en el campamento y, si no aparece, viaja a otro mapa (no a otro campamento del mismo mapa) y vuelve para reiniciar la aparición. En Iceborne, la habilidad de comida Felyne zoólogo (Feline Zoomaster) sube mucho la probabilidad de fauna rara: completa las misiones y entregas de la cocinera de Seliana y recoge las plantas raras del Arroyo de Escarcha para desbloquear los ingredientes, y paga con un vale para garantizar la habilidad.",
+   "sort_order": 66,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    },
+    {
+     "title": "Fextralife: Goldspring Macaque",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Goldspring+Macaque"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Hoarfrost Reach"
+    }
+   ]
+  },
+  {
+   "slug": "friendly-pointer",
+   "name_en": "Friendly Pointer",
+   "name_es": "Indicación amable",
+   "description_en": "Capture a creature that seems to be pointing at something.",
+   "description_es": "Captura a una criatura que parece que esté señalando algo.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Captura con la red un Gekko punta de flecha (Arrowhead Gekko): bichito azul luminoso con la cabeza en forma de flecha. Según Fextralife solo aparece cuando la información de la zona tiene un punto de recolección raro de objeto de cuenta (por ejemplo, Florecimiento: frutos o Afloramiento: ostra perla) y se queda junto a ese punto hasta que lo recolectas. Zonas: Bosque 11 y 17, Yermo 5 y 15, Altiplanos 9 y 14, Valle 10 y 1, Lecho 16 y 8. En Iceborne, la habilidad de comida Felyne zoólogo (Feline Zoomaster) sube mucho la probabilidad de fauna rara: completa las misiones y entregas de la cocinera de Seliana y recoge las plantas raras del Arroyo de Escarcha para desbloquear los ingredientes, y paga con un vale para garantizar la habilidad. Pendiente de revisar: PowerPyx lo sitúa junto a los árboles con frutos de investigación del Valle Putrefacto y el Yermo; Fextralife lo vincula a los puntos raros de objetos de cuenta. Ambas versiones son compatibles, pero la condición exacta hay que confirmarla.",
+   "sort_order": 67,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    },
+    {
+     "title": "Fextralife: Arrowhead Gekko",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Arrowhead+Gekko"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Rotten Vale"
+    },
+    {
+     "type": "location",
+     "name_en": "Wildspire Waste"
+    }
+   ],
+   "needs_review": true
+  },
+  {
+   "slug": "sweet-melody",
+   "name_en": "Sweet Melody",
+   "name_es": "Dulce melodía",
+   "description_en": "Capture a creature that creates a beautiful melody.",
+   "description_es": "Captura a una criatura que crea una melodía agradable.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Captura con la red una Diva azul (Blue Diva), pájaro azul que canta entre pájaros rosas. Punto más citado: lo más alto del Yermo de Agujas, zona 5 (sube la colina desde el norte y trepa las enredaderas). También en el Bosque Primigenio (zonas 11 y 17) y los Altiplanos Coralinos (zonas 6 y 11). Si se espanta, vuela a otro de sus puntos. Para la fauna rara: ponte el Manto de camuflaje (Ghillie Mantle), deja a tu camarada en el campamento y, si no aparece, viaja a otro mapa (no a otro campamento del mismo mapa) y vuelve para reiniciar la aparición. En Iceborne, la habilidad de comida Felyne zoólogo (Feline Zoomaster) sube mucho la probabilidad de fauna rara: completa las misiones y entregas de la cocinera de Seliana y recoge las plantas raras del Arroyo de Escarcha para desbloquear los ingredientes, y paga con un vale para garantizar la habilidad.",
+   "sort_order": 68,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    },
+    {
+     "title": "Fextralife: Blue Diva",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Blue+Diva"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Wildspire Waste"
+    },
+    {
+     "type": "location",
+     "name_en": "Ancient Forest"
+    },
+    {
+     "type": "location",
+     "name_en": "Coral Highlands"
+    }
+   ]
+  },
+  {
+   "slug": "submerged-mystery",
+   "name_en": "Submerged Mystery",
+   "name_es": "Misterio sumergido",
+   "description_en": "Capture a mysterious creature lurking beneath the water's surface.",
+   "description_es": "Captura a una misteriosa criatura que acecha bajo el agua.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Pesca un Pez cresta del señor del mar (Sealord's Crestfish) con la caña, solo de noche, en el agua oscura de la zona 8 (túnel subterráneo) del Arroyo de Escarcha. Parece una serpiente marina con un punto luminoso en la cabeza. A este pez sí le atrae mover el cebo. Para la fauna rara: ponte el Manto de camuflaje (Ghillie Mantle), deja a tu camarada en el campamento y, si no aparece, viaja a otro mapa (no a otro campamento del mismo mapa) y vuelve para reiniciar la aparición. En Iceborne, la habilidad de comida Felyne zoólogo (Feline Zoomaster) sube mucho la probabilidad de fauna rara: completa las misiones y entregas de la cocinera de Seliana y recoge las plantas raras del Arroyo de Escarcha para desbloquear los ingredientes, y paga con un vale para garantizar la habilidad.",
+   "sort_order": 69,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    },
+    {
+     "title": "Fextralife: Sealord's Crestfish",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Sealord's+Crestfish"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Hoarfrost Reach"
+    }
+   ]
+  },
+  {
+   "slug": "celestial-illusion",
+   "name_en": "Celestial Illusion",
+   "name_es": "Ilusión celestial",
+   "description_en": "Capture a fantastical creature that floats through the sky.",
+   "description_es": "Captura a una fantástica criatura que surca los cielos.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Captura con la red una Ortiga luna invernal (Wintermoon Nettle), medusa gigante voladora. Solo en noches despejadas (sin ventisca), en la cima oculta del Arroyo de Escarcha, zona 14, a la que se llega desde la zona 13 con una ruta de escarabajos cuña. Desde el puente de hielo cerca del Campamento Central o la fuente termal de la zona 13 puedes ver si está rodeando la cima antes de subir.",
+   "sort_order": 70,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    },
+    {
+     "title": "Fextralife: Wintermoon Nettle",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Wintermoon+Nettle"
+    }
+   ],
+   "steps_es": [
+    "Espera a una noche despejada en el Arroyo de Escarcha.",
+    "Comprueba desde la zona 13 si la medusa rodea la cima.",
+    "Engánchate a los escarabajos cuña del techo de la zona 14 (son 4).",
+    "Ponte el Manto de planeo, salta por la abertura y busca arriba un escarabajo cuña escondido.",
+    "Deja que la corriente de aire te suba, trepa, usa otro escarabajo y sigue el camino de la izquierda hasta la cima."
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Hoarfrost Reach"
+    }
+   ]
+  },
+  {
+   "slug": "deft-digger",
+   "name_en": "Deft Digger",
+   "name_es": "Cavador hábil",
+   "description_en": "Capture a creature that loves to dig holes in the ground.",
+   "description_es": "Captura a una criatura a la que le encanta hacer hoyos.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Captura un Topo (Moly) en las Tierras Destino; salen en grupos de unos 5 y se meten bajo tierra si te ven (una Vaina sónica los saca). El topo normal aparece con el bioma a nivel 3. Puntos: zona 6 (Bosque, salida norte), zona 8 (Yermo, en lo alto de la duna), zona 10 (Altiplanos, junto al punto de pesca) y zona 12 (Valle, sobre el montón de huesos). No aparecen con monstruos grandes cerca ni con grimalkyne en la zona de los Altiplanos. Para la fauna rara: ponte el Manto de camuflaje (Ghillie Mantle), deja a tu camarada en el campamento y, si no aparece, viaja a otro mapa (no a otro campamento del mismo mapa) y vuelve para reiniciar la aparición.",
+   "sort_order": 71,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    },
+    {
+     "title": "Fextralife: Moly",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Moly"
+    },
+    {
+     "title": "RPGSite: Moly capture y Creatures of the Earth",
+     "url": "https://www.rpgsite.net/feature/8963-monster-hunter-world-iceborne-moly-capture-and-unlocking-the-creatures-of-the-earth-trophy"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Guiding Lands"
+    }
+   ]
+  },
+  {
+   "slug": "creatures-of-the-earth",
+   "name_en": "Creatures of the Earth",
+   "name_es": "Criaturas de la tierra",
+   "description_en": "Capture a hole-digging creature from every region.",
+   "description_es": "Captura una criatura excavadora de hoyos en cada zona.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Las fuentes no coinciden en el requisito exacto. Lo seguro es capturar un Topo normal en cada uno de los 4 biomas originales de las Tierras Destino (Bosque, Yermo, Altiplanos y Valle) y además al menos una variante regional (Topo musgoso, rocoso, mullido, espinoso, alborotador o glacial). Las variantes aparecen con el bioma a nivel 5 o más. Pendiente de revisar: PowerPyx y RPGSite piden un Topo en cada uno de los 4 biomas más una variante (RPGSite: el Topo rocoso); la Monster Hunter Wiki solo pide capturar una variante regional. La recomendación cubre ambas lecturas.",
+   "sort_order": 72,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    },
+    {
+     "title": "RPGSite: Moly capture y Creatures of the Earth",
+     "url": "https://www.rpgsite.net/feature/8963-monster-hunter-world-iceborne-moly-capture-and-unlocking-the-creatures-of-the-earth-trophy"
+    },
+    {
+     "title": "Fextralife: Moly",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Moly"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Guiding Lands"
+    }
+   ],
+   "needs_review": true
+  },
+  {
+   "slug": "unwavering-defense",
+   "name_en": "Unwavering Defense",
+   "name_es": "Defensa inquebrantable",
+   "description_en": "Obtain five extremely rare pieces of armor.",
+   "description_es": "Consigue cinco piezas de armadura de rareza extrema.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Fabrica cinco piezas de armadura distintas de rareza 12. La mayoría requieren materiales de dragones ancianos de Rango maestro.",
+   "sort_order": 73,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "devastating-offense",
+   "name_en": "Devastating Offense",
+   "name_es": "Ofensiva devastadora",
+   "description_en": "Obtain five extremely rare weapons.",
+   "description_es": "Consigue cinco armas de rareza extrema.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Fabrica o mejora cinco armas distintas hasta rareza 12. La mayoría requieren materiales de dragones ancianos de Rango maestro.",
+   "sort_order": 74,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "personal-treasure",
+   "name_en": "Personal Treasure",
+   "name_es": "Tesoro personal",
+   "description_en": "Equip your first pendant.",
+   "description_es": "Equipa tu primer colgante.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Recibes el primer colgante al terminar «Paean of Guidance». En el cofre de objetos, entra en Configurar colgante y equipa cualquiera.",
+   "sort_order": 75,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "quest",
+     "name_en": "Paean of Guidance"
+    }
+   ]
+  },
+  {
+   "slug": "first-ride",
+   "name_en": "First Ride",
+   "name_es": "Primera cabalgada",
+   "description_en": "Use your first Raider Ride.",
+   "description_es": "Usa el cabalgatrufos por primera vez.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Usa el cabalgatrufos por primera vez (acércate a un monstruo pequeño montable, como un Anteka en el Arroyo de Escarcha, o llámalo tras hablar con tu camarada en el campamento).",
+   "sort_order": 76,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Hoarfrost Reach"
+    }
+   ]
+  },
+  {
+   "slug": "experienced-rider",
+   "name_en": "Experienced Rider",
+   "name_es": "Jinete experto",
+   "description_en": "Use Raider Ride many times.",
+   "description_es": "Usa el cabalgatrufos muchas veces.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Usa el cabalgatrufos 10 veces (según la Monster Hunter Wiki). Tras desbloquearlo en el campamento puedes llamarlo cuando quieras.",
+   "sort_order": 77,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "fledgling-collector",
+   "name_en": "Fledgling Collector",
+   "name_es": "Coleccionista principiante",
+   "description_en": "Find your first treasure.",
+   "description_es": "Encuentra tu primer tesoro.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Resuelve tu primera pista de tesoro de cualquier tribu felina. Primero sube la amistad de la tribu del mapa (nivel 6) para desbloquear el trueque y dales objetos que les gusten (carnes, filetes, raciones, Bombas tranquilizantes, Megafertilizante, miel…) hasta que suelten pistas.",
+   "sort_order": 78,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "veteran-collector",
+   "name_en": "Veteran Collector",
+   "name_es": "Coleccionista veterano",
+   "description_en": "Find all treasure within a single locale.",
+   "description_es": "Encuentra todos los tesoros de una misma zona.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Resuelve las 10 pistas de tesoro de un mismo mapa. Solo puedes hacer 3 trueques por visita; viaja a otro mapa y vuelve para repetir.",
+   "sort_order": 79,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "ultimate-collector",
+   "name_en": "Ultimate Collector",
+   "name_es": "Coleccionista definitivo",
+   "description_en": "Find all treasure.",
+   "description_es": "Encuentra todos los tesoros.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Resuelve las 60 pistas de tesoro (10 por mapa en Bosque Primigenio, Yermo de Agujas, Altiplanos Coralinos, Valle Putrefacto, Lecho de los Ancianos y Arroyo de Escarcha). Requiere la amistad de cada tribu felina a nivel 6.",
+   "sort_order": 80,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "remodeler",
+   "name_en": "Remodeler",
+   "name_es": "Remodelación",
+   "description_en": "Change your room's interior for the first time.",
+   "description_es": "Cambia la decoración de tu hogar por primera vez.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Habla con la ama de llaves de tu habitación de Seliana y cambia la decoración.",
+   "sort_order": 81,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "interior-decorator",
+   "name_en": "Interior Decorator",
+   "name_es": "Decorador de interiores",
+   "description_en": "Have 50 different types of room decor to choose from.",
+   "description_es": "Consigue 50 tipos diferentes de mobiliario entre los que elegir.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Desbloquea 50 tipos de mobiliario. Salen de la historia, de la tienda de la ama de llaves y de las entregas del camarada de la ventana junto a tu habitación.",
+   "sort_order": 82,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "architectural-artist",
+   "name_en": "Architectural Artist",
+   "name_es": "Artista de la arquitectura",
+   "description_en": "Have 120 different types of room decor to choose from.",
+   "description_es": "Consigue 120 tipos diferentes de mobiliario entre los que elegir.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Desbloquea 120 tipos de mobiliario. Comprar no basta: compra todo a la ama de llaves, completa las entregas del camarada de la ventana, todas las fotos del experto lynian, las misiones opcionales de la ama de llaves y los tesoros de las tribus felinas. Necesitarás muchos puntos de investigación.",
+   "sort_order": 83,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "eager-engineer",
+   "name_en": "Eager Engineer",
+   "name_es": "Ingeniero ávido",
+   "description_en": "Help the Steamworks 20 times.",
+   "description_es": "Ayuda 20 veces en la fábrica de vapor.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Juega 20 veces el minijuego de la fábrica de vapor en Seliana (habla con el jefe técnico, añade combustible y elige «Ayudar»). Valen las combinaciones fallidas.",
+   "sort_order": 84,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "skilled-steamworker",
+   "name_en": "Skilled Steamworker",
+   "name_es": "Ingeniero de vapor hábil",
+   "description_en": "Send the Steamworks into overdrive.",
+   "description_es": "Haz que la fábrica de vapor estalle con una vaporización.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Acierta suficientes combinaciones en la fábrica de vapor hasta llenar el indicador y provocar la vaporización (sale una escena y recompensas raras). Son 3 botones en orden aleatorio; la secuencia fallida te muestra el orden correcto.",
+   "sort_order": 85,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "another-miniature-crown",
+   "name_en": "Another Miniature Crown",
+   "name_es": "Otra minicorona",
+   "description_en": "Obtain your first miniature crown for capturing endemic life in master rank.",
+   "description_es": "Obtén una minicorona mientras capturas fauna local en rango maestro.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Captura fauna local en una misión o expedición de Rango maestro hasta que alguna salga con minicorona. No merece la pena medirlas: captura todo lo que veas.",
+   "sort_order": 86,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "another-giant-crown",
+   "name_en": "Another Giant Crown",
+   "name_es": "Otra corona",
+   "description_en": "Obtain your first gold crown for capturing endemic life in master rank.",
+   "description_es": "Obtén una corona de oro mientras capturas fauna local en rango maestro.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Igual que el anterior, pero con corona grande de oro en fauna local capturada en Rango maestro.",
+   "sort_order": 87,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "fledgling-observer",
+   "name_en": "Fledgling Observer",
+   "name_es": "Observador principiante",
+   "description_en": "Complete your first request for the Lynian Researcher.",
+   "description_es": "Completa tu primera petición del experto lynian.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Completa tu primera petición de fotos del experto lynian, que está en Seliana junto a la entrada de la sala de reuniones y te da una cámara.",
+   "sort_order": 88,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "outstanding-observer",
+   "name_en": "Outstanding Observer",
+   "name_es": "Observador excepcional",
+   "description_en": "Complete many requests for the Lynian Researcher.",
+   "description_es": "Completa muchas peticiones del experto lynian.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Completa 20 peticiones de fotos del experto lynian (según la Monster Hunter Wiki).",
+   "sort_order": 89,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "helpful-hunter",
+   "name_en": "Helpful Hunter",
+   "name_es": "Cazador servicial",
+   "description_en": "Aid a low rank or high rank hunter on 10 quests as a master rank hunter.",
+   "description_es": "Ayuda a cazadores de rango alto o bajo en 10 misiones, siendo tú de rango maestro.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Siendo de Rango maestro, ayuda a completar 10 misiones de Rango Bajo o Alto de jugadores que aún NO han desbloqueado el Rango maestro (no sirve un amigo con MR que cargue una partida antigua). Busca misiones de RB/RA en el tablón o bengalas de auxilio.",
+   "sort_order": 90,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "master-of-masters",
+   "name_en": "Master of Masters",
+   "name_es": "Maestro de maestros",
+   "description_en": "Reach master rank 200.",
+   "description_es": "Alcanza el rango maestro 200.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Alcanza Rango maestro 200. El MR tiene topes que se quitan con misiones especiales; la de MR 99 (Nergigante Regio) elimina el tope final. La experiencia que ganas con el tope activo se guarda y se suma al quitarlo.",
+   "sort_order": 91,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "monster",
+     "name_en": "Ruiner Nergigante"
+    }
+   ]
+  },
+  {
+   "slug": "monster-master",
+   "name_en": "Monster Master",
+   "name_es": "Maestro de monstruos",
+   "description_en": "Maximize the research level for almost all large monsters.",
+   "description_es": "Sube al máximo el nivel de investigación para casi todos los monstruos grandes.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Lleva al máximo el nivel de investigación de Rango maestro de casi todos los monstruos grandes. No hacen falta Nergigante, Bazelgeuse, Vaal Hazak, Xeno'jiiva, Deviljho ni Zorah Magdaros (sin versión MR propia); Lunastra SÍ hace falta y aparece en las Tierras Destino con el bioma del Yermo a nivel 5.",
+   "sort_order": 92,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "monster",
+     "name_en": "Lunastra"
+    },
+    {
+     "type": "location",
+     "name_en": "Guiding Lands"
+    }
+   ]
+  },
+  {
+   "slug": "true-miniature-crown-collector",
+   "name_en": "True Miniature Crown Collector",
+   "name_es": "Supercoleccionista de minicoronas",
+   "description_en": "Obtain a miniature crown for almost every monster in your hunting log.",
+   "description_es": "Consigue una minicorona para casi todos los monstruos de tu registro de cazador.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Minicorona de oro en casi todos los monstruos del registro, incluidos los del juego base y los añadidos por actualizaciones (Lunastra, Deviljho, etc.). No tienen coronas: Xeno'jiiva, Zorah Magdaros, Shara Ishvalda, Leshen, Leshen ancestral y Behemoth. Las coronas salen al cazar o capturar un monstruo mucho más pequeño o más grande de lo normal (alrededor de un 25 % de diferencia). Las misiones de historia, la Arena y casi todas las opcionales tienen tamaño fijo y no dan coronas: juega investigaciones, mejor las de 15 minutos o 1 debilitamiento, de 3 a 5 intentos, con monstruos curtidos o con 3 monstruos. Compruébalas en el Centro de Investigación Ecológica (Guía de monstruos grandes, columnas Menor y Mayor). Truco: mide al monstruo al empezar y abandona si es de tamaño normal. Pendiente de revisar: Lista de exentos tomada de PowerPyx (2019); hay que revisar cómo afectan los monstruos de los últimos parches (Alatreon, Fatalis, Raging Brachydios).",
+   "sort_order": 93,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "needs_review": true
+  },
+  {
+   "slug": "true-large-crown-collector",
+   "name_en": "True Large Crown Collector",
+   "name_es": "Supercoleccionista de coronas",
+   "description_en": "Obtain a gold crown for almost every monster in your hunting log.",
+   "description_es": "Consigue una corona de oro para casi todos los monstruos de tu registro de cazador.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Corona grande de oro en casi todos los monstruos del registro, con las mismas exenciones que el logro anterior. Las coronas salen al cazar o capturar un monstruo mucho más pequeño o más grande de lo normal (alrededor de un 25 % de diferencia). Las misiones de historia, la Arena y casi todas las opcionales tienen tamaño fijo y no dan coronas: juega investigaciones, mejor las de 15 minutos o 1 debilitamiento, de 3 a 5 intentos, con monstruos curtidos o con 3 monstruos. Compruébalas en el Centro de Investigación Ecológica (Guía de monstruos grandes, columnas Menor y Mayor). Pendiente de revisar: Igual que Supercoleccionista de minicoronas: hay que revisar los monstruos de los últimos parches.",
+   "sort_order": 94,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "needs_review": true
+  },
+  {
+   "slug": "the-true-hunt-begins",
+   "name_en": "The True Hunt Begins",
+   "name_es": "Comienza la verdadera cacería",
+   "description_en": "Hunt your first large monster in a master rank quest.",
+   "description_es": "Caza tu primer monstruo grande en una misión de rango maestro.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Logro de historia automático, imposible de perder. Se consigue en la primera misión de Iceborne, «Baptism by Ice».",
+   "sort_order": 95,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "quest",
+     "name_en": "Baptism by Ice"
+    }
+   ]
+  },
+  {
+   "slug": "hunter-prodigy",
+   "name_en": "Hunter Prodigy",
+   "name_es": "Cazador prodigioso",
+   "description_en": "Hunt 100 large monsters in master rank quests.",
+   "description_es": "Caza 100 monstruos grandes en misiones de rango maestro.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Caza 100 monstruos grandes en misiones de Rango maestro (valen los monstruos antiguos en su versión MR).",
+   "sort_order": 96,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ]
+  },
+  {
+   "slug": "master-capturer",
+   "name_en": "Master Capturer",
+   "name_es": "Maestro de la captura",
+   "description_en": "Capture 50 large monsters in master rank quests.",
+   "description_es": "Captura 50 monstruos grandes en misiones de rango maestro.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Captura 50 monstruos grandes en misiones de Rango maestro: espera a la calavera en el mapa, trampa de choque o de foso y dos Bombas tranquilizantes.",
+   "sort_order": 97,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "item",
+     "name_en": "Tranq Bomb"
+    },
+    {
+     "type": "item",
+     "name_en": "Shock Trap"
+    },
+    {
+     "type": "item",
+     "name_en": "Pitfall Trap"
+    }
+   ]
+  },
+  {
+   "slug": "master-slayer",
+   "name_en": "Master Slayer",
+   "name_es": "Maestro verdugo",
+   "description_en": "Slay 50 elder dragons in master rank quests.",
+   "description_es": "Abate a 50 dragones ancianos en misiones de rango maestro.",
+   "category": "iceborne",
+   "hidden": false,
+   "guide_es": "Abate 50 dragones ancianos en misiones de Rango maestro (Kushala Daora, Teostra, Kirin, Vaal Hazak Velo Negro, Namielle, Nergigante Regio, Velkhana y los añadidos posteriores).",
+   "sort_order": 98,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "monster",
+     "name_en": "Kirin"
+    },
+    {
+     "type": "monster",
+     "name_en": "Velkhana"
+    }
+   ]
+  },
+  {
+   "slug": "confronting-the-unknown",
+   "name_en": "Confronting the Unknown",
+   "name_es": "Enfrentarse a lo desconocido",
+   "description_en": "Hunt your first variant monster.",
+   "description_es": "Caza tu primera variante de un monstruo.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Logro de historia automático, imposible de perder. Se consigue al derrotar a la Legiana estridente en «When the Mist Taketh You» (MR 4★).",
+   "sort_order": 99,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "monster",
+     "name_en": "Shrieking Legiana"
+    },
+    {
+     "type": "quest",
+     "name_en": "When the Mist Taketh You"
+    }
+   ]
+  },
+  {
+   "slug": "seen-it-all",
+   "name_en": "Seen It All",
+   "name_es": "Nada nuevo",
+   "description_en": "Hunt 30 variant monsters.",
+   "description_es": "Caza 30 variantes de monstruos.",
+   "category": "iceborne",
+   "hidden": true,
+   "guide_es": "Caza 30 monstruos variantes (no subespecies). Cuentan: Legiana estridente, Bazelgeuse abrasador, Vaal Hazak Velo Negro, Deviljho salvaje, Nergigante Regio y Yian Garuga cicatrizado; la Legiana estridente suele ser la más rápida de repetir.",
+   "sort_order": 100,
+   "sources": [
+    {
+     "title": "Steam: logros de Monster Hunter: World (inglés)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=english"
+    },
+    {
+     "title": "Steam: logros de Monster Hunter: World (español)",
+     "url": "https://steamcommunity.com/stats/582010/achievements/?l=spanish"
+    },
+    {
+     "title": "PowerPyx: Monster Hunter World Iceborne Trophy Guide",
+     "url": "https://www.powerpyx.com/monster-hunter-world-iceborne-trophy-guide-roadmap/"
+    },
+    {
+     "title": "Monster Hunter Wiki: MHWI/Awards",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Awards"
+    }
+   ],
+   "related": [
+    {
+     "type": "monster",
+     "name_en": "Shrieking Legiana"
+    },
+    {
+     "type": "monster",
+     "name_en": "Seething Bazelgeuse"
+    },
+    {
+     "type": "monster",
+     "name_en": "Blackveil Vaal Hazak"
+    },
+    {
+     "type": "monster",
+     "name_en": "Savage Deviljho"
+    },
+    {
+     "type": "monster",
+     "name_en": "Ruiner Nergigante"
+    },
+    {
+     "type": "monster",
+     "name_en": "Scarred Yian Garuga"
+    }
+   ]
+  }
+ ]
+}

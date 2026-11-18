@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "research seed: habitats",
+  "type": "object",
+  "required": [
+    "topic",
+    "entries"
+  ],
+  "properties": {
+    "topic": {
+      "const": "habitats"
+    },
+    "notebook": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "monster_en",
+          "location_en",
+          "sources"
+        ],
+        "properties": {
+          "monster_en": {
+            "type": "string"
+          },
+          "location_en": {
+            "type": "string"
+          },
+          "start_area": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "move_area": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "rest_area": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "rank": {
+            "enum": [
+              "LR",
+              "HR",
+              "MR",
+              null
+            ]
+          },
+          "notes_es": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "url"
+              ],
+              "properties": {
+                "title": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "pattern": "^https?://"
+                },
+                "note": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

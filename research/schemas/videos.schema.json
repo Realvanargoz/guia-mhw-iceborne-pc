@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "topic",
+    "entries"
+  ],
+  "title": "research seed: videos",
+  "properties": {
+    "topic": {
+      "const": "videos"
+    },
+    "notebook": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "guide_slug",
+          "youtube_id",
+          "title",
+          "lang"
+        ],
+        "properties": {
+          "guide_slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "youtube_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_-]{11}$"
+          },
+          "title": {
+            "type": "string"
+          },
+          "channel": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "lang": {
+            "enum": [
+              "es",
+              "en"
+            ]
+          },
+          "views": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "likes": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "published": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "duration_s": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "embeddable": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "low_confidence": {
+            "type": "boolean"
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

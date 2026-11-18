@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "goal": "botin",
+  "retrieved_at": "2026-11-15",
+  "label_es": "Botín y partes",
+  "scope_es": "Prioriza habilidades que dan más tallas, más recompensas finales y más rotura de partes. Las wikis no publican porcentajes de Good/Great Luck ni si se acumulan, así que los pesos son prioridades relativas, no números del juego.",
+  "notes_es": [
+    "Carving Master, Good Luck y Great Luck solo salen de bonus de set: el motor los cuenta cuando se completan las piezas del bonus.",
+    "El Manto de bandido y el Plunderblade no son del equipo: actívalos aparte (ver guía de botín).",
+    "Good Luck y Great Luck pueden no acumularse entre sí (sin confirmar)."
+  ],
+  "weights": {
+    "Carving Master": {
+      "weight": 8,
+      "curve": [
+        0,
+        1.0
+      ],
+      "reason_es": "una talla más del cadáver (bonus de set Commission Guidance o Guild Pride, 4 piezas)",
+      "sources": [
+        "fx_carving",
+        "game_data"
+      ]
+    },
+    "Great Luck": {
+      "weight": 8,
+      "curve": [
+        0,
+        1.0
+      ],
+      "reason_es": "alta probabilidad de recompensas extra al final de la misión",
+      "sources": [
+        "game_data"
+      ]
+    },
+    "Good Luck": {
+      "weight": 5,
+      "curve": [
+        0,
+        1.0
+      ],
+      "reason_es": "buena probabilidad de recompensas extra al final de la misión",
+      "sources": [
+        "game_data"
+      ]
+    },
+    "Partbreaker": {
+      "weight": 6,
+      "curve": [
+        0,
+        0.35,
+        0.7,
+        1.0
+      ],
+      "reason_es": "más daño para romper o cortar partes (cola, cuernos) que cambian el modelo del monstruo",
+      "sources": [
+        "fx_partbreaker"
+      ]
+    },
+    "Carving Pro": {
+      "weight": 1,
+      "curve": [
+        0,
+        1.0
+      ],
+      "reason_es": "evita el retroceso al tallar (no cambia el botín; solo comodidad)",
+      "sources": [
+        "fx_carving"
+      ]
+    }
+  },
+  "sources": {
+    "fx_botanist": {
+      "title": "Fextralife: Botanist",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist"
+    },
+    "fx_geologist": {
+      "title": "Fextralife: Geologist",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Geologist"
+    },
+    "fx_gl": {
+      "title": "Fextralife: Guiding Lands",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    },
+    "fx_gathering_rules": {
+      "title": "Semilla research/loot/gathering_rules.json (cuaderno 9efbfc77)",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Master+Gatherer"
+    },
+    "fx_carving": {
+      "title": "Fextralife: Carving Master",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Carving+Master"
+    },
+    "fx_partbreaker": {
+      "title": "Fextralife: Partbreaker",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Partbreaker"
+    },
+    "game_data": {
+      "title": "MHWorldData (texto del juego por habilidad y bonus de set)",
+      "url": "https://github.com/gatheringhallstudios/MHWorldData"
+    }
+  },
+  "needs_review": true
+}

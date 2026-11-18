@@ -1,0 +1,2899 @@
+{
+ "topic": "melder",
+ "retrieved_at": "2026-11-15",
+ "entries": {
+  "mechanics": [
+   {
+    "topic": "nombre",
+    "text": "En inglés el NPC es \"Elder Melder\" (Wyverian de la Tercera Flota; Astera - Tradeyard / Seliana - Central Area). \"Maxifusionador\" en español sería la instalación Melding Pot / Maestro fusionador; no hay página \"Max Melder\" en ninguna fuente.",
+    "needs_review": true,
+    "sources": [
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ]
+   },
+   {
+    "topic": "puntos",
+    "text": "Crear un objeto cuesta Puntos de Investigación (RP) y Puntos de Fusión (MP). Los MP se aportan metiendo objetos del cofre como materia prima; cada materia prima vale un número fijo de MP (ver tabla Ingredients de Kiranico: p.ej. Flowfern 1, Iron Ore 2, Commendation 50, First Wyverian Print 100, Sublime First Wyverian Print 300).",
+    "sources": [
+     {
+      "title": "GameWith MHW Iceborne - How To Use The Elder Melder",
+      "url": "https://gamewith.net/monsterhunterworld-iceborne/article/show/10651"
+     },
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     }
+    ]
+   },
+   {
+    "topic": "bonus",
+    "text": "En eventos la Elder Melder aplica bonos: ciertos ingredientes valen más MP.",
+    "sources": [
+     {
+      "title": "GameWith MHW Iceborne - How To Use The Elder Melder",
+      "url": "https://gamewith.net/monsterhunterworld-iceborne/article/show/10651"
+     }
+    ]
+   },
+   {
+    "topic": "desbloqueo",
+    "text": "Se desbloquea al completar la asignación 5★ \"Legiana: The Embodiment of Elegance\". Tras \"A Colossal Task\" (6★) se añaden más objetos. Fusión de decoraciones tras \"Tickled Pink\" (6★) (GameWith, pre-parche; Fextralife da otras misiones). Ritual del Primer Wyverian tras \"Land of Convergence\".",
+    "sources": [
+     {
+      "title": "GameWith MHW Iceborne - How To Use The Elder Melder",
+      "url": "https://gamewith.net/monsterhunterworld-iceborne/article/show/10651"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ]
+   },
+   {
+    "topic": "materiales_GL",
+    "text": "Los materiales muy raros de las Tierras Destino (Rugged Mane, Sinister Silverpelt...) aparecen en la lista de fusión con 100-300 RP y 120-400 MP. Fextralife: normalmente se bajan los materiales Tempered de las Tierras Destino por los normales 1:1, y se pueden usar otros materiales de monstruo por menos MP.",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ]
+   },
+   {
+    "topic": "limites",
+    "text": "Límite de cantidad por fusión y rango de desbloqueo exacto por objeto no encontrados en fuentes (ver open_questions). Rituales y alquimias permiten hasta 3 o 40 resultados a la vez.",
+    "needs_review": true,
+    "sources": [
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ]
+   },
+   {
+    "topic": "listas_kiranico",
+    "text": "Kiranico lista 236 objetos fusionables y 357 ingredientes; 51 son materiales GL normales y 31 Tempered.",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     }
+    ]
+   },
+   {
+    "topic": "ingredientes_top",
+    "text": "Ingredientes con mas MP (Kiranico)",
+    "data": [
+     {
+      "item_en": "Tempered Blastscale",
+      "points": 400,
+      "all_tiers": [
+       400,
+       80
+      ]
+     },
+     {
+      "item_en": "Tempered Twilight Fang",
+      "points": 400,
+      "all_tiers": [
+       400,
+       80
+      ]
+     },
+     {
+      "item_en": "Tempered Dragonhold",
+      "points": 400,
+      "all_tiers": [
+       400,
+       80
+      ]
+     },
+     {
+      "item_en": "Tempered Glimmerpelt",
+      "points": 400,
+      "all_tiers": [
+       400,
+       80
+      ]
+     },
+     {
+      "item_en": "Tempered Frosthide",
+      "points": 320,
+      "all_tiers": [
+       320,
+       60
+      ]
+     },
+     {
+      "item_en": "Tempered Tailblade",
+      "points": 320,
+      "all_tiers": [
+       320,
+       60
+      ]
+     },
+     {
+      "item_en": "Tempered Ebonjaw",
+      "points": 320,
+      "all_tiers": [
+       320,
+       80
+      ]
+     },
+     {
+      "item_en": "Sublime First Wyverian Print",
+      "points": 300,
+      "all_tiers": [
+       300
+      ]
+     },
+     {
+      "item_en": "Research Commission Ticket+",
+      "points": 300,
+      "all_tiers": [
+       300
+      ]
+     },
+     {
+      "item_en": "Tempered Icefang",
+      "points": 240,
+      "all_tiers": [
+       240,
+       40
+      ]
+     },
+     {
+      "item_en": "Tempered Rendclaw",
+      "points": 240,
+      "all_tiers": [
+       240,
+       40
+      ]
+     },
+     {
+      "item_en": "Tempered Ebonshell",
+      "points": 240,
+      "all_tiers": [
+       240,
+       60
+      ]
+     },
+     {
+      "item_en": "Tempered Jaw",
+      "points": 240,
+      "all_tiers": [
+       240,
+       40
+      ]
+     },
+     {
+      "item_en": "Namielle Ticket",
+      "points": 200,
+      "all_tiers": [
+       200
+      ]
+     },
+     {
+      "item_en": "Frostfang Ticket",
+      "points": 200,
+      "all_tiers": [
+       200
+      ]
+     },
+     {
+      "item_en": "Velkhana Ticket",
+      "points": 200,
+      "all_tiers": [
+       200
+      ]
+     },
+     {
+      "item_en": "S.T.A.R.S. Badge",
+      "points": 200,
+      "all_tiers": [
+       200
+      ]
+     },
+     {
+      "item_en": "Azure Era Seal",
+      "points": 200,
+      "all_tiers": [
+       200
+      ]
+     },
+     {
+      "item_en": "Large Azure Era Gem",
+      "points": 200,
+      "all_tiers": [
+       200
+      ]
+     },
+     {
+      "item_en": "Inner Eye Ticket",
+      "points": 200,
+      "all_tiers": [
+       200
+      ]
+     },
+     {
+      "item_en": "Buff Ticket+",
+      "points": 200,
+      "all_tiers": [
+       200
+      ]
+     },
+     {
+      "item_en": "Zinogre Coin",
+      "points": 200,
+      "all_tiers": [
+       200
+      ]
+     },
+     {
+      "item_en": "Hero King Coin",
+      "points": 200,
+      "all_tiers": [
+       200
+      ]
+     },
+     {
+      "item_en": "Tigrex Coin",
+      "points": 200,
+      "all_tiers": [
+       200
+      ]
+     },
+     {
+      "item_en": "Tempered Torrent Sac",
+      "points": 160,
+      "all_tiers": [
+       160
+      ]
+     },
+     {
+      "item_en": "Tempered Viperthorn",
+      "points": 160,
+      "all_tiers": [
+       160
+      ]
+     },
+     {
+      "item_en": "Tempered Pink Scale",
+      "points": 160,
+      "all_tiers": [
+       160
+      ]
+     },
+     {
+      "item_en": "Tempered Rubbery Shell",
+      "points": 160,
+      "all_tiers": [
+       160
+      ]
+     },
+     {
+      "item_en": "Tempered Oilshell+",
+      "points": 160,
+      "all_tiers": [
+       160
+      ]
+     },
+     {
+      "item_en": "Tempered Magmafin",
+      "points": 160,
+      "all_tiers": [
+       160
+      ]
+     },
+     {
+      "item_en": "Elder Spiritvein Bone",
+      "points": 150,
+      "all_tiers": [
+       150,
+       100,
+       40
+      ]
+     },
+     {
+      "item_en": "Glavenus Coin",
+      "points": 150,
+      "all_tiers": [
+       150
+      ]
+     },
+     {
+      "item_en": "Odogaron Coin",
+      "points": 150,
+      "all_tiers": [
+       150
+      ]
+     },
+     {
+      "item_en": "Tempered Poison Sac",
+      "points": 120,
+      "all_tiers": [
+       120
+      ]
+     },
+     {
+      "item_en": "Tempered Crown",
+      "points": 120,
+      "all_tiers": [
+       120
+      ]
+     },
+     {
+      "item_en": "Tempered Cathode",
+      "points": 120,
+      "all_tiers": [
+       120
+      ]
+     },
+     {
+      "item_en": "Ancient Fragment",
+      "points": 100,
+      "all_tiers": [
+       100
+      ]
+     },
+     {
+      "item_en": "Elder Dragonvein Bone",
+      "points": 100,
+      "all_tiers": [
+       100,
+       60
+      ]
+     },
+     {
+      "item_en": "Spiritvein Solidbone",
+      "points": 100,
+      "all_tiers": [
+       100,
+       70,
+       30
+      ]
+     },
+     {
+      "item_en": "First Wyverian Print",
+      "points": 100,
+      "all_tiers": [
+       100
+      ]
+     }
+    ],
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     }
+    ]
+   }
+  ],
+  "items": [
+   {
+    "item_en": "Rugged Mane",
+    "item_es": "Crin áspera",
+    "rarity": 9,
+    "value": 2000,
+    "research_points": 100,
+    "meld_points_needed": 120,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Fragrant Poison Sac",
+    "item_es": "Vesícula de veneno aromática",
+    "rarity": 9,
+    "value": 2000,
+    "research_points": 100,
+    "meld_points_needed": 120,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Poison Sac",
+      "item_es": "Vesícula de veneno curtida",
+      "points": 120,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Blinding Cathode",
+    "item_es": "Cátodo cegador",
+    "rarity": 9,
+    "value": 2000,
+    "research_points": 100,
+    "meld_points_needed": 120,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Cathode",
+      "item_es": "Cátodo curtido",
+      "points": 120,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Flickering Flamepelt",
+    "item_es": "Piel flamígera brillante",
+    "rarity": 9,
+    "value": 2500,
+    "research_points": 150,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Flamepelt",
+      "item_es": "Piel flamígera curtida",
+      "points": 160,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "King's Scale",
+    "item_es": "Escama de rey",
+    "rarity": 10,
+    "value": 3000,
+    "research_points": 200,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Red Scale",
+      "item_es": "Escama roja curtida",
+      "points": 240,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Assassin Cutwing",
+    "item_es": "Cuchilla de asesino",
+    "rarity": 10,
+    "value": 3000,
+    "research_points": 200,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Cutwing",
+      "item_es": "Cuchilla curtida",
+      "points": 240,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Sinister Silverpelt",
+    "item_es": "Piel plateada siniestra",
+    "rarity": 10,
+    "value": 4500,
+    "research_points": 250,
+    "meld_points_needed": 320,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Silverpelt",
+      "item_es": "Piel de lobo plateado curtida",
+      "points": 320,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Charged Deathly Shocker",
+    "item_es": "Electrificador letal cargado",
+    "rarity": 10,
+    "value": 4500,
+    "research_points": 250,
+    "meld_points_needed": 320,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Shocker",
+      "item_es": "Electrificador curtido",
+      "points": 320,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Azure Scale",
+    "item_es": "Escama celeste",
+    "rarity": 10,
+    "value": 3500,
+    "research_points": 250,
+    "meld_points_needed": 320,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Azure Scale",
+      "item_es": "Escama celeste curtida",
+      "points": 320,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Stormcall Steelwing",
+    "item_es": "Ala acerada del clamatormentas",
+    "rarity": 11,
+    "value": 4000,
+    "research_points": 300,
+    "meld_points_needed": 400,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Colorful Plume",
+    "item_es": "Pluma colorida",
+    "rarity": 9,
+    "value": 2000,
+    "research_points": 100,
+    "meld_points_needed": 120,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Muddy Crown",
+    "item_es": "Corona de barro",
+    "rarity": 9,
+    "value": 2000,
+    "research_points": 100,
+    "meld_points_needed": 120,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Crown",
+      "item_es": "Corona curtida",
+      "points": 120,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Queen's Scale",
+    "item_es": "Escama de reina",
+    "rarity": 9,
+    "value": 2500,
+    "research_points": 150,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Green Scale",
+      "item_es": "Escama verde curtida",
+      "points": 160,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Obsidian Fur",
+    "item_es": "Piel de obsidiana",
+    "rarity": 9,
+    "value": 2500,
+    "research_points": 150,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Hide",
+      "item_es": "Piel curtida",
+      "points": 160,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Twisted Bravehorn",
+    "item_es": "Corajecorno enroscado",
+    "rarity": 10,
+    "value": 3000,
+    "research_points": 200,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Twisted Temperhorn",
+      "item_es": "Espiracorno enroscado",
+      "points": 240,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Smoldering Tailedge",
+    "item_es": "Punta de cola flameante",
+    "rarity": 10,
+    "value": 3000,
+    "research_points": 200,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Tailedge",
+      "item_es": "Punta de cola curtida",
+      "points": 240,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Blackcurl Tyranthorn",
+    "item_es": "Tiranocorno nudo negro",
+    "rarity": 10,
+    "value": 3500,
+    "research_points": 250,
+    "meld_points_needed": 320,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Blackcurl Temperhorn",
+      "item_es": "Espiracorno nudo negro",
+      "points": 320,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Hellfire Mane",
+    "item_es": "Crin de fuego infernal",
+    "rarity": 11,
+    "value": 4000,
+    "research_points": 300,
+    "meld_points_needed": 400,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Azure Mane",
+    "item_es": "Crin celeste",
+    "rarity": 11,
+    "value": 4500,
+    "research_points": 300,
+    "meld_points_needed": 400,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Moonlight Scale",
+    "item_es": "Escama luz de luna",
+    "rarity": 11,
+    "value": 6500,
+    "research_points": 300,
+    "meld_points_needed": 400,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Dazzling Photophore+",
+    "item_es": "Fotóforo cegador",
+    "rarity": 9,
+    "value": 2000,
+    "research_points": 100,
+    "meld_points_needed": 120,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Rubbery Shell",
+    "item_es": "Caparazón de goma",
+    "rarity": 9,
+    "value": 2500,
+    "research_points": 150,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Rubbery Shell",
+      "item_es": "Caparazón de goma curtido",
+      "points": 160,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Pink Scale",
+    "item_es": "Escama rosada",
+    "rarity": 9,
+    "value": 2500,
+    "research_points": 150,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Pink Scale",
+      "item_es": "Escama rosada curtida",
+      "points": 160,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Hydrated Sac",
+    "item_es": "Vesícula hídrica",
+    "rarity": 9,
+    "value": 2500,
+    "research_points": 150,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Torrent Sac",
+      "item_es": "Vesícula torrencial curtida",
+      "points": 160,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Smooth Icehide",
+    "item_es": "Pellejo de hielo suave",
+    "rarity": 10,
+    "value": 3000,
+    "research_points": 200,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Icehide",
+      "item_es": "Pellejo de hielo curtido",
+      "points": 240,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Soulrender Talon",
+    "item_es": "Garra segadora de almas",
+    "rarity": 10,
+    "value": 3500,
+    "research_points": 250,
+    "meld_points_needed": 320,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Talon",
+      "item_es": "Garra curtida",
+      "points": 320,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Solemn Azure Horn",
+    "item_es": "Cuerno celeste solemne",
+    "rarity": 11,
+    "value": 4000,
+    "research_points": 300,
+    "meld_points_needed": 400,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Enchanting Finehide",
+    "item_es": "Piel fina encantadora",
+    "rarity": 11,
+    "value": 4000,
+    "research_points": 300,
+    "meld_points_needed": 400,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Scorching Scale",
+    "item_es": "Escama abrasadora",
+    "rarity": 11,
+    "value": 6500,
+    "research_points": 300,
+    "meld_points_needed": 400,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Night Hood",
+    "item_es": "Capucha de medianoche",
+    "rarity": 9,
+    "value": 2000,
+    "research_points": 100,
+    "meld_points_needed": 120,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Inkstained Oilshell+",
+    "item_es": "Aceite tintado+",
+    "rarity": 9,
+    "value": 2500,
+    "research_points": 150,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Oilshell+",
+      "item_es": "Aceite curtido+",
+      "points": 160,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Fatal Rendclaw",
+    "item_es": "Garra guadaña mortífera",
+    "rarity": 10,
+    "value": 3000,
+    "research_points": 200,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Rendclaw",
+      "item_es": "Garra guadaña curtida",
+      "points": 240,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Strongman's Jaw",
+    "item_es": "Mandíbula de campeón",
+    "rarity": 10,
+    "value": 3000,
+    "research_points": 200,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Jaw",
+      "item_es": "Mandíbula curtida",
+      "points": 240,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Honed Tailblade",
+    "item_es": "Cola pulida",
+    "rarity": 10,
+    "value": 3500,
+    "research_points": 250,
+    "meld_points_needed": 320,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Tailblade",
+      "item_es": "Cola curtida",
+      "points": 320,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Shuddering Darkjaw",
+    "item_es": "Mandíbula negra trémula",
+    "rarity": 10,
+    "value": 4500,
+    "research_points": 250,
+    "meld_points_needed": 320,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Twilight Fang",
+    "item_es": "Colmillo crepuscular",
+    "rarity": 11,
+    "value": 4000,
+    "research_points": 300,
+    "meld_points_needed": 400,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Ancient Great Horn",
+    "item_es": "Gran cuerno ancestral",
+    "rarity": 9,
+    "value": 2000,
+    "research_points": 150,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Great Horn",
+      "item_es": "Gran cuerno curtido",
+      "points": 30,
+      "max": 6
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Crackling Thunderpelt",
+    "item_es": "Piel atronadora chisporroteante",
+    "rarity": 10,
+    "value": 3500,
+    "research_points": 200,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Thunderpelt",
+      "item_es": "Piel atronadora curtida",
+      "points": 240,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Bloodstained Ebonhide",
+    "item_es": "Piel ébano sanguinolenta",
+    "rarity": 11,
+    "value": 4000,
+    "research_points": 300,
+    "meld_points_needed": 400,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Aurora Crownhorn",
+    "item_es": "Cornacorona de aurora",
+    "rarity": 11,
+    "value": 4000,
+    "research_points": 300,
+    "meld_points_needed": 400,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Extinction Greathorn",
+    "item_es": "Gran cuerno de extinción",
+    "rarity": 11,
+    "value": 6500,
+    "research_points": 300,
+    "meld_points_needed": 400,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Heavy Jaw",
+    "item_es": "Mandíbula pesada",
+    "rarity": 9,
+    "value": 2000,
+    "research_points": 100,
+    "meld_points_needed": 120,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Incandescent Magmafin",
+    "item_es": "Aleta de magma incandescente",
+    "rarity": 10,
+    "value": 3000,
+    "research_points": 150,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Magmafin",
+      "item_es": "Aleta de magma curtida",
+      "points": 160,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Metallic Scute",
+    "item_es": "Peto metálico",
+    "rarity": 10,
+    "value": 3000,
+    "research_points": 200,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Scute",
+      "item_es": "Peto curtido",
+      "points": 40,
+      "max": 6
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Glossy Ebonshell",
+    "item_es": "Caparazón de ébano brillante",
+    "rarity": 10,
+    "value": 3000,
+    "research_points": 200,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Ebonshell",
+      "item_es": "Caparazón de ébano curtido",
+      "points": 240,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Crimson Blastscale",
+    "item_es": "Escama explosiva púrpura",
+    "rarity": 11,
+    "value": 4000,
+    "research_points": 300,
+    "meld_points_needed": 400,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Bloodthirsty Glimmerpelt",
+    "item_es": "Piel brillante sangrienta",
+    "rarity": 11,
+    "value": 4500,
+    "research_points": 300,
+    "meld_points_needed": 400,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Enticing Viperthorn",
+    "item_es": "Púa vípera tentadora",
+    "rarity": 9,
+    "value": 2500,
+    "research_points": 150,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Viperthorn",
+      "item_es": "Púa vípera curtida",
+      "points": 160,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Coldblooded Icefang",
+    "item_es": "Colmillo helado de sangre fría",
+    "rarity": 10,
+    "value": 3000,
+    "research_points": 200,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Icefang",
+      "item_es": "Colmillo helado curtido",
+      "points": 240,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Crystal Frozenhide",
+    "item_es": "Pellejo congelado de cristal",
+    "rarity": 10,
+    "value": 3500,
+    "research_points": 250,
+    "meld_points_needed": 320,
+    "category": "guiding_lands_regular",
+    "materials": [
+     {
+      "item_en": "Tempered Frosthide",
+      "item_es": "Pellejo congelado curtido",
+      "points": 320,
+      "max": 1
+     }
+    ],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Material emparejado por monstruo y por igualdad de puntos (1:1, regla Fextralife: materiales Tempered de las Tierras Destino por los normales). Kiranico no lista materias primas por objeto GL."
+    ]
+   },
+   {
+    "item_en": "Gushing Dragonhold",
+    "item_es": "Dracáscara brotante",
+    "rarity": 11,
+    "value": 4500,
+    "research_points": 300,
+    "meld_points_needed": 400,
+    "category": "guiding_lands_regular",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Sin contrapartida Tempered identificada; materias primas desconocidas."
+    ]
+   },
+   {
+    "item_en": "Tempered Poison Sac",
+    "item_es": "Vesícula de veneno curtida",
+    "rarity": 9,
+    "value": 4000,
+    "research_points": 350,
+    "meld_points_needed": 120,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Cathode",
+    "item_es": "Cátodo curtido",
+    "rarity": 9,
+    "value": 4000,
+    "research_points": 350,
+    "meld_points_needed": 120,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Flamepelt",
+    "item_es": "Piel flamígera curtida",
+    "rarity": 9,
+    "value": 4500,
+    "research_points": 400,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Red Scale",
+    "item_es": "Escama roja curtida",
+    "rarity": 10,
+    "value": 5000,
+    "research_points": 450,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Cutwing",
+    "item_es": "Cuchilla curtida",
+    "rarity": 10,
+    "value": 5000,
+    "research_points": 450,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Silverpelt",
+    "item_es": "Piel de lobo plateado curtida",
+    "rarity": 10,
+    "value": 6500,
+    "research_points": 500,
+    "meld_points_needed": 320,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Shocker",
+    "item_es": "Electrificador curtido",
+    "rarity": 10,
+    "value": 6500,
+    "research_points": 500,
+    "meld_points_needed": 320,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Azure Scale",
+    "item_es": "Escama celeste curtida",
+    "rarity": 10,
+    "value": 5500,
+    "research_points": 500,
+    "meld_points_needed": 320,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Crown",
+    "item_es": "Corona curtida",
+    "rarity": 9,
+    "value": 4000,
+    "research_points": 350,
+    "meld_points_needed": 120,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Green Scale",
+    "item_es": "Escama verde curtida",
+    "rarity": 9,
+    "value": 4500,
+    "research_points": 400,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Hide",
+    "item_es": "Piel curtida",
+    "rarity": 9,
+    "value": 4500,
+    "research_points": 400,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Twisted Temperhorn",
+    "item_es": "Espiracorno enroscado",
+    "rarity": 10,
+    "value": 5000,
+    "research_points": 450,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Tailedge",
+    "item_es": "Punta de cola curtida",
+    "rarity": 10,
+    "value": 5000,
+    "research_points": 450,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Blackcurl Temperhorn",
+    "item_es": "Espiracorno nudo negro",
+    "rarity": 10,
+    "value": 5500,
+    "research_points": 500,
+    "meld_points_needed": 320,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Rubbery Shell",
+    "item_es": "Caparazón de goma curtido",
+    "rarity": 9,
+    "value": 4500,
+    "research_points": 400,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Pink Scale",
+    "item_es": "Escama rosada curtida",
+    "rarity": 9,
+    "value": 4500,
+    "research_points": 400,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Torrent Sac",
+    "item_es": "Vesícula torrencial curtida",
+    "rarity": 9,
+    "value": 4500,
+    "research_points": 400,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Icehide",
+    "item_es": "Pellejo de hielo curtido",
+    "rarity": 10,
+    "value": 5000,
+    "research_points": 450,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Talon",
+    "item_es": "Garra curtida",
+    "rarity": 10,
+    "value": 5500,
+    "research_points": 450,
+    "meld_points_needed": 320,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Oilshell+",
+    "item_es": "Aceite curtido+",
+    "rarity": 9,
+    "value": 4500,
+    "research_points": 400,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Rendclaw",
+    "item_es": "Garra guadaña curtida",
+    "rarity": 10,
+    "value": 5000,
+    "research_points": 450,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Jaw",
+    "item_es": "Mandíbula curtida",
+    "rarity": 10,
+    "value": 5000,
+    "research_points": 450,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Tailblade",
+    "item_es": "Cola curtida",
+    "rarity": 10,
+    "value": 5500,
+    "research_points": 500,
+    "meld_points_needed": 320,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Great Horn",
+    "item_es": "Gran cuerno curtido",
+    "rarity": 9,
+    "value": 4000,
+    "research_points": 400,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Thunderpelt",
+    "item_es": "Piel atronadora curtida",
+    "rarity": 10,
+    "value": 5500,
+    "research_points": 450,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Magmafin",
+    "item_es": "Aleta de magma curtida",
+    "rarity": 10,
+    "value": 5000,
+    "research_points": 400,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Scute",
+    "item_es": "Peto curtido",
+    "rarity": 10,
+    "value": 5000,
+    "research_points": 450,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Ebonshell",
+    "item_es": "Caparazón de ébano curtido",
+    "rarity": 10,
+    "value": 5000,
+    "research_points": 450,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Viperthorn",
+    "item_es": "Púa vípera curtida",
+    "rarity": 9,
+    "value": 4500,
+    "research_points": 400,
+    "meld_points_needed": 160,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Icefang",
+    "item_es": "Colmillo helado curtido",
+    "rarity": 10,
+    "value": 5000,
+    "research_points": 450,
+    "meld_points_needed": 240,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   },
+   {
+    "item_en": "Tempered Frosthide",
+    "item_es": "Pellejo congelado curtido",
+    "rarity": 10,
+    "value": 5500,
+    "research_points": 500,
+    "meld_points_needed": 320,
+    "category": "guiding_lands_tempered",
+    "materials": [],
+    "unlock": "Desbloqueo por progreso/monstruo (ver mechanics); no confirmado por fuente por objeto",
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Kiranico MH:World - Maxifusionador (es)",
+      "url": "https://mhworld.kiranico.com/es/melder"
+     }
+    ],
+    "needs_review": true,
+    "notes": [
+     "Kiranico lo lista en \"Meld Items\" con RP 350-500 y PM 120-320; sentido (ingrediente vs resultado) no confirmado."
+    ]
+   }
+  ],
+  "tips": [
+   {
+    "text": "Para ganar MP rápido: Sublime First Wyverian Print / Research Commission Ticket+ (300), First Wyverian Print y Tickets de festival (100), Commendation (50); y los materiales Tempered de las Tierras Destino dan 1:1 (120-320 MP).",
+    "needs_review": true,
+    "sources": [
+     {
+      "title": "Kiranico MH:World - Elder Melder",
+      "url": "https://mhworld.kiranico.com/en/melder"
+     },
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ]
+   },
+   {
+    "text": "Materiales Tempered se consiguen con monstruos Tempered / Tierras Destino; en el cuaderno no hay mapa de drops específico por material.",
+    "needs_review": true,
+    "sources": [
+     {
+      "title": "Fextralife MHW - Elder Melder",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Elder+Melder"
+     }
+    ]
+   }
+  ]
+ }
+}

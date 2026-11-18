@@ -1,0 +1,250 @@
+{
+ "_source": "celdas de atlas de nativePC/ui (index = fila*columnas+col)",
+ "icons": [
+  {
+   "name": "element-fire",
+   "file": "ui-named/element-fire.webp",
+   "source": "common/tex/cmn_status00_ID.tex",
+   "cell": 64,
+   "index": 3
+  },
+  {
+   "name": "element-water",
+   "file": "ui-named/element-water.webp",
+   "source": "common/tex/cmn_status00_ID.tex",
+   "cell": 64,
+   "index": 4
+  },
+  {
+   "name": "element-thunder",
+   "file": "ui-named/element-thunder.webp",
+   "source": "common/tex/cmn_status00_ID.tex",
+   "cell": 64,
+   "index": 5
+  },
+  {
+   "name": "element-ice",
+   "file": "ui-named/element-ice.webp",
+   "source": "common/tex/cmn_status00_ID.tex",
+   "cell": 64,
+   "index": 6
+  },
+  {
+   "name": "element-dragon",
+   "file": "ui-named/element-dragon.webp",
+   "source": "common/tex/cmn_status00_ID.tex",
+   "cell": 64,
+   "index": 7
+  },
+  {
+   "name": "status-poison",
+   "file": "ui-named/status-poison.webp",
+   "source": "common/tex/cmn_status00_ID.tex",
+   "cell": 64,
+   "index": 8
+  },
+  {
+   "name": "status-paralysis",
+   "file": "ui-named/status-paralysis.webp",
+   "source": "common/tex/cmn_status00_ID.tex",
+   "cell": 64,
+   "index": 10
+  },
+  {
+   "name": "status-stun",
+   "file": "ui-named/status-stun.webp",
+   "source": "common/tex/cmn_status00_ID.tex",
+   "cell": 64,
+   "index": 11
+  },
+  {
+   "name": "status-sleep",
+   "file": "ui-named/status-sleep.webp",
+   "source": "common/tex/cmn_status00_ID.tex",
+   "cell": 64,
+   "index": 12
+  },
+  {
+   "name": "status-blast",
+   "file": "ui-named/status-blast.webp",
+   "source": "common/tex/cmn_status00_ID.tex",
+   "cell": 64,
+   "index": 13
+  },
+  {
+   "name": "status-bleed",
+   "file": "ui-named/status-bleed.webp",
+   "source": "common/tex/cmn_status00_ID.tex",
+   "cell": 64,
+   "index": 14
+  },
+  {
+   "name": "crown-gold",
+   "file": "ui-named/crown-gold.webp",
+   "source": "common/tex/cmn_other00_ID.tex",
+   "cell": 64,
+   "index": 36
+  },
+  {
+   "name": "crown-silver",
+   "file": "ui-named/crown-silver.webp",
+   "source": "common/tex/cmn_other00_ID.tex",
+   "cell": 64,
+   "index": 37
+  },
+  {
+   "name": "crown-mini",
+   "file": "ui-named/crown-mini.webp",
+   "source": "common/tex/cmn_other00_ID.tex",
+   "cell": 64,
+   "index": 38
+  },
+  {
+   "name": "weapon-great-sword",
+   "file": "ui-named/weapon-great-sword.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 241
+  },
+  {
+   "name": "weapon-long-sword",
+   "file": "ui-named/weapon-long-sword.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 242
+  },
+  {
+   "name": "weapon-sword-and-shield",
+   "file": "ui-named/weapon-sword-and-shield.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 240
+  },
+  {
+   "name": "weapon-dual-blades",
+   "file": "ui-named/weapon-dual-blades.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 243
+  },
+  {
+   "name": "weapon-hammer",
+   "file": "ui-named/weapon-hammer.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 246
+  },
+  {
+   "name": "weapon-hunting-horn",
+   "file": "ui-named/weapon-hunting-horn.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 247
+  },
+  {
+   "name": "weapon-lance",
+   "file": "ui-named/weapon-lance.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 244
+  },
+  {
+   "name": "weapon-gunlance",
+   "file": "ui-named/weapon-gunlance.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 245
+  },
+  {
+   "name": "weapon-switch-axe",
+   "file": "ui-named/weapon-switch-axe.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 248
+  },
+  {
+   "name": "weapon-charge-blade",
+   "file": "ui-named/weapon-charge-blade.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 249
+  },
+  {
+   "name": "weapon-insect-glaive",
+   "file": "ui-named/weapon-insect-glaive.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 250
+  },
+  {
+   "name": "weapon-light-bowgun",
+   "file": "ui-named/weapon-light-bowgun.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 251
+  },
+  {
+   "name": "weapon-heavy-bowgun",
+   "file": "ui-named/weapon-heavy-bowgun.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 252
+  },
+  {
+   "name": "weapon-bow",
+   "file": "ui-named/weapon-bow.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 253
+  },
+  {
+   "name": "armor-head",
+   "file": "ui-named/armor-head.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 224
+  },
+  {
+   "name": "armor-chest",
+   "file": "ui-named/armor-chest.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 225
+  },
+  {
+   "name": "armor-arms",
+   "file": "ui-named/armor-arms.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 226
+  },
+  {
+   "name": "armor-waist",
+   "file": "ui-named/armor-waist.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 227
+  },
+  {
+   "name": "armor-legs",
+   "file": "ui-named/armor-legs.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 228
+  },
+  {
+   "name": "armor-charm",
+   "file": "ui-named/armor-charm.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 229
+  },
+  {
+   "name": "armor-armorset",
+   "file": "ui-named/armor-armorset.webp",
+   "source": "common/tex/cmn_item00_ID.tex",
+   "cell": 64,
+   "index": 230
+  }
+ ]
+}

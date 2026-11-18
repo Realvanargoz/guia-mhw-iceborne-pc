@@ -1,0 +1,753 @@
+{
+ "_source": {
+  "em_map": "https://mhw.poedb.tw/eng/em (cache data/raw/poedb/em.html), emparejado por name_en",
+  "icons": "nativePC/ui/note/tex/micon/em*_ID.tex (512 px -> 256 px); si falta, celda de common/tex/cmn_micon00_ID.tex (64 px)",
+  "monsters": "MHWorldData monsters/monster_base.csv (mismos id que mhw.monsters)"
+ },
+ "monsters": [
+  {
+   "monster_id": 1,
+   "name_en": "Aptonoth",
+   "size": "small",
+   "em_code": "ems001_00",
+   "file": "monsters/1.webp",
+   "source": "note/tex/micon/ems001_ID.tex"
+  },
+  {
+   "monster_id": 2,
+   "name_en": "Jagras",
+   "size": "small",
+   "em_code": "ems049_00",
+   "file": "monsters/2.webp",
+   "source": "note/tex/micon/ems049_ID.tex"
+  },
+  {
+   "monster_id": 3,
+   "name_en": "Mernos",
+   "size": "small",
+   "em_code": "ems050_00",
+   "file": "monsters/3.webp",
+   "source": "note/tex/micon/ems050_ID.tex"
+  },
+  {
+   "monster_id": 4,
+   "name_en": "Vespoid",
+   "size": "small",
+   "em_code": "ems006_00",
+   "file": "monsters/4.webp",
+   "source": "note/tex/micon/ems006_ID.tex"
+  },
+  {
+   "monster_id": 5,
+   "name_en": "Mosswine",
+   "size": "small",
+   "em_code": "ems004_00",
+   "file": "monsters/5.webp",
+   "source": "note/tex/micon/ems004_ID.tex"
+  },
+  {
+   "monster_id": 6,
+   "name_en": "Apceros",
+   "size": "small",
+   "em_code": "ems002_00",
+   "file": "monsters/6.webp",
+   "source": "note/tex/micon/ems002_ID.tex"
+  },
+  {
+   "monster_id": 7,
+   "name_en": "Kestodon",
+   "size": "small",
+   "em_code": "ems051_00",
+   "file": "monsters/7.webp",
+   "source": "note/tex/micon/ems051_ID.tex"
+  },
+  {
+   "monster_id": 8,
+   "name_en": "Noios",
+   "size": "small",
+   "em_code": "ems059_00",
+   "file": "monsters/8.webp",
+   "source": "note/tex/micon/ems059_ID.tex"
+  },
+  {
+   "monster_id": 9,
+   "name_en": "Gajau",
+   "size": "small",
+   "em_code": "ems029_00",
+   "file": "monsters/9.webp",
+   "source": "note/tex/micon/ems029_ID.tex"
+  },
+  {
+   "monster_id": 10,
+   "name_en": "Kelbi",
+   "size": "small",
+   "em_code": "ems003_00",
+   "file": "monsters/10.webp",
+   "source": "note/tex/micon/ems003_ID.tex"
+  },
+  {
+   "monster_id": 11,
+   "name_en": "Raphinos",
+   "size": "small",
+   "em_code": "ems053_00",
+   "file": "monsters/11.webp",
+   "source": "note/tex/micon/ems053_ID.tex"
+  },
+  {
+   "monster_id": 12,
+   "name_en": "Shamos",
+   "size": "small",
+   "em_code": "ems054_00",
+   "file": "monsters/12.webp",
+   "source": "note/tex/micon/ems054_ID.tex"
+  },
+  {
+   "monster_id": 13,
+   "name_en": "Girros",
+   "size": "small",
+   "em_code": "ems056_00",
+   "file": "monsters/13.webp",
+   "source": "note/tex/micon/ems056_ID.tex"
+  },
+  {
+   "monster_id": 14,
+   "name_en": "Hornetaur",
+   "size": "small",
+   "em_code": "ems005_01",
+   "file": "monsters/14.webp",
+   "source": "note/tex/micon/ems005_01_ID.tex"
+  },
+  {
+   "monster_id": 15,
+   "name_en": "Gastodon",
+   "size": "small",
+   "em_code": "ems058_00",
+   "file": "monsters/15.webp",
+   "source": "note/tex/micon/ems058_ID.tex"
+  },
+  {
+   "monster_id": 16,
+   "name_en": "Barnos",
+   "size": "small",
+   "em_code": "ems055_00",
+   "file": "monsters/16.webp",
+   "source": "note/tex/micon/ems055_ID.tex"
+  },
+  {
+   "monster_id": 101,
+   "name_en": "Popo",
+   "size": "small",
+   "em_code": "ems014_00",
+   "file": "monsters/101.webp",
+   "source": "note/tex/micon/ems014_ID.tex"
+  },
+  {
+   "monster_id": 102,
+   "name_en": "Anteka",
+   "size": "small",
+   "em_code": "ems016_00",
+   "file": "monsters/102.webp",
+   "source": "note/tex/micon/ems016_ID.tex"
+  },
+  {
+   "monster_id": 103,
+   "name_en": "Wulg",
+   "size": "small",
+   "em_code": "ems063_00",
+   "file": "monsters/103.webp",
+   "source": "note/tex/micon/ems063_ID.tex"
+  },
+  {
+   "monster_id": 104,
+   "name_en": "Cortos",
+   "size": "small",
+   "em_code": "ems064_00",
+   "file": "monsters/104.webp",
+   "source": "note/tex/micon/ems064_ID.tex"
+  },
+  {
+   "monster_id": 100,
+   "name_en": "Gajalaka",
+   "size": "small",
+   "em_code": "ems061_00",
+   "file": "monsters/100.webp",
+   "source": "note/tex/micon/ems061_ID.tex"
+  },
+  {
+   "monster_id": 141,
+   "name_en": "Boaboa",
+   "size": "small",
+   "em_code": "ems061_01",
+   "file": "monsters/141.webp",
+   "source": "note/tex/micon/ems061_01_ID.tex"
+  },
+  {
+   "monster_id": 17,
+   "name_en": "Great Jagras",
+   "size": "large",
+   "em_code": "em101_00",
+   "file": "monsters/17.webp",
+   "source": "note/tex/micon/em101_ID.tex"
+  },
+  {
+   "monster_id": 18,
+   "name_en": "Kulu-Ya-Ku",
+   "size": "large",
+   "em_code": "em107_00",
+   "file": "monsters/18.webp",
+   "source": "note/tex/micon/em107_ID.tex"
+  },
+  {
+   "monster_id": 19,
+   "name_en": "Pukei-Pukei",
+   "size": "large",
+   "em_code": "em102_00",
+   "file": "monsters/19.webp",
+   "source": "note/tex/micon/em102_ID.tex"
+  },
+  {
+   "monster_id": 20,
+   "name_en": "Barroth",
+   "size": "large",
+   "em_code": "em044_00",
+   "file": "monsters/20.webp",
+   "source": "note/tex/micon/em044_ID.tex"
+  },
+  {
+   "monster_id": 21,
+   "name_en": "Jyuratodus",
+   "size": "large",
+   "em_code": "em108_00",
+   "file": "monsters/21.webp",
+   "source": "note/tex/micon/em108_ID.tex"
+  },
+  {
+   "monster_id": 22,
+   "name_en": "Tobi-Kadachi",
+   "size": "large",
+   "em_code": "em109_00",
+   "file": "monsters/22.webp",
+   "source": "note/tex/micon/em109_ID.tex"
+  },
+  {
+   "monster_id": 23,
+   "name_en": "Anjanath",
+   "size": "large",
+   "em_code": "em100_00",
+   "file": "monsters/23.webp",
+   "source": "note/tex/micon/em100_ID.tex"
+  },
+  {
+   "monster_id": 24,
+   "name_en": "Rathian",
+   "size": "large",
+   "em_code": "em001_00",
+   "file": "monsters/24.webp",
+   "source": "note/tex/micon/em001_ID.tex"
+  },
+  {
+   "monster_id": 25,
+   "name_en": "Tzitzi-Ya-Ku",
+   "size": "large",
+   "em_code": "em120_00",
+   "file": "monsters/25.webp",
+   "source": "note/tex/micon/em120_ID.tex"
+  },
+  {
+   "monster_id": 26,
+   "name_en": "Paolumu",
+   "size": "large",
+   "em_code": "em110_00",
+   "file": "monsters/26.webp",
+   "source": "note/tex/micon/em110_ID.tex"
+  },
+  {
+   "monster_id": 27,
+   "name_en": "Great Girros",
+   "size": "large",
+   "em_code": "em112_00",
+   "file": "monsters/27.webp",
+   "source": "note/tex/micon/em112_ID.tex"
+  },
+  {
+   "monster_id": 28,
+   "name_en": "Radobaan",
+   "size": "large",
+   "em_code": "em114_00",
+   "file": "monsters/28.webp",
+   "source": "note/tex/micon/em114_ID.tex"
+  },
+  {
+   "monster_id": 29,
+   "name_en": "Legiana",
+   "size": "large",
+   "em_code": "em111_00",
+   "file": "monsters/29.webp",
+   "source": "note/tex/micon/em111_ID.tex"
+  },
+  {
+   "monster_id": 30,
+   "name_en": "Odogaron",
+   "size": "large",
+   "em_code": "em113_00",
+   "file": "monsters/30.webp",
+   "source": "note/tex/micon/em113_ID.tex"
+  },
+  {
+   "monster_id": 31,
+   "name_en": "Rathalos",
+   "size": "large",
+   "em_code": "em002_00",
+   "file": "monsters/31.webp",
+   "source": "note/tex/micon/em002_ID.tex"
+  },
+  {
+   "monster_id": 32,
+   "name_en": "Diablos",
+   "size": "large",
+   "em_code": "em007_00",
+   "file": "monsters/32.webp",
+   "source": "note/tex/micon/em007_ID.tex"
+  },
+  {
+   "monster_id": 33,
+   "name_en": "Kirin",
+   "size": "large",
+   "em_code": "em011_00",
+   "file": "monsters/33.webp",
+   "source": "note/tex/micon/em011_ID.tex"
+  },
+  {
+   "monster_id": 34,
+   "name_en": "Zorah Magdaros",
+   "size": "large",
+   "em_code": "em106_00",
+   "file": "monsters/34.webp",
+   "source": "note/tex/micon/em106_ID.tex"
+  },
+  {
+   "monster_id": 35,
+   "name_en": "Dodogama",
+   "size": "large",
+   "em_code": "em116_00",
+   "file": "monsters/35.webp",
+   "source": "note/tex/micon/em116_ID.tex"
+  },
+  {
+   "monster_id": 36,
+   "name_en": "Pink Rathian",
+   "size": "large",
+   "em_code": "em001_01",
+   "file": "monsters/36.webp",
+   "source": "note/tex/micon/em001_01_ID.tex"
+  },
+  {
+   "monster_id": 37,
+   "name_en": "Bazelgeuse",
+   "size": "large",
+   "em_code": "em118_00",
+   "file": "monsters/37.webp",
+   "source": "note/tex/micon/em118_ID.tex"
+  },
+  {
+   "monster_id": 38,
+   "name_en": "Deviljho",
+   "size": "large",
+   "em_code": "em043_00",
+   "file": "monsters/38.webp",
+   "source": "note/tex/micon/em043_ID.tex"
+  },
+  {
+   "monster_id": 39,
+   "name_en": "Lavasioth",
+   "size": "large",
+   "em_code": "em036_00",
+   "file": "monsters/39.webp",
+   "source": "note/tex/micon/em036_ID.tex"
+  },
+  {
+   "monster_id": 40,
+   "name_en": "Uragaan",
+   "size": "large",
+   "em_code": "em045_00",
+   "file": "monsters/40.webp",
+   "source": "note/tex/micon/em045_ID.tex"
+  },
+  {
+   "monster_id": 41,
+   "name_en": "Azure Rathalos",
+   "size": "large",
+   "em_code": "em002_01",
+   "file": "monsters/41.webp",
+   "source": "note/tex/micon/em002_01_ID.tex"
+  },
+  {
+   "monster_id": 42,
+   "name_en": "Black Diablos",
+   "size": "large",
+   "em_code": "em007_01",
+   "file": "monsters/42.webp",
+   "source": "note/tex/micon/em007_01_ID.tex"
+  },
+  {
+   "monster_id": 43,
+   "name_en": "Nergigante",
+   "size": "large",
+   "em_code": "em103_00",
+   "file": "monsters/43.webp",
+   "source": "note/tex/micon/em103_ID.tex"
+  },
+  {
+   "monster_id": 44,
+   "name_en": "Teostra",
+   "size": "large",
+   "em_code": "em027_00",
+   "file": "monsters/44.webp",
+   "source": "note/tex/micon/em027_ID.tex"
+  },
+  {
+   "monster_id": 49,
+   "name_en": "Lunastra",
+   "size": "large",
+   "em_code": "em026_00",
+   "file": "monsters/49.webp",
+   "source": "note/tex/micon/em026_ID.tex"
+  },
+  {
+   "monster_id": 45,
+   "name_en": "Kushala Daora",
+   "size": "large",
+   "em_code": "em024_00",
+   "file": "monsters/45.webp",
+   "source": "note/tex/micon/em024_ID.tex"
+  },
+  {
+   "monster_id": 46,
+   "name_en": "Vaal Hazak",
+   "size": "large",
+   "em_code": "em115_00",
+   "file": "monsters/46.webp",
+   "source": "note/tex/micon/em115_ID.tex"
+  },
+  {
+   "monster_id": 48,
+   "name_en": "Kulve Taroth",
+   "size": "large",
+   "em_code": "em117_00",
+   "file": "monsters/48.webp",
+   "source": "note/tex/micon/em117_ID.tex"
+  },
+  {
+   "monster_id": 47,
+   "name_en": "Xeno'jiiva",
+   "size": "large",
+   "em_code": "em105_00",
+   "file": "monsters/47.webp",
+   "source": "note/tex/micon/em105_ID.tex"
+  },
+  {
+   "monster_id": 111,
+   "name_en": "Beotodus",
+   "size": "large",
+   "em_code": "em122_00",
+   "file": "monsters/111.webp",
+   "source": "note/tex/micon/em122_ID.tex"
+  },
+  {
+   "monster_id": 112,
+   "name_en": "Banbaro",
+   "size": "large",
+   "em_code": "em123_00",
+   "file": "monsters/112.webp",
+   "source": "note/tex/micon/em123_ID.tex"
+  },
+  {
+   "monster_id": 113,
+   "name_en": "Viper Tobi-Kadachi",
+   "size": "large",
+   "em_code": "em109_01",
+   "file": "monsters/113.webp",
+   "source": "note/tex/micon/em109_01_ID.tex"
+  },
+  {
+   "monster_id": 114,
+   "name_en": "Nightshade Paolumu",
+   "size": "large",
+   "em_code": "em110_01",
+   "file": "monsters/114.webp",
+   "source": "note/tex/micon/em110_01_ID.tex"
+  },
+  {
+   "monster_id": 115,
+   "name_en": "Coral Pukei-Pukei",
+   "size": "large",
+   "em_code": "em102_01",
+   "file": "monsters/115.webp",
+   "source": "note/tex/micon/em102_01_ID.tex"
+  },
+  {
+   "monster_id": 116,
+   "name_en": "Barioth",
+   "size": "large",
+   "em_code": "em042_00",
+   "file": "monsters/116.webp",
+   "source": "note/tex/micon/em042_ID.tex"
+  },
+  {
+   "monster_id": 117,
+   "name_en": "Nargacuga",
+   "size": "large",
+   "em_code": "em037_00",
+   "file": "monsters/117.webp",
+   "source": "note/tex/micon/em037_ID.tex"
+  },
+  {
+   "monster_id": 118,
+   "name_en": "Glavenus",
+   "size": "large",
+   "em_code": "em080_00",
+   "file": "monsters/118.webp",
+   "source": "note/tex/micon/em080_ID.tex"
+  },
+  {
+   "monster_id": 119,
+   "name_en": "Tigrex",
+   "size": "large",
+   "em_code": "em032_00",
+   "file": "monsters/119.webp",
+   "source": "note/tex/micon/em032_ID.tex"
+  },
+  {
+   "monster_id": 120,
+   "name_en": "Brachydios",
+   "size": "large",
+   "em_code": "em063_00",
+   "file": "monsters/120.webp",
+   "source": "note/tex/micon/em063_ID.tex"
+  },
+  {
+   "monster_id": 121,
+   "name_en": "Shrieking Legiana",
+   "size": "large",
+   "em_code": "em111_05",
+   "file": "monsters/121.webp",
+   "source": "note/tex/micon/em111_05_ID.tex"
+  },
+  {
+   "monster_id": 122,
+   "name_en": "Fulgur Anjanath",
+   "size": "large",
+   "em_code": "em100_01",
+   "file": "monsters/122.webp",
+   "source": "note/tex/micon/em100_01_ID.tex"
+  },
+  {
+   "monster_id": 123,
+   "name_en": "Acidic Glavenus",
+   "size": "large",
+   "em_code": "em080_01",
+   "file": "monsters/123.webp",
+   "source": "note/tex/micon/em080_01_ID.tex"
+  },
+  {
+   "monster_id": 124,
+   "name_en": "Ebony Odogaron",
+   "size": "large",
+   "em_code": "em113_01",
+   "file": "monsters/124.webp",
+   "source": "note/tex/micon/em113_01_ID.tex"
+  },
+  {
+   "monster_id": 125,
+   "name_en": "Velkhana",
+   "size": "large",
+   "em_code": "em124_00",
+   "file": "monsters/125.webp",
+   "source": "note/tex/micon/em124_ID.tex"
+  },
+  {
+   "monster_id": 126,
+   "name_en": "Seething Bazelgeuse",
+   "size": "large",
+   "em_code": "em118_05",
+   "file": "monsters/126.webp",
+   "source": "note/tex/micon/em118_05_ID.tex"
+  },
+  {
+   "monster_id": 127,
+   "name_en": "Blackveil Vaal Hazak",
+   "size": "large",
+   "em_code": "em115_05",
+   "file": "monsters/127.webp",
+   "source": "note/tex/micon/em115_05_ID.tex"
+  },
+  {
+   "monster_id": 128,
+   "name_en": "Namielle",
+   "size": "large",
+   "em_code": "em125_00",
+   "file": "monsters/128.webp",
+   "source": "note/tex/micon/em125_ID.tex"
+  },
+  {
+   "monster_id": 129,
+   "name_en": "Savage Deviljho",
+   "size": "large",
+   "em_code": "em043_05",
+   "file": "monsters/129.webp",
+   "source": "note/tex/micon/em043_05_ID.tex"
+  },
+  {
+   "monster_id": 130,
+   "name_en": "Ruiner Nergigante",
+   "size": "large",
+   "em_code": "em103_05",
+   "file": "monsters/130.webp",
+   "source": "note/tex/micon/em103_05_ID.tex"
+  },
+  {
+   "monster_id": 131,
+   "name_en": "Shara Ishvalda",
+   "size": "large",
+   "em_code": "em126_00",
+   "file": "monsters/131.webp",
+   "source": "note/tex/micon/em126_ID.tex"
+  },
+  {
+   "monster_id": 132,
+   "name_en": "Zinogre",
+   "size": "large",
+   "em_code": "em057_00",
+   "file": "monsters/132.webp",
+   "source": "note/tex/micon/em057_ID.tex"
+  },
+  {
+   "monster_id": 133,
+   "name_en": "Yian Garuga",
+   "size": "large",
+   "em_code": "em018_00",
+   "file": "monsters/133.webp",
+   "source": "note/tex/micon/em018_ID.tex"
+  },
+  {
+   "monster_id": 134,
+   "name_en": "Scarred Yian Garuga",
+   "size": "large",
+   "em_code": "em018_05",
+   "file": "monsters/134.webp",
+   "source": "note/tex/micon/em018_05_ID.tex"
+  },
+  {
+   "monster_id": 135,
+   "name_en": "Brute Tigrex",
+   "size": "large",
+   "em_code": "em032_01",
+   "file": "monsters/135.webp",
+   "source": "note/tex/micon/em032_01_ID.tex"
+  },
+  {
+   "monster_id": 136,
+   "name_en": "Gold Rathian",
+   "size": "large",
+   "em_code": "em001_02",
+   "file": "monsters/136.webp",
+   "source": "note/tex/micon/em001_02_ID.tex"
+  },
+  {
+   "monster_id": 137,
+   "name_en": "Silver Rathalos",
+   "size": "large",
+   "em_code": "em002_02",
+   "file": "monsters/137.webp",
+   "source": "note/tex/micon/em002_02_ID.tex"
+  },
+  {
+   "monster_id": 138,
+   "name_en": "Rajang",
+   "size": "large",
+   "em_code": "em023_00",
+   "file": "monsters/138.webp",
+   "source": "note/tex/micon/em023_ID.tex"
+  },
+  {
+   "monster_id": 139,
+   "name_en": "Stygian Zinogre",
+   "size": "large",
+   "em_code": "em057_01",
+   "file": "monsters/139.webp",
+   "source": "note/tex/micon/em057_01_ID.tex"
+  },
+  {
+   "monster_id": 145,
+   "name_en": "Frostfang Barioth",
+   "size": "large",
+   "em_code": "em042_05",
+   "file": "monsters/145.webp",
+   "source": "note/tex/micon/em042_05_ID.tex"
+  },
+  {
+   "monster_id": 140,
+   "name_en": "Safi'jiiva",
+   "size": "large",
+   "em_code": "em104_00",
+   "file": "monsters/140.webp",
+   "source": "note/tex/micon/em104_ID.tex"
+  },
+  {
+   "monster_id": 142,
+   "name_en": "Furious Rajang",
+   "size": "large",
+   "em_code": "em023_05",
+   "file": "monsters/142.webp",
+   "source": "note/tex/micon/em023_05_ID.tex"
+  },
+  {
+   "monster_id": 143,
+   "name_en": "Raging Brachydios",
+   "size": "large",
+   "em_code": "em063_05",
+   "file": "monsters/143.webp",
+   "source": "note/tex/micon/em063_05_ID.tex"
+  },
+  {
+   "monster_id": 144,
+   "name_en": "Alatreon",
+   "size": "large",
+   "em_code": "em050_00",
+   "file": "monsters/144.webp",
+   "source": "note/tex/micon/em050_ID.tex"
+  },
+  {
+   "monster_id": 146,
+   "name_en": "Fatalis",
+   "size": "large",
+   "em_code": "em013_00",
+   "file": "monsters/146.webp",
+   "source": "note/tex/micon/em013_ID.tex"
+  },
+  {
+   "monster_id": 50,
+   "name_en": "Behemoth",
+   "size": "large",
+   "em_code": "em121_00",
+   "file": "monsters/50.webp",
+   "source": "note/tex/micon/em121_ID.tex"
+  },
+  {
+   "monster_id": 51,
+   "name_en": "Leshen",
+   "size": "large",
+   "em_code": "em127_00",
+   "file": "monsters/51.webp",
+   "source": "note/tex/micon/em127_ID.tex"
+  },
+  {
+   "monster_id": 52,
+   "name_en": "Ancient Leshen",
+   "size": "large",
+   "em_code": "em127_01",
+   "file": "monsters/52.webp",
+   "source": "note/tex/micon/em127_01_ID.tex"
+  }
+ ]
+}

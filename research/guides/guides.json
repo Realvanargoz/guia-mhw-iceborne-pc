@@ -1,0 +1,381 @@
+{
+ "topic": "guides",
+ "retrieved_at": "2026-11-15",
+ "notes": "Guias escritas a partir de las semillas research/canteen, research/loot y research/gathering. Los videos se unen desde research/videos por guide_slug.",
+ "entries": [
+  {
+   "slug": "cooking",
+   "kind": "cooking",
+   "title_es": "Cantina: ingredientes y habilidades",
+   "title_en": "Canteen: ingredients and food skills",
+   "summary_es": "Cómo funciona la cantina de Iceborne: tipos de ingrediente, 2/4/6 por habilidad, frescura y estrellas, vales y habilidades diarias.",
+   "body_md_es": "## Qué es la cantina\nAntes de cada misión puedes comer en la cantina (Astera, Seliana, los Salones de Reunión y los campamentos). Cada plato da **habilidades felyne** al cazador, mejoras de estadísticas y vida máxima. El camarada solo recibe vida máxima. Se paga con zenny (150 z) o con puntos de recurso (25 pts), y con un Vale o un Vale gourmet comen todos los jugadores del grupo.\n\n## Cómo se decide qué habilidad sale\nCada ingrediente tiene un **tipo de habilidad**. Los tres tipos de comida (carne, pescado y verdura) comparten cinco tipos: Coraje, Tesón, Vigor, Ingenio y Artillería. Las bebidas (Iceborne) tienen otros cuatro: Percepción, Fortuna, Preparación y Aventura. Hay 30 ingredientes de carne, 30 de pescado, 30 de verdura y 24 bebidas.\n\nCuantos más ingredientes del mismo tipo lleves, mejor habilidad: **2 = nivel 1, 4 = nivel 2, 6 = nivel 3**.\n\n| Tipo | Ingredientes | 2 ingredientes | 4 ingredientes | 6 ingredientes |\n|---|---|---|---|---|\n| Coraje (Courage) | carne, pescado o verdura | Pulidor Felyne | Jinete Felyne | Boxeador Felyne |\n| Tesón (Resilience) | carne, pescado o verdura | Acróbata Felyne | Patas Felyne | Sangre fría Felyne |\n| Vigor (Vigor) | carne, pescado o verdura | Elevador Felyne +2 | Cinturón negro Felyne | Heroicidad Felyne |\n| Ingenio (Acumen) | carne, pescado o verdura | Limpiador Felyne | Médico Felyne | Especialista Felyne |\n| Artillería (Artillery) | carne, pescado o verdura | Puntería Felyne | Bombardero Felyne | Piro Felyne |\n| Percepción (Perception) | bebida | Cortador Felyne férreo | Cambio Felyne | Cortador Felyne +2 |\n| Fortuna (Fortune) | bebida | Recolector Felyne | Magnate Felyne | Felyne afortunado |\n| Preparación (Preparation) | bebida | Tacos Felyne | Sastrería Felyne | Salvaguardia Felyne |\n| Aventura (Trailblazer) | bebida | Jardinería Felyne | Carroñero Felyne | Zoología Felyne |\n\n## Huecos de ingrediente\nLa cantina empieza con 2 huecos por plato. Sube a 4 al completar la misión 3★ «Saltan chispas: Tobi-Kadachi» y a 6 con la 6★ «Rosa feliz». En rango maestro se añaden las bebidas (investigación M1★ del Arrecife Escarchado). Las fuentes discrepan en algún detalle (ver «Dudas»).\n\n## Ingredientes frescos y estrellas\nSí existe la frescura: algunos ingredientes aparecen como **frescos** (destellos verdes y un pequeño icono verde en la esquina superior derecha). Cuáles lo son rota al azar entre misiones y expediciones.\n- Cada ingrediente fresco sube **media estrella** la «probabilidad de activación» del plato (de 1 a 3 estrellas); con 6 frescos son 3 estrellas.\n- Cada fresco da **+10 de vida máxima al cazador y +4 al camarada**, con tope de 5 (+50 / +20).\n- 3 estrellas: activación garantizada de todas las habilidades según monsterhunterwiki.org y Fextralife; Game8 dice que al menos 2 están garantizadas y que las demás son muy probables.\n- **No existen porcentajes publicados**: ninguna fuente da el valor exacto por estrella. La app solo muestra estrellas, no probabilidades.\n\n## Vales\n- **Vale (Voucher)**: pone la activación al máximo (3 estrellas).\n- **Vale gourmet (Gourmet Voucher)**: convierte todos los ingredientes en frescos (3 estrellas, +50 de vida al cazador y +20 al camarada).\nAmbos pagan la comida de todo el grupo y les dan los efectos a todos.\n\n## Habilidades diarias\nEl plato muestra tres habilidades. Los huecos que no llenan tus ingredientes se rellenan con las **habilidades diarias** de la cantina (hay 29); las de ingrediente tienen prioridad. El conjunto cambia al volver de una misión según monsterhunterwiki.org, y además a diario a las 00:00 UTC y al comer según Game8.\n\n## Mejoras de estadísticas\nCarne: ataque; pescado: defensa; verdura y fruta: resistencia elemental; bebidas: nada. Se escalan en S/M/L con 2/4/6 ingredientes. Solo Fextralife da cifras (+5/+10/+15 en ataque y defensa).\n\n## Consejos de combinación\n1. **Elige un tipo y llénalo**: seis ingredientes del mismo tipo dan la habilidad de nivel 3 de ese tipo; si mezclas tipos, cada uno cuenta con menos ingredientes y llega a menos nivel.\n2. **Prefiere ingredientes frescos**: cada uno suma media estrella y vida.\n3. Si buscas botín, recolección o recompensas, mira las bebidas: Percepción da las habilidades de despiece (Cortador Felyne férreo, Cambio Felyne y Cortador Felyne +2), Fortuna da Recolector Felyne, Magnate Felyne y Felyne afortunado, y Aventura da las de fauna local.\n4. Con Vale gourmet no hace falta buscar frescos.\n5. Las habilidades diarias no se eligen: mira tus tres antes de comer.\n6. Las combinaciones que te gusten se guardan en el constructor de la página Cantina.\n\n## Dudas (marcadas para revisión)\n- Cuántos ingredientes de otro tipo se pueden mezclar y cómo se reparten los 3 huecos de habilidad: ninguna fuente lo detalla.\n- Probabilidad base con 0 frescos y valor exacto por estrella: no publicados.\n- Nº de huecos y cuándo llegan las bebidas: monsterhunterwiki.org y PowerPyx no coinciden del todo.\n- Límite entre comidas: 10 min (Fextralife) frente a 10-15 min (Game8).\n- Aguante: «hasta +50 según el nivel de la cantina» (monsterhunterwiki.org) frente a «+50 fijo» (Game8).\n- No se ha encontrado ninguna mecánica llamada «Cooking Fest» ni un cocinero de Seliana distinto.\n",
+   "steps_es": [
+    "Sube la cantina a 4 huecos (Saltan chispas: Tobi-Kadachi) y a 6 (Rosa feliz) para llegar a las habilidades de nivel 3.",
+    "Elige el tipo de habilidad que quieres y llena el plato con ingredientes de ese tipo (2/4/6).",
+    "Busca los ingredientes frescos (destellos verdes) y ponlos: cada uno suma media estrella y vida máxima.",
+    "Con un Vale o un Vale gourmet pasas directamente a 3 estrellas.",
+    "Mira tus 3 habilidades diarias: rellenan los huecos que dejen tus ingredientes."
+   ],
+   "related": [
+    {
+     "type": "item",
+     "name_en": "Voucher",
+     "note_es": "pone la activación al máximo"
+    },
+    {
+     "type": "item",
+     "name_en": "Gourmet Voucher",
+     "note_es": "todos los ingredientes frescos"
+    },
+    {
+     "type": "skill",
+     "name_en": "Free Meal"
+    },
+    {
+     "type": "skill",
+     "name_en": "Free Meal Secret"
+    },
+    {
+     "type": "quest",
+     "name_en": "Flying Sparks: Tobi-Kadachi",
+     "note_es": "4 huecos de ingrediente"
+    },
+    {
+     "type": "quest",
+     "name_en": "Tickled Pink",
+     "note_es": "6 huecos de ingrediente"
+    },
+    {
+     "type": "quest",
+     "name_en": "Greeting the Gluttons",
+     "note_es": "origen del Vale según Fextralife"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Kiranico MHWorld Iceborne - Ingredients (en)",
+     "url": "https://mhworld.kiranico.com/en/foods"
+    },
+    {
+     "title": "Kiranico MHWorld Iceborne - Food Skills (en)",
+     "url": "https://mhworld.kiranico.com/en/catskills"
+    },
+    {
+     "title": "Monster Hunter Wiki - Canteen (MHWI)",
+     "url": "https://monsterhunterwiki.org/wiki/MHWI/Canteen"
+    },
+    {
+     "title": "Fextralife MHW Wiki - Canteen",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Canteen"
+    },
+    {
+     "title": "Fextralife MHW Wiki - Food Skills",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+    },
+    {
+     "title": "Game8 - Canteen Ingredients (MHW)",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/305732"
+    },
+    {
+     "title": "PowerPyx - How to Upgrade Canteen",
+     "url": "https://www.powerpyx.com/monster-hunter-world-how-to-upgrade-canteen/"
+    },
+    {
+     "title": "Fextralife MHW Wiki - Voucher",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Voucher"
+    },
+    {
+     "title": "Fextralife MHW Wiki - Gourmet Voucher",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Gourmet_Voucher"
+    }
+   ],
+   "needs_review": true
+  },
+  {
+   "slug": "gathering",
+   "kind": "gathering",
+   "title_es": "Recolección eficiente",
+   "title_en": "Efficient gathering",
+   "summary_es": "Habilidades, cantina y consejos para recolectar más; dónde recoger en el Arrecife Escarchado.",
+   "body_md_es": "## Qué mejora la recolección\n**Habilidades de armadura** (las piezas que las dan están en la base de datos; el constructor de equipo puede sugerir un set):\n- **Experto en recursos (Botanist, 1-4)**: +1 objeto consumible por recolección. Nv1 hierbas; nv2 añade frutas, nueces y semillas; nv3 insectos; nv4 setas. Joyas: Joya botánica 1, Joya botánica+ 4 y Joya botánica dura+ 4.\n- **Experto en minerales (Geologist, 1-3)**: +1 recolección extra. Nv1 montones de huesos; nv2 puntos especiales; nv3 puntos de recolección y afloramientos. Joyas: Joya geológica 1, Joya geológica+ 4 y la dura de nivel 3.\n- **Experto en recolección (Master Gatherer)**: recolectas más rápido y los monstruos pequeños no te interrumpen (los grandes sí).\n- **Experto en miel (Honey Hunter)**: +1 miel por recolección.\n- **Suerte del mendigo (Forager's Luck)**: más probabilidad de que reaparezcan puntos de recolección raros.\n\n**Cantina**: Recolector Felyne (Felyne Harvester, tipo Fortuna, nivel 1) reduce un 10 % el tiempo de reaparición de los puntos de recolección (solo lo publica Fextralife). Jardinería Felyne acelera la reaparición de fauna local y Carroñero Felyne hace que ésta suelte munición de eslinga.\n\n**Herramientas especializadas**: no hay ningún «manto de recolección» en Iceborne. El único manto relacionado es el Ghillie (sigilo), que Fextralife recomienda para farmear las Tierras Guía junto con la capucha del Asesino.\n\n## Arrecife Escarchado (Hoarfrost Reach)\n- Hace frío: necesitas Bebida caliente (Guindilla) o la decoración Warming. Hay manantiales termales en las zonas 1, 2, 6, 13 y 17 (por confirmar).\n- Los datos de Game8 son una lista de materiales **por zona** (1-17, solo rango maestro); no hay porcentajes ni número de nodos publicados.\n- Dónde recoger lo más buscado según esa lista:\n  - Hueso grueso, hueso congelado y artefacto de hueso de dragón: zonas 3, 5, 6, 7, 8, 9, 10, 12.\n  - Carbón y esquirla de las Venas del Dragón (Dragonvein): zonas 2, 4, 6, 7, 8, 11, 13, 14, 16, 17.\n  - Meldspar, Gracium, Eltalita y Purecristal: zonas 4, 7, 8, 11, 13, 14, 16.\n  - Cristales de veta espiritual y minerales Dreamcore/Dragoncore: zonas 2, 6, 13, 17.\n  - Miel: zonas 2, 4, 6, 8, 14.\n  - Flor de hielo (Icebloom): zonas 7, 8, 15.\n- En la lista aparecen cosas que no son objetos de la base de datos (Stone, Brightmoss, Watermoss, Paratoad, King Marlin...): probablemente fauna local, munición de eslinga o pesca. No se cargan como puntos de recolección.\n- Petalcryst solo sale en un punto único durante «Flourishing: Frozen Foliage».\n\nLas zonas del Arrecife y sus objetos están en la ficha de la localización.\n\n## Consejos\n1. **Alterna dos regiones contiguas** en las Tierras Guía: los nodos reaparecen al salir de la región.\n2. Lleva Geologist 3, Master Gatherer y Botanist si recolectas mucho (son las habilidades que Fextralife recomienda para recolectar).\n3. Come en la cantina un plato de tipo Fortuna (Recolector Felyne) antes de salir.\n4. En el Arrecife Escarchado planifica la ruta por zonas según lo que busques (lista de arriba).\n\n## Dudas (marcadas para revisión)\n- Porcentajes, cantidades y nodos de los puntos de recolección del Arrecife Escarchado.\n- Los nodos normales (hierbas, bayas, miel, setas) de las Tierras Guía no están por zona; solo minerales y huesos (ver «Tierras Guía»).\n- Las fuentes se contradicen en el nombre del cristal de nivel 1 de Wildspire (Cracked Crystal / Weathered Crystal).\n",
+   "steps_es": [
+    "Equipa Experto en recursos (Botanist) y Experto en minerales (Geologist); añade Experto en recolección si te interrumpen.",
+    "Come un plato de tipo Fortuna en la cantina para tener Recolector Felyne.",
+    "En el Arrecife Escarchado lleva Bebida caliente (Guindilla) o la decoración Warming.",
+    "Recoge por zonas siguiendo la lista del Arrecife Escarchado.",
+    "En las Tierras Guía alterna dos regiones contiguas para que los nodos reaparezcan."
+   ],
+   "related": [
+    {
+     "type": "skill",
+     "name_en": "Botanist"
+    },
+    {
+     "type": "skill",
+     "name_en": "Geologist"
+    },
+    {
+     "type": "skill",
+     "name_en": "Master Gatherer"
+    },
+    {
+     "type": "skill",
+     "name_en": "Honey Hunter"
+    },
+    {
+     "type": "skill",
+     "name_en": "Forager's Luck"
+    },
+    {
+     "type": "location",
+     "name_en": "Hoarfrost Reach"
+    },
+    {
+     "type": "location",
+     "name_en": "Guiding Lands"
+    },
+    {
+     "type": "item",
+     "name_en": "Hot Pepper",
+     "note_es": "bebida caliente"
+    },
+    {
+     "type": "item",
+     "name_en": "Honey"
+    },
+    {
+     "type": "guide",
+     "name_en": "guiding-lands"
+    },
+    {
+     "type": "guide",
+     "name_en": "cooking"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fextralife - Botanist",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Botanist"
+    },
+    {
+     "title": "Fextralife - Geologist",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Geologist"
+    },
+    {
+     "title": "Fextralife - Master Gatherer",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Master+Gatherer"
+    },
+    {
+     "title": "Fextralife - Honey Hunter",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Honey+Hunter"
+    },
+    {
+     "title": "Fextralife - Forager's Luck",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Forager%27s+Luck"
+    },
+    {
+     "title": "Fextralife - Hoarfrost Reach",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Hoarfrost+Reach"
+    },
+    {
+     "title": "Game8 - Hoarfrost Reach Maps and Materials",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/310862"
+    },
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    },
+    {
+     "title": "Kiranico MHWorld Iceborne - Food Skills (en)",
+     "url": "https://mhworld.kiranico.com/en/catskills"
+    }
+   ],
+   "needs_review": true
+  },
+  {
+   "slug": "guiding-lands",
+   "kind": "gathering",
+   "title_es": "Tierras Guía: recolección de minerales y huesos",
+   "title_en": "Guiding Lands: mining and bone gathering",
+   "summary_es": "Cómo suben de nivel los minerales y los huesos, qué da cada región y qué equipo conviene llevar.",
+   "body_md_es": "## Cómo funciona la recolección en las Tierras Guía\n- Los **minerales y los huesos** suben de nivel con una **barra de progreso propia** de cada recurso y cada región, no con el nivel de región.\n- La barra tiene 3 fases (amarillo, naranja y rojo). Al llenarla aparece un **Afloramiento** o **Montón de huesos gigante** con **1 material de nivel 4 garantizado**, y la barra se reinicia.\n- Un nodo de nivel N da materiales de nivel N y, raramente, de nivel N+1.\n- Los nodos **reaparecen al salir de la región**: conviene alternar dos regiones contiguas.\n- Con **Geologist (1+)** puedes recoger dos veces los materiales que sueltan la mayoría de los monstruos (no Gran Jagras, Dodogama ni Kulu-Ya-Ku) (por confirmar).\n- Cada talla de cola de un Tempered da un señuelo, y cada muerte otro; sirven para atraer monstruos a voluntad. Guarda los de elder para las regiones de nivel 7 (Grandes Gemas Spiritvein) (por confirmar).\n\n## Equipo y habilidades recomendados (Fextralife, por confirmar)\nIntimidator, resistencia a la parálisis (por los Vespoides), Master Gatherer, Geologist 3, Flinch Free, capa Ghillie o Capucha del Asesino y Dung Pods. En la cantina, Recolector Felyne (Felyne Harvester).\n\n## Minerales por región y nivel (Afloramientos de minerales)\n| Región | Nivel 1 | Nivel 2 | Nivel 3 | Nivel 4 (garantizado en gigante) |\n|---|---|---|---|---|\n| Bosque (Forest) | Cristal degradado | Cristal boscoso | Cristal próspero | Cristal Destino boscoso |\n| Yermo (Wildspire) | Cristal agrietado | Cristal desértico | Cristal sereno | Cristal Destino desértico |\n| Coral (Coral) | Cristal pálido | Cristal arrecife coral | Cristal abisal | Cristal Destino coralino |\n| Putrefacto (Rotted) | Cristal distorsionado | Cristal pútrido | Cristal de puesta de sol | Cristal Destino pútrido |\n| Volcánica (Volcanic) | Cristal fundido | Cristal volcánico | Cristal ardiente | Cristal Destino volcánico |\n| Tundra (Tundra) | Cristal helado | Cristal ártico | Cristal del amanecer | Cristal Destino ártico |\n\n## Huesos por región y nivel (Montones de huesos)\n| Región | Nivel 1 | Nivel 2 | Nivel 3 | Nivel 4 (garantizado en gigante) |\n|---|---|---|---|---|\n| Bosque (Forest) | Gran hueso musgoso | Gran hueso forestal | Gran hueso dormido | Dracohueso Destino forestal |\n| Yermo (Wildspire) | Litohueso erosionado | Litohueso del páramo | Litohueso curtido | Dracohueso Destino desértico |\n| Coral (Coral) | Hueso carmesí vívido | Hueso carmesí de coral | Hueso carmesí vibrante | Dracohueso Destino coralino |\n| Putrefacto (Rotted) | Deliriohueso deformado | Deliriohueso de efluvio | Deliriohueso afectado | Dracohueso Destino pútrido |\n| Volcánica (Volcanic) | Hueso salvaje efervescente | Hueso salvaje volcánico | Hueso salvaje dracocombusto | Dracohueso Destino volcánico |\n| Tundra (Tundra) | Hueso de hielo viejo | Hueso helado ártico | Hueso de hielo permahelado | Dracohueso Destino ártico |\n\nLa numeración de las zonas de nodos que da Fextralife (por ejemplo Bosque 6-7 o Yermo 8-9) no está verificada y no cubre Volcánica ni Tundra.\n\n## Dudas (marcadas para revisión)\n- No hay fuente por zona o región para los nodos normales de hierbas, bayas, miel y setas.\n- La lista de posiciones de Afloramientos y Montones gigantes figura como «pendiente» en la fuente.\n- Las 15 zonas de la base de datos no están asignadas a las 6 regiones.\n",
+   "steps_es": [
+    "Elige una región y recoge sus Afloramientos de minerales o Montones de huesos para llenar la barra de progreso.",
+    "Cuando la barra se llene, busca el Afloramiento o Montón gigante: da 1 material de nivel 4 garantizado.",
+    "Sal de la región y entra en una contigua para que los nodos reaparezcan.",
+    "Lleva Geologist para recoger dos veces los materiales de los monstruos."
+   ],
+   "related": [
+    {
+     "type": "location",
+     "name_en": "Guiding Lands"
+    },
+    {
+     "type": "skill",
+     "name_en": "Geologist"
+    },
+    {
+     "type": "skill",
+     "name_en": "Master Gatherer"
+    },
+    {
+     "type": "guide",
+     "name_en": "gathering"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fextralife - Guiding Lands",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Guiding+Lands"
+    },
+    {
+     "title": "Fextralife - Geologist",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Geologist"
+    },
+    {
+     "title": "Fextralife - Master Gatherer",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Master+Gatherer"
+    }
+   ],
+   "needs_review": true
+  },
+  {
+   "slug": "loot",
+   "kind": "loot",
+   "title_es": "Botín y partes: cómo subir la probabilidad",
+   "title_en": "Loot and parts: raising your chances",
+   "summary_es": "Talla, rotura de partes, Manto de bandido, Plunderblade y habilidades de recompensa; qué se sabe y qué no.",
+   "body_md_es": "## Cómo se consigue el botín\nHay tres fuentes de partes y recompensas de un monstruo: **la talla** del cadáver (cuerpo y cola), **las partes que rompes o hieres** (tablas «Wound/Break» y «Tail Carve») y **las recompensas finales** de la misión. Para ver qué parte sale de qué tabla, abre la ficha del monstruo.\n\n## Habilidades de armadura\n- **Despiece extra (Carving Master)**: una talla más del cadáver (no funciona si te unes a mitad de misión). Viene de los bonus de set Ayuda de la comisión (4 piezas) y Orgullo del gremio (4 piezas).\n- **Experto en despiece (Carving Pro)**: evita el retroceso al tallar, pero **solo frente a monstruos pequeños**. No cambia el botín.\n- **Buena suerte (Good Luck)**: buena probabilidad de recompensas extra al terminar la misión. Bonus de set: Bendición de Legiana (3 piezas), Favor de Legiana (2) y Orgullo del gremio (2).\n- **Recompensas extra (Great Luck)**: alta probabilidad de recompensas extra. Bonus de set: Ayuda del gremio (4), Bendición de Astera (5), Divinidad Kirin (3) y New World (4).\n- **Bonus rompe-partes (Partbreaker, 1-3)**: +10/+20/+30 % de daño para romper o cortar partes que cambian el modelo del monstruo (cola, cuernos). No ayuda a herir (tropiezo) ni a partes que no cambian el modelo. Sale de las joyas Destroyer o de los amuletos Breaker I/II/III.\n- Ninguna wiki publica el porcentaje ni el número de recompensas extra de Good Luck y Great Luck, ni si se acumulan.\n\n## Manto de bandido (Bandit Mantle)\n- Herramienta especializada: misión opcional 5★ «Redefining the Power Couple» (Rathian y Rathalos). Dura 180 s y se recarga en 210 s. Equípalo y actívalo **antes** de atacar.\n- Mientras está activo, al atacar al monstruo suelta **objetos de intercambio dorados** (escamas o pieles) que se venden por zenny. **No cambia** la probabilidad de los materiales normales.\n- Según la wiki, el resultado depende del daño total. Las caídas las ven todos los miembros del grupo y los efectos se acumulan: con 4 cazadores con el manto activo cae mucho más.\n- Cuanto mayor es el rango del monstruo, mejores son los objetos. En la base de datos casi cada monstruo tiene 2 resultados por rango, normalmente un 70 % / 30 % entre dos objetos consecutivos de la escala (por ejemplo Gran Jagras en rango bajo: 70 % Escama astillada, 30 % Escama grande).\n- Valor de venta: Escama astillada 500 z, grande 1000, bonita 2000, lustrosa 3000, reluciente 5000, gigante 8000, Piel espléndida 9000, Escama magnífica 10000.\n- No se publica cuántos objetos salen por activación ni la frecuencia por golpe.\n\n## Plunderblade del camarada\n- Gadget del camarada: misión secundaria «Grimalkyne Tribes» en el Valle Putrefacto (hace falta carne cruda).\n- **Plunderblade**: el camarada salta y roba materiales; los recibes al volver (máximo 4 por monstruo).\n- **Palarang**: lanza la hoja como bumerán y el monstruo suelta un material que recoges tú.\n- **Mount and Plunder** (rango maestro): monta al monstruo y provoca caídas doradas (solo objetos de intercambio). Según Fextralife da 2-3 objetos al inicio y 4 al nivel 15.\n- Los niveles en que se desbloquean no coinciden entre la ficha y la tabla de gadgets: por confirmar.\n\n## Cómo combinarlo\n1. **Más talla y más recompensas**: Orgullo del gremio (Guildwork / Guild Palace Alpha+ y Beta+) da Despiece extra (4 piezas) y Buena suerte (2) a la vez.\n2. **Colas y cuernos**: Partbreaker alto (amuleto Breaker III más piezas o joyas Destroyer), atacar la parte y luego tallar la cola.\n3. **Zenny**: 4 cazadores con Manto de bandido activo a la vez y camarada con Plunderblade (Mount and Plunder).\n4. **Romper partes**: herir o romper añade posibilidades de las tablas «Wound/Break» (por ejemplo Rathalos en rango maestro, herida en la cabeza: 67 % Córtex, 27 % Shard, 5 % Rubí). Cortar la cola abre la tabla «Tail Carve».\n5. **Capturar o matar**: capturar da la tabla «Carve / Capture» (sin talla de cola ni de cuerpo por separado); matar permite tallar el cuerpo (+1 con Despiece extra) y la cola. Para una pieza concreta, mira en la ficha del monstruo qué tabla la contiene. Las guías no coinciden.\n6. **Tierras Guía**: con Geologist puedes recoger dos veces lo que sueltan la mayoría de monstruos.\n7. **Cantina**: las bebidas de tipo Percepción dan Cortador Felyne férreo, Cambio Felyne y Cortador Felyne +2 (más tallas); las de Fortuna dan Felyne afortunado (más objetos al final de la misión, a veces) y Magnate Felyne (más zenny).\n\n## Dudas (marcadas para revisión)\n- Good Luck y Great Luck: sin porcentaje ni número de recompensas; no confirmado que se acumulen entre sí ni con Despiece extra.\n- Manto de bandido: número de objetos por activación y frecuencia por golpe. Un resumen de Game8 hablaba de 5000 z por objeto, que contradice la tabla de la base de datos.\n- Plunderblade: niveles de desbloqueo de Palarang y Mount and Plunder.\n- Condición «Palico Bonus» de la tabla de recompensas: las wikis no explican su mecánica.\n- Capturar frente a matar: sin comparativa numérica por pieza.\n- Vales de camarada que afecten al botín: la página consultada dio error y no se documentan.\n",
+   "steps_es": [
+    "Equipa Despiece extra (Carving Master) y, si puedes, un bonus de set con Buena suerte o Recompensas extra.",
+    "Rompe o hiere la parte que quieres antes de matar y corta la cola si buscas partes de cola.",
+    "Mata (en vez de capturar) si quieres la talla de cuerpo y de cola; mira la ficha del monstruo para decidir.",
+    "Activa el Manto de bandido antes de atacar si buscas zenny, mejor con 4 cazadores.",
+    "Come un plato de tipo Percepción o Fortuna en la cantina."
+   ],
+   "related": [
+    {
+     "type": "skill",
+     "name_en": "Carving Master"
+    },
+    {
+     "type": "skill",
+     "name_en": "Carving Pro"
+    },
+    {
+     "type": "skill",
+     "name_en": "Good Luck"
+    },
+    {
+     "type": "skill",
+     "name_en": "Great Luck"
+    },
+    {
+     "type": "skill",
+     "name_en": "Partbreaker"
+    },
+    {
+     "type": "item",
+     "name_en": "Chipped Scale"
+    },
+    {
+     "type": "item",
+     "name_en": "Large Scale"
+    },
+    {
+     "type": "item",
+     "name_en": "Beautiful Scale"
+    },
+    {
+     "type": "item",
+     "name_en": "Lustrous Scale"
+    },
+    {
+     "type": "item",
+     "name_en": "Glimmering Scale"
+    },
+    {
+     "type": "item",
+     "name_en": "Giant Scale"
+    },
+    {
+     "type": "item",
+     "name_en": "Magnificent Pelt"
+    },
+    {
+     "type": "item",
+     "name_en": "Magnificent Scale"
+    },
+    {
+     "type": "monster",
+     "name_en": "Rathian"
+    },
+    {
+     "type": "monster",
+     "name_en": "Rathalos"
+    },
+    {
+     "type": "guide",
+     "name_en": "cooking"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fextralife - Carving Master",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Carving+Master"
+    },
+    {
+     "title": "Fextralife - Carving Pro",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Carving+Pro"
+    },
+    {
+     "title": "Fextralife - Good Luck",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Good+Luck"
+    },
+    {
+     "title": "Fextralife - Great Luck",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Great+Luck"
+    },
+    {
+     "title": "Fextralife - Partbreaker",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Partbreaker"
+    },
+    {
+     "title": "Fextralife - Bandit Mantle",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Bandit+Mantle"
+    },
+    {
+     "title": "Fextralife - Plunderblade",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Plunderblade"
+    },
+    {
+     "title": "Fextralife - Palico Gadgets",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Palico+Gadgets"
+    },
+    {
+     "title": "Kiranico - Specialized Tools",
+     "url": "https://mhworld.kiranico.com/en/specialtools"
+    },
+    {
+     "title": "Game8 - Trade-in Items",
+     "url": "https://game8.co/games/Monster-Hunter-World/archives/311319"
+    },
+    {
+     "title": "Samurai Gamers - Bandit Mantle",
+     "url": "https://samurai-gamers.com/?p=158964"
+    },
+    {
+     "title": "Fextralife - Investigations",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Investigations"
+    },
+    {
+     "title": "MHWorldData (tablas monster_rewards, armor_skills, armor_set_bonus_ranks de la BD local)",
+     "url": "https://github.com/gatheringhallstudios/MHWorldData",
+     "note": "datos extraidos del juego, consulta local a la BD"
+    }
+   ],
+   "needs_review": true
+  }
+ ]
+}
