@@ -170,7 +170,7 @@ export function tabSvg(active) {
   const defs = active
     ? `<linearGradient id="t" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4d884"/><stop offset=".35" stop-color="#d8b25a"/><stop offset="1" stop-color="#b98c35"/></linearGradient>`
     : `<linearGradient id="t" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a2c1d"/><stop offset=".4" stop-color="#34201a"/><stop offset="1" stop-color="#1c1208"/></linearGradient>`;
-  return `<svg ${NS} width="360" height="56" viewBox="0 0 360 56"><defs>${defs}${GOLD_DEFS.replace('id="gold"', 'id="gold"')}
+  return `<svg ${NS} width="360" height="56" viewBox="0 0 360 56"><defs>${defs}${GOLD_DEFS}
 <filter id="sh" x="-3%" y="-20%" width="106%" height="130%"><feDropShadow dx="0" dy="-0.5" stdDeviation="1" flood-color="#000" flood-opacity=".45"/></filter></defs>
 <g filter="url(#sh)">
 <path d="${d}" fill="url(#t)" stroke="${active ? '#2a1a0a' : '#0f0a04'}" stroke-width="2"/>

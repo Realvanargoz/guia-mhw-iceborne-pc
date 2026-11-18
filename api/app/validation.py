@@ -5,7 +5,6 @@ Text is stored and returned as data only (the web app never renders it as HTML),
 """
 from __future__ import annotations
 
-import re
 from typing import Annotated
 
 from fastapi import Query
@@ -18,12 +17,17 @@ MAX_FILTER_LEN = 40       # category / rank / type / kind ... filters
 MAX_LIMIT = 2000          # absolute pagination cap
 ID_PATTERN = r"^[\w.'\-]{1,80}$"   # slugs, ing_*, numeric ids
 
-# C0/C1 controls, DEL, line/paragraph separators and bidi override/isolate characters.
-_BAD = re.compile("[\x00-\x08\x0b\x0c\x0e-\x1f\x7f-\x9f\u2028\u2029\u202a-\u202e\u2066-\u2069]")
+# C0/C1 controls (except \t \n \r), DEL, line/paragraph separators and bidi override/isolate characters.
+_BAD_CODEPOINTS = frozenset([
+    *range(0x00, 0x09), 0x0B, 0x0C, *range(0x0E, 0x20),   # C0 controls, keeping \t (09), \n (0A), \r (0D)
+    *range(0x7F, 0xA0),                                      # DEL + C1 controls
+    0x2028, 0x2029,                                          # line / paragraph separators
+    *range(0x202A, 0x202F), *range(0x2066, 0x206A),          # bidi embeddings, overrides and isolates
+])
 
 
 def no_control_chars(v: str) -> str:
-    if _BAD.search(v):
+    if any(ord(ch) in _BAD_CODEPOINTS for ch in v):
         raise ValueError("Caracteres de control no permitidos")
     return v
 

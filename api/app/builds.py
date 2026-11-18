@@ -15,6 +15,7 @@ the rules and the data signature still match.
 from __future__ import annotations
 
 import hashlib
+import logging
 import json
 import os
 import threading
@@ -27,6 +28,8 @@ from fastapi import Path as PathParam
 from pydantic import AfterValidator, BaseModel, ConfigDict, Field, StringConstraints, model_validator
 
 from . import settings
+
+_log = logging.getLogger(__name__)
 from .db import J, all_, execute, now, one, transaction
 from .validation import no_control_chars
 
@@ -1057,8 +1060,9 @@ def rebuild(cap: Literal["progress", "full", "both"] = "both"):
                                SET rules_hash=EXCLUDED.rules_hash, data_sig=EXCLUDED.data_sig, data=EXCLUDED.data, built_at=EXCLUDED.built_at""",
                             (mid, rk, cp, D["rules_hash"], D["data_sig"], J(out), now()))
                     n += 1
-                except Exception as e:  # keep going; report
-                    errors.append({"monster_id": mid, "rank": rk, "cap": cp, "error": str(e)})
+                except Exception as e:  # keep going; report the error type only (details stay in the local log)
+                    _log.exception("rebuild failed for monster %s rank %s cap %s", mid, rk, cp)
+                    errors.append({"monster_id": mid, "rank": rk, "cap": cp, "error": type(e).__name__})
     return {"stored": n, "errors": errors, "slow": slow, "rules_hash": D["rules_hash"], "data_sig": D["data_sig"],
             "elapsed_s": round(time.perf_counter() - t0, 1)}
 
