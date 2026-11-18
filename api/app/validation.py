@@ -19,7 +19,7 @@ MAX_LIMIT = 2000          # absolute pagination cap
 ID_PATTERN = r"^[\w.'\-]{1,80}$"   # slugs, ing_*, numeric ids
 
 # C0/C1 controls, DEL, line/paragraph separators and bidi override/isolate characters.
-_BAD = re.compile("[\x00-\x08\x0b\x0c\x0e-\x1f\x7f-\x9f  ‪-‮⁦-⁩]")
+_BAD = re.compile("[\x00-\x08\x0b\x0c\x0e-\x1f\x7f-\x9f\u2028\u2029\u202a-\u202e\u2066-\u2069]")
 
 
 def no_control_chars(v: str) -> str:

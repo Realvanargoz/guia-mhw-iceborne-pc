@@ -34,12 +34,10 @@ def safe_join(root: Path | str, rel: str) -> Path | None:
         return None
     if any(part == ".." for part in rel.split("/")):
         return None
-    base = os.path.realpath(str(root))
-    full = os.path.realpath(os.path.join(base, rel))
-    try:
-        if os.path.commonpath([full, base]) != base:
-            return None
-    except ValueError:
+    base = os.path.normcase(os.path.realpath(str(root)))
+    full = os.path.normcase(os.path.realpath(os.path.join(base, rel)))
+    # Contención: la ruta ya normalizada y resuelta (sin symlinks) debe quedar DENTRO de la raíz.
+    if not full.startswith(base.rstrip(os.sep) + os.sep):
         return None
     return Path(full)
 
