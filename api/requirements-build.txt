@@ -9,4 +9,4 @@ packaging==26.3
 setuptools==84.2.1
 # ETL catalog build (etl/requirements.txt) + icon re-encode / ICO generation
 jsonschema==4.23.0
-Pillow==12.3.0
+Pillow==13.0.0
