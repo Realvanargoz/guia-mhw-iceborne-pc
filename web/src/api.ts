@@ -49,9 +49,10 @@ export function useApi<T>(path: string | null): ApiState<T> {
   return { data: state.data, error: state.error, loading: state.loading, reload };
 }
 
-export async function sendJson<T = unknown>(method: "POST" | "PUT" | "DELETE", path: string, body?: unknown): Promise<T> {
+export async function sendJson<T = unknown>(method: "POST" | "PUT" | "DELETE", path: string, body?: unknown, signal?: AbortSignal): Promise<T> {
   const res = await fetch(`/api${path}`, {
     method,
+    signal,
     headers: body === undefined ? { "X-MHW-Client": "1" } : { "Content-Type": "application/json", "X-MHW-Client": "1" },
     body: body === undefined ? undefined : JSON.stringify(body),
   });

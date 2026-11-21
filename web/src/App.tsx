@@ -40,7 +40,7 @@ const MelderPage = lazy(() => import("./pages/Melder"));
 const CalendarPage = lazy(() => import("./pages/Calendar"));
 const Bestiary = lazy(() => import("./pages/Bestiary"));
 const StatsPage = lazy(() => import("./pages/Stats"));
-const Builder = lazy(() => import("./pages/Builder"));
+const Builder = lazy(() => import("./pages/builder/index"));
 const DesignSystem = lazy(() => import("./pages/DesignSystem"));
 
 /** Páginas que usan el ancho --page-max-wide (clase .main--wide). */

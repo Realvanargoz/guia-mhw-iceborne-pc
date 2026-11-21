@@ -10,7 +10,7 @@ sys.path.insert(0, str(ROOT / "api"))
 from app import userdb  # noqa: E402
 
 TABLES = {"progress", "calendar_periods", "calendar_settings", "profile_snapshots", "build_recommendations",
-          "saved_builds", "user_meta"}
+          "saved_builds", "user_meta", "build_versions"}
 
 
 def _tables(p):
@@ -32,7 +32,8 @@ def _version(p):
 
 def test_fresh_migrate_no_backup_and_idempotent(tmp_path):
     p = tmp_path / "user.db"
-    assert userdb.migrate(p) == userdb.LATEST
+    assert userdb.migrate(p) == userdb.LATEST == 2
+    assert _version(p) == 2
     assert _tables(p) == TABLES
     assert not (tmp_path / "backups").exists()
     assert userdb.migrate(p) == userdb.LATEST

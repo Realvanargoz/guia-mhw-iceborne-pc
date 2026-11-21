@@ -31,6 +31,7 @@ from . import settings
 
 _log = logging.getLogger(__name__)
 from .db import J, all_, execute, now, one, transaction
+from .plan_models import Id, PlanIn, WeaponSlotsLegacy  # noqa: F401  (Id re-exported)
 from .validation import no_control_chars
 
 router = APIRouter()
@@ -52,7 +53,8 @@ FINAL_STATES = 36
 CHARMS_TRIED = 2
 
 # Bump when the engine logic changes so cached results are invalidated (the module source is no longer hashed).
-RULES_VERSION = 1
+# 2: Inheritance (Fatalis Legend 2-piece bonus) lifts the cap of every secret skill.
+RULES_VERSION = 2
 
 _lock = threading.Lock()
 _cache: dict = {}
@@ -86,6 +88,8 @@ def _load() -> dict:
             s["cap"] = (s["max_level"] or 1) - (s["secret"] or 0)
         # secret skill id -> base skill id it unlocks
         unlocks = {sid: by_name[s["unlocks"]] for sid, s in skills.items() if s["unlocks"] in by_name}
+        # 'Inheritance' (Fatalis Legend, 2 pieces): removes the cap of every skill secret at once
+        unlock_all = by_name.get("Inheritance")
 
         armor = {}
         for r in all_("""SELECT a.id, a.name_en, a.name_es, a.rarity, a.type, a.rank, a.armor_set_id, a.slot_1, a.slot_2,
@@ -133,7 +137,8 @@ def _load() -> dict:
         data = {
             "rules": rules, "rules_hash": hashlib.sha256(str(RULES_VERSION).encode() + raw).hexdigest()[:16],  # engine version + rules
             "data_sig": hashlib.sha256(sig_row["s"].encode()).hexdigest()[:16],
-            "skills": skills, "skill_by_name": by_name, "unlocks": unlocks, "armor": armor, "bonuses": bonuses,
+            "skills": skills, "skill_by_name": by_name, "unlocks": unlocks, "unlock_all": unlock_all,
+            "armor": armor, "bonuses": bonuses,
             "decos": decos, "charms": charms, "monsters": monsters, "weak": weak, "own_set_rarity": own_set_rarity,
             "load_ms": round((time.perf_counter() - t0) * 1000),
         }
@@ -167,10 +172,19 @@ def _set_bonus_skills(D: dict, bonus_counts: dict) -> list[dict]:
     return out
 
 
+def _unlocked(D: dict, active: set, points: dict | None = None) -> set:
+    """Base skills whose cap is lifted to max_level: each active secret skill unlocks its base skill, and
+    Inheritance (D["unlock_all"], active at any level, set bonus or points) unlocks all of them."""
+    ua = D.get("unlock_all")
+    if ua is not None and (ua in active or (points or {}).get(ua, 0) > 0):
+        return set(D["unlocks"].values())
+    return {D["unlocks"][s] for s in active if s in D["unlocks"]}
+
+
 def _levels(D: dict, points: dict, active_bonus_skills: set) -> dict:
     """skill id -> (effective level, cap, raw points)."""
     out = {}
-    unlocked = {D["unlocks"][s] for s in active_bonus_skills if s in D["unlocks"]}
+    unlocked = _unlocked(D, active_bonus_skills, points)
     for sid, p in points.items():
         s = D["skills"][sid]
         cap = s["max_level"] if sid in unlocked else s["cap"]
@@ -444,7 +458,8 @@ class Scorer:
         return [self.D["skill_by_name"][r[e]] for e in ELEMENTS]
 
     def parts(self, points: dict, active: set, defmax: int, res: dict):
-        lv = _levels(self.D, {k: v for k, v in points.items() if k in self.relevant or k in self.D["unlocks"]}, active)
+        lv = _levels(self.D, {k: v for k, v in points.items()
+                              if k in self.relevant or k in self.D["unlocks"] or k == self.D["unlock_all"]}, active)
         skill = 0.0
         for sid, w, curve, cap, mx in self.w:
             if w == 0:
@@ -470,9 +485,10 @@ class Scorer:
         return skill, elem, dfn, off, lv, d, r
 
     def caps(self, active: set) -> dict:
-        unlocked = {self.D["unlocks"][x] for x in active if x in self.D["unlocks"]}
+        unlocked = _unlocked(self.D, active)
+        sk = self.D["skills"]
         return {sid: (mx if sid in unlocked else cap) for sid, _, _, cap, mx in self.w} | {
-            sid: self.D["skills"][sid]["cap"] for sid in self.prof["offense"]}
+            sid: (sk[sid]["max_level"] if sid in unlocked else sk[sid]["cap"]) for sid in self.prof["offense"]}
 
     def contrib(self, sid: int, pts: int, caps: dict) -> float:
         """Score of one 'simple' skill at a raw point total (weighted curve + offense tiebreak)."""
@@ -632,11 +648,20 @@ def owned_from_snapshot(snapshot: dict | None) -> dict | None:
         did = deco_by_name.get((d.get("name_en") or "").strip().lower())
         if did:
             deco_counts[did] = deco_counts.get(did, 0) + int(d.get("count") or 0)
-    return {"armor": armor_ids, "decorations": deco_counts, "charms": None}
+    charm_by_name = {(c["name_en"] or "").strip().lower(): cid for cid, c in D["charms"].items()}
+    if "charms" not in s["equipment"]:
+        return {"armor": armor_ids, "decorations": deco_counts, "charms": None}   # old snapshot: unknown, not "none owned"
+    charm_ids = set()
+    for c in s["equipment"].get("charms") or []:
+        cid = charm_by_name.get((c.get("name_en") or "").strip().lower())
+        if cid:
+            charm_ids.add(cid)
+    return {"armor": armor_ids, "decorations": deco_counts, "charms": charm_ids}
 
 
 def _latest_snapshot() -> dict | None:
-    row = one("SELECT data FROM profile_snapshots ORDER BY taken_at DESC NULLS FIRST, id DESC NULLS FIRST LIMIT 1")
+    from .profile import _last_snapshot   # same selection as the profile endpoints (newest id)
+    row = _last_snapshot("data")
     return row["data"] if row else None
 
 
@@ -721,7 +746,9 @@ def recommend(monster_id: int, rank: str, owned: dict | None = None, cap: str = 
             uniq[(k, d["id"])] = d
     decos = list(uniq.values())
     clo, chi = band["charm"]
-    charms = [c for c in D["charms"].values() if clo <= (c["rarity"] or 0) <= chi and any(s in sc.relevant for s in c["skills"])]
+    owned_charms = owned.get("charms") if owned is not None else None
+    charms = [c for c in D["charms"].values() if clo <= (c["rarity"] or 0) <= chi and any(s in sc.relevant for s in c["skills"])
+              and (owned_charms is None or c["id"] in owned_charms)]
 
     # slot value estimate: best single-deco gain from an empty build per slot size
     empty_total = sc.total({}, set(), 0, {e: 0 for e in ELEMENTS})
@@ -816,7 +843,10 @@ def recommend(monster_id: int, rank: str, owned: dict | None = None, cap: str = 
     if owned is not None:
         if not any(pool[s] for s in SLOTS):
             notes.append(f"No tienes piezas de {rank} en la rareza permitida; prueba con cap=full o sin owned.")
-        notes.append("El save no incluye amuletos: el amuleto sugerido puede que no lo tengas.")
+        if owned.get("charms") is not None:
+            notes.append("Solo se proponen amuletos que tienes" + ("" if charms else "; ninguno de los tuyos aporta a este set, así que no se usa amuleto") + ".")
+        else:
+            notes.append("El save no incluye amuletos: el amuleto sugerido puede que no lo tengas.")
     return {**base, "available": True, "builds": builds, "notes": notes, "sources": _goal_sources(prof) if goal else _sources(D, prof["rule_sources"]),
             "elapsed_ms": round((time.perf_counter() - t0) * 1000)}
 
@@ -943,9 +973,6 @@ def _swap_hints(D, prof, lv, res, m, sc) -> list[dict]:
 
 
 # ------------------------------------------------------------------ endpoints
-Id = Annotated[int, Field(ge=0, le=1_000_000)]
-
-
 class DecoIn(BaseModel):
     model_config = ConfigDict(extra="ignore")
     id: Id | None = None
@@ -953,18 +980,39 @@ class DecoIn(BaseModel):
     piece: Literal["head", "chest", "arms", "waist", "legs", "weapon"] | None = None
 
 
+class EvalTarget(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    skill_id: Id
+    level: int = Field(ge=1, le=7)
+    tier: Literal[1, 2, 3] = 3
+
+
 class EvalBody(BaseModel):
+    model_config = ConfigDict(extra="forbid")
     pieces: dict[Literal["head", "chest", "arms", "waist", "legs", "charm"], Id | None] = Field(
         default_factory=dict, max_length=6, description="head/chest/arms/waist/legs/charm -> id (o null)")
     decorations: list[Id | DecoIn] = Field(default_factory=list, max_length=60,
                                            description="ids de joyas, o {id, piece} para fijar dónde va cada una")
-    weapon_slots: list[Annotated[int, Field(ge=1, le=4)]] | None = Field(None, max_length=4)
+    charm: Id | None = None   # solver `loadout` shape (charm outside `pieces`); pieces.charm wins when both are given
+    weapon_slots: WeaponSlotsLegacy | None = None   # up to 4: old saved builds may carry 4 entries
+    targets: list[EvalTarget] | None = Field(None, max_length=20,
+                                           description="opcional: objetivos del plan; si vienen, se añade `coverage`")
 
 
 @_b.post("/evaluate")
 def evaluate(body: EvalBody):
     decos = [d.model_dump() if isinstance(d, DecoIn) else d for d in body.decorations]
-    out = evaluate_loadout(body.pieces, decos, body.weapon_slots)
+    pieces = dict(body.pieces)
+    if body.charm is not None and pieces.get("charm") is None:
+        pieces["charm"] = body.charm
+    out = evaluate_loadout(pieces, decos, body.weapon_slots)
+    if body.targets:
+        from .planner import coverage   # lazy: planner imports builds
+        D = _load()
+        bad = [t.skill_id for t in body.targets if t.skill_id not in D["skills"]]
+        if bad:
+            raise HTTPException(422, "Habilidad desconocida en los objetivos")
+        out["coverage"] = coverage(D, out, [{"sid": t.skill_id, "level": t.level, "tier": t.tier} for t in body.targets])
     out["disclaimer_es"] = DISCLAIMER_ES
     return out
 
@@ -1001,7 +1049,7 @@ def monster_builds(monster_id: int = PathParam(ge=0, le=1_000_000), rank: Litera
             out = recommend(monster_id, rank, None, cap, ws)
             return {**out, "owned_available": False,
                     "notes": out["notes"] + ["Tu save no tiene todavía el cofre de equipo: se muestra la recomendación general."]}
-        key = _memo_key("own", monster_id, rank, cap, ws, sorted(own["armor"]), sorted(own["decorations"].items()))
+        key = _memo_key("own", monster_id, rank, cap, ws, sorted(own["armor"]), sorted(own["decorations"].items()), sorted(own["charms"] or []))
         if key not in _cache.get("memo", {}):
             _memo_put(key, recommend(monster_id, rank, own, cap, ws))
         return {**_cache["memo"][key], "owned_available": True}
@@ -1027,7 +1075,7 @@ def goal_builds(goal: Literal["recoleccion", "botin"], rank: Literal["LR", "HR",
     own = None
     if owned:
         own = owned_from_snapshot(_latest_snapshot())
-    key = _memo_key("goal", goal, rank, cap, ws, None if own is None else (sorted(own["armor"]), sorted(own["decorations"].items())))
+    key = _memo_key("goal", goal, rank, cap, ws, None if own is None else (sorted(own["armor"]), sorted(own["decorations"].items()), sorted(own["charms"] or [])))
     _load()
     if key not in _cache.get("memo", {}):
         _memo_put(key, recommend(0, rank, own, cap, ws, goal=goal))
@@ -1085,7 +1133,7 @@ class SavedPayload(BaseModel):
     charm: dict[str, Any] | Id | None = None
     decos: dict[Literal["head", "chest", "arms", "waist", "legs", "weapon"],
                 Annotated[list[Id | None], Field(max_length=4)]] = Field(default_factory=dict)
-    weapon: list[Annotated[int, Field(ge=1, le=4)]] = Field(default_factory=list, max_length=4)
+    weapon: WeaponSlotsLegacy = Field(default_factory=list)   # legacy bound 4 (see plan_models)
 
 
 def _check_payload(p: SavedPayload) -> dict:
@@ -1099,21 +1147,38 @@ class SavedIn(BaseModel):
     model_config = ConfigDict(extra="forbid")
     name: SavedName
     payload: SavedPayload
+    plan: PlanIn | None = None
 
 
 class SavedPatch(BaseModel):
     model_config = ConfigDict(extra="forbid")
     name: SavedName | None = None
     payload: SavedPayload | None = None
+    plan: PlanIn | None = None
 
     @model_validator(mode="after")
     def _any(self):
-        if self.name is None and self.payload is None:
-            raise ValueError("Indica name y/o payload")
+        if self.name is None and self.payload is None and self.plan is None:
+            raise ValueError("Indica name, payload y/o plan")
         return self
 
 
-_SAVED_COLS = "id, name, payload, created_at, updated_at"
+_SAVED_COLS = ("id, name, payload, plan, current_version_id, created_at, updated_at, "
+               "(SELECT count(*) FROM build_versions v WHERE v.build_id = saved_builds.id) AS version_count")
+
+
+def _plan_json(plan: PlanIn) -> str:
+    out = json.dumps(plan.model_dump(), ensure_ascii=False)
+    if len(out.encode("utf-8")) > MAX_PAYLOAD_BYTES:
+        raise HTTPException(413, "El plan es demasiado grande (máx. 64 KB)")
+    return out
+
+
+def _check_row(payload, plan) -> None:
+    """Row cap: payload and plan TOGETHER must fit in MAX_PAYLOAD_BYTES (same rule as planner_store._check_row)."""
+    n = sum(len(json.dumps(o, ensure_ascii=False).encode("utf-8")) for o in (payload, plan) if o is not None)
+    if n > MAX_PAYLOAD_BYTES:
+        raise HTTPException(413, "El equipo guardado es demasiado grande (máx. 64 KB entre equipo y plan)")
 
 
 @_b.get("/saved")
@@ -1124,12 +1189,15 @@ def saved_list():
 @_b.post("/saved", status_code=201)
 def saved_create(body: SavedIn):
     payload = _check_payload(body.payload)
+    plan_json = _plan_json(body.plan) if body.plan else None
+    _check_row(payload, json.loads(plan_json) if plan_json else None)
     t = now()
     with transaction() as c:
         if c.one("SELECT count(*) n FROM saved_builds")["n"] >= MAX_SAVED:
             raise HTTPException(409, f"Máximo {MAX_SAVED} equipos guardados; borra alguno antes de guardar otro")
-        return c.one(f"INSERT INTO saved_builds (name, payload, created_at, updated_at) VALUES (?,?,?,?) "
-                     f"RETURNING {_SAVED_COLS}", (body.name, J(payload), t, t))
+        new_id = c.one("INSERT INTO saved_builds (name, payload, plan, created_at, updated_at) VALUES (?,?,?,?,?) "
+                       "RETURNING id", (body.name, J(payload), plan_json, t, t))["id"]
+        return c.one(f"SELECT {_SAVED_COLS} FROM saved_builds WHERE id = ?", (new_id,))
 
 
 @_b.put("/saved/{saved_id}")
@@ -1139,9 +1207,13 @@ def saved_update(body: SavedPatch, saved_id: int = PathParam(ge=0, le=2_000_000_
         row = c.one(f"SELECT {_SAVED_COLS} FROM saved_builds WHERE id = ?", (saved_id,))
         if row is None:
             raise HTTPException(404, "No se encontró el equipo guardado")
-        return c.one(f"UPDATE saved_builds SET name = ?, payload = ?, updated_at = ? WHERE id = ? RETURNING {_SAVED_COLS}",
-                     (body.name if body.name is not None else row["name"],
-                      J(payload) if payload is not None else J(row["payload"]), now(), saved_id))
+        new_plan = _plan_json(body.plan) if body.plan is not None else (J(row["plan"]) if row["plan"] is not None else None)
+        _check_row(payload if payload is not None else row["payload"], json.loads(new_plan) if new_plan else None)
+        c.execute("UPDATE saved_builds SET name = ?, payload = ?, plan = ?, updated_at = ? WHERE id = ?",
+                  (body.name if body.name is not None else row["name"],
+                   J(payload) if payload is not None else J(row["payload"]),
+                   new_plan, now(), saved_id))
+        return c.one(f"SELECT {_SAVED_COLS} FROM saved_builds WHERE id = ?", (saved_id,))
 
 
 @_b.delete("/saved/{saved_id}")

@@ -103,13 +103,14 @@ pwsh scripts/build-windows.ps1 -Version x.y.z -OptimizeIcons
 | `tools/worldchunktool/` | Dockerfile y parche que compilan WorldChunkTool desde su código fuente. |
 | `tools/e2e/` | Prueba de humo de navegación. |
 | `design/` | Fuente del arte de la interfaz (SVG/HTML/GSAP renderizado con HyperFrames). |
-| `Docs/` | Documentación: arquitectura y modelo de seguridad. |
+| `Docs/` | Documentación: arquitectura, modelo de seguridad y [constructor por fases](Docs/constructor-por-fases.md) y [firma y antivirus](Docs/firma-y-antivirus.md). |
 
 ## Créditos y avisos legales
 
 - El **código y los textos originales** se publican bajo la licencia **MIT** ([LICENSE](LICENSE)). La licencia no cubre material de terceros.
 - Las licencias de las librerías, tipografías y código de terceros están en [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).
 - Monster Hunter, Monster Hunter: World, Iceborne, sus personajes, monstruos, nombres, iconos e imágenes son marcas y obras protegidas de **CAPCOM CO., LTD.** © CAPCOM CO., LTD. ALL RIGHTS RESERVED. Steam es una marca de Valve Corporation. Este proyecto es una guía de aficionados: **no está afiliado, patrocinado ni respaldado por Capcom, Valve ni Steam**. Si eres titular de derechos y quieres que se retire o cambie algún contenido, escribe a info@asesoriatics.com.
+- **Idea del constructor de builds:** el constructor por fases se basa en el método de **Dem** ([youtube.com/@Demsito](https://www.youtube.com/@Demsito)), explicado en su vídeo [«DEJA de COPIAR Builds y EMPIEZA a CREARLAS con ESTE Método»](https://www.youtube.com/watch?v=ozzSBPNg5aw). La idea y el orden de los pasos son suyos; esta guía no está afiliada a su canal.
 - **Fuentes de datos:** MHWorldData (Gathering Hall Studios, MIT), mhw-db.com, Kiranico, Fextralife Monster Hunter World Wiki, Monster Hunter Wiki, PowerPyx, mhw.poedb.tw, el calendario oficial de eventos de Capcom y los textos oficiales de logros de Steam. Los vídeos de YouTube pertenecen a sus autores y solo se cargan al pulsarlos. Las guías son resúmenes propios y cada ficha enlaza sus fuentes.
 
 ## Desarrollo con IA

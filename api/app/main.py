@@ -15,6 +15,10 @@ from . import settings
 from .areas import parse_areas
 from .bestiary import router as bestiary_router
 from .builds import router as builds_router
+from .planner import router as planner_router
+from .planner_store import router as planner_store_router
+from .planner_rules import router as planner_rules_router
+from .catalog_lists import router as catalog_lists_router
 from .calendar import router as calendar_router
 from .canteen import router as canteen_router
 from . import db
@@ -144,6 +148,10 @@ app.include_router(calendar_router)
 app.include_router(profile_router)
 app.include_router(bestiary_router)
 app.include_router(builds_router)
+app.include_router(planner_router)
+app.include_router(planner_rules_router)
+app.include_router(planner_store_router)
+app.include_router(catalog_lists_router)
 app.include_router(canteen_router)
 app.include_router(loot_router)
 app.include_router(melder_router)
@@ -412,7 +420,8 @@ def armor(armor_id: int):
 @app.get("/api/weapons")
 def weapons(weapon_type: str | None = filter_q(), q: str | None = text_q(), limit: int = limit_q(500)):
     return all_("""
-      SELECT id, name_es, name_en, weapon_type, previous_id, category, rarity, attack, element1, element1_attack
+      SELECT id, name_es, name_en, weapon_type, previous_id, category, rarity, attack, element1, element1_attack,
+             slot_1, slot_2, slot_3
       FROM weapons WHERE (:t IS NULL OR weapon_type = :t)
         AND (:q IS NULL OR f_norm(coalesce(name_es,'') || ' ' || name_en) LIKE '%' || f_norm(:q) || '%')
       ORDER BY weapon_type NULLS LAST, rarity NULLS LAST, id LIMIT :l""", {"t": weapon_type, "q": q, "l": limit})

@@ -19,3 +19,11 @@ Para aplicar una respuesta, edita `solo_rules.json` y pulsa `POST /api/builds/re
 - Solo puntúan habilidades de equipo. El Manto de bandido, el Plunderblade, las bebidas calientes (Arrecife Escarchado) y las habilidades de cantina (Felyne Harvester, Lucky Cat, Felyne Carver Hi) no entran en la recomendación de armadura.
 - Good Luck / Great Luck: se puntúan ambas aunque no se sabe si se acumulan.
 - El Arma y el estilo de juego no cuentan (igual que en los perfiles de monstruo).
+
+## Reglas y plantillas del planificador (`planner_rules.json`)
+- `planner_rules.json` define arquetipos por tipo de arma (daño físico, elemental, estados, fiolas de impacto del Hacha de carga, disparos de Lanza pistola, munición, bloqueo, supervivencia) y estilos de juego (bloqueo, esquiva, aprendiendo, multijugador). Alimenta `GET /api/builds/plan/rules` y `GET /api/builds/plan/template`. Todo está marcado `needs_review`.
+- **Pesos y niveles.** Los niveles de cada habilidad por arquetipo son propuestas de diseño, no números del juego. ¿Coinciden con lo que usas? *Por defecto:* los del JSON.
+- **Tiers.** En la plantilla de monstruo/objetivo el tier sale del peso del perfil: peso >= 6 primaria, 3 <= peso < 6 secundaria, resto terciaria; las habilidades que vienen de un estado alterado o plaga son al menos secundarias. Es una decisión de diseño a confirmar.
+- **Hacha de carga (impacto).** Sigue el vídeo de Dem (https://www.youtube.com/watch?v=ozzSBPNg5aw): Artillery 5, Health Boost 3, Stun Resistance 3, Weakness Exploit 3 y Power Prolonger 3 como primarias; Guard 5 llega del estilo «bloqueo». ¿Es correcto descartar Critical Eye, Critical Boost y Agitator porque el daño de la fiola ignora afinidad y filo? *Por defecto:* sí.
+- **Artillery 5.** Requiere el bonus «Zorah Magdaros Essence» (3 piezas) o «Fatalis Legend» (Inheritance). *Por defecto:* ambos.
+- **Heavy Artillery en Lanza pistola.** ¿Aplica al fuego de wyvern de la Lanza pistola? *Por defecto:* nivel 2 secundaria.

@@ -13,11 +13,11 @@ function ignoreHotkey(t: EventTarget | null) {
   const tag = el.tagName;
   if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || tag === "BUTTON" || tag === "A" || el.isContentEditable) return true;
   if (el.closest('[role="dialog"],[role="alertdialog"],dialog')) return true;
-  return !el.closest(".book, .booktabs, .ranksel, .bst__main");
+  return !el.closest(".book, .booktabs, .ranksel, .bst__main, .pl");
 }
 
 /** Calls prev/next on the given keys (ignored with modifiers, in fields/buttons/links/dialogs, or when focus is outside the book). */
-function useKeyPair(prevKey: string, nextKey: string, prev: () => void, next: () => void, enabled = true) {
+export function useKeyPair(prevKey: string, nextKey: string, prev: () => void, next: () => void, enabled = true) {
   const ref = useRef({ prev, next });
   ref.current = { prev, next };
   useEffect(() => {

@@ -1,0 +1,636 @@
+{
+ "version": 1,
+ "retrieved_at": "2026-11-20",
+ "needs_review": true,
+ "scope_es": "Reglas y plantillas del planificador de builds. Los pesos, niveles y la asignación de tiers son decisiones de diseño sobre las fuentes, no números del juego; los nombres de habilidad son los del catálogo (inglés).",
+ "tiers_es": {
+  "1": "Primaria: imprescindible, el planificador no la sacrifica.",
+  "2": "Secundaria: se intenta cumplir cuando cabe tras las primarias.",
+  "3": "Terciaria: deseable, se cede primero si faltan ranuras."
+ },
+ "weapon_types": {
+  "great-sword": {
+   "label_es": "Gran espada",
+   "archetypes": [
+    "raw_crit",
+    "elemental",
+    "status",
+    "guard_tank",
+    "comfort_survival"
+   ]
+  },
+  "long-sword": {
+   "label_es": "Espada larga",
+   "archetypes": [
+    "raw_crit",
+    "elemental",
+    "status",
+    "comfort_survival"
+   ]
+  },
+  "sword-and-shield": {
+   "label_es": "Espada y escudo",
+   "archetypes": [
+    "raw_crit",
+    "elemental",
+    "status",
+    "guard_tank",
+    "comfort_survival"
+   ]
+  },
+  "dual-blades": {
+   "label_es": "Espadas duales",
+   "archetypes": [
+    "raw_crit",
+    "elemental",
+    "status",
+    "comfort_survival"
+   ]
+  },
+  "hammer": {
+   "label_es": "Martillo",
+   "archetypes": [
+    "raw_crit",
+    "elemental",
+    "status",
+    "comfort_survival"
+   ]
+  },
+  "hunting-horn": {
+   "label_es": "Cuerno de caza",
+   "archetypes": [
+    "raw_crit",
+    "elemental",
+    "status",
+    "comfort_survival"
+   ]
+  },
+  "lance": {
+   "label_es": "Lanza",
+   "archetypes": [
+    "raw_crit",
+    "elemental",
+    "status",
+    "guard_tank",
+    "comfort_survival"
+   ]
+  },
+  "gunlance": {
+   "label_es": "Lanza pistola",
+   "archetypes": [
+    "raw_crit",
+    "elemental",
+    "status",
+    "gunlance_shelling",
+    "guard_tank",
+    "comfort_survival"
+   ]
+  },
+  "switch-axe": {
+   "label_es": "Hacha espada",
+   "archetypes": [
+    "raw_crit",
+    "elemental",
+    "status",
+    "comfort_survival"
+   ]
+  },
+  "charge-blade": {
+   "label_es": "Hacha de carga",
+   "archetypes": [
+    "raw_crit",
+    "elemental",
+    "status",
+    "cb_impact",
+    "guard_tank",
+    "comfort_survival"
+   ]
+  },
+  "insect-glaive": {
+   "label_es": "Glaive insecto",
+   "archetypes": [
+    "raw_crit",
+    "elemental",
+    "status",
+    "comfort_survival"
+   ]
+  },
+  "light-bowgun": {
+   "label_es": "Ballesta ligera",
+   "archetypes": [
+    "raw_crit",
+    "elemental",
+    "status",
+    "ranged_ammo",
+    "comfort_survival"
+   ]
+  },
+  "heavy-bowgun": {
+   "label_es": "Ballesta pesada",
+   "archetypes": [
+    "raw_crit",
+    "elemental",
+    "status",
+    "ranged_ammo",
+    "comfort_survival"
+   ]
+  },
+  "bow": {
+   "label_es": "Arco",
+   "archetypes": [
+    "raw_crit",
+    "elemental",
+    "status",
+    "ranged_ammo",
+    "comfort_survival"
+   ]
+  }
+ },
+ "archetypes": {
+  "raw_crit": {
+   "label_es": "Daño físico y críticos",
+   "weapon_types": "*",
+   "skills": [
+    {
+     "skill": "Weakness Exploit",
+     "level": 3,
+     "tier": 1,
+     "why_es": "+afinidad contra partes débiles; base de casi cualquier arma con filo o munición física"
+    },
+    {
+     "skill": "Critical Eye",
+     "level": 5,
+     "tier": 1,
+     "why_es": "afinidad directa; escala con Critical Boost"
+    },
+    {
+     "skill": "Attack Boost",
+     "level": 4,
+     "tier": 1,
+     "why_es": "daño físico plano y constante"
+    },
+    {
+     "skill": "Critical Boost",
+     "level": 3,
+     "tier": 2,
+     "why_es": "sube el multiplicador de crítico; solo rinde con afinidad alta"
+    },
+    {
+     "skill": "Agitator",
+     "level": 5,
+     "tier": 2,
+     "why_es": "ataque y afinidad cuando hay un monstruo enfurecido; con el bonus de set sube a 5"
+    },
+    {
+     "skill": "Peak Performance",
+     "level": 3,
+     "tier": 3,
+     "why_es": "ataque extra con salud completa; útil si apenas te golpean"
+    }
+   ],
+   "discard": [],
+   "notes_es": "Arquetipo genérico de daño físico para cualquier arma. El nivel de Critical Eye y Attack Boost es una propuesta: ajústalo a las ranuras disponibles.",
+   "needs_review": true
+  },
+  "elemental": {
+   "label_es": "Daño elemental",
+   "weapon_types": "*",
+   "skills": [
+    {
+     "skill": "Weakness Exploit",
+     "level": 3,
+     "tier": 1,
+     "why_es": "el daño elemental también se beneficia de las partes débiles"
+    },
+    {
+     "skill": "Critical Element",
+     "level": 1,
+     "tier": 2,
+     "why_es": "el crítico también multiplica el elemento (solo armas elementales con afinidad)"
+    },
+    {
+     "skill": "Critical Eye",
+     "level": 3,
+     "tier": 2,
+     "why_es": "afinidad moderada para activar Critical Element"
+    },
+    {
+     "skill": "Attack Boost",
+     "level": 3,
+     "tier": 3,
+     "why_es": "ataque físico de apoyo"
+    }
+   ],
+   "discard": [
+    {
+     "skill": "Critical Boost",
+     "why_es": "el elemento no usa el multiplicador de Critical Boost"
+    }
+   ],
+   "notes_es": "Añade además la habilidad de ataque del elemento de tu arma (Fire/Water/Thunder/Ice/Dragon Attack, 5 como primaria) según la debilidad del monstruo; no se fija aquí porque depende del arma.",
+   "needs_review": true
+  },
+  "status": {
+   "label_es": "Estados alterados",
+   "weapon_types": "*",
+   "skills": [
+    {
+     "skill": "Weakness Exploit",
+     "level": 3,
+     "tier": 2,
+     "why_es": "afinidad contra partes débiles; el estado no la usa pero el daño base sí"
+    },
+    {
+     "skill": "Critical Status",
+     "level": 1,
+     "tier": 2,
+     "why_es": "el crítico también multiplica la acumulación de estado"
+    },
+    {
+     "skill": "Critical Eye",
+     "level": 3,
+     "tier": 2,
+     "why_es": "afinidad moderada para activar Critical Status"
+    },
+    {
+     "skill": "Attack Boost",
+     "level": 3,
+     "tier": 3,
+     "why_es": "ataque físico de apoyo"
+    }
+   ],
+   "discard": [
+    {
+     "skill": "Critical Boost",
+     "why_es": "el estado no usa el multiplicador de Critical Boost"
+    }
+   ],
+   "notes_es": "Añade la habilidad del estado de tu arma (Poison/Paralysis/Sleep/Blast Attack, 3 como primaria; Blast llega a 4) y, si te interesa, la Functionality correspondiente.",
+   "needs_review": true
+  },
+  "cb_impact": {
+   "label_es": "Hacha de carga: impacto (fiolas)",
+   "weapon_types": [
+    "charge-blade"
+   ],
+   "skills": [
+    {
+     "skill": "Artillery",
+     "level": 5,
+     "tier": 1,
+     "why_es": "potencia explosiones de la fiola y la descarga; con el bonus de set alcanza 5"
+    },
+    {
+     "skill": "Health Boost",
+     "level": 3,
+     "tier": 1,
+     "why_es": "más vida para aguantar el juego a corta distancia detrás del escudo"
+    },
+    {
+     "skill": "Stun Resistance",
+     "level": 3,
+     "tier": 1,
+     "why_es": "evita quedar aturdido a mitad de combo de fiolas"
+    },
+    {
+     "skill": "Weakness Exploit",
+     "level": 3,
+     "tier": 1,
+     "why_es": "el daño de impacto de espada sí usa partes débiles"
+    },
+    {
+     "skill": "Power Prolonger",
+     "level": 3,
+     "tier": 1,
+     "why_es": "prolonga la carga de energía y el estado potenciado del arma"
+    },
+    {
+     "skill": "Guard Up",
+     "level": 1,
+     "tier": 2,
+     "why_es": "reduce el retroceso de los bloqueos sin perder fiolas"
+    },
+    {
+     "skill": "Capacity Boost",
+     "level": 1,
+     "tier": 2,
+     "why_es": "una carga más de fiola por recarga"
+    },
+    {
+     "skill": "Offensive Guard",
+     "level": 3,
+     "tier": 3,
+     "why_es": "ataque extra tras bloquear"
+    },
+    {
+     "skill": "Slugger",
+     "level": 3,
+     "tier": 3,
+     "why_es": "más aturdimiento con cada golpe del escudo y la espada"
+    }
+   ],
+   "requires_bonus_any": [
+    "Zorah Magdaros Essence",
+    "Fatalis Legend"
+   ],
+   "discard": [
+    {
+     "skill": "Critical Eye",
+     "why_es": "el daño de las fiolas no usa afinidad ni filo"
+    },
+    {
+     "skill": "Critical Boost",
+     "why_es": "el daño de las fiolas ignora la afinidad"
+    },
+    {
+     "skill": "Agitator",
+     "why_es": "el daño de las fiolas no usa Agitator"
+    }
+   ],
+   "notes_es": "Seguimos el vídeo de Dem sobre el Hacha de carga con Impact Phial. Guard 5 sale del estilo de juego «bloqueo». Artillery 5 solo se alcanza con un bonus de set que levante el límite del secreto.",
+   "needs_review": true,
+   "sources": [
+    {
+     "id": "yt_dem_cb_impact",
+     "title": "Dem: build de Hacha de carga con fiola de impacto",
+     "url": "https://www.youtube.com/watch?v=ozzSBPNg5aw"
+    }
+   ]
+  },
+  "gunlance_shelling": {
+   "label_es": "Lanza pistola: disparos",
+   "weapon_types": [
+    "gunlance"
+   ],
+   "skills": [
+    {
+     "skill": "Artillery",
+     "level": 5,
+     "tier": 1,
+     "why_es": "potencia los disparos y la ráfaga completa; con el bonus de set sube a 5"
+    },
+    {
+     "skill": "Heavy Artillery",
+     "level": 2,
+     "tier": 2,
+     "why_es": "potencia el fuego de wyvern (Wyvernfire/Wyvernheart)"
+    },
+    {
+     "skill": "Guard",
+     "level": 3,
+     "tier": 2,
+     "why_es": "permite bloquear sin perder posición"
+    },
+    {
+     "skill": "Handicraft",
+     "level": 3,
+     "tier": 3,
+     "why_es": "filo extra para los tajos, secundario"
+    }
+   ],
+   "requires_bonus_any": [
+    "Zorah Magdaros Essence",
+    "Fatalis Legend"
+   ],
+   "discard": [
+    {
+     "skill": "Critical Eye",
+     "why_es": "los disparos no usan afinidad"
+    },
+    {
+     "skill": "Critical Boost",
+     "why_es": "los disparos no usan afinidad"
+    }
+   ],
+   "notes_es": "Los disparos ignoran afinidad y filo. Los niveles son una propuesta.",
+   "needs_review": true
+  },
+  "ranged_ammo": {
+   "label_es": "Armas a distancia: munición",
+   "weapon_types": [
+    "light-bowgun",
+    "heavy-bowgun",
+    "bow"
+   ],
+   "skills": [
+    {
+     "skill": "Weakness Exploit",
+     "level": 3,
+     "tier": 1,
+     "why_es": "afinidad contra partes débiles para munición física"
+    },
+    {
+     "skill": "Critical Eye",
+     "level": 5,
+     "tier": 1,
+     "why_es": "afinidad directa para munición con crítico"
+    },
+    {
+     "skill": "Attack Boost",
+     "level": 4,
+     "tier": 2,
+     "why_es": "daño base de todas las balas y flechas"
+    },
+    {
+     "skill": "Free Elem/Ammo Up",
+     "level": 3,
+     "tier": 2,
+     "why_es": "munición elemental y flechas especiales sin gasto"
+    },
+    {
+     "skill": "Special Ammo Boost",
+     "level": 2,
+     "tier": 2,
+     "why_es": "potencia munición especial (ballestas)"
+    },
+    {
+     "skill": "Capacity Boost",
+     "level": 1,
+     "tier": 3,
+     "why_es": "capacidad extra de recubrimientos del arco"
+    }
+   ],
+   "discard": [],
+   "notes_es": "Añade la habilidad de tipo de munición que use tu arma (Normal/Piercing/Spread Shots, o Bow Charge Plus en el arco).",
+   "needs_review": true
+  },
+  "guard_tank": {
+   "label_es": "Bloqueo y defensa",
+   "weapon_types": [
+    "lance",
+    "gunlance",
+    "sword-and-shield",
+    "great-sword",
+    "charge-blade"
+   ],
+   "skills": [
+    {
+     "skill": "Guard",
+     "level": 5,
+     "tier": 1,
+     "why_es": "bloquea sin perder vida ni resistencia"
+    },
+    {
+     "skill": "Guard Up",
+     "level": 1,
+     "tier": 1,
+     "why_es": "retroceso nulo al bloquear"
+    },
+    {
+     "skill": "Offensive Guard",
+     "level": 3,
+     "tier": 2,
+     "why_es": "ataque extra tras bloquear"
+    },
+    {
+     "skill": "Defense Boost",
+     "level": 5,
+     "tier": 2,
+     "why_es": "defensa plana"
+    },
+    {
+     "skill": "Health Boost",
+     "level": 3,
+     "tier": 2,
+     "why_es": "más vida de margen"
+    },
+    {
+     "skill": "Flinch Free",
+     "level": 3,
+     "tier": 3,
+     "why_es": "evita el retroceso al recibir golpes"
+    },
+    {
+     "skill": "Stun Resistance",
+     "level": 3,
+     "tier": 3,
+     "why_es": "evita el aturdimiento"
+    }
+   ],
+   "discard": [],
+   "notes_es": "Pensado para armas con guardia; la Guard se suele cubrir ya con el estilo «bloqueo».",
+   "needs_review": true
+  },
+  "comfort_survival": {
+   "label_es": "Comodidad y supervivencia",
+   "weapon_types": "*",
+   "skills": [
+    {
+     "skill": "Health Boost",
+     "level": 3,
+     "tier": 1,
+     "why_es": "más vida: pocos errores resultan en derrota"
+    },
+    {
+     "skill": "Evade Window",
+     "level": 3,
+     "tier": 1,
+     "why_es": "más fotogramas de invulnerabilidad al esquivar"
+    },
+    {
+     "skill": "Divine Blessing",
+     "level": 3,
+     "tier": 2,
+     "why_es": "reduce el daño recibido de forma aleatoria"
+    },
+    {
+     "skill": "Recovery Speed",
+     "level": 3,
+     "tier": 2,
+     "why_es": "recupera más rápido la vida blanca"
+    },
+    {
+     "skill": "Defense Boost",
+     "level": 4,
+     "tier": 3,
+     "why_es": "defensa plana"
+    },
+    {
+     "skill": "Flinch Free",
+     "level": 3,
+     "tier": 3,
+     "why_es": "evita retroceso al recibir golpes"
+    },
+    {
+     "skill": "Recovery Up",
+     "level": 3,
+     "tier": 3,
+     "why_es": "las pociones curan más"
+    }
+   ],
+   "discard": [],
+   "notes_es": "Arquetipo de seguridad válido para cualquier arma.",
+   "needs_review": true
+  }
+ },
+ "play_styles": {
+  "bloqueo": {
+   "label_es": "Bloqueo",
+   "add": [
+    {
+     "skill": "Guard",
+     "level": 5,
+     "tier": 1,
+     "why_es": "bloquea todo sin perder vida"
+    },
+    {
+     "skill": "Guard Up",
+     "level": 1,
+     "tier": 3,
+     "why_es": "reduce el retroceso al bloquear"
+    }
+   ]
+  },
+  "esquiva": {
+   "label_es": "Esquiva",
+   "add": [
+    {
+     "skill": "Evade Window",
+     "level": 3,
+     "tier": 2,
+     "why_es": "más invulnerabilidad al esquivar"
+    },
+    {
+     "skill": "Evade Extender",
+     "level": 2,
+     "tier": 3,
+     "why_es": "esquivas más largas"
+    }
+   ]
+  },
+  "aprendiendo": {
+   "label_es": "Aprendiendo el monstruo",
+   "add": [
+    {
+     "skill": "Health Boost",
+     "level": 3,
+     "tier": 1,
+     "why_es": "margen para equivocarse"
+    },
+    {
+     "skill": "Divine Blessing",
+     "level": 3,
+     "tier": 2,
+     "why_es": "menos daño recibido"
+    }
+   ]
+  },
+  "multijugador": {
+   "label_es": "Multijugador",
+   "add": [
+    {
+     "skill": "Flinch Free",
+     "level": 3,
+     "tier": 2,
+     "why_es": "no te interrumpen los golpes de otros ataques"
+    }
+   ]
+  }
+ },
+ "sources": {
+  "yt_dem_cb_impact": {
+   "title": "Dem: build de Hacha de carga con fiola de impacto",
+   "url": "https://www.youtube.com/watch?v=ozzSBPNg5aw"
+  }
+ }
+}

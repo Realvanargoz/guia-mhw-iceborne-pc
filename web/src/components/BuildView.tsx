@@ -15,12 +15,12 @@ export function OwnedBadge({ title = "La tienes en tu cofre" }: { title?: string
 }
 
 /** Barra de nivel de habilidad: segmentos hasta el máximo (como el juego). */
-export function LevelBar({ level, max }: { level: number; max: number }) {
+export function LevelBar({ level, max, cap }: { level: number; max: number; cap?: number }) {
   const over = level > max;
   return (
-    <span className={`bv-lv${over ? " bv-lv--over" : ""}`} role="img" aria-label={`Nivel ${level} de ${max}`}>
+    <span className={`bv-lv${over ? " bv-lv--over" : ""}`} role="img" aria-label={`Nivel ${level} de ${max}${cap != null && cap < max ? ` (normal ${cap})` : ""}`}>
       {Array.from({ length: Math.max(max, 1) }, (_, i) => (
-        <i key={i} className={i < level ? "on" : ""} />
+        <i key={i} className={`${i < level ? "on" : ""}${cap != null && i >= cap ? " ov" : ""}`.trim()} />
       ))}
     </span>
   );

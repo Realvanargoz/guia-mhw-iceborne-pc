@@ -10,6 +10,7 @@ const CONTACT = "info@asesoriatics.com";
 type Credit = { name: string; url: string; what: string; license?: string };
 
 const CREDITS: Credit[] = [
+  { name: "Dem · canal de YouTube (@Demsito)", url: "https://www.youtube.com/@Demsito", what: "Idea y método del constructor de builds por fases, tomados de su vídeo «DEJA de COPIAR Builds y EMPIEZA a CREARLAS con ESTE Método» (youtube.com/watch?v=ozzSBPNg5aw). Los pasos son suyos; esta guía solo los convierte en una herramienta y no está afiliada a su canal." },
   { name: "MHWorldData (Gathering Hall Studios)", url: "https://github.com/gatheringhallstudios/MHWorldData", what: "Monstruos, objetos, armaduras, armas, misiones y recolección, con traducción al español.", license: "MIT" },
   { name: "mhw-db.com", url: "https://mhw-db.com", what: "Eventos, campamentos e imágenes de armaduras (se cargan desde su servidor cuando hay conexión)." },
   { name: "Kiranico", url: "https://mhworld.kiranico.com", what: "Datos de armaduras superpuestas y objetos, consultados y resumidos." },

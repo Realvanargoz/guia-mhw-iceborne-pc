@@ -43,6 +43,7 @@ _internal/catalog.db
 _internal/research/builds/solo_rules.json
 _internal/research/builds/gathering_rules.json
 _internal/research/builds/loot_rules.json
+_internal/research/builds/planner_rules.json
 _internal/research/melder/melder.json
 _internal/research/melder/melder_data.json
 

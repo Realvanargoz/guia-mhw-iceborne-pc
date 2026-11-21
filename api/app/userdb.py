@@ -8,6 +8,7 @@ NOTE: the generic key/value table is ``user_meta`` (not ``meta``) because catalo
 from __future__ import annotations
 
 import sqlite3
+from collections.abc import Callable
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -15,8 +16,16 @@ from . import settings
 
 KEEP_BACKUPS = 3
 
+def _add_column(table: str, name: str, decl: str) -> Callable[[sqlite3.Connection], None]:
+    """Idempotent ``ALTER TABLE ... ADD COLUMN`` (skips when the column already exists; e.g. a half-applied dev DB)."""
+    def run(conn: sqlite3.Connection) -> None:
+        if name not in {r[1] for r in conn.execute(f"PRAGMA table_info({table})")}:
+            conn.execute(f"ALTER TABLE {table} ADD COLUMN {name} {decl}")
+    return run
+
+
 # MIGRATIONS[i] upgrades user_version i -> i+1. Never edit a released entry; append a new one.
-MIGRATIONS: list[list[str]] = [
+MIGRATIONS: list[list[str | Callable[[sqlite3.Connection], None]]] = [
     [
         """CREATE TABLE IF NOT EXISTS progress (
   entity_type TEXT NOT NULL, entity_id TEXT NOT NULL, done BOOLEAN NOT NULL DEFAULT 1, notes TEXT,
@@ -39,6 +48,19 @@ MIGRATIONS: list[list[str]] = [
   id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, payload JSON NOT NULL,
   created_at TIMESTAMPTZ NOT NULL, updated_at TIMESTAMPTZ NOT NULL)""",
         "CREATE TABLE IF NOT EXISTS user_meta (key TEXT PRIMARY KEY, value TEXT)",
+    ],
+    # v1 -> v2: phased builder (versions per saved build + plan on the build itself)
+    [
+        """CREATE TABLE IF NOT EXISTS build_versions (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  build_id INTEGER NOT NULL REFERENCES saved_builds(id) ON DELETE CASCADE,
+  seq INTEGER NOT NULL, label TEXT NOT NULL, payload JSON NOT NULL, plan JSON, tests JSON,
+  parent_id INTEGER REFERENCES build_versions(id) ON DELETE SET NULL,
+  created_at TIMESTAMPTZ NOT NULL, updated_at TIMESTAMPTZ NOT NULL,
+  UNIQUE (build_id, seq), UNIQUE (build_id, label))""",
+        "CREATE INDEX IF NOT EXISTS build_versions_build ON build_versions (build_id, seq)",
+        _add_column("saved_builds", "plan", "JSON"),
+        _add_column("saved_builds", "current_version_id", "INTEGER"),
     ],
 ]
 LATEST = len(MIGRATIONS)
@@ -73,7 +95,9 @@ def migrate(db_path: Path | str | None = None) -> int:
         conn.execute("PRAGMA busy_timeout=10000")
         cur = conn.execute("PRAGMA user_version").fetchone()[0]
         if cur > LATEST:
-            raise RuntimeError(f"user.db is version {cur}, newer than this app supports ({LATEST})")
+            raise RuntimeError(
+                f"La base de datos de usuario (user.db) es de una versión más nueva (v{cur}) que la que soporta esta app "
+                f"(v{LATEST}). Actualiza la app; no se ha modificado nada. (user.db is version {cur}, newer than supported {LATEST})")
         if cur == LATEST:
             return cur
         if not _is_empty(conn):
@@ -85,7 +109,7 @@ def migrate(db_path: Path | str | None = None) -> int:
                     conn.execute("ROLLBACK")
                     continue
                 for stmt in MIGRATIONS[v]:
-                    conn.execute(stmt)
+                    stmt(conn) if callable(stmt) else conn.execute(stmt)
                 conn.execute(f"PRAGMA user_version = {v + 1}")
                 conn.execute("COMMIT")
             except BaseException:

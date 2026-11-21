@@ -1,5 +1,6 @@
 /* Constructor / equipo recomendado: tipos, llamadas a la API, catálogos con carga perezosa y persistencia local. */
 import { getJson, sendJson } from "./api";
+import type { CovRow } from "./pages/builder/planState";
 
 export const SLOTS = ["head", "chest", "arms", "waist", "legs"] as const;
 export type SlotId = (typeof SLOTS)[number];
@@ -101,6 +102,8 @@ export type EvalResult = {
   slots_free: { piece: string; size: number }[];
   warnings: string[];
   disclaimer_es: string;
+  /** solo si se envían `targets` a /builds/evaluate */
+  coverage?: CovRow[];
 };
 
 export function monsterBuildsPath(id: number | string, rank: string, owned: boolean, cap: string, weapon?: number[]) {
@@ -117,9 +120,11 @@ export function goalBuildsPath(goal: string, rank: string, owned: boolean, cap: 
   return `/builds/goal/${goal}?${q}`;
 }
 
+export type EvalTarget = { skill_id: number; level: number; tier: 1 | 2 | 3 };
 export function evaluate(
   state: LoadoutState,
   signal?: AbortSignal,
+  targets?: EvalTarget[],
 ): Promise<EvalResult> {
   const decorations: { id: number; piece: string }[] = [];
   for (const p of [...SLOTS, "weapon"] as string[]) {
@@ -130,15 +135,12 @@ export function evaluate(
     pieces: { head: state.pieces.head?.id ?? null, chest: state.pieces.chest?.id ?? null, arms: state.pieces.arms?.id ?? null, waist: state.pieces.waist?.id ?? null, legs: state.pieces.legs?.id ?? null, charm: state.charm?.id ?? null },
     decorations,
     weapon_slots: state.weapon,
+    ...(targets?.length ? { targets: targets.slice(0, 20) } : {}),
   };
   return postJson<EvalResult>("/builds/evaluate", body, signal);
 }
 
-async function postJson<T>(path: string, body: unknown, signal?: AbortSignal): Promise<T> {
-  const res = await fetch(`/api${path}`, { method: "POST", headers: { "Content-Type": "application/json", "X-MHW-Client": "1" }, body: JSON.stringify(body), signal });
-  if (!res.ok) throw new Error(`Error ${res.status}`);
-  return res.json() as Promise<T>;
-}
+const postJson = <T,>(path: string, body: unknown, signal?: AbortSignal) => sendJson<T>("POST", path, body, signal);
 
 /* ---------------------------------------------------------------- loadout state */
 export type LoadoutState = {
@@ -180,7 +182,7 @@ export type DecoCat = { id: number; name_es: string | null; name_en: string; slo
 export type CharmCat = { id: number; name_es: string | null; name_en: string; rarity: number; skills: { skill_id: number; name_es: string | null; level: number }[] };
 
 const memo = new Map<string, Promise<unknown>>();
-function once<T>(key: string, f: () => Promise<T>): Promise<T> {
+export function once<T>(key: string, f: () => Promise<T>): Promise<T> {
   if (!memo.has(key)) {
     const p = f().catch((e) => {
       memo.delete(key);
@@ -301,12 +303,14 @@ export function savedErrorMessage(e: unknown): string {
   return m || "No se pudo completar la operación.";
 }
 
-export const createSaved = async (name: string, state: LoadoutState) => fromRow(await sendJson<SavedRow>("POST", SAVED_PATH, { name, payload: toPayload(state) }));
-export const updateSaved = async (id: string, patch: { name?: string; state?: LoadoutState }) =>
+export const createSaved = async (name: string, state: LoadoutState, plan?: unknown) =>
+  fromRow(await sendJson<SavedRow>("POST", SAVED_PATH, { name, payload: toPayload(state), ...(plan ? { plan } : {}) }));
+export const updateSaved = async (id: string, patch: { name?: string; state?: LoadoutState; plan?: unknown }) =>
   fromRow(
     await sendJson<SavedRow>("PUT", `${SAVED_PATH}/${encodeURIComponent(id)}`, {
       ...(patch.name !== undefined ? { name: patch.name } : {}),
       ...(patch.state ? { payload: toPayload(patch.state) } : {}),
+      ...(patch.plan ? { plan: patch.plan } : {}),
     }),
   );
 export const deleteSaved = (id: string) => sendJson("DELETE", `${SAVED_PATH}/${encodeURIComponent(id)}`);

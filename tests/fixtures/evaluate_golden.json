@@ -1,0 +1,1501 @@
+{
+  "description": "Salida de evaluate_loadout para 12 equipos fijos (ver scripts/capture_evaluate_golden.py).",
+  "cases": [
+    {
+      "name": "empty",
+      "input": {
+        "pieces": {},
+        "decorations": [],
+        "weapon_slots": null
+      },
+      "expected": {
+        "skills": [],
+        "set_bonuses": [],
+        "defense": {
+          "base": 0,
+          "max": 0,
+          "augment_max": 0,
+          "note_es": "base = sin mejorar; max = mejorada al máximo; augment_max = con aumentos de defensa (lo que Kiranico llama máximo)."
+        },
+        "slots_total": [],
+        "slots_used": 0,
+        "slots_free": [],
+        "warnings": []
+      }
+    },
+    {
+      "name": "zorah_head_only",
+      "input": {
+        "pieces": {
+          "head": 1377
+        },
+        "decorations": [],
+        "weapon_slots": null
+      },
+      "expected": {
+        "skills": [
+          {
+            "skill_id": 61,
+            "name_es": "Artillería",
+            "name_en": "Artillery",
+            "level": 2,
+            "points": 2,
+            "max": 3,
+            "source": [
+              {
+                "from": "head",
+                "id": 1377,
+                "name_es": "Yelmo de Zorah α+",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "skill_id": 91,
+            "name_es": "Mejora de balance",
+            "name_en": "Flinch Free",
+            "level": 1,
+            "points": 1,
+            "max": 3,
+            "source": [
+              {
+                "from": "head",
+                "id": 1377,
+                "name_es": "Yelmo de Zorah α+",
+                "points": 1
+              }
+            ]
+          }
+        ],
+        "set_bonuses": [
+          {
+            "bonus_id": 50,
+            "name_es": "Esencia Zorah Magdaros",
+            "name_en": "Zorah Magdaros Essence",
+            "skill_id": 152,
+            "skill_es": "Artillería clave",
+            "skill_en": "Artillery Secret",
+            "required": 3,
+            "pieces": 1,
+            "active": false
+          }
+        ],
+        "defense": {
+          "base": 160,
+          "max": 178,
+          "augment_max": 198,
+          "note_es": "base = sin mejorar; max = mejorada al máximo; augment_max = con aumentos de defensa (lo que Kiranico llama máximo)."
+        },
+        "slots_total": [
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "head",
+            "size": 2
+          }
+        ],
+        "slots_used": 0,
+        "slots_free": [
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "head",
+            "size": 2
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "name": "zorah_full_set",
+      "input": {
+        "pieces": {
+          "head": 1377,
+          "chest": 1378,
+          "arms": 1379,
+          "waist": 1380,
+          "legs": 1381
+        },
+        "decorations": [],
+        "weapon_slots": null
+      },
+      "expected": {
+        "skills": [
+          {
+            "skill_id": 61,
+            "name_es": "Artillería",
+            "name_en": "Artillery",
+            "level": 5,
+            "points": 5,
+            "max": 5,
+            "source": [
+              {
+                "from": "head",
+                "id": 1377,
+                "name_es": "Yelmo de Zorah α+",
+                "points": 2
+              },
+              {
+                "from": "chest",
+                "id": 1378,
+                "name_es": "Cota de Zorah α+",
+                "points": 2
+              },
+              {
+                "from": "waist",
+                "id": 1380,
+                "name_es": "Espina de Zorah α+",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "skill_id": 11,
+            "name_es": "Anti temblores",
+            "name_en": "Tremor Resistance",
+            "level": 3,
+            "points": 3,
+            "max": 3,
+            "source": [
+              {
+                "from": "chest",
+                "id": 1378,
+                "name_es": "Cota de Zorah α+",
+                "points": 2
+              },
+              {
+                "from": "waist",
+                "id": 1380,
+                "name_es": "Espina de Zorah α+",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "skill_id": 91,
+            "name_es": "Mejora de balance",
+            "name_en": "Flinch Free",
+            "level": 3,
+            "points": 3,
+            "max": 3,
+            "source": [
+              {
+                "from": "head",
+                "id": 1377,
+                "name_es": "Yelmo de Zorah α+",
+                "points": 1
+              },
+              {
+                "from": "arms",
+                "id": 1379,
+                "name_es": "Garras de Zorah α+",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "skill_id": 9,
+            "name_es": "Anti rugidos",
+            "name_en": "Earplugs",
+            "level": 1,
+            "points": 1,
+            "max": 5,
+            "source": [
+              {
+                "from": "legs",
+                "id": 1381,
+                "name_es": "Espolón de Zorah α+",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "skill_id": 44,
+            "name_es": "Artesanía",
+            "name_en": "Handicraft",
+            "level": 1,
+            "points": 1,
+            "max": 5,
+            "source": [
+              {
+                "from": "legs",
+                "id": 1381,
+                "name_es": "Espolón de Zorah α+",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "skill_id": 152,
+            "name_es": "Artillería clave",
+            "name_en": "Artillery Secret",
+            "level": 1,
+            "points": 1,
+            "max": 1,
+            "source": [
+              {
+                "from": "set_bonus",
+                "name_es": "Esencia Zorah Magdaros"
+              }
+            ]
+          },
+          {
+            "skill_id": 74,
+            "name_es": "Comida gratis",
+            "name_en": "Free Meal",
+            "level": 1,
+            "points": 1,
+            "max": 1,
+            "source": [
+              {
+                "from": "arms",
+                "id": 1379,
+                "name_es": "Garras de Zorah α+",
+                "points": 1
+              }
+            ]
+          }
+        ],
+        "set_bonuses": [
+          {
+            "bonus_id": 50,
+            "name_es": "Esencia Zorah Magdaros",
+            "name_en": "Zorah Magdaros Essence",
+            "skill_id": 152,
+            "skill_es": "Artillería clave",
+            "skill_en": "Artillery Secret",
+            "required": 3,
+            "pieces": 5,
+            "active": true
+          }
+        ],
+        "defense": {
+          "base": 800,
+          "max": 890,
+          "augment_max": 990,
+          "note_es": "base = sin mejorar; max = mejorada al máximo; augment_max = con aumentos de defensa (lo que Kiranico llama máximo)."
+        },
+        "slots_total": [
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "chest",
+            "size": 3
+          },
+          {
+            "piece": "chest",
+            "size": 1
+          },
+          {
+            "piece": "arms",
+            "size": 1
+          },
+          {
+            "piece": "arms",
+            "size": 1
+          },
+          {
+            "piece": "waist",
+            "size": 3
+          },
+          {
+            "piece": "waist",
+            "size": 2
+          },
+          {
+            "piece": "legs",
+            "size": 3
+          },
+          {
+            "piece": "legs",
+            "size": 1
+          }
+        ],
+        "slots_used": 0,
+        "slots_free": [
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "chest",
+            "size": 1
+          },
+          {
+            "piece": "chest",
+            "size": 3
+          },
+          {
+            "piece": "arms",
+            "size": 1
+          },
+          {
+            "piece": "arms",
+            "size": 1
+          },
+          {
+            "piece": "waist",
+            "size": 2
+          },
+          {
+            "piece": "waist",
+            "size": 3
+          },
+          {
+            "piece": "legs",
+            "size": 1
+          },
+          {
+            "piece": "legs",
+            "size": 3
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "name": "zorah_set_auto_jewels",
+      "input": {
+        "pieces": {
+          "head": 1377,
+          "chest": 1378,
+          "arms": 1379,
+          "waist": 1380,
+          "legs": 1381
+        },
+        "decorations": [
+          100,
+          165
+        ],
+        "weapon_slots": null
+      },
+      "expected": {
+        "skills": [
+          {
+            "skill_id": 61,
+            "name_es": "Artillería",
+            "name_en": "Artillery",
+            "level": 5,
+            "points": 5,
+            "max": 5,
+            "source": [
+              {
+                "from": "head",
+                "id": 1377,
+                "name_es": "Yelmo de Zorah α+",
+                "points": 2
+              },
+              {
+                "from": "chest",
+                "id": 1378,
+                "name_es": "Cota de Zorah α+",
+                "points": 2
+              },
+              {
+                "from": "waist",
+                "id": 1380,
+                "name_es": "Espina de Zorah α+",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "skill_id": 11,
+            "name_es": "Anti temblores",
+            "name_en": "Tremor Resistance",
+            "level": 3,
+            "points": 3,
+            "max": 3,
+            "source": [
+              {
+                "from": "chest",
+                "id": 1378,
+                "name_es": "Cota de Zorah α+",
+                "points": 2
+              },
+              {
+                "from": "waist",
+                "id": 1380,
+                "name_es": "Espina de Zorah α+",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "skill_id": 91,
+            "name_es": "Mejora de balance",
+            "name_en": "Flinch Free",
+            "level": 3,
+            "points": 3,
+            "max": 3,
+            "source": [
+              {
+                "from": "head",
+                "id": 1377,
+                "name_es": "Yelmo de Zorah α+",
+                "points": 1
+              },
+              {
+                "from": "arms",
+                "id": 1379,
+                "name_es": "Garras de Zorah α+",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "skill_id": 9,
+            "name_es": "Anti rugidos",
+            "name_en": "Earplugs",
+            "level": 1,
+            "points": 1,
+            "max": 5,
+            "source": [
+              {
+                "from": "legs",
+                "id": 1381,
+                "name_es": "Espolón de Zorah α+",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "skill_id": 44,
+            "name_es": "Artesanía",
+            "name_en": "Handicraft",
+            "level": 1,
+            "points": 1,
+            "max": 5,
+            "source": [
+              {
+                "from": "legs",
+                "id": 1381,
+                "name_es": "Espolón de Zorah α+",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "skill_id": 152,
+            "name_es": "Artillería clave",
+            "name_en": "Artillery Secret",
+            "level": 1,
+            "points": 1,
+            "max": 1,
+            "source": [
+              {
+                "from": "set_bonus",
+                "name_es": "Esencia Zorah Magdaros"
+              }
+            ]
+          },
+          {
+            "skill_id": 74,
+            "name_es": "Comida gratis",
+            "name_en": "Free Meal",
+            "level": 1,
+            "points": 1,
+            "max": 1,
+            "source": [
+              {
+                "from": "arms",
+                "id": 1379,
+                "name_es": "Garras de Zorah α+",
+                "points": 1
+              }
+            ]
+          }
+        ],
+        "set_bonuses": [
+          {
+            "bonus_id": 50,
+            "name_es": "Esencia Zorah Magdaros",
+            "name_en": "Zorah Magdaros Essence",
+            "skill_id": 152,
+            "skill_es": "Artillería clave",
+            "skill_en": "Artillery Secret",
+            "required": 3,
+            "pieces": 5,
+            "active": true
+          }
+        ],
+        "defense": {
+          "base": 800,
+          "max": 890,
+          "augment_max": 990,
+          "note_es": "base = sin mejorar; max = mejorada al máximo; augment_max = con aumentos de defensa (lo que Kiranico llama máximo)."
+        },
+        "slots_total": [
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "chest",
+            "size": 3
+          },
+          {
+            "piece": "chest",
+            "size": 1
+          },
+          {
+            "piece": "arms",
+            "size": 1
+          },
+          {
+            "piece": "arms",
+            "size": 1
+          },
+          {
+            "piece": "waist",
+            "size": 3
+          },
+          {
+            "piece": "waist",
+            "size": 2
+          },
+          {
+            "piece": "legs",
+            "size": 3
+          },
+          {
+            "piece": "legs",
+            "size": 1
+          }
+        ],
+        "slots_used": 0,
+        "slots_free": [
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "chest",
+            "size": 1
+          },
+          {
+            "piece": "chest",
+            "size": 3
+          },
+          {
+            "piece": "arms",
+            "size": 1
+          },
+          {
+            "piece": "arms",
+            "size": 1
+          },
+          {
+            "piece": "waist",
+            "size": 2
+          },
+          {
+            "piece": "waist",
+            "size": 3
+          },
+          {
+            "piece": "legs",
+            "size": 1
+          },
+          {
+            "piece": "legs",
+            "size": 3
+          }
+        ],
+        "warnings": [
+          "Joya resistente al fuego+ 4 (tamaño 4) no cabe: no quedan ranuras libres de ese tamaño",
+          "Joya de salud/débil 4 (tamaño 4) no cabe: no quedan ranuras libres de ese tamaño"
+        ]
+      }
+    },
+    {
+      "name": "charm_only",
+      "input": {
+        "pieces": {
+          "charm": 1
+        },
+        "decorations": [],
+        "weapon_slots": null
+      },
+      "expected": {
+        "skills": [
+          {
+            "skill_id": 1,
+            "name_es": "Anti veneno",
+            "name_en": "Poison Resistance",
+            "level": 1,
+            "points": 1,
+            "max": 3,
+            "source": [
+              {
+                "from": "charm",
+                "id": 1,
+                "name_es": "Cigua veneno I",
+                "points": 1
+              }
+            ]
+          }
+        ],
+        "set_bonuses": [],
+        "defense": {
+          "base": 0,
+          "max": 0,
+          "augment_max": 0,
+          "note_es": "base = sin mejorar; max = mejorada al máximo; augment_max = con aumentos de defensa (lo que Kiranico llama máximo)."
+        },
+        "slots_total": [],
+        "slots_used": 0,
+        "slots_free": [],
+        "warnings": []
+      }
+    },
+    {
+      "name": "charm_with_zorah_head",
+      "input": {
+        "pieces": {
+          "head": 1377,
+          "charm": 1
+        },
+        "decorations": [],
+        "weapon_slots": null
+      },
+      "expected": {
+        "skills": [
+          {
+            "skill_id": 61,
+            "name_es": "Artillería",
+            "name_en": "Artillery",
+            "level": 2,
+            "points": 2,
+            "max": 3,
+            "source": [
+              {
+                "from": "head",
+                "id": 1377,
+                "name_es": "Yelmo de Zorah α+",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "skill_id": 1,
+            "name_es": "Anti veneno",
+            "name_en": "Poison Resistance",
+            "level": 1,
+            "points": 1,
+            "max": 3,
+            "source": [
+              {
+                "from": "charm",
+                "id": 1,
+                "name_es": "Cigua veneno I",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "skill_id": 91,
+            "name_es": "Mejora de balance",
+            "name_en": "Flinch Free",
+            "level": 1,
+            "points": 1,
+            "max": 3,
+            "source": [
+              {
+                "from": "head",
+                "id": 1377,
+                "name_es": "Yelmo de Zorah α+",
+                "points": 1
+              }
+            ]
+          }
+        ],
+        "set_bonuses": [
+          {
+            "bonus_id": 50,
+            "name_es": "Esencia Zorah Magdaros",
+            "name_en": "Zorah Magdaros Essence",
+            "skill_id": 152,
+            "skill_es": "Artillería clave",
+            "skill_en": "Artillery Secret",
+            "required": 3,
+            "pieces": 1,
+            "active": false
+          }
+        ],
+        "defense": {
+          "base": 160,
+          "max": 178,
+          "augment_max": 198,
+          "note_es": "base = sin mejorar; max = mejorada al máximo; augment_max = con aumentos de defensa (lo que Kiranico llama máximo)."
+        },
+        "slots_total": [
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "head",
+            "size": 2
+          }
+        ],
+        "slots_used": 0,
+        "slots_free": [
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "head",
+            "size": 2
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "name": "explicit_two_skill_jewel_chest",
+      "input": {
+        "pieces": {
+          "chest": 1378
+        },
+        "decorations": [
+          {
+            "id": 165,
+            "piece": "chest"
+          }
+        ],
+        "weapon_slots": null
+      },
+      "expected": {
+        "skills": [
+          {
+            "skill_id": 11,
+            "name_es": "Anti temblores",
+            "name_en": "Tremor Resistance",
+            "level": 2,
+            "points": 2,
+            "max": 3,
+            "source": [
+              {
+                "from": "chest",
+                "id": 1378,
+                "name_es": "Cota de Zorah α+",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "skill_id": 61,
+            "name_es": "Artillería",
+            "name_en": "Artillery",
+            "level": 2,
+            "points": 2,
+            "max": 3,
+            "source": [
+              {
+                "from": "chest",
+                "id": 1378,
+                "name_es": "Cota de Zorah α+",
+                "points": 2
+              }
+            ]
+          }
+        ],
+        "set_bonuses": [
+          {
+            "bonus_id": 50,
+            "name_es": "Esencia Zorah Magdaros",
+            "name_en": "Zorah Magdaros Essence",
+            "skill_id": 152,
+            "skill_es": "Artillería clave",
+            "skill_en": "Artillery Secret",
+            "required": 3,
+            "pieces": 1,
+            "active": false
+          }
+        ],
+        "defense": {
+          "base": 160,
+          "max": 178,
+          "augment_max": 198,
+          "note_es": "base = sin mejorar; max = mejorada al máximo; augment_max = con aumentos de defensa (lo que Kiranico llama máximo)."
+        },
+        "slots_total": [
+          {
+            "piece": "chest",
+            "size": 3
+          },
+          {
+            "piece": "chest",
+            "size": 1
+          }
+        ],
+        "slots_used": 0,
+        "slots_free": [
+          {
+            "piece": "chest",
+            "size": 1
+          },
+          {
+            "piece": "chest",
+            "size": 3
+          }
+        ],
+        "warnings": [
+          "Joya de salud/débil 4 (tamaño 4) no cabe en torso"
+        ]
+      }
+    },
+    {
+      "name": "two_skill_size4_auto",
+      "input": {
+        "pieces": {
+          "chest": 1378,
+          "waist": 1380
+        },
+        "decorations": [
+          165
+        ],
+        "weapon_slots": null
+      },
+      "expected": {
+        "skills": [
+          {
+            "skill_id": 11,
+            "name_es": "Anti temblores",
+            "name_en": "Tremor Resistance",
+            "level": 3,
+            "points": 3,
+            "max": 3,
+            "source": [
+              {
+                "from": "chest",
+                "id": 1378,
+                "name_es": "Cota de Zorah α+",
+                "points": 2
+              },
+              {
+                "from": "waist",
+                "id": 1380,
+                "name_es": "Espina de Zorah α+",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "skill_id": 61,
+            "name_es": "Artillería",
+            "name_en": "Artillery",
+            "level": 3,
+            "points": 3,
+            "max": 3,
+            "source": [
+              {
+                "from": "chest",
+                "id": 1378,
+                "name_es": "Cota de Zorah α+",
+                "points": 2
+              },
+              {
+                "from": "waist",
+                "id": 1380,
+                "name_es": "Espina de Zorah α+",
+                "points": 1
+              }
+            ]
+          }
+        ],
+        "set_bonuses": [
+          {
+            "bonus_id": 50,
+            "name_es": "Esencia Zorah Magdaros",
+            "name_en": "Zorah Magdaros Essence",
+            "skill_id": 152,
+            "skill_es": "Artillería clave",
+            "skill_en": "Artillery Secret",
+            "required": 3,
+            "pieces": 2,
+            "active": false
+          }
+        ],
+        "defense": {
+          "base": 320,
+          "max": 356,
+          "augment_max": 396,
+          "note_es": "base = sin mejorar; max = mejorada al máximo; augment_max = con aumentos de defensa (lo que Kiranico llama máximo)."
+        },
+        "slots_total": [
+          {
+            "piece": "chest",
+            "size": 3
+          },
+          {
+            "piece": "chest",
+            "size": 1
+          },
+          {
+            "piece": "waist",
+            "size": 3
+          },
+          {
+            "piece": "waist",
+            "size": 2
+          }
+        ],
+        "slots_used": 0,
+        "slots_free": [
+          {
+            "piece": "chest",
+            "size": 1
+          },
+          {
+            "piece": "chest",
+            "size": 3
+          },
+          {
+            "piece": "waist",
+            "size": 2
+          },
+          {
+            "piece": "waist",
+            "size": 3
+          }
+        ],
+        "warnings": [
+          "Joya de salud/débil 4 (tamaño 4) no cabe: no quedan ranuras libres de ese tamaño"
+        ]
+      }
+    },
+    {
+      "name": "weapon_slots_only",
+      "input": {
+        "pieces": {},
+        "decorations": [],
+        "weapon_slots": [
+          1,
+          2,
+          3
+        ]
+      },
+      "expected": {
+        "skills": [],
+        "set_bonuses": [],
+        "defense": {
+          "base": 0,
+          "max": 0,
+          "augment_max": 0,
+          "note_es": "base = sin mejorar; max = mejorada al máximo; augment_max = con aumentos de defensa (lo que Kiranico llama máximo)."
+        },
+        "slots_total": [
+          {
+            "piece": "weapon",
+            "size": 1
+          },
+          {
+            "piece": "weapon",
+            "size": 2
+          },
+          {
+            "piece": "weapon",
+            "size": 3
+          }
+        ],
+        "slots_used": 0,
+        "slots_free": [
+          {
+            "piece": "weapon",
+            "size": 1
+          },
+          {
+            "piece": "weapon",
+            "size": 2
+          },
+          {
+            "piece": "weapon",
+            "size": 3
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "name": "weapon_slots_with_jewels",
+      "input": {
+        "pieces": {
+          "head": 1377
+        },
+        "decorations": [
+          {
+            "id": 100,
+            "piece": "weapon"
+          },
+          101
+        ],
+        "weapon_slots": [
+          4,
+          2
+        ]
+      },
+      "expected": {
+        "skills": [
+          {
+            "skill_id": 20,
+            "name_es": "Anti fuego",
+            "name_en": "Fire Resistance",
+            "level": 2,
+            "points": 2,
+            "max": 3,
+            "source": [
+              {
+                "from": "decoration",
+                "piece": "weapon",
+                "id": 100,
+                "name_es": "Joya resistente al fuego+ 4",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "skill_id": 61,
+            "name_es": "Artillería",
+            "name_en": "Artillery",
+            "level": 2,
+            "points": 2,
+            "max": 3,
+            "source": [
+              {
+                "from": "head",
+                "id": 1377,
+                "name_es": "Yelmo de Zorah α+",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "skill_id": 91,
+            "name_es": "Mejora de balance",
+            "name_en": "Flinch Free",
+            "level": 1,
+            "points": 1,
+            "max": 3,
+            "source": [
+              {
+                "from": "head",
+                "id": 1377,
+                "name_es": "Yelmo de Zorah α+",
+                "points": 1
+              }
+            ]
+          }
+        ],
+        "set_bonuses": [
+          {
+            "bonus_id": 50,
+            "name_es": "Esencia Zorah Magdaros",
+            "name_en": "Zorah Magdaros Essence",
+            "skill_id": 152,
+            "skill_es": "Artillería clave",
+            "skill_en": "Artillery Secret",
+            "required": 3,
+            "pieces": 1,
+            "active": false
+          }
+        ],
+        "defense": {
+          "base": 160,
+          "max": 178,
+          "augment_max": 198,
+          "note_es": "base = sin mejorar; max = mejorada al máximo; augment_max = con aumentos de defensa (lo que Kiranico llama máximo)."
+        },
+        "slots_total": [
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "weapon",
+            "size": 4
+          },
+          {
+            "piece": "weapon",
+            "size": 2
+          }
+        ],
+        "slots_used": 1,
+        "slots_free": [
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "weapon",
+            "size": 2
+          }
+        ],
+        "warnings": [
+          "Joya resistente al agua+ 4 (tamaño 4) no cabe: no quedan ranuras libres de ese tamaño"
+        ]
+      }
+    },
+    {
+      "name": "invalid_ids_and_wrong_slot",
+      "input": {
+        "pieces": {
+          "head": 1378,
+          "legs": 999999,
+          "charm": 999999
+        },
+        "decorations": [
+          999999
+        ],
+        "weapon_slots": [
+          5
+        ]
+      },
+      "expected": {
+        "skills": [
+          {
+            "skill_id": 11,
+            "name_es": "Anti temblores",
+            "name_en": "Tremor Resistance",
+            "level": 2,
+            "points": 2,
+            "max": 3,
+            "source": [
+              {
+                "from": "head",
+                "id": 1378,
+                "name_es": "Cota de Zorah α+",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "skill_id": 61,
+            "name_es": "Artillería",
+            "name_en": "Artillery",
+            "level": 2,
+            "points": 2,
+            "max": 3,
+            "source": [
+              {
+                "from": "head",
+                "id": 1378,
+                "name_es": "Cota de Zorah α+",
+                "points": 2
+              }
+            ]
+          }
+        ],
+        "set_bonuses": [
+          {
+            "bonus_id": 50,
+            "name_es": "Esencia Zorah Magdaros",
+            "name_en": "Zorah Magdaros Essence",
+            "skill_id": 152,
+            "skill_es": "Artillería clave",
+            "skill_en": "Artillery Secret",
+            "required": 3,
+            "pieces": 1,
+            "active": false
+          }
+        ],
+        "defense": {
+          "base": 160,
+          "max": 178,
+          "augment_max": 198,
+          "note_es": "base = sin mejorar; max = mejorada al máximo; augment_max = con aumentos de defensa (lo que Kiranico llama máximo)."
+        },
+        "slots_total": [
+          {
+            "piece": "head",
+            "size": 3
+          },
+          {
+            "piece": "head",
+            "size": 1
+          }
+        ],
+        "slots_used": 0,
+        "slots_free": [
+          {
+            "piece": "head",
+            "size": 1
+          },
+          {
+            "piece": "head",
+            "size": 3
+          }
+        ],
+        "warnings": [
+          "Cota de Zorah α+ es de torso, no de cabeza",
+          "La pieza 999999 no existe",
+          "El amuleto 999999 no existe",
+          "Ranura de arma 5 no válida (1-4)",
+          "La joya 999999 no existe"
+        ]
+      }
+    },
+    {
+      "name": "mixed_loadout_with_weapon",
+      "input": {
+        "pieces": {
+          "arms": 166,
+          "legs": 787,
+          "head": 1377,
+          "chest": 1378,
+          "charm": 38
+        },
+        "decorations": [
+          100,
+          100,
+          165
+        ],
+        "weapon_slots": [
+          2,
+          1,
+          1
+        ]
+      },
+      "expected": {
+        "skills": [
+          {
+            "skill_id": 61,
+            "name_es": "Artillería",
+            "name_en": "Artillery",
+            "level": 3,
+            "points": 4,
+            "max": 3,
+            "source": [
+              {
+                "from": "head",
+                "id": 1377,
+                "name_es": "Yelmo de Zorah α+",
+                "points": 2
+              },
+              {
+                "from": "chest",
+                "id": 1378,
+                "name_es": "Cota de Zorah α+",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "skill_id": 11,
+            "name_es": "Anti temblores",
+            "name_en": "Tremor Resistance",
+            "level": 2,
+            "points": 2,
+            "max": 3,
+            "source": [
+              {
+                "from": "chest",
+                "id": 1378,
+                "name_es": "Cota de Zorah α+",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "skill_id": 26,
+            "name_es": "Ataque de fuego",
+            "name_en": "Fire Attack",
+            "level": 2,
+            "points": 2,
+            "max": 6,
+            "source": [
+              {
+                "from": "charm",
+                "id": 38,
+                "name_es": "Cigua llamas II",
+                "points": 2
+              }
+            ]
+          },
+          {
+            "skill_id": 47,
+            "name_es": "Bonus al aturdir",
+            "name_en": "Slugger",
+            "level": 1,
+            "points": 1,
+            "max": 3,
+            "source": [
+              {
+                "from": "legs",
+                "id": 787,
+                "name_es": "Grebas de hueso α+",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "skill_id": 58,
+            "name_es": "Bonus cornamusa",
+            "name_en": "Horn Maestro",
+            "level": 1,
+            "points": 1,
+            "max": 2,
+            "source": [
+              {
+                "from": "legs",
+                "id": 787,
+                "name_es": "Grebas de hueso α+",
+                "points": 1
+              }
+            ]
+          },
+          {
+            "skill_id": 91,
+            "name_es": "Mejora de balance",
+            "name_en": "Flinch Free",
+            "level": 1,
+            "points": 1,
+            "max": 3,
+            "source": [
+              {
+                "from": "head",
+                "id": 1377,
+                "name_es": "Yelmo de Zorah α+",
+                "points": 1
+              }
+            ]
+          }
+        ],
+        "set_bonuses": [
+          {
+            "bonus_id": 50,
+            "name_es": "Esencia Zorah Magdaros",
+            "name_en": "Zorah Magdaros Essence",
+            "skill_id": 152,
+            "skill_es": "Artillería clave",
+            "skill_en": "Artillery Secret",
+            "required": 3,
+            "pieces": 2,
+            "active": false
+          }
+        ],
+        "defense": {
+          "base": 466,
+          "max": 562,
+          "augment_max": 638,
+          "note_es": "base = sin mejorar; max = mejorada al máximo; augment_max = con aumentos de defensa (lo que Kiranico llama máximo)."
+        },
+        "slots_total": [
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "chest",
+            "size": 3
+          },
+          {
+            "piece": "chest",
+            "size": 1
+          },
+          {
+            "piece": "arms",
+            "size": 1
+          },
+          {
+            "piece": "legs",
+            "size": 3
+          },
+          {
+            "piece": "weapon",
+            "size": 2
+          },
+          {
+            "piece": "weapon",
+            "size": 1
+          },
+          {
+            "piece": "weapon",
+            "size": 1
+          }
+        ],
+        "slots_used": 0,
+        "slots_free": [
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "head",
+            "size": 2
+          },
+          {
+            "piece": "chest",
+            "size": 1
+          },
+          {
+            "piece": "chest",
+            "size": 3
+          },
+          {
+            "piece": "arms",
+            "size": 1
+          },
+          {
+            "piece": "legs",
+            "size": 3
+          },
+          {
+            "piece": "weapon",
+            "size": 1
+          },
+          {
+            "piece": "weapon",
+            "size": 1
+          },
+          {
+            "piece": "weapon",
+            "size": 2
+          }
+        ],
+        "warnings": [
+          "Joya resistente al fuego+ 4 (tamaño 4) no cabe: no quedan ranuras libres de ese tamaño",
+          "Joya resistente al fuego+ 4 (tamaño 4) no cabe: no quedan ranuras libres de ese tamaño",
+          "Joya de salud/débil 4 (tamaño 4) no cabe: no quedan ranuras libres de ese tamaño",
+          "Artillería: 4 puntos, pero el máximo es 3 (sobran 1)"
+        ]
+      }
+    }
+  ]
+}
