@@ -12,7 +12,13 @@ AppId={{6F0B3C52-7A1D-4E55-9C0E-2B8D4A1F7E31}
 AppName=Guía MHW Iceborne
 AppVersion={#AppVersion}
 AppVerName=Guía MHW Iceborne {#AppVersion}
-AppPublisher=Proyecto personal
+AppPublisher=Realvanargoz · proyecto de código abierto (MIT)
+AppPublisherURL=https://github.com/Realvanargoz/guia-mhw-iceborne-pc
+AppSupportURL=https://github.com/Realvanargoz/guia-mhw-iceborne-pc/issues
+AppUpdatesURL=https://github.com/Realvanargoz/guia-mhw-iceborne-pc/releases
+AppContact=info@asesoriatics.com
+AppCopyright=Código y textos originales: licencia MIT. Monster Hunter es marca de CAPCOM CO., LTD.
+AppComments=Guía no oficial y gratuita de Monster Hunter: World + Iceborne para PC. Funciona sin internet y no está afiliada a Capcom, Valve ni Steam.
 DefaultDirName={autopf}\GuiaMHW
 DefaultGroupName=Guía MHW
 DisableProgramGroupPage=yes
@@ -32,6 +38,10 @@ RestartApplications=no
 UsedUserAreasWarning=no
 VersionInfoVersion={#AppVersion}
 VersionInfoDescription=Guía MHW Iceborne · PC (instalador)
+VersionInfoCompany=Realvanargoz (código abierto, MIT)
+VersionInfoProductName=Guía MHW Iceborne
+VersionInfoProductVersion={#AppVersion}
+VersionInfoCopyright=MIT. Monster Hunter es marca de CAPCOM CO., LTD.
 
 [Languages]
 Name: "spanish"; MessagesFile: "compiler:Languages\Spanish.isl"

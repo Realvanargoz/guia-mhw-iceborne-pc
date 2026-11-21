@@ -99,7 +99,9 @@ version_info = VSVersionInfo(
     ffi=FixedFileInfo(filevers=_vt, prodvers=_vt, mask=0x3F, flags=0x0, OS=0x40004, fileType=0x1, subtype=0x0),
     kids=[
         StringFileInfo([StringTable("040904B0", [
-            StringStruct("CompanyName", "GuiaMHW"),
+            StringStruct("CompanyName", "Realvanargoz (codigo abierto, MIT)"),
+            StringStruct("LegalCopyright", "MIT. Monster Hunter es marca de CAPCOM CO., LTD."),
+            StringStruct("Comments", "https://github.com/Realvanargoz/guia-mhw-iceborne-pc"),
             StringStruct("FileDescription", "Guia MHW (Monster Hunter World: Iceborne)"),
             StringStruct("FileVersion", VERSION),
             StringStruct("InternalName", "GuiaMHW"),

@@ -16,7 +16,8 @@ param(
     [switch]$SkipWeb,
     [switch]$RefreshLock,
     [switch]$DryRun,
-    [switch]$SkipInstaller
+    [switch]$SkipInstaller,
+    [switch]$OwnBootloader   # compila el cargador de PyInstaller desde su código fuente (menos falsos positivos)
 )
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
@@ -31,7 +32,7 @@ $Py = Join-Path $Venv 'Scripts\python.exe'
 # Only these icon folders are ever packaged (NEVER data\icons\ui: ~710 MB, unused).
 $IconDirs = @('monsters', 'items', 'decorations', 'equip', 'ingredients', 'ui-named')
 # Runtime research files read by api/app (builds.py: solo_rules + <goal>_rules; melder.py: melder + melder_data).
-$ResearchFiles = @('builds\solo_rules.json', 'builds\gathering_rules.json', 'builds\loot_rules.json',
+$ResearchFiles = @('builds\solo_rules.json', 'builds\gathering_rules.json', 'builds\loot_rules.json', 'builds\planner_rules.json',
     'melder\melder.json', 'melder\melder_data.json')
 
 function Step($m) { Write-Host "`n=== $m ===" -ForegroundColor Cyan }
@@ -102,6 +103,11 @@ if ($RefreshLock -or -not (Test-Path $lock)) {
 }
 # --require-hashes: every wheel is verified against api\requirements.lock.txt (win_amd64 / cp314).
 Invoke-Native $Py @('-m', 'pip', 'install', '-q', '--disable-pip-version-check', '--require-hashes', '-r', 'api\requirements.lock.txt')
+
+if ($OwnBootloader) {
+    Step "0b. cargador propio de PyInstaller (desde código fuente)"
+    & (Join-Path $PSScriptRoot 'build-bootloader.ps1')
+}
 
 # ------------------------------------------------------------------ 1. staging
 Step "1. staging -> build\stage"
