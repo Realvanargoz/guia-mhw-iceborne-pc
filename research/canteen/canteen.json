@@ -45,7 +45,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C01",
+    "unlock_es": "Ingrediente inicial"
    },
    {
     "id": "ing_wyvern_skirt_steak",
@@ -88,7 +90,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C02",
+    "unlock_es": "Ingrediente inicial"
    },
    {
     "id": "ing_wyvern_egg",
@@ -137,7 +141,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C03",
+    "unlock_es": "Misión opcional: Gettin' Yolked in the Forest"
    },
    {
     "id": "ing_wyvern_tail",
@@ -181,7 +187,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C04",
+    "unlock_es": "Investigador fauna endémica: capturar Woodland Pteryx"
    },
    {
     "id": "ing_wyvern_head",
@@ -227,7 +235,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "C05",
+    "unlock_es": "Misión asignada 3★: Flying Sparks: Tobi-Kadachi"
    },
    {
     "id": "ing_wyvern_filet",
@@ -274,7 +284,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C06",
+    "unlock_es": "Recolección (objeto de cuenta): Twilight Stone"
    },
    {
     "id": "ing_tough_meat",
@@ -320,7 +332,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "C07",
+    "unlock_es": "Misión asignada 3★: Flying Sparks: Tobi-Kadachi"
    },
    {
     "id": "ing_thorny_meat",
@@ -366,7 +380,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "C08",
+    "unlock_es": "Misión asignada 3★: Flying Sparks: Tobi-Kadachi"
    },
    {
     "id": "ing_bullion_meat",
@@ -415,7 +431,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C09",
+    "unlock_es": "Misión opcional: Exterminator of the Waste"
    },
    {
     "id": "ing_steeled_meat",
@@ -464,7 +482,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C10",
+    "unlock_es": "Misión de chef: Chef Quest! A Rotten Request"
    },
    {
     "id": "ing_wild_chicken",
@@ -509,7 +529,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C11",
+    "unlock_es": "Recolección (objeto de cuenta): Dragonvein Amber"
    },
    {
     "id": "ing_marinated_carpaccio",
@@ -558,7 +580,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C12",
+    "unlock_es": "Misión opcional: The Meat of the Matter"
    },
    {
     "id": "ing_aptonoth_meat",
@@ -604,7 +628,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "C13",
+    "unlock_es": "Misión asignada 6★: Tickled Pink (Anjanath)"
    },
    {
     "id": "ing_apceroast",
@@ -652,7 +678,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "C14",
+    "unlock_es": "Misión asignada 6★: Tickled Pink (Anjanath)"
    },
    {
     "id": "ing_diced_steak",
@@ -696,7 +724,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C15",
+    "unlock_es": "Entrega: A Great Help (1 Megapoción)"
    },
    {
     "id": "ing_giant_sirloin",
@@ -740,7 +770,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C16",
+    "unlock_es": "Investigador fauna endémica: capturar Scavantula"
    },
    {
     "id": "ing_big_bite_burger",
@@ -785,7 +817,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C17",
+    "unlock_es": "Recolección: Wicked Fossil (Valle Putrefacto, auge fósiles)"
    },
    {
     "id": "ing_giga_steak",
@@ -830,7 +864,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C18",
+    "unlock_es": "Recolección: Ancient Amber (Lecho de los Ancianos, raro)"
    },
    {
     "id": "ing_white_liver",
@@ -873,7 +909,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C19",
+    "unlock_es": "Ingrediente inicial"
    },
    {
     "id": "ing_barbecued_short_rib",
@@ -916,7 +954,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C20",
+    "unlock_es": "Ingrediente inicial"
    },
    {
     "id": "ing_tangy_tripe",
@@ -965,7 +1005,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C21",
+    "unlock_es": "Misión de chef: Chef Quest! Pumped to Deliver"
    },
    {
     "id": "ing_hot_heart",
@@ -1010,7 +1052,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C22",
+    "unlock_es": "Recolección: Platinum Pearl (Altiplanos Coralinos, auge perlas)"
    },
    {
     "id": "ing_rich_rump",
@@ -1056,7 +1100,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C23",
+    "unlock_es": "Entrega: The Juicy Meat Resistance (1 Uragaan Scute)"
    },
    {
     "id": "ing_grand_foie_gras",
@@ -1103,7 +1149,9 @@
     "needs_review": false,
     "review_notes": [
      "Fextralife no indica el desbloqueo (nombre pegado a \"True Beryl\"); se usa Game8."
-    ]
+    ],
+    "doc_id": "C24",
+    "unlock_es": "Recolección (objeto de cuenta): True Beryl"
    },
    {
     "id": "ing_peon_turkey",
@@ -1147,7 +1195,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C25",
+    "unlock_es": "Investigador fauna endémica: capturar Carrier Ant"
    },
    {
     "id": "ing_great_mutton",
@@ -1191,7 +1241,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C26",
+    "unlock_es": "Entrega: The Bone-In Roast Resistance"
    },
    {
     "id": "ing_herbivore_egg",
@@ -1242,7 +1294,9 @@
     "needs_review": false,
     "review_notes": [
      "Game8 dice \"Gettin Yolked in the Forest\" (probable error); Fextralife y la pagina MHWI de la quest \"Gettin Yolked in the Waste\" lo confirman."
-    ]
+    ],
+    "doc_id": "C27",
+    "unlock_es": "Misión opcional: Gettin' Yolked in the Waste"
    },
    {
     "id": "ing_king_turkey",
@@ -1291,7 +1345,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C28",
+    "unlock_es": "Misión opcional: It's a Crying Shamos"
    },
    {
     "id": "ing_magma_mutton",
@@ -1335,7 +1391,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C29",
+    "unlock_es": "Investigador fauna endémica: capturar Bomb Beetle"
    },
    {
     "id": "ing_kaiser_turkey",
@@ -1380,7 +1438,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "C30",
+    "unlock_es": "Recolección (objeto de cuenta): Abyssal Beryl"
    },
    {
     "id": "ing_ridgemane_tuna",
@@ -1426,7 +1486,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "P01",
+    "unlock_es": "Misión asignada 3★: Flying Sparks: Tobi-Kadachi"
    },
    {
     "id": "ing_serpentine_salmon",
@@ -1474,7 +1536,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "P02",
+    "unlock_es": "Misión asignada 6★: Tickled Pink (Anjanath)"
    },
    {
     "id": "ing_courageous_eel",
@@ -1518,7 +1582,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P03",
+    "unlock_es": "Investigador piscícola: capturar Pink Parexus (Bosque)"
    },
    {
     "id": "ing_sushifish",
@@ -1562,7 +1628,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P04",
+    "unlock_es": "Investigador piscícola: capturar Sushifish (Yermo)"
    },
    {
     "id": "ing_ancient_seabream",
@@ -1606,7 +1674,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P05",
+    "unlock_es": "Entrega: Ancient But Fresh! (1 Grand Gajau Whisker)"
    },
    {
     "id": "ing_boorish_yellowtail",
@@ -1655,7 +1725,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P06",
+    "unlock_es": "Misión opcional 6★: Chef Quest! Gajalaka Lockdown"
    },
    {
     "id": "ing_jumbo_whelk",
@@ -1698,7 +1770,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P07",
+    "unlock_es": "Ingrediente inicial"
    },
    {
     "id": "ing_scallop_chips",
@@ -1741,7 +1815,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P08",
+    "unlock_es": "Ingrediente inicial"
    },
    {
     "id": "ing_choice_abalone",
@@ -1788,7 +1864,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P09",
+    "unlock_es": "Recolección: Choice Abalone (Altiplanos Coralinos)"
    },
    {
     "id": "ing_violet_abalone",
@@ -1833,7 +1911,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P10",
+    "unlock_es": "Recolección: Violet Abalone (Altiplanos, auge caracolas)"
    },
    {
     "id": "ing_precious_abalone",
@@ -1878,7 +1958,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P11",
+    "unlock_es": "Recolección: Precious Abalone (Altiplanos, raro)"
    },
    {
     "id": "ing_large_horned_turban",
@@ -1923,7 +2005,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P12",
+    "unlock_es": "Recolección: Mystical Fossil (Valle Putrefacto, raro)"
    },
    {
     "id": "ing_squad_sardine",
@@ -1969,7 +2053,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "P13",
+    "unlock_es": "Misión asignada 3★: Flying Sparks: Tobi-Kadachi"
    },
    {
     "id": "ing_samurai_tuna",
@@ -2015,7 +2101,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "P14",
+    "unlock_es": "Misión asignada 3★: Flying Sparks: Tobi-Kadachi"
    },
    {
     "id": "ing_gajau_gill",
@@ -2059,7 +2147,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P15",
+    "unlock_es": "Entrega: A Feast of Fish"
    },
    {
     "id": "ing_gajau_liver",
@@ -2108,7 +2198,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P16",
+    "unlock_es": "Misión opcional: The Pain from Gains"
    },
    {
     "id": "ing_shogun_tuna",
@@ -2152,7 +2244,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P17",
+    "unlock_es": "Investigador piscícola: capturar Goldenfish"
    },
    {
     "id": "ing_fiery_seabream",
@@ -2197,7 +2291,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P18",
+    "unlock_es": "Recolección (objeto de cuenta): Noahstone"
    },
    {
     "id": "ing_bent_backed_shrimp",
@@ -2243,7 +2339,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "P19",
+    "unlock_es": "Misión asignada 6★: Tickled Pink (Anjanath)"
    },
    {
     "id": "ing_armor_crab",
@@ -2289,7 +2387,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "P20",
+    "unlock_es": "Misión asignada 6★: Tickled Pink (Anjanath)"
    },
    {
     "id": "ing_coral_shrimp",
@@ -2333,7 +2433,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P21",
+    "unlock_es": "Entrega: Princely Prawns"
    },
    {
     "id": "ing_fortress_crab",
@@ -2378,7 +2480,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P22",
+    "unlock_es": "Recolección (objeto de cuenta): Deep Pearl"
    },
    {
     "id": "ing_queen_shrimp",
@@ -2423,7 +2527,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P23",
+    "unlock_es": "Recolección (objeto de cuenta): Innocent Pearl"
    },
    {
     "id": "ing_millenary_crab",
@@ -2467,7 +2573,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P24",
+    "unlock_es": "Entrega: A Thousand-Year-Old Crab!?"
    },
    {
     "id": "ing_osseoctopus",
@@ -2513,7 +2621,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "P25",
+    "unlock_es": "Misión asignada 6★: Tickled Pink (Anjanath)"
    },
    {
     "id": "ing_pink_caviar",
@@ -2559,7 +2669,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "P26",
+    "unlock_es": "Misión asignada 6★: Tickled Pink (Anjanath)"
    },
    {
     "id": "ing_lily_squid",
@@ -2603,7 +2715,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P27",
+    "unlock_es": "Investigador fauna endémica: capturar 3 Wigglers"
    },
    {
     "id": "ing_ballerina_octopus",
@@ -2647,7 +2761,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P28",
+    "unlock_es": "Investigador piscícola: capturar Gunpowderfish"
    },
    {
     "id": "ing_soulful_caviar",
@@ -2696,7 +2812,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P29",
+    "unlock_es": "Misión opcional 4★: What a Bunch of Abalone"
    },
    {
     "id": "ing_sovereign_squid",
@@ -2740,7 +2858,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "P30",
+    "unlock_es": "Investigador piscícola: capturar Platinumfish"
    },
    {
     "id": "ing_magnicelery",
@@ -2786,7 +2906,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "V01",
+    "unlock_es": "Misión asignada 3★: Flying Sparks: Tobi-Kadachi"
    },
    {
     "id": "ing_rapscallion",
@@ -2832,7 +2954,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "V02",
+    "unlock_es": "Misión asignada 3★: Flying Sparks: Tobi-Kadachi"
    },
    {
     "id": "ing_jewel_cactus",
@@ -2877,7 +3001,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V03",
+    "unlock_es": "Recolección: Jewel Cactus (Yermo de Agujas)"
    },
    {
     "id": "ing_dragonbloom",
@@ -2922,7 +3048,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V04",
+    "unlock_es": "Recolección: Dragonbloom (Yermo, auge de cactus)"
    },
    {
     "id": "ing_kingly_cactus",
@@ -2967,7 +3095,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V05",
+    "unlock_es": "Recolección: Kingly Cactus (Yermo, raro)"
    },
    {
     "id": "ing_fatty_tomato",
@@ -3011,7 +3141,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V06",
+    "unlock_es": "Entrega: Tomatoes Red As Magma (1 Lava Nugget)"
    },
    {
     "id": "ing_stonecorn",
@@ -3057,7 +3189,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "V07",
+    "unlock_es": "Misión asignada 6★: Tickled Pink (Anjanath)"
    },
    {
     "id": "ing_steadfast_spud",
@@ -3103,7 +3237,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "V08",
+    "unlock_es": "Misión asignada 6★: Tickled Pink (Anjanath)"
    },
    {
     "id": "ing_exquisite_shroomcap",
@@ -3148,7 +3284,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V09",
+    "unlock_es": "Recolección: Exquisite Shroomcap (colonia de setas)"
    },
    {
     "id": "ing_moonlit_mushroom",
@@ -3193,7 +3331,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V10",
+    "unlock_es": "Recolección: Moonlit Mushroom (florecimiento setas)"
    },
    {
     "id": "ing_spirit_shroomcap",
@@ -3238,7 +3378,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V11",
+    "unlock_es": "Recolección: Spirit Shroomcap (colonia de setas raro)"
    },
    {
     "id": "ing_soiled_shroomcap",
@@ -3287,7 +3429,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V12",
+    "unlock_es": "Misión/Entrega: Fungal Flexin' in the Ancient Forest"
    },
    {
     "id": "ing_plumpkin",
@@ -3330,7 +3474,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V13",
+    "unlock_es": "Ingrediente inicial"
    },
    {
     "id": "ing_cudgel_onion",
@@ -3373,7 +3519,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V14",
+    "unlock_es": "Ingrediente inicial"
    },
    {
     "id": "ing_shinebloom",
@@ -3418,7 +3566,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V15",
+    "unlock_es": "Recolección: Shinebloom (Bosque Primigenio)"
    },
    {
     "id": "ing_sunkissed_grass",
@@ -3463,7 +3613,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V16",
+    "unlock_es": "Recolección: Sunkissed Herb (Bosque, florecimiento)"
    },
    {
     "id": "ing_goldbloom",
@@ -3508,7 +3660,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V17",
+    "unlock_es": "Recolección: Goldbloom (Bosque, raro en Rango Alto)"
    },
    {
     "id": "ing_king_truffle",
@@ -3552,7 +3706,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V18",
+    "unlock_es": "Entrega: Mushrooms: Nature's Smelly Bounty (1 Mosswine Hide)"
    },
    {
     "id": "ing_aromaticelery",
@@ -3596,7 +3752,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V19",
+    "unlock_es": "Entrega: A Veggie Master of Disguise (material Hornetaur)"
    },
    {
     "id": "ing_prismatic_paprika",
@@ -3640,7 +3798,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V20",
+    "unlock_es": "Entrega: Phantasmagoric Paprika! (1 Pukei-Pukei Sac+)"
    },
    {
     "id": "ing_tainted_fruit",
@@ -3685,7 +3845,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V21",
+    "unlock_es": "Recolección: Tainted Fruit (Valle Putrefacto)"
    },
    {
     "id": "ing_heavenberry",
@@ -3730,7 +3892,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V22",
+    "unlock_es": "Recolección: Heavenberry (Valle, florecimiento fruta)"
    },
    {
     "id": "ing_elysian_fruit",
@@ -3775,7 +3939,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V23",
+    "unlock_es": "Recolección: Elysian Fruit (Valle Putrefacto, raro)"
    },
    {
     "id": "ing_millionfold_cabbage",
@@ -3819,7 +3985,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V24",
+    "unlock_es": "Entrega: Million Zenny Veggie (1 Girros Fang)"
    },
    {
     "id": "ing_kut_ku_bean",
@@ -3865,7 +4033,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "V25",
+    "unlock_es": "Misión asignada 6★: Tickled Pink (Anjanath)"
    },
    {
     "id": "ing_molten_mango",
@@ -3911,7 +4081,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "V26",
+    "unlock_es": "Misión asignada 6★: Tickled Pink (Anjanath)"
    },
    {
     "id": "ing_rockfruit",
@@ -3956,7 +4128,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V27",
+    "unlock_es": "Recolección (objeto de cuenta): Rockfruit"
    },
    {
     "id": "ing_divineapple",
@@ -4001,7 +4175,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V28",
+    "unlock_es": "Recolección (objeto de cuenta): Divineapple"
    },
    {
     "id": "ing_wildfruit",
@@ -4046,7 +4222,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V29",
+    "unlock_es": "Recolección: Wildfruit (Yermo, fruta piel dura raro)"
    },
    {
     "id": "ing_emerald_durian",
@@ -4091,7 +4269,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "V30",
+    "unlock_es": "Recolección: Legendary Fossil (Valle Putrefacto)"
    },
    {
     "id": "ing_tater_mud",
@@ -4134,7 +4314,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B01",
+    "unlock_es": "Automático al entrar en Rango Alto"
    },
    {
     "id": "ing_dragon_ale",
@@ -4177,7 +4359,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B02",
+    "unlock_es": "Automático al entrar en Rango Alto"
    },
    {
     "id": "ing_demontater_brew",
@@ -4226,7 +4410,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B03",
+    "unlock_es": "Misión opcional 6★: A Tingling Taste (cadena bebidas)"
    },
    {
     "id": "ing_wyvern_amber_ale",
@@ -4275,7 +4461,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B04",
+    "unlock_es": "Misión opcional 6★: Stuck in Their Ways (req. Master Ale)"
    },
    {
     "id": "ing_goldenfish_brew",
@@ -4324,7 +4512,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B05",
+    "unlock_es": "Misión opcional 7★: A Sore Site (req. Ratha Whiskey)"
    },
    {
     "id": "ing_dragonkiller_sake",
@@ -4368,7 +4558,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B06",
+    "unlock_es": "Investigador fauna endémica: Phantom Bird (Downy Crake)"
    },
    {
     "id": "ing_hunter_s_brew",
@@ -4411,7 +4603,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B07",
+    "unlock_es": "Automático al entrar en Rango Alto"
    },
    {
     "id": "ing_star_brandy",
@@ -4454,7 +4648,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B08",
+    "unlock_es": "Automático al entrar en Rango Alto"
    },
    {
     "id": "ing_master_ale",
@@ -4498,7 +4694,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B09",
+    "unlock_es": "Entrega: A Master's Toast (2 Thunder Sac)"
    },
    {
     "id": "ing_ratha_whiskey",
@@ -4542,7 +4740,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B10",
+    "unlock_es": "Entrega: A Fire-Spewing Brew (2 Dodogama Jaw)"
    },
    {
     "id": "ing_astera_beer",
@@ -4588,7 +4788,9 @@
     "needs_review": false,
     "review_notes": [
      "Desbloqueo coincide en Fextralife y Game8; sin comprobar en pagina de quest de MW (la quest esta confirmada en MW como mejora de cantina o no se listan recompensas)."
-    ]
+    ],
+    "doc_id": "B11",
+    "unlock_es": "Misión opcional 7★: RRRRRumble in the Waste!"
    },
    {
     "id": "ing_blessed_wine",
@@ -4632,7 +4834,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B12",
+    "unlock_es": "Investigador piscícola: Capture the Ancient (Petricanths)"
    },
    {
     "id": "ing_greathorn_s_gulp",
@@ -4681,7 +4885,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B13",
+    "unlock_es": "Misión opcional RM 1★: Trapping the Tree Trasher (Seliana)"
    },
    {
     "id": "ing_auspicious_ale",
@@ -4730,7 +4936,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B14",
+    "unlock_es": "Misión opcional RM 1★: Trapping the Tree Trasher (Seliana)"
    },
    {
     "id": "ing_butterbrew",
@@ -4775,7 +4983,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B15",
+    "unlock_es": "Recolección: Exquisite Butterbur (Arroyo de Escarcha)"
    },
    {
     "id": "ing_fortified_honeywine",
@@ -4820,7 +5030,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B16",
+    "unlock_es": "Recolección: Millennium Butterbur (Arroyo de Escarcha)"
    },
    {
     "id": "ing_entrancing_alembic",
@@ -4865,7 +5077,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B17",
+    "unlock_es": "Recolección: Snow White (Arroyo, florecimiento Butterbur sec. 13)"
    },
    {
     "id": "ing_tequila_de_locos",
@@ -4909,7 +5123,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B18",
+    "unlock_es": "Entrega: Lively Spirits (1 Twisted Stouthorn de Diablos RM)"
    },
    {
     "id": "ing_glacial_vodka",
@@ -4958,7 +5174,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B19",
+    "unlock_es": "Misión opcional RM 2★: Nighty Night Nightshade (Seliana)"
    },
    {
     "id": "ing_toasting_tequila",
@@ -5007,7 +5225,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B20",
+    "unlock_es": "Misión opcional RM 2★: Nighty Night Nightshade (Seliana)"
    },
    {
     "id": "ing_snowmelt_snifter",
@@ -5052,7 +5272,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B21",
+    "unlock_es": "Recolección: Moonlight Icebloom (Arroyo, Frozen Foliage)"
    },
    {
     "id": "ing_frostpeak_fizz",
@@ -5097,7 +5319,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B22",
+    "unlock_es": "Recolección: Snowpeak Icebloom (Arroyo, Frozen Foliage)"
    },
    {
     "id": "ing_crystal_quaff",
@@ -5142,7 +5366,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B23",
+    "unlock_es": "Recolección: Petalcryst (Arroyo, florecimiento Frozen Foliage)"
    },
    {
     "id": "ing_searing_spirit",
@@ -5191,7 +5417,9 @@
      }
     ],
     "needs_review": false,
-    "review_notes": []
+    "review_notes": [],
+    "doc_id": "B24",
+    "unlock_es": "Misión opcional RM 3★: Simmer and Slice! (Abuela Chef)"
    }
   ],
   "skills": [
@@ -5230,7 +5458,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_defender_hi",
@@ -5275,7 +5504,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Mitigación defensiva adicional."
    },
    {
     "id": "fs_felyne_defender_lo",
@@ -5320,7 +5550,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_deflector",
@@ -5357,7 +5588,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_escape_artist",
@@ -5402,7 +5634,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_sprinter",
@@ -5439,7 +5672,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felynebacker",
@@ -5476,7 +5710,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_weakener",
@@ -5513,7 +5748,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Acelera tiempos de caza en misiones estándar."
    },
    {
     "id": "fs_felyne_riser_lo",
@@ -5550,7 +5786,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_temper",
@@ -5587,7 +5824,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_cliffhanger",
@@ -5632,7 +5870,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_gripper",
@@ -5669,7 +5908,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_lander",
@@ -5706,7 +5946,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_bulldozer",
@@ -5743,7 +5984,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_foodie",
@@ -5780,7 +6022,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Muy útil en Tierras Destino tras activar Fortify."
    },
    {
     "id": "fs_felyne_dungmaster",
@@ -5817,7 +6060,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_fur_coating",
@@ -5854,7 +6098,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_unavailable",
@@ -5873,7 +6118,8 @@
       "title": "Kiranico MHWorld Iceborne - Food Skills (en)",
       "url": "https://mhworld.kiranico.com/en/catskills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_trainer",
@@ -5910,7 +6156,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_booster",
@@ -5953,7 +6200,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_fisher",
@@ -5990,7 +6238,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_cool_cat",
@@ -6033,7 +6282,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_insurance",
@@ -6071,7 +6321,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Cuando aparece en el menú diario, permite hasta 2 caídas gratis."
    },
    {
     "id": "fs_felyne_provoker",
@@ -6108,7 +6359,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_parting_gift",
@@ -6151,7 +6403,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_researcher",
@@ -6191,7 +6444,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_weathercat",
@@ -6231,7 +6485,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_biologist",
@@ -6268,7 +6523,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_macrozoologist",
@@ -6305,7 +6561,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_microzoologist",
@@ -6342,7 +6599,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": null
    },
    {
     "id": "fs_felyne_polisher",
@@ -6381,7 +6639,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Armas cuerpo a cuerpo de filo corto (Espada Larga, Duales, Hacha Espada)."
    },
    {
     "id": "fs_felyne_rider",
@@ -6428,7 +6687,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Glaive Insecto, Espada y Escudo o terrenos con desniveles."
    },
    {
     "id": "fs_felyne_slugger",
@@ -6467,7 +6727,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Martillo, Cornamusa o Sticky LBG enfocado en control."
    },
    {
     "id": "fs_felyne_moxie",
@@ -6506,7 +6767,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Dragones Ancianos Curtidos, Rajang Curtido y golpes letales."
    },
    {
     "id": "fs_felyne_acrobat",
@@ -6545,7 +6807,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Combates contra monstruos muy agresivos."
    },
    {
     "id": "fs_felyne_feet",
@@ -6584,7 +6847,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Cacerías en multijugador cuerpo a cuerpo sin Inquebrantable."
    },
    {
     "id": "fs_felyne_heroics",
@@ -6631,7 +6895,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Speedruns y jugadores expertos de alto riesgo."
    },
    {
     "id": "fs_felyne_black_belt",
@@ -6678,7 +6943,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Arco, Espadas Duales, Lanza y Lanza Pistola."
    },
    {
     "id": "fs_felyne_riser_hi",
@@ -6717,7 +6983,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Seguridad extra para evitar combos al levantarte."
    },
    {
     "id": "fs_felyne_medic",
@@ -6764,7 +7031,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Soporte y supervivencia general."
    },
    {
     "id": "fs_felyne_specialist",
@@ -6803,7 +7071,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Builds de estado alterado o control en grupo."
    },
    {
     "id": "fs_felyne_groomer",
@@ -6842,7 +7111,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Contra Savage Deviljho o monstruos elementales."
    },
    {
     "id": "fs_felyne_pyro",
@@ -6881,7 +7151,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Sleep bombing y apertura con bombas."
    },
    {
     "id": "fs_felyne_sharpshooter",
@@ -6928,7 +7199,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Arco y ballestas de disparo normal."
    },
    {
     "id": "fs_felyne_bombardier",
@@ -6967,7 +7239,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "IMPRESCINDIBLE para Sticky LBG (Rajang / Aquashot) y Lanza Pistola."
    },
    {
     "id": "fs_felyne_carver_hi",
@@ -7006,7 +7279,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Maximizar materiales raros en cacerías de monstruos únicos."
    },
    {
     "id": "fs_felyne_exchanger",
@@ -7045,7 +7319,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Farmeo de puntos de investigación para el árbol botánico y alquimia."
    },
    {
     "id": "fs_felyne_iron_carver",
@@ -7084,7 +7359,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Recolección segura en zonas con monstruos pequeños."
    },
    {
     "id": "fs_felyne_harvester",
@@ -7131,7 +7407,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Rutas de minería, huesos o recolección en Tierras Destino."
    },
    {
     "id": "fs_lucky_cat",
@@ -7170,7 +7447,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Farmeo general de materiales y decoraciones."
    },
    {
     "id": "fs_felyne_fat_cat",
@@ -7209,7 +7487,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Farmeo de dinero junto con misiones de evento."
    },
    {
     "id": "fs_felyne_cleats",
@@ -7248,7 +7527,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Combates en Arroyo de Escarcha o zonas pantanosas sin joya de movilidad."
    },
    {
     "id": "fs_felyne_tailor",
@@ -7287,7 +7567,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Mayor disponibilidad de Manto Temporal y Manto Firme."
    },
    {
     "id": "fs_felyne_safeguard",
@@ -7327,7 +7608,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "VIDA EXTRA bajo demanda para todo el equipo en cacerías difíciles."
    },
    {
     "id": "fs_felyne_gardener",
@@ -7366,7 +7648,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Expediciones de recolección de fauna."
    },
    {
     "id": "fs_felyne_scavenger",
@@ -7405,7 +7688,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Utilidad en exploración."
    },
    {
     "id": "fs_felyne_zoomaster",
@@ -7444,7 +7728,8 @@
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      }
-    ]
+    ],
+    "synergy_es": "Logros, trofeos y captura de mascotas raras."
    }
   ],
   "rules": [
@@ -7562,24 +7847,58 @@
    {
     "id": "rule_skill_by_category",
     "topic": "combination",
-    "title_es": "Que determina la habilidad de ingrediente",
-    "text_es": "Cada ingrediente tiene un tipo de habilidad (Coraje, Teson, Vigor, Ingenio, Artilleria; bebidas: Percepcion, Fortuna, Preparacion, Aventura). El resultado depende de cuantos ingredientes de ese tipo llevas: 2 = habilidad de nivel 1, 4 = nivel 2, 6 = nivel 3. Los tres tipos de comida (carne, pescado, verdura) comparten los mismos cinco tipos de habilidad.",
+    "title_es": "Qué determina la habilidad: la rama (color)",
+    "text_es": "Cada ingrediente pertenece a una rama de habilidad (color): Coraje, Tesón, Vigor, Ingenio y Artillería existen en carne, pescado y verdura; Percepción, Fortuna, Preparación y Aventura solo en bebidas. Se cuentan los ingredientes de la misma rama sumando todas las categorías: 2 dan la habilidad de nivel 1, 4 la de nivel 2 y 6 la de nivel 3. Cada rama da SOLO su nivel más alto: con 6 de Artillería sale Piro Felyne, pero no Bombardero ni Puntería.",
     "sources": [
      {
-      "title": "Monster Hunter Wiki - Canteen (MHWI)",
-      "url": "https://monsterhunterwiki.org/wiki/MHWI/Canteen"
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
      },
      {
       "title": "Fextralife MHW Wiki - Food Skills",
       "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
      },
      {
-      "title": "Game8 - Canteen Ingredients (MHW)",
-      "url": "https://game8.co/games/Monster-Hunter-World/archives/305732"
+      "title": "Fextralife MHW Wiki - Canteen",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Canteen"
+     }
+    ],
+    "needs_review": true,
+    "review_notes": [
+     "La exclusividad del nivel solo la afirma Fandom (y el recetario del usuario que la cita); confirmar en el juego."
+    ]
+   },
+   {
+    "id": "rule_type_vs_branch",
+    "topic": "combination",
+    "title_es": "Dos ejes a la vez: tipo y rama",
+    "text_es": "El tipo de ingrediente y su rama son independientes y cuentan a la vez. El tipo da la estadística: carne = Ataque, pescado = Defensa, verdura = Resistencia elemental, de nivel P/M/G (pequeño, mediano, grande) con 2/4/6 ingredientes de esa categoría; las bebidas no dan estadística. La rama da la habilidad felyne. Ejemplo: 4 carnes de Artillería + 2 carnes de Coraje = Ataque G + Bombardero Felyne + Pulidor Felyne.",
+    "sources": [
+     {
+      "title": "Fextralife MHW Wiki - Canteen",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Canteen"
      },
      {
-      "title": "Kiranico MHWorld Iceborne - Food Skills (en)",
-      "url": "https://mhworld.kiranico.com/en/catskills"
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "rule_drinks_slots",
+    "topic": "combination",
+    "title_es": "Las bebidas ocupan hueco",
+    "text_es": "Las bebidas se eligen en los mismos huecos que la comida, así que cada par de bebidas baja un nivel la estadística: 4 carnes + 2 bebidas de Preparación = Ataque M + Tacos Felyne; 6 bebidas = sin estadística. Como las 4 ramas de bebida solo existen en bebidas, sus habilidades de nivel 3 (Cortador Felyne +2, Felyne afortunado, Salvaguardia Felyne, Zoología Felyne) obligan a renunciar a la estadística.",
+    "sources": [
+     {
+      "title": "Fextralife MHW Wiki - Canteen",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Canteen"
+     },
+     {
+      "title": "Fextralife - MHW Iceborne Canteen Ingredients Guide",
+      "url": "https://fextralife.com/monster-hunter-world-iceborne-canteen-ingredients-guide/"
      }
     ],
     "needs_review": false,
@@ -7953,6 +8272,1034 @@
     "review_notes": [
      "Pagina de MW sin fuentes/recetas; no se registro en el cuaderno -> verificar o descartar."
     ]
+   }
+  ],
+  "branches": [
+   {
+    "id": "Courage",
+    "name_es": "Coraje",
+    "name_en": "Courage",
+    "color_name_es": "Rojo",
+    "color_hex": "#a7160e",
+    "glyph": "fist",
+    "group": "food",
+    "categories": [
+     "meat",
+     "fish",
+     "veggie"
+    ],
+    "skill_ids": [
+     "fs_felyne_polisher",
+     "fs_felyne_rider",
+     "fs_felyne_slugger"
+    ],
+    "sort_order": 1,
+    "sources": [
+     {
+      "title": "TeamBRG - MHW Food Guide",
+      "url": "https://teambrg.com/monster-hunter-world/mhw-food-guide-recipes-buffs-list/"
+     },
+     {
+      "title": "Steam Community - Meowster's Hunting Book",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1502948857"
+     }
+    ],
+    "needs_review": true,
+    "review_notes": [
+     "Rojo solo lo da la guía de Steam; TeamBRG omite la etiqueta."
+    ]
+   },
+   {
+    "id": "Resilience",
+    "name_es": "Tesón",
+    "name_en": "Resilience",
+    "color_name_es": "Azul",
+    "color_hex": "#2e68a5",
+    "glyph": "shield",
+    "group": "food",
+    "categories": [
+     "meat",
+     "fish",
+     "veggie"
+    ],
+    "skill_ids": [
+     "fs_felyne_acrobat",
+     "fs_felyne_feet",
+     "fs_felyne_moxie"
+    ],
+    "sort_order": 2,
+    "sources": [
+     {
+      "title": "TeamBRG - MHW Food Guide",
+      "url": "https://teambrg.com/monster-hunter-world/mhw-food-guide-recipes-buffs-list/"
+     },
+     {
+      "title": "Steam Community - Meowster's Hunting Book",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1502948857"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "Vigor",
+    "name_es": "Vigor",
+    "name_en": "Vigor",
+    "color_name_es": "Naranja",
+    "color_hex": "#b04f07",
+    "glyph": "bolt",
+    "group": "food",
+    "categories": [
+     "meat",
+     "fish",
+     "veggie"
+    ],
+    "skill_ids": [
+     "fs_felyne_riser_hi",
+     "fs_felyne_black_belt",
+     "fs_felyne_heroics"
+    ],
+    "sort_order": 3,
+    "sources": [
+     {
+      "title": "TeamBRG - MHW Food Guide",
+      "url": "https://teambrg.com/monster-hunter-world/mhw-food-guide-recipes-buffs-list/"
+     },
+     {
+      "title": "Steam Community - Meowster's Hunting Book",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1502948857"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "Acumen",
+    "name_es": "Ingenio",
+    "name_en": "Acumen",
+    "color_name_es": "Morado",
+    "color_hex": "#653485",
+    "glyph": "flask",
+    "group": "food",
+    "categories": [
+     "meat",
+     "fish",
+     "veggie"
+    ],
+    "skill_ids": [
+     "fs_felyne_groomer",
+     "fs_felyne_medic",
+     "fs_felyne_specialist"
+    ],
+    "sort_order": 4,
+    "sources": [
+     {
+      "title": "TeamBRG - MHW Food Guide",
+      "url": "https://teambrg.com/monster-hunter-world/mhw-food-guide-recipes-buffs-list/"
+     },
+     {
+      "title": "Steam Community - Meowster's Hunting Book",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1502948857"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "Artillery",
+    "name_es": "Artillería",
+    "name_en": "Artillery",
+    "color_name_es": "Amarillo",
+    "color_hex": "#7f6b1c",
+    "glyph": "bomb",
+    "group": "food",
+    "categories": [
+     "meat",
+     "fish",
+     "veggie"
+    ],
+    "skill_ids": [
+     "fs_felyne_sharpshooter",
+     "fs_felyne_bombardier",
+     "fs_felyne_pyro"
+    ],
+    "sort_order": 5,
+    "sources": [
+     {
+      "title": "TeamBRG - MHW Food Guide",
+      "url": "https://teambrg.com/monster-hunter-world/mhw-food-guide-recipes-buffs-list/"
+     },
+     {
+      "title": "Steam Community - Meowster's Hunting Book",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1502948857"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "Perception",
+    "name_es": "Percepción",
+    "name_en": "Perception",
+    "color_name_es": "Verde",
+    "color_hex": "#4f744c",
+    "glyph": "eye",
+    "group": "drink",
+    "categories": [
+     "drink"
+    ],
+    "skill_ids": [
+     "fs_felyne_iron_carver",
+     "fs_felyne_exchanger",
+     "fs_felyne_carver_hi"
+    ],
+    "sort_order": 6,
+    "sources": [
+     {
+      "title": "TeamBRG - MHW Food Guide",
+      "url": "https://teambrg.com/monster-hunter-world/mhw-food-guide-recipes-buffs-list/"
+     },
+     {
+      "title": "Steam Community - Meowster's Hunting Book",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1502948857"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "Fortune",
+    "name_es": "Fortuna",
+    "name_en": "Fortune",
+    "color_name_es": "Dorado",
+    "color_hex": "#654700",
+    "glyph": "coin",
+    "group": "drink",
+    "categories": [
+     "drink"
+    ],
+    "skill_ids": [
+     "fs_felyne_harvester",
+     "fs_felyne_fat_cat",
+     "fs_lucky_cat"
+    ],
+    "sort_order": 7,
+    "sources": [
+     {
+      "title": "TeamBRG - MHW Food Guide",
+      "url": "https://teambrg.com/monster-hunter-world/mhw-food-guide-recipes-buffs-list/"
+     },
+     {
+      "title": "Steam Community - Meowster's Hunting Book",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1502948857"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "Preparation",
+    "name_es": "Preparación",
+    "name_en": "Preparation",
+    "color_name_es": "Hielo",
+    "color_hex": "#247587",
+    "glyph": "boot",
+    "group": "drink",
+    "categories": [
+     "drink"
+    ],
+    "skill_ids": [
+     "fs_felyne_cleats",
+     "fs_felyne_tailor",
+     "fs_felyne_safeguard"
+    ],
+    "sort_order": 8,
+    "sources": [
+     {
+      "title": "TeamBRG - MHW Food Guide",
+      "url": "https://teambrg.com/monster-hunter-world/mhw-food-guide-recipes-buffs-list/"
+     },
+     {
+      "title": "Steam Community - Meowster's Hunting Book",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1502948857"
+     }
+    ],
+    "needs_review": true,
+    "review_notes": [
+     "Ninguna fuente publica el color de esta rama de Iceborne; el color es una elección de diseño de la guía."
+    ]
+   },
+   {
+    "id": "Trailblazer",
+    "name_es": "Aventura",
+    "name_en": "Trailblazer",
+    "color_name_es": "Ámbar",
+    "color_hex": "#7a4632",
+    "glyph": "compass",
+    "group": "drink",
+    "categories": [
+     "drink"
+    ],
+    "skill_ids": [
+     "fs_felyne_gardener",
+     "fs_felyne_scavenger",
+     "fs_felyne_zoomaster"
+    ],
+    "sort_order": 9,
+    "sources": [
+     {
+      "title": "TeamBRG - MHW Food Guide",
+      "url": "https://teambrg.com/monster-hunter-world/mhw-food-guide-recipes-buffs-list/"
+     },
+     {
+      "title": "Steam Community - Meowster's Hunting Book",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1502948857"
+     }
+    ],
+    "needs_review": true,
+    "review_notes": [
+     "Ninguna fuente publica el color de esta rama de Iceborne; el color es una elección de diseño de la guía."
+    ]
+   }
+  ],
+  "recipes": [
+   {
+    "id": "R01",
+    "name_es": "Artillero Explosivo (Sticky / GL)",
+    "plate_type_es": "Ofensivo",
+    "composition": [
+     {
+      "count": 4,
+      "category": "meat",
+      "branch": "Artillery"
+     },
+     {
+      "count": 2,
+      "category": "meat",
+      "branch": "Courage"
+     }
+    ],
+    "variants_es": "o 2 carnes de Vigor en lugar de Coraje (Elevador Felyne +2)",
+    "target_skill_ids": [
+     "fs_felyne_bombardier",
+     "fs_felyne_polisher"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Recomendado",
+    "use_es": "Build principal para Ballesta Ligera Sticky (Rajang / Aquashot) y Lanza Pistola.",
+    "sort_order": 1,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R02",
+    "name_es": "Artillero Supervivencia",
+    "plate_type_es": "Híbrido",
+    "composition": [
+     {
+      "count": 4,
+      "category": "meat",
+      "branch": "Artillery"
+     },
+     {
+      "count": 2,
+      "category": "meat",
+      "branch": "Resilience"
+     }
+    ],
+    "variants_es": null,
+    "target_skill_ids": [
+     "fs_felyne_bombardier",
+     "fs_felyne_acrobat"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Opcional",
+    "use_es": "Sticky LBG contra monstruos rápidos que lanzan por los aires.",
+    "sort_order": 2,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R03",
+    "name_es": "Artillero Elemental",
+    "plate_type_es": "Defensivo",
+    "composition": [
+     {
+      "count": 4,
+      "category": "veggie",
+      "branch": "Artillery"
+     },
+     {
+      "count": 2,
+      "category": "meat",
+      "branch": "Resilience"
+     }
+    ],
+    "variants_es": null,
+    "target_skill_ids": [
+     "fs_felyne_bombardier",
+     "fs_felyne_acrobat"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Opcional",
+    "use_es": "Contra dragones ancianos elementales manteniendo daño explosivo.",
+    "sort_order": 3,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R04",
+    "name_es": "Agallas Ofensivo (Moxie DPS)",
+    "plate_type_es": "Supervivencia",
+    "composition": [
+     {
+      "count": 6,
+      "category": "meat",
+      "branch": "Resilience"
+     }
+    ],
+    "variants_es": null,
+    "target_skill_ids": [
+     "fs_felyne_moxie"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Recomendado",
+    "use_es": "Contra Rajang Curtido, Savage Deviljho o golpes letales sin perder Ataque (G).",
+    "sort_order": 4,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R05",
+    "name_es": "Tanque Anti-Elemental",
+    "plate_type_es": "Supervivencia",
+    "composition": [
+     {
+      "count": 6,
+      "category": "veggie",
+      "branch": "Resilience"
+     }
+    ],
+    "variants_es": null,
+    "target_skill_ids": [
+     "fs_felyne_moxie"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Opcional",
+    "use_es": "Ideal contra Velkhana Curtido o amenazas elementales severas.",
+    "sort_order": 5,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R06",
+    "name_es": "Salvaguardia Grupal (Vida Extra)",
+    "plate_type_es": "Bebidas",
+    "composition": [
+     {
+      "count": 6,
+      "category": "drink",
+      "branch": "Preparation"
+     }
+    ],
+    "variants_es": null,
+    "target_skill_ids": [
+     "fs_felyne_safeguard"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Muy Recomendado",
+    "use_es": "Anula la penalización del primer desmayo del equipo; basta que lo coma 1 jugador.",
+    "sort_order": 6,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R07",
+    "name_es": "Doble Seguro (Misión Crítica)",
+    "plate_type_es": "Bebidas",
+    "composition": [
+     {
+      "count": 6,
+      "category": "drink",
+      "branch": "Preparation"
+     }
+    ],
+    "variants_es": null,
+    "target_skill_ids": [
+     "fs_felyne_safeguard"
+    ],
+    "needs_daily": "fs_felyne_insurance",
+    "voucher_es": "Obligatorio",
+    "use_es": "Otorga 2 desmayos gratis en cacerías extremas o de evento.",
+    "sort_order": 7,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R08",
+    "name_es": "Estamina y Flechas (Arco / Duales)",
+    "plate_type_es": "Ofensivo",
+    "composition": [
+     {
+      "count": 4,
+      "category": "meat",
+      "branch": "Vigor"
+     },
+     {
+      "count": 2,
+      "category": "meat",
+      "branch": "Artillery"
+     }
+    ],
+    "variants_es": null,
+    "target_skill_ids": [
+     "fs_felyne_black_belt",
+     "fs_felyne_sharpshooter"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Recomendado",
+    "use_es": "Reduce 20% gasto de estamina y sube flechas/disparos normales 10%.",
+    "sort_order": 8,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R09",
+    "name_es": "Espadachín Ágil (Filo y Esquiva)",
+    "plate_type_es": "Ofensivo",
+    "composition": [
+     {
+      "count": 4,
+      "category": "meat",
+      "branch": "Vigor"
+     },
+     {
+      "count": 2,
+      "category": "meat",
+      "branch": "Courage"
+     }
+    ],
+    "variants_es": null,
+    "target_skill_ids": [
+     "fs_felyne_black_belt",
+     "fs_felyne_polisher"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Opcional",
+    "use_es": "Espada Larga, Duales, Glaive Insecto o Hacha Espada.",
+    "sort_order": 9,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R10",
+    "name_es": "Aturdidor KO (Martillo / Sticky)",
+    "plate_type_es": "Ofensivo",
+    "composition": [
+     {
+      "count": 6,
+      "category": "meat",
+      "branch": "Courage"
+     }
+    ],
+    "variants_es": null,
+    "target_skill_ids": [
+     "fs_felyne_slugger"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Opcional",
+    "use_es": "Martillo, Cornamusa o builds enfocados en aturdimiento.",
+    "sort_order": 10,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R11",
+    "name_es": "Jinete Aéreo (Monturas)",
+    "plate_type_es": "Ofensivo",
+    "composition": [
+     {
+      "count": 4,
+      "category": "meat",
+      "branch": "Courage"
+     },
+     {
+      "count": 2,
+      "category": "meat",
+      "branch": "Vigor"
+     }
+    ],
+    "variants_es": null,
+    "target_skill_ids": [
+     "fs_felyne_rider",
+     "fs_felyne_riser_hi"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Opcional",
+    "use_es": "Glaive Insecto o armas con ataques aéreos frecuentes.",
+    "sort_order": 11,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R12",
+    "name_es": "Speedrun Heroicidad",
+    "plate_type_es": "Extremo",
+    "composition": [
+     {
+      "count": 6,
+      "category": "meat",
+      "branch": "Vigor"
+     }
+    ],
+    "variants_es": null,
+    "target_skill_ids": [
+     "fs_felyne_heroics"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Obligatorio",
+    "use_es": "Uso avanzado con salud crítica para récords de tiempo.",
+    "sort_order": 12,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R13",
+    "name_es": "Estados Alterados",
+    "plate_type_es": "Especial",
+    "composition": [
+     {
+      "count": 6,
+      "category": "meat",
+      "branch": "Acumen"
+     }
+    ],
+    "variants_es": null,
+    "target_skill_ids": [
+     "fs_felyne_specialist"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Opcional",
+    "use_es": "Armas de Sueño, Parálisis, Veneno o Nitro.",
+    "sort_order": 13,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R14",
+    "name_es": "Tallado Máximo (Carver Hi)",
+    "plate_type_es": "Bebidas",
+    "composition": [
+     {
+      "count": 6,
+      "category": "drink",
+      "branch": "Perception"
+     }
+    ],
+    "variants_es": null,
+    "target_skill_ids": [
+     "fs_felyne_carver_hi"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Muy Recomendado",
+    "use_es": "Maximiza tallas de monstruos únicos y colas cortadas.",
+    "sort_order": 14,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R15",
+    "name_es": "Puntos y Zenis (Economía)",
+    "plate_type_es": "Bebidas",
+    "composition": [
+     {
+      "count": 4,
+      "category": "drink",
+      "branch": "Perception"
+     },
+     {
+      "count": 2,
+      "category": "drink",
+      "branch": "Fortune"
+     }
+    ],
+    "variants_es": "o al revés: 4 Fortuna + 2 Percepción = Magnate Felyne + Cortador Felyne férreo",
+    "target_skill_ids": [
+     "fs_felyne_exchanger",
+     "fs_felyne_harvester"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Opcional",
+    "use_es": "Farmeo de puntos de investigación o materiales de recolección.",
+    "sort_order": 15,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R16",
+    "name_es": "Zoología Endémica (Zoomaster)",
+    "plate_type_es": "Bebidas",
+    "composition": [
+     {
+      "count": 6,
+      "category": "drink",
+      "branch": "Trailblazer"
+     }
+    ],
+    "variants_es": null,
+    "target_skill_ids": [
+     "fs_felyne_zoomaster"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Muy Recomendado",
+    "use_es": "Captura de fauna endémica rara (como Downy Crake o Petricanths).",
+    "sort_order": 16,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R17",
+    "name_es": "Puntos de investigación",
+    "plate_type_es": "Bebidas",
+    "composition": [
+     {
+      "count": 4,
+      "category": "drink",
+      "branch": "Perception"
+     },
+     {
+      "count": 2,
+      "category": "meat",
+      "branch": "Courage"
+     }
+    ],
+    "variants_es": "las 2 carnes pueden ser de cualquier rama de comida (o 2 verduras para Res. elemental P)",
+    "target_skill_ids": [
+     "fs_felyne_exchanger",
+     "fs_felyne_polisher"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Opcional",
+    "use_es": "Sube los puntos de investigación al terminar la misión y conserva una estadística pequeña.",
+    "sort_order": 17,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R18",
+    "name_es": "Farmeo de recompensas",
+    "plate_type_es": "Bebidas",
+    "composition": [
+     {
+      "count": 6,
+      "category": "drink",
+      "branch": "Fortune"
+     }
+    ],
+    "variants_es": "o 4 Fortuna + 2 carnes = Magnate Felyne + Ataque P",
+    "target_skill_ids": [
+     "fs_lucky_cat"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Muy recomendado",
+    "use_es": "Más objetos al final de la misión en farmeo de materiales o joyas.",
+    "sort_order": 18,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
+   },
+   {
+    "id": "R19",
+    "name_es": "Terreno difícil sin perder Ataque",
+    "plate_type_es": "Híbrido",
+    "composition": [
+     {
+      "count": 4,
+      "category": "meat",
+      "branch": "Vigor"
+     },
+     {
+      "count": 2,
+      "category": "drink",
+      "branch": "Preparation"
+     }
+    ],
+    "variants_es": "las 4 carnes pueden ser de la rama que quieras (habilidad x2 de esa rama)",
+    "target_skill_ids": [
+     "fs_felyne_black_belt",
+     "fs_felyne_cleats"
+    ],
+    "needs_daily": null,
+    "voucher_es": "Opcional",
+    "use_es": "Velocidad normal en nieve profunda, barro o agua conservando Ataque M.",
+    "sort_order": 19,
+    "sources": [
+     {
+      "title": "Fextralife - Food Skills",
+      "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+     },
+     {
+      "title": "Kiranico - Food Skills",
+      "url": "https://mhworld.kiranico.com/en/catskills"
+     },
+     {
+      "title": "Fandom - How the Monster Hunter World Canteen Works",
+      "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+     }
+    ],
+    "needs_review": false,
+    "review_notes": []
    }
   ]
  }

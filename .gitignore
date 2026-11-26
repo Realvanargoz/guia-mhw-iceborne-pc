@@ -54,3 +54,9 @@ Docs/resumen.md
 # Docker/Postgres antiguos (solo en local durante la transición)
 legacy/
 docker-compose.legacy.yml
+
+# ---------------------------------------------------------------------------
+# Investigación propia del usuario (documentos de trabajo): no se publica
+# ---------------------------------------------------------------------------
+/Docs/*.docx
+/Docs/*.xlsx

@@ -17,6 +17,9 @@ GOOD = [
     "_internal/icons/monsters/1.webp", "_internal/icons/ingredients/ing_goldenfish_brew.webp", "_internal/icons/ui-named/weapon-bow.webp",
     "_internal/research/builds/solo_rules.json", "_internal/research/melder/melder.json",
     "_internal/app/savereader/data/jewels.json",
+    # canteen simulator art (nested under web/ui; names must dodge the forbidden patterns, e.g. *steam*)
+    "_internal/web/ui/canteen/plate.webp", "_internal/web/ui/canteen/branch-vigor.svg",
+    "_internal/web/ui/canteen/anim/vapor.webm", "_internal/web/ui/canteen/anim/skill-seal.webm",
 ]
 
 

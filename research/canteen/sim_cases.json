@@ -1,0 +1,321 @@
+{
+  "about_es": "Casos compartidos del simulador de cantina (test de la API en Python y tools/canteen-engine-check.mjs). Reglas: solo se activa el nivel más alto de cada rama (2/4/6 ingredientes = nivel 1/2/3); carne/pescado/verdura dan ataque/defensa/res. elemental con 2/4/6 (P/M/G); media estrella por fresco, 3 con vale. free_skill_slots = 3 - habilidades de rama activas. expect_error: el motor devuelve errors_es no vacío y la API responde 422.",
+  "cases": [
+    {
+      "id": "six_artillery_meat",
+      "desc_es": "6 carnes de Artillería: solo Piro Felyne; Puntería y Bombardero quedan sustituidas. Ataque G.",
+      "input": {
+        "ingredients": [
+          {"id": "ing_peon_turkey", "fresh": false},
+          {"id": "ing_great_mutton", "fresh": false},
+          {"id": "ing_herbivore_egg", "fresh": false},
+          {"id": "ing_king_turkey", "fresh": false},
+          {"id": "ing_magma_mutton", "fresh": false},
+          {"id": "ing_kaiser_turkey", "fresh": false}
+        ],
+        "slots": 6, "voucher": "none", "daily_skill_ids": []
+      },
+      "expect": {
+        "active_skill_ids": ["fs_felyne_pyro"],
+        "superseded_skill_ids": ["fs_felyne_sharpshooter", "fs_felyne_bombardier"],
+        "stat_levels": {"attack": 3, "defense": 0, "elemental_res": 0},
+        "stars": 0, "free_skill_slots": 2
+      }
+    },
+    {
+      "id": "four_artillery_two_courage_meat",
+      "desc_es": "4 carnes de Artillería + 2 de Coraje: Bombardero Felyne y Pulidor Felyne. Ataque G.",
+      "input": {
+        "ingredients": [
+          {"id": "ing_peon_turkey", "fresh": false},
+          {"id": "ing_great_mutton", "fresh": false},
+          {"id": "ing_herbivore_egg", "fresh": false},
+          {"id": "ing_king_turkey", "fresh": false},
+          {"id": "ing_wyvern_thigh", "fresh": false},
+          {"id": "ing_wyvern_skirt_steak", "fresh": false}
+        ],
+        "slots": 6, "voucher": "none", "daily_skill_ids": []
+      },
+      "expect": {
+        "active_skill_ids": ["fs_felyne_bombardier", "fs_felyne_polisher"],
+        "superseded_skill_ids": ["fs_felyne_sharpshooter"],
+        "stat_levels": {"attack": 3, "defense": 0, "elemental_res": 0},
+        "stars": 0, "free_skill_slots": 1
+      }
+    },
+    {
+      "id": "three_branches_mixed",
+      "desc_es": "2 carnes de Coraje + 2 pescados de Tesón + 2 verduras de Vigor: tres habilidades de nivel 1 y P en las tres estadísticas.",
+      "input": {
+        "ingredients": [
+          {"id": "ing_wyvern_thigh", "fresh": false},
+          {"id": "ing_wyvern_skirt_steak", "fresh": false},
+          {"id": "ing_jumbo_whelk", "fresh": false},
+          {"id": "ing_scallop_chips", "fresh": false},
+          {"id": "ing_plumpkin", "fresh": false},
+          {"id": "ing_cudgel_onion", "fresh": false}
+        ],
+        "slots": 6, "voucher": "none", "daily_skill_ids": []
+      },
+      "expect": {
+        "active_skill_ids": ["fs_felyne_polisher", "fs_felyne_acrobat", "fs_felyne_riser_hi"],
+        "superseded_skill_ids": [],
+        "stat_levels": {"attack": 1, "defense": 1, "elemental_res": 1},
+        "stars": 0, "free_skill_slots": 0
+      }
+    },
+    {
+      "id": "four_vigor_meat_two_preparation",
+      "desc_es": "4 carnes de Vigor + 2 bebidas de Preparación: Cinturón negro Felyne y Tacos Felyne. Ataque M (las bebidas no suben estadística).",
+      "input": {
+        "ingredients": [
+          {"id": "ing_aptonoth_meat", "fresh": false},
+          {"id": "ing_apceroast", "fresh": false},
+          {"id": "ing_diced_steak", "fresh": false},
+          {"id": "ing_giant_sirloin", "fresh": false},
+          {"id": "ing_greathorn_s_gulp", "fresh": false},
+          {"id": "ing_auspicious_ale", "fresh": false}
+        ],
+        "slots": 6, "voucher": "none", "daily_skill_ids": []
+      },
+      "expect": {
+        "active_skill_ids": ["fs_felyne_black_belt", "fs_felyne_cleats"],
+        "superseded_skill_ids": ["fs_felyne_riser_hi"],
+        "stat_levels": {"attack": 2, "defense": 0, "elemental_res": 0},
+        "stars": 0, "free_skill_slots": 1
+      }
+    },
+    {
+      "id": "six_perception_drinks_fresh",
+      "desc_es": "6 bebidas de Percepción frescas: solo Cortador Felyne +2, ninguna estadística y 3 estrellas.",
+      "input": {
+        "ingredients": [
+          {"id": "ing_tater_mud", "fresh": true},
+          {"id": "ing_dragon_ale", "fresh": true},
+          {"id": "ing_demontater_brew", "fresh": true},
+          {"id": "ing_wyvern_amber_ale", "fresh": true},
+          {"id": "ing_goldenfish_brew", "fresh": true},
+          {"id": "ing_dragonkiller_sake", "fresh": true}
+        ],
+        "slots": 6, "voucher": "none", "daily_skill_ids": []
+      },
+      "expect": {
+        "active_skill_ids": ["fs_felyne_carver_hi"],
+        "superseded_skill_ids": ["fs_felyne_iron_carver", "fs_felyne_exchanger"],
+        "stat_levels": {"attack": 0, "defense": 0, "elemental_res": 0},
+        "stars": 3, "free_skill_slots": 2
+      }
+    },
+    {
+      "id": "five_courage",
+      "desc_es": "5 de Coraje (3 carnes + 2 pescados): solo Jinete Felyne (nivel 2); el quinto no sube de nivel.",
+      "input": {
+        "ingredients": [
+          {"id": "ing_wyvern_thigh", "fresh": false},
+          {"id": "ing_wyvern_skirt_steak", "fresh": false},
+          {"id": "ing_wyvern_egg", "fresh": false},
+          {"id": "ing_ridgemane_tuna", "fresh": false},
+          {"id": "ing_serpentine_salmon", "fresh": false}
+        ],
+        "slots": 6, "voucher": "none", "daily_skill_ids": []
+      },
+      "expect": {
+        "active_skill_ids": ["fs_felyne_rider"],
+        "superseded_skill_ids": ["fs_felyne_polisher"],
+        "stat_levels": {"attack": 1, "defense": 1, "elemental_res": 0},
+        "stars": 0, "free_skill_slots": 2
+      }
+    },
+    {
+      "id": "three_fresh_no_voucher",
+      "desc_es": "3 ingredientes frescos sin vale: 1,5 estrellas. 4 pescados de Artillería + 2 de Ingenio: Defensa G.",
+      "input": {
+        "ingredients": [
+          {"id": "ing_osseoctopus", "fresh": true},
+          {"id": "ing_pink_caviar", "fresh": true},
+          {"id": "ing_lily_squid", "fresh": false},
+          {"id": "ing_ballerina_octopus", "fresh": false},
+          {"id": "ing_bent_backed_shrimp", "fresh": true},
+          {"id": "ing_armor_crab", "fresh": false}
+        ],
+        "slots": 6, "voucher": "none", "daily_skill_ids": []
+      },
+      "expect": {
+        "active_skill_ids": ["fs_felyne_bombardier", "fs_felyne_groomer"],
+        "superseded_skill_ids": ["fs_felyne_sharpshooter"],
+        "stat_levels": {"attack": 0, "defense": 3, "elemental_res": 0},
+        "stars": 1.5, "free_skill_slots": 1
+      }
+    },
+    {
+      "id": "gourmet_voucher",
+      "desc_es": "Vale gourmet sin frescos marcados: todos cuentan como frescos y son 3 estrellas. 4 verduras de Tesón + 2 bebidas de Fortuna.",
+      "input": {
+        "ingredients": [
+          {"id": "ing_stonecorn", "fresh": false},
+          {"id": "ing_steadfast_spud", "fresh": false},
+          {"id": "ing_exquisite_shroomcap", "fresh": false},
+          {"id": "ing_moonlit_mushroom", "fresh": false},
+          {"id": "ing_hunter_s_brew", "fresh": false},
+          {"id": "ing_star_brandy", "fresh": false}
+        ],
+        "slots": 6, "voucher": "gourmet", "daily_skill_ids": []
+      },
+      "expect": {
+        "active_skill_ids": ["fs_felyne_feet", "fs_felyne_harvester"],
+        "superseded_skill_ids": ["fs_felyne_acrobat"],
+        "stat_levels": {"attack": 0, "defense": 0, "elemental_res": 2},
+        "stars": 3, "free_skill_slots": 1
+      }
+    },
+    {
+      "id": "plain_voucher",
+      "desc_es": "Vale normal con 2 verduras de Coraje: 3 estrellas aunque no haya frescos.",
+      "input": {
+        "ingredients": [
+          {"id": "ing_magnicelery", "fresh": false},
+          {"id": "ing_rapscallion", "fresh": false}
+        ],
+        "slots": 6, "voucher": "voucher", "daily_skill_ids": []
+      },
+      "expect": {
+        "active_skill_ids": ["fs_felyne_polisher"],
+        "superseded_skill_ids": [],
+        "stat_levels": {"attack": 0, "defense": 0, "elemental_res": 1},
+        "stars": 3, "free_skill_slots": 2
+      }
+    },
+    {
+      "id": "four_slots_four_picks",
+      "desc_es": "Cantina de 4 huecos llena: 2 carnes de Ingenio + 2 bebidas de Aventura.",
+      "input": {
+        "ingredients": [
+          {"id": "ing_white_liver", "fresh": false},
+          {"id": "ing_barbecued_short_rib", "fresh": false},
+          {"id": "ing_glacial_vodka", "fresh": false},
+          {"id": "ing_toasting_tequila", "fresh": false}
+        ],
+        "slots": 4, "voucher": "none", "daily_skill_ids": []
+      },
+      "expect": {
+        "active_skill_ids": ["fs_felyne_groomer", "fs_felyne_gardener"],
+        "superseded_skill_ids": [],
+        "stat_levels": {"attack": 1, "defense": 0, "elemental_res": 0},
+        "stars": 0, "free_skill_slots": 1
+      }
+    },
+    {
+      "id": "single_ingredient",
+      "desc_es": "Un solo ingrediente: ninguna habilidad de rama ni estadística; quedan los 3 huecos de habilidad.",
+      "input": {
+        "ingredients": [{"id": "ing_wyvern_thigh", "fresh": false}],
+        "slots": 6, "voucher": "none", "daily_skill_ids": []
+      },
+      "expect": {
+        "active_skill_ids": [],
+        "superseded_skill_ids": [],
+        "stat_levels": {"attack": 0, "defense": 0, "elemental_res": 0},
+        "stars": 0, "free_skill_slots": 3
+      }
+    },
+    {
+      "id": "empty_plate",
+      "desc_es": "Plato vacío: no es un error; sin habilidades ni estadísticas.",
+      "input": {"ingredients": [], "slots": 6, "voucher": "none", "daily_skill_ids": []},
+      "expect": {
+        "active_skill_ids": [],
+        "superseded_skill_ids": [],
+        "stat_levels": {"attack": 0, "defense": 0, "elemental_res": 0},
+        "stars": 0, "free_skill_slots": 3
+      }
+    },
+    {
+      "id": "three_courage_odd",
+      "desc_es": "3 de Coraje (2 carnes + 1 pescado): sigue en nivel 1 (Pulidor Felyne); el tercero no sube de nivel.",
+      "input": {
+        "ingredients": [
+          {"id": "ing_wyvern_thigh", "fresh": false},
+          {"id": "ing_wyvern_skirt_steak", "fresh": false},
+          {"id": "ing_ridgemane_tuna", "fresh": false}
+        ],
+        "slots": 6, "voucher": "none", "daily_skill_ids": []
+      },
+      "expect": {
+        "active_skill_ids": ["fs_felyne_polisher"],
+        "superseded_skill_ids": [],
+        "stat_levels": {"attack": 1, "defense": 0, "elemental_res": 0},
+        "stars": 0, "free_skill_slots": 2
+      }
+    },
+    {
+      "id": "daily_fills_free_slot",
+      "desc_es": "2 carnes de Coraje + 2 de Vigor y dos diarias elegidas: solo cabe la primera diaria en el hueco libre.",
+      "input": {
+        "ingredients": [
+          {"id": "ing_wyvern_thigh", "fresh": false},
+          {"id": "ing_wyvern_skirt_steak", "fresh": false},
+          {"id": "ing_aptonoth_meat", "fresh": false},
+          {"id": "ing_apceroast", "fresh": false}
+        ],
+        "slots": 6, "voucher": "none", "daily_skill_ids": ["fs_felyne_temper", "fs_felyne_booster"]
+      },
+      "expect": {
+        "active_skill_ids": ["fs_felyne_polisher", "fs_felyne_riser_hi"],
+        "superseded_skill_ids": [],
+        "stat_levels": {"attack": 2, "defense": 0, "elemental_res": 0},
+        "stars": 0, "free_skill_slots": 1
+      }
+    },
+    {
+      "id": "duplicates",
+      "desc_es": "El mismo ingrediente dos veces: error (un plato no repite ingredientes).",
+      "input": {
+        "ingredients": [
+          {"id": "ing_wyvern_thigh", "fresh": false},
+          {"id": "ing_wyvern_thigh", "fresh": false}
+        ],
+        "slots": 6, "voucher": "none", "daily_skill_ids": []
+      },
+      "expect_error": true
+    },
+    {
+      "id": "overflow_slots",
+      "desc_es": "5 ingredientes en una cantina de 4 huecos: error.",
+      "input": {
+        "ingredients": [
+          {"id": "ing_wyvern_thigh", "fresh": false},
+          {"id": "ing_wyvern_skirt_steak", "fresh": false},
+          {"id": "ing_wyvern_egg", "fresh": false},
+          {"id": "ing_wyvern_tail", "fresh": false},
+          {"id": "ing_wyvern_head", "fresh": false}
+        ],
+        "slots": 4, "voucher": "none", "daily_skill_ids": []
+      },
+      "expect_error": true
+    },
+    {
+      "id": "unknown_id",
+      "desc_es": "Un id de ingrediente que no existe: error.",
+      "input": {
+        "ingredients": [
+          {"id": "ing_wyvern_thigh", "fresh": false},
+          {"id": "ing_does_not_exist", "fresh": false}
+        ],
+        "slots": 6, "voucher": "none", "daily_skill_ids": []
+      },
+      "expect_error": true
+    },
+    {
+      "id": "unknown_daily",
+      "desc_es": "Una habilidad de ingrediente pasada como diaria: error.",
+      "input": {
+        "ingredients": [
+          {"id": "ing_wyvern_thigh", "fresh": false},
+          {"id": "ing_wyvern_skirt_steak", "fresh": false}
+        ],
+        "slots": 6, "voucher": "none", "daily_skill_ids": ["fs_felyne_pyro"]
+      },
+      "expect_error": true
+    }
+  ]
+}

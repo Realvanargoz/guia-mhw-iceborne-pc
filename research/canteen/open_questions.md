@@ -7,7 +7,9 @@ Fuentes: Kiranico (v15.11 Iceborne), monsterhunterwiki.org (MHWI/Canteen), Fextr
 2. Cuantos ingredientes frescos salen y cuales (rotan al azar entre quests). No consta si todos los ingredientes pueden ser frescos (`can_be_fresh` = null en todos).
 
 ## Mecanica
-3. Combinacion de varios tipos de habilidad en un plato de 6 (p. ej. 2 Coraje + 4 Vigor): como se reparten los 3 huecos y si se pueden activar dos habilidades de ingrediente a la vez. Ninguna fuente lo detalla.
+3. RESUELTA (2026-11-26): cada rama da solo su nivel mas alto y las ramas se mezclan libremente (2+2+2 = tres habilidades x1; 4+2 = x2 + x1). Fuente unica (recetario del usuario + Fandom), se mantiene needs_review.
+    Bebidas (recetario del usuario y Fextralife): ocupan un hueco de la comida y bajan un nivel la estadistica; 6 bebidas = sin estadistica.
+    Pregunta original: combinacion de varios tipos de habilidad en un plato de 6 (p. ej. 2 Coraje + 4 Vigor): como se reparten los 3 huecos y si se pueden activar dos habilidades de ingrediente a la vez.
 4. Habilidades diarias: MW dice que el conjunto de 3 se rerrolea al volver de quest; Game8 anade reset diario 00:00 UTC y al comer. Kiranico marca "Daily x1" (Felyne Researcher) y "Daily x2" (Felyne Weathercat) sin explicar el multiplicador. Hay ademas una fila "Unavailable".
 5. Aguante: MW "hasta +50 segun el nivel de la cantina" vs Game8 "+50 siempre".
 6. Limite entre comidas: 10 min (Fextralife) vs 10-15 min en campamentos (Game8).
@@ -30,4 +32,4 @@ Fuentes: Kiranico (v15.11 Iceborne), monsterhunterwiki.org (MHWI/Canteen), Fextr
 
 ## Implementacion (API)
 - `POST /api/canteen/simulate` no produce porcentajes (ninguna fuente los publica): devuelve estrellas con el texto cualitativo de cada nivel.
-- 19 de 114 ingredientes se cruzan con `items` por `name_en` (el resto no son objetos de la tabla `items`, `item_id` queda NULL y no tienen icono).
+- Los 114 ingredientes tienen icono propio (data/icons/ingredients, poedb); item_id solo cruza 19.

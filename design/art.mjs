@@ -321,3 +321,118 @@ ${emb2(c.mid, 0, 0)}
 <ellipse cx="52" cy="40" rx="20" ry="9" transform="rotate(-35 52 40)" fill="#fff" opacity=".18"/>
 </svg>`;
 }
+
+/* ------------------------------------------------------------------ canteen simulator */
+
+// table.webp 960x600: top-down dark wood planks (not tiled; one backdrop)
+export function canteenTableSvg() {
+  const W = 960, H = 600, seams = [0, 146, 298, 452, 600];
+  const R = 'x="0" y="0" width="960" height="600" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"';
+  let planks = '', defs = '';
+  for (let i = 0; i < 4; i++) {
+    const y = seams[i], h = seams[i + 1] - y;
+    defs += `<filter id="cp${i}" x="0" y="${y}" width="${W}" height="${h}" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feTurbulence type="fractalNoise" baseFrequency="${0.0028 + i * 0.0004} ${0.05 + (i % 2) * 0.012}" numOctaves="4" seed="${31 + i * 7}"/>${gray(2.0, -0.4)}<feComponentTransfer>${ramp('#1d1208', i % 2 ? '#5a3a22' : '#62402a')}</feComponentTransfer></filter>`;
+    planks += `<rect y="${y}" width="${W}" height="${h}" filter="url(#cp${i})"/>`;
+    planks += `<rect y="${y}" width="${W}" height="${h}" fill="${['#2a1508', '#000', '#3a1f0c', '#000'][i]}" opacity="${[0.12, 0.08, 0.1, 0.12][i]}"/>`;
+    if (i) planks += `<rect y="${y - 2}" width="${W}" height="3.5" fill="#0b0602"/><rect y="${y + 1.5}" width="${W}" height="1.2" fill="#7a5134" opacity=".28"/>`;
+    // butt joint somewhere along each plank, with two nail heads either side
+    const x = [610, 250, 780, 120][i];
+    planks += `<rect x="${x}" y="${y}" width="2.5" height="${h}" fill="#0b0602" opacity=".85"/><rect x="${x + 2.5}" y="${y}" width="1" height="${h}" fill="#7a5134" opacity=".22"/>`;
+    for (const ny of [y + 18, y + h - 18]) for (const nx of [x - 9, x + 12]) planks += `<circle cx="${nx}" cy="${ny}" r="2.6" fill="#0d0703"/><circle cx="${nx - 0.6}" cy="${ny - 0.6}" r="1" fill="#8a6440" opacity=".35"/>`;
+  }
+  return `<svg ${NS} width="${W}" height="${H}" viewBox="0 0 ${W} ${H}"><defs>${defs}
+<filter id="cfib" ${R}><feTurbulence type="fractalNoise" baseFrequency="0.012 0.32" numOctaves="2" seed="44"/><feColorMatrix type="matrix" values="0 0 0 0 .02  0 0 0 0 .01  0 0 0 0 0  3 0 0 0 -1.5"/></filter>
+<radialGradient id="cglow" cx=".5" cy=".46" r=".62"><stop offset="0" stop-color="#ffb466" stop-opacity=".16"/><stop offset=".55" stop-color="#ffb466" stop-opacity=".04"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+<radialGradient id="cvig" cx=".5" cy=".5" r=".72"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".55"/></radialGradient>
+</defs>
+${planks}
+<rect width="${W}" height="${H}" filter="url(#cfib)" opacity=".35"/>
+<rect width="${W}" height="${H}" fill="url(#cglow)"/>
+<rect width="${W}" height="${H}" fill="url(#cvig)"/>
+</svg>`;
+}
+
+// plate 440x440: warm glazed ceramic, engraved gold rim, calm well
+export const PLATE = { size: 440, outer: 206, rimIn: 186, well: 146 };
+export function canteenPlateSvg() {
+  const c = 220, { outer, rimIn, well } = PLATE;
+  let eng = ''; // engraved motif on the gold band: alternating leaves and dots
+  for (let i = 0; i < 48; i++) {
+    const rr = (outer + rimIn) / 2, t = `transform="rotate(${i * 7.5} ${c} ${c})"`;
+    eng += i % 2
+      ? `<circle cx="${c}" cy="${f(c - rr)}" r="1.5" ${t}/>`
+      : `<path d="M${c} ${f(c - rr - 5)} Q${c + 3.2} ${f(c - rr)} ${c} ${f(c - rr + 5)} Q${c - 3.2} ${f(c - rr)} ${c} ${f(c - rr - 5)}Z" ${t}/>`;
+  }
+  let marli = ''; // small diamonds on the flat rim
+  for (let i = 0; i < 12; i++) {
+    const rr = (rimIn + well) / 2 + 3;
+    marli += `<path d="M${c} ${f(c - rr - 4.5)} L${c + 3} ${f(c - rr)} L${c} ${f(c - rr + 4.5)} L${c - 3} ${f(c - rr)}Z" transform="rotate(${i * 30 + 15} ${c} ${c})"/>`;
+  }
+  return `<svg ${NS} width="440" height="440" viewBox="0 0 440 440"><defs>
+<radialGradient id="pb" cx=".42" cy=".38" r=".7"><stop offset="0" stop-color="#f3e6c8"/><stop offset=".6" stop-color="#e2cda0"/><stop offset="1" stop-color="#c3a573"/></radialGradient>
+<radialGradient id="pw" cx=".44" cy=".42" r=".62"><stop offset="0" stop-color="#f6ecd4"/><stop offset=".75" stop-color="#ead9b4"/><stop offset="1" stop-color="#d8c193"/></radialGradient>
+<linearGradient id="pg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6dc92"/><stop offset=".35" stop-color="#d8b25a"/><stop offset=".65" stop-color="#b08a3a"/><stop offset=".8" stop-color="#e8c878"/><stop offset="1" stop-color="#8c6522"/></linearGradient>
+<filter id="pds" x="-10%" y="-10%" width="120%" height="125%"><feGaussianBlur stdDeviation="6"/></filter>
+<filter id="pis" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="7"/></filter>
+<filter id="pn" x="0" y="0" width="440" height="440" filterUnits="userSpaceOnUse"><feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="12"/><feColorMatrix type="matrix" values="0 0 0 0 .45  0 0 0 0 .32  0 0 0 0 .18  1.4 0 0 0 -.62"/></filter>
+<clipPath id="pwc"><circle cx="${c}" cy="${c}" r="${well}"/></clipPath>
+<clipPath id="pbc"><circle cx="${c}" cy="${c}" r="${outer}"/></clipPath>
+</defs>
+<circle cx="${c + 2}" cy="${c + 7}" r="${outer}" fill="#000" opacity=".55" filter="url(#pds)"/>
+<circle cx="${c}" cy="${c}" r="${outer}" fill="url(#pb)"/>
+<rect width="440" height="440" filter="url(#pn)" clip-path="url(#pbc)" opacity=".5"/>
+<circle cx="${c}" cy="${c}" r="${(outer + rimIn) / 2}" fill="none" stroke="url(#pg)" stroke-width="${outer - rimIn - 4}"/>
+<circle cx="${c}" cy="${c}" r="${outer - 1.5}" fill="none" stroke="#5a3a12" stroke-width="2.2"/>
+<circle cx="${c}" cy="${c}" r="${rimIn + 2}" fill="none" stroke="#5a3a12" stroke-width="1.6"/>
+<circle cx="${c}" cy="${c}" r="${outer - 4}" fill="none" stroke="#fff3c4" stroke-width=".9" stroke-opacity=".6"/>
+<g fill="#6e4a14" opacity=".75">${eng}</g>
+<circle cx="${c}" cy="${c}" r="${well + 7}" fill="none" stroke="#b08a3a" stroke-width="1.6" stroke-opacity=".8"/>
+<g fill="#b08a3a" opacity=".55">${marli}</g>
+<circle cx="${c}" cy="${c}" r="${well}" fill="url(#pw)"/>
+<g clip-path="url(#pwc)"><circle cx="${c + 4}" cy="${c + 6}" r="${well + 6}" fill="none" stroke="#6b4a22" stroke-opacity=".45" stroke-width="16" filter="url(#pis)"/></g>
+<circle cx="${c}" cy="${c}" r="${well}" fill="none" stroke="#8c6522" stroke-width="2"/>
+<circle cx="${c}" cy="${c}" r="${well - 2}" fill="none" stroke="#fff6dc" stroke-width="1" stroke-opacity=".5"/>
+</svg>`;
+}
+
+// branch glyphs: 24x24, single colour (currentColor), internal ids prefixed mhw-br-
+const br = (body, defs = '') => `<svg ${NS} viewBox="0 0 24 24" width="24" height="24" fill="currentColor">${defs ? `<defs>${defs}</defs>` : ''}${body}</svg>\n`;
+const cut = (id, d, w) => `<mask id="mhw-br-${id}-m" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24"><rect width="24" height="24" fill="#fff"/><path d="${d}" fill="#000" stroke="#000" stroke-width="${w}" stroke-linejoin="round" stroke-linecap="round"/></mask>`;
+const THUMB = 'M4.6 11.4 H12.6 Q14.6 11.4 14.6 13.2 Q14.6 15 12.6 15 H4.6 Z';
+export const branchIcons = {
+  courage: br(`<g mask="url(#mhw-br-courage-m)"><rect x="3.4" y="4.6" width="3.6" height="8" rx="1.8"/><rect x="7.6" y="3.4" width="3.6" height="9" rx="1.8"/><rect x="11.8" y="3.8" width="3.6" height="9" rx="1.8"/><rect x="16" y="5.2" width="3.4" height="8" rx="1.7"/><path d="M3.4 10 H19.4 V15.6 Q19.4 19.4 16.4 20.4 V22 H8 V20.4 Q3.4 19 3.4 15.2 Z"/></g><path d="${THUMB}"/>`,
+    cut('courage', THUMB + ' M7.3 3 V10.6 M11.5 3 V10.6 M15.7 3 V10.6', 1.5)),
+  resilience: br(`<path fill-rule="evenodd" d="M12 1.6 L20.8 4.8 V11 C20.8 16.6 17 20.6 12 22.4 C7 20.6 3.2 16.6 3.2 11 V4.8 Z M12 3.9 L5.3 6.3 V11 C5.3 15.4 8.2 18.7 12 20.2 C15.8 18.7 18.7 15.4 18.7 11 V6.3 Z"/><path d="M12 6 L16.8 7.8 V11 C16.8 14.3 14.8 16.8 12 18 C9.2 16.8 7.2 14.3 7.2 11 V7.8 Z"/>`),
+  vigor: br(`<path d="M14.2 1.4 L4.2 13.6 H10.8 L8.8 22.6 L19.8 9.6 H13.2 L15.6 1.4 Z" stroke="currentColor" stroke-width=".6" stroke-linejoin="round"/>`),
+  acumen: br(`<path fill-rule="evenodd" d="M8.4 1.6 H15.6 V4 H14.6 V8.4 A7.3 7.3 0 1 1 9.4 8.4 V4 H8.4 Z M11.1 4 V9.6 L10.4 9.9 A5.6 5.6 0 1 0 13.6 9.9 L12.9 9.6 V4 Z"/><path d="M7.6 15.6 Q9.8 14.2 12 15.6 T16.4 15.6 A4.5 4.5 0 0 1 7.6 15.6 Z"/><circle cx="13.6" cy="12.6" r=".9"/>`),
+  artillery: br(`<path fill-rule="evenodd" d="M10.4 7 A7.9 7.9 0 1 1 10.39 7 Z M6.6 12.6 A2 2 0 1 0 6.61 12.6 Z"/><rect x="12.6" y="5.8" width="5" height="3.6" rx=".6" transform="rotate(42 15.1 7.6)"/><path d="M16.4 5.4 Q17.4 2.4 20 3.2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M20.9 .9 L21.5 2.4 L23 3 L21.5 3.6 L20.9 5.1 L20.3 3.6 L18.8 3 L20.3 2.4 Z"/>`),
+  perception: br(`<path fill-rule="evenodd" d="M1.2 12 Q12 1.2 22.8 12 Q12 22.8 1.2 12 Z M3.9 12 Q12 4.6 20.1 12 Q12 19.4 3.9 12 Z"/><path fill-rule="evenodd" d="M12 8.2 A3.8 3.8 0 1 1 11.99 8.2 Z M12 10.4 A1.6 1.6 0 1 0 12.01 10.4 Z"/>`),
+  fortune: br(`<path fill-rule="evenodd" d="M12 1.8 A10.2 10.2 0 1 1 11.99 1.8 Z M12 3.6 A8.4 8.4 0 1 0 12.01 3.6 Z"/><path fill-rule="evenodd" d="M12 4.9 A7.1 7.1 0 1 1 11.99 4.9 Z M12 6.6 L13.2 10.8 L17.4 12 L13.2 13.2 L12 17.4 L10.8 13.2 L6.6 12 L10.8 10.8 Z"/>`),
+  preparation: br(`<g mask="url(#mhw-br-preparation-m)"><path d="M3.6 3 H11.6 V12.2 L17.6 14.2 Q21 15.3 21 18.6 V21.6 H3.6 Z"/></g><path d="M18.3 1.6 V9 M15.1 3.45 L21.5 7.15 M15.1 7.15 L21.5 3.45" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>`,
+    cut('preparation', 'M3 6.4 H12.4 M3 18.8 H21.6 M18.3 0.2 V10.4 M14 2.8 L22.6 7.8 M14 7.8 L22.6 2.8', 1.4)),
+  trailblazer: br(`<path fill-rule="evenodd" d="M12 .9 L14.2 9.8 L23.1 12 L14.2 14.2 L12 23.1 L9.8 14.2 L.9 12 L9.8 9.8 Z M12 10.5 A1.5 1.5 0 1 0 12.01 10.5 Z"/><path d="M12 12 L18.6 5.4 L13.7 10.3 Z M12 12 L18.6 18.6 L13.7 13.7 Z M12 12 L5.4 18.6 L10.3 13.7 Z M12 12 L5.4 5.4 L10.3 10.3 Z"/><circle cx="12" cy="12" r="7.2" fill="none" stroke="currentColor" stroke-width="1.2"/>`),
+};
+
+// gold wax seal for anim/skill-seal.webm (drawn on a 120 px box)
+export function skillSealSvg() {
+  const r = rng(4242), p1 = r() * 6.28, p2 = r() * 6.28, blob = [];
+  for (let i = 0; i < 160; i++) {
+    const t = (i / 160) * Math.PI * 2, rad = 52 * (1 + 0.04 * Math.sin(14 * t + p1) + 0.03 * Math.sin(7 * t + p2));
+    blob.push([60 + rad * Math.cos(t), 60 + rad * Math.sin(t)]);
+  }
+  const bp = 'M' + poly(blob).replace(/ /g, ' L') + 'Z';
+  const st = `<polygon points="${starPts(60, 61, 25, 10.5, -90, 6)}"`;
+  return `<svg ${NS} width="120" height="120" viewBox="0 0 120 120"><defs>
+<radialGradient id="ssw" cx=".36" cy=".3" r=".85"><stop offset="0" stop-color="#fff0b0"/><stop offset=".45" stop-color="#e0b44e"/><stop offset="1" stop-color="#8a5a12"/></radialGradient>
+<filter id="sss" x="-15%" y="-15%" width="130%" height="135%"><feDropShadow dx="0" dy="2.4" stdDeviation="2.4" flood-color="#000" flood-opacity=".5"/></filter></defs>
+<g filter="url(#sss)"><path d="${bp}" fill="#7a4e0e"/></g>
+<path d="${bp}" transform="translate(60 60) scale(.965) translate(-60 -60)" fill="url(#ssw)"/>
+<circle cx="60" cy="60" r="40" fill="#8a5a12" opacity=".22"/>
+<circle cx="60" cy="60" r="40" fill="none" stroke="#6e430c" stroke-width="2.2"/>
+<circle cx="60" cy="60" r="37.6" fill="none" stroke="#fff0b0" stroke-width="1.1" stroke-opacity=".7"/>
+<circle cx="60" cy="60" r="33.5" fill="none" stroke="#6e430c" stroke-width="1" stroke-opacity=".6" stroke-dasharray="1.2 3.2" stroke-linecap="round"/>
+${st} transform="translate(1.2 1.6)" fill="#6e430c"/>${st} transform="translate(-.8 -.8)" fill="#fff0b0"/>${st} fill="#d8a540"/>
+<circle cx="60" cy="61" r="4.5" fill="#8a5a12"/>
+<ellipse cx="40" cy="31" rx="15" ry="7" transform="rotate(-35 40 31)" fill="#fff" opacity=".22"/>
+</svg>`;
+}

@@ -16,8 +16,14 @@ _SEC_HEADERS = {"X-Content-Type-Options": "nosniff", "X-Frame-Options": "DENY",
                 "Content-Security-Policy": "frame-ancestors 'none'"}
 
 
-def _file(p: Path) -> FileResponse:
-    return FileResponse(p, headers=_SEC_HEADERS)
+# index.html and unhashed files must be revalidated (FileResponse sends ETag/Last-Modified), otherwise the browser
+# keeps a stale index after an update and loads the old bundle. Vite's /assets files are content-hashed.
+_REVALIDATE = "no-cache"
+_IMMUTABLE = "public, max-age=31536000, immutable"
+
+
+def _file(p: Path, cache: str = _REVALIDATE) -> FileResponse:
+    return FileResponse(p, headers={**_SEC_HEADERS, "Cache-Control": cache})
 
 
 def safe_join(root: Path | str, rel: str) -> Path | None:
@@ -42,11 +48,11 @@ def safe_join(root: Path | str, rel: str) -> Path | None:
     return Path(full)
 
 
-def serve_file(root: Path | str | None, rel: str) -> Response:
+def serve_file(root: Path | str | None, rel: str, cache: str = _REVALIDATE) -> Response:
     p = safe_join(root, rel) if root is not None else None
     if p is None or not p.is_file():
         return JSONResponse(_NOT_FOUND, status_code=404)
-    return _file(p)
+    return _file(p, cache)
 
 
 def mount_web(app: FastAPI) -> None:
@@ -58,7 +64,7 @@ def mount_web(app: FastAPI) -> None:
 
     @app.get("/assets/{rel:path}", include_in_schema=False)
     def _assets(rel: str):
-        return serve_file(os.path.join(dist_s, "assets"), rel)
+        return serve_file(os.path.join(dist_s, "assets"), rel, _IMMUTABLE)
 
     @app.get("/ui/{rel:path}", include_in_schema=False)
     def _ui(rel: str):

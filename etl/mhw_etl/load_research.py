@@ -29,7 +29,9 @@ def _files():
     # `schemas` holds the JSON schemas; `builds` (solo-build rules read by the API) and `icons` (icon tables
     # written by mhw_etl.icons) are not seeds, so the loader must not try to validate them.
     skip = {"schemas", "builds", "icons", "save_format", "melder"}
-    return sorted(p for p in root.glob("*/*.json") if p.parent.name not in skip)
+    # Test fixtures that live next to a seed (shared by pytest and tools/canteen-engine-check.mjs).
+    skip_files = {"sim_cases.json"}
+    return sorted(p for p in root.glob("*/*.json") if p.parent.name not in skip and p.name not in skip_files)
 
 
 def _schemas() -> dict:
@@ -168,11 +170,12 @@ def load_research(c: Ctx) -> dict:
         rows.append((e["id"], e["name_en"], e.get("name_es"), e["category"], e.get("category_es"), e["skill_type"],
                      e.get("skill_type_es"), e.get("description_en"), e.get("description_es"), u.get("type"), J(u),
                      e.get("can_be_fresh"), J(e.get("aliases", [])), c.items.map.get(key(e["name_en"])), i + 1,
-                     J(e["sources"]), bool(e.get("needs_review")), J(e.get("review_notes", []))))
+                     J(e["sources"]), bool(e.get("needs_review")), J(e.get("review_notes", [])),
+                     e.get("unlock_es"), e.get("doc_id")))
     c.insert("canteen_ingredients",
              ["id", "name_en", "name_es", "category", "category_es", "skill_type", "skill_type_es", "description_en",
               "description_es", "unlock_type", "unlock", "can_be_fresh", "aliases", "item_id", "sort_order", "sources",
-              "needs_review", "review_notes"], rows)
+              "needs_review", "review_notes", "unlock_es", "doc_id"], rows)
     rows = []
     for i, e in enumerate(can.get("skills", [])):
         nd = e.get("numeric_details")
@@ -180,16 +183,32 @@ def load_research(c: Ctx) -> dict:
                      e.get("skill_type"), e.get("skill_type_es"), e.get("tier"), e.get("ingredients_required"),
                      e.get("hunter_effect"), e.get("palico_effect"), e.get("duration"), e.get("pool_note"),
                      e.get("note_es"), J(nd) if nd is not None else None, i + 1, J(e["sources"]),
-                     bool(e.get("needs_review")), J(e.get("review_notes", []))))
+                     bool(e.get("needs_review")), J(e.get("review_notes", [])), e.get("synergy_es")))
     c.insert("canteen_skills",
              ["id", "name_en", "name_es", "effect_en", "effect_es", "kind", "skill_type", "skill_type_es", "tier",
               "ingredients_required", "hunter_effect", "palico_effect", "duration", "pool_note", "note_es",
-              "numeric_details", "sort_order", "sources", "needs_review", "review_notes"], rows)
+              "numeric_details", "sort_order", "sources", "needs_review", "review_notes", "synergy_es"], rows)
     rows = [(e["id"], e["topic"], e["title_es"], e["text_es"], i + 1, J(e["sources"]),
              bool(e.get("needs_review")), J(e.get("review_notes", [])))
             for i, e in enumerate(can.get("rules", []))]
     c.insert("canteen_rules", ["id", "topic", "title_es", "text_es", "sort_order", "sources", "needs_review",
                                "review_notes"], rows)
+    # Optional in older seeds: a seed without branches or recipes still loads.
+    rows = [(b["id"], b.get("name_es"), b["name_en"], b.get("color_name_es"), b.get("color_hex"), b.get("glyph"),
+             b["group"], J(b.get("categories", [])), J(b.get("skill_ids", [])), b.get("sort_order", i + 1),
+             J(b.get("sources", [])), bool(b.get("needs_review")), J(b.get("review_notes", [])))
+            for i, b in enumerate(can.get("branches", []))]
+    c.insert("canteen_branches", ["id", "name_es", "name_en", "color_name_es", "color_hex", "glyph", "branch_group",
+                                  "categories", "skill_ids", "sort_order", "sources", "needs_review", "review_notes"],
+             rows)
+    rows = [(r["id"], r["name_es"], r.get("plate_type_es"), J(r.get("composition", [])), r.get("variants_es"),
+             J(r.get("target_skill_ids", [])), r.get("needs_daily"), r.get("voucher_es"), r.get("use_es"),
+             r.get("sort_order", i + 1), J(r.get("sources", [])), bool(r.get("needs_review")),
+             J(r.get("review_notes", [])))
+            for i, r in enumerate(can.get("recipes", []))]
+    c.insert("canteen_recipes", ["id", "name_es", "plate_type_es", "composition", "variants_es", "target_skill_ids",
+                                 "needs_daily", "voucher_es", "use_es", "sort_order", "sources", "needs_review",
+                                 "review_notes"], rows)
     loaded["canteen"] = {k: len(v) for k, v in can.items()}
 
     for topic, table in (("loot", "loot_rules"), ("gathering_rules", "gathering_rules")):

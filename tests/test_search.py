@@ -236,6 +236,10 @@ def _capture_requests():
     return reqs
 
 
+# Catalogue rows that did not exist when build/golden/pg was captured (excluded only from the golden-side check).
+_AFTER_CAPTURE = {("guide", "cantina-combinaciones")}
+
+
 @pytest.mark.skipif(not CAPTURES.is_dir(), reason="build/golden/pg captures missing")
 def test_parity_captures(index):
     caps = {}
@@ -266,7 +270,9 @@ def test_parity_captures(index):
             g = gmap.get((r["type"], r["id"]))
             if g is not None and g != r:
                 errs.append(f"{key}: row differs {g} != {r}")
-        errs += validate_final(key + " golden", [(r["type"], r["id"]) for r in gold], universe, limit * 3, limit)
+        # The Postgres captures are frozen: rows added to the catalogue later cannot appear in them.
+        then = {i: v for i, v in universe.items() if i not in _AFTER_CAPTURE}
+        errs += validate_final(key + " golden", [(r["type"], r["id"]) for r in gold], then, limit * 3, limit)
         errs += validate_final(key + " mine", [(r["type"], r["id"]) for r in mine], universe, limit * 3, limit)
     print(f"\nparity: {checked} searches compared, {len(skipped)} skipped (non-200: {skipped}), {len(errs)} mismatches")
     assert checked >= 270

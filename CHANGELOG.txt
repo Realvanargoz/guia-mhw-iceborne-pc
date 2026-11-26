@@ -1,6 +1,17 @@
 ﻿# Historial de cambios de Guía MHW Iceborne · PC
 # Formato: "## versión" y debajo una línea por mejora o corrección ("- ..."). El instalador muestra solo lo posterior a la versión que ya tengas.
 
+## 0.1.6
+- Cantina renovada con un simulador gráfico: mesa y plato con tus ingredientes, matriz de tipo × rama con los iconos de los 114 ingredientes y resultado al momento (habilidades felyne, estrellas, Ataque/Defensa/Res. elemental P/M/G y barras por rama).
+- Regla corregida: cada rama de color da solo su nivel de habilidad más alto (6 de Artillería = Piro Felyne, sin Bombardero ni Puntería). Las bebidas ocupan hueco y bajan la estadística.
+- Buscador por habilidad: eliges hasta 3 habilidades y te propone el plato, usando primero los ingredientes que tienes y diciendo cómo conseguir los que faltan.
+- Nuevo Recetario con 19 recetas listas para cargar en el plato, patrones de mezcla y leyenda de colores de las 9 ramas.
+- Ingredientes agrupados por rama con su desbloqueo en español; habilidades con su uso recomendado.
+- El plato del simulador se conserva al cambiar de pestaña o cerrar la ventana; «Vaciar» lo reinicia.
+- Nueva guía «Cantina: combinaciones y mezclas».
+- Corregido: tras actualizar, la ventana podía mostrar la versión anterior o quedarse en negro.
+- Nuevos créditos de las fuentes de la cantina en «Acerca de».
+
 ## 0.1.5
 - Nuevo constructor de builds por fases, basado en el método de Dem (youtube.com/@Demsito): objetivo, habilidades, bono de set, prioridades, armadura, joyas y amuleto, y prueba. El editor de siempre queda como último paso.
 - Buscador automático de armadura: propone de 3 a 5 bases según tus prioridades, con el origen de cada habilidad (armadura, amuleto, joya o bono) y lo que no entra. Puedes fijar o excluir piezas y trabajar con todo el catálogo o solo con tus cosas.

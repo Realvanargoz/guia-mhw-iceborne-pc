@@ -50,5 +50,22 @@ still('tab-active', 360, 56, A.tabSvg(true), 'tab-active.png');
 still('ribbon', 48, 160, A.ribbonSvg(), 'ribbon.png');
 for (const k of ['spring', 'summer', 'autumn', 'winter', 'appreciation']) still('fest-' + k, 160, 160, A.sealSvg(k), `fest-${k}.png`);
 
+// ---- canteen simulator (web/public/ui/canteen/**): `node build.mjs canteen`
+const CANTEEN = path.join(UI, 'canteen');
+if (!only || only.startsWith('canteen')) {
+  fs.mkdirSync(path.join(CANTEEN, 'anim'), { recursive: true });
+  for (const [id, s] of Object.entries(A.branchIcons)) fs.writeFileSync(path.join(CANTEEN, `branch-${id}.svg`), s);
+  const seqPng = (name, w, h, svg) => path.join(render(name, page(w, h, svg), 'png-sequence', 1), 'frame_000001.png');
+  const t = seqPng('canteen-table', 960, 600, A.canteenTableSvg());
+  ff('-i', t, '-c:v', 'libwebp', '-quality', '72', '-compression_level', '6', path.join(CANTEEN, 'table.webp'));
+  fs.copyFileSync(t, path.join(WORK, 'canteen-table.png'));
+  // plate: lossy webp with alpha is ~4x smaller than png at no visible cost; png kept in work/ only
+  const p = seqPng('canteen-plate', 440, 440, A.canteenPlateSvg());
+  ff('-i', p, '-c:v', 'libwebp', '-pix_fmt', 'yuva420p', '-quality', '82', '-compression_level', '6', path.join(CANTEEN, 'plate.webp'));
+  fs.copyFileSync(p, path.join(WORK, 'canteen-plate.png'));
+  await (await import('./anim.mjs')).canteen({ page, render, UI: CANTEEN, A });
+  for (const f of fs.readdirSync(CANTEEN, { recursive: true })) { const s = fs.statSync(path.join(CANTEEN, f)); if (s.isFile()) console.log('canteen/' + f, s.size); }
+}
+
 if (!only || only === 'anim') (await import('./anim.mjs')).default({ page, render, ff, UI, WORK, A });
 if (!only || only === 'contact') (await import('./contact.mjs')).default({ page, render, ff, UI, WORK, OUT, fs, path });

@@ -3,7 +3,9 @@
 Data: research/canteen/canteen.json -> canteen_ingredients / canteen_skills / canteen_rules (catalog.db).
 
 The simulator applies ONLY the qualitative rules the sources publish (ingredient types, 2/4/6 thresholds, half a
-star of activation per fresh ingredient, vouchers, +10/+4 HP per fresh ingredient). No source publishes activation
+star of activation per fresh ingredient, vouchers, +10/+4 HP per fresh ingredient). Each branch (= skill_type) gives
+ONLY the skill of the tier it reaches, floor(min(n,6)/2); lower tiers are superseded [Fandom]. Same rules as the
+UI engine web/src/pages/canteen/engine.ts (shared cases: research/canteen/sim_cases.json). No source publishes activation
 percentages, so none are produced: the answer says so explicitly and returns stars instead.
 """
 from __future__ import annotations
@@ -49,7 +51,8 @@ def _unlock_es(u: dict | None) -> str | None:
 def _ingredients() -> list[dict]:
     rows = all_("""
       SELECT c.id, c.name_en, c.name_es, c.category, c.category_es, c.skill_type, c.skill_type_es, c.description_en,
-             c.description_es, c.unlock_type, c.unlock, c.can_be_fresh, c.item_id, c.sources, c.needs_review,
+             c.description_es, c.unlock_type, c.unlock, c.unlock_es, c.doc_id, c.can_be_fresh, c.item_id, c.sources,
+             c.needs_review,
              c.review_notes, i.icon_name, i.icon_color, i.rarity, p.done
       FROM canteen_ingredients c
       LEFT JOIN items i ON i.id = c.item_id
@@ -57,7 +60,7 @@ def _ingredients() -> list[dict]:
       ORDER BY c.sort_order""")
     for r in rows:
         r["icon_url"] = f"/icons/ingredients/{r['id']}.webp"
-        r["unlock_es"] = _unlock_es(r["unlock"])
+        r["unlock_es"] = r["unlock_es"] or _unlock_es(r["unlock"])   # workbook text first, computed fallback
         r["done"] = bool(r["done"])
     return rows
 
@@ -65,7 +68,7 @@ def _ingredients() -> list[dict]:
 def _skills() -> list[dict]:
     return all_("""SELECT id, name_en, name_es, effect_en, effect_es, kind, skill_type, skill_type_es, tier,
                           ingredients_required, hunter_effect, palico_effect, duration, pool_note, note_es,
-                          numeric_details, sources, needs_review, review_notes
+                          numeric_details, synergy_es, sources, needs_review, review_notes
                    FROM canteen_skills ORDER BY sort_order""")
 
 
@@ -87,6 +90,18 @@ def _types(skills: list[dict], ings: list[dict]) -> list[dict]:
     return list(out.values())
 
 
+def _branches() -> list[dict]:
+    return all_("""SELECT id, name_es, name_en, color_name_es, color_hex, glyph, branch_group AS "group", categories,
+                          skill_ids, sort_order, sources, needs_review, review_notes
+                   FROM canteen_branches ORDER BY sort_order""")
+
+
+def _recipes() -> list[dict]:
+    return all_("""SELECT id, name_es, plate_type_es, composition, variants_es, target_skill_ids, needs_daily,
+                          voucher_es, use_es, sort_order, sources, needs_review, review_notes
+                   FROM canteen_recipes ORDER BY sort_order""")
+
+
 @router.get("")
 def canteen():
     """Catálogo completo: ingredientes (con icono/progreso), habilidades felyne, reglas y fuentes."""
@@ -100,6 +115,8 @@ def canteen():
                    "daily": [s for s in skills if s["kind"] == "daily"]},
         "skill_types": _types(skills, ings),
         "rules": rules,
+        "branches": _branches(),
+        "recipes": _recipes(),
         "meta": {
             "counts": {"ingredients": len(ings), "ingredient_skills": sum(s["kind"] == "ingredient" for s in skills),
                        "daily_skills": sum(s["kind"] == "daily" for s in skills), "rules": len(rules),
@@ -133,11 +150,16 @@ def simulate(body: SimulateIn):
     skills = {s["id"]: s for s in _skills()}
     notes: list[str] = []
     chosen = []
+    seen: set[str] = set()
     for x in body.ingredients:
         x = IngredientIn(id=x) if isinstance(x, str) else x
         ing = ings.get(x.id) or by_name.get(x.id.strip().lower())
         if ing is None:
             raise HTTPException(422, f"Ingrediente desconocido: {x.id!r}")
+        if ing["id"] in seen:
+            raise HTTPException(422, f"Ingrediente repetido: {ing['name_es'] or ing['id']!r}. Cada ingrediente solo "
+                                     "puede ir una vez en el plato.")
+        seen.add(ing["id"])
         chosen.append((ing, x.fresh))
     if len(chosen) > body.slots:
         raise HTTPException(422, f"Has elegido {len(chosen)} ingredientes y tu cantina tiene {body.slots} huecos.")
@@ -146,6 +168,8 @@ def simulate(body: SimulateIn):
         s = skills.get(sid)
         if s is None or s["kind"] != "daily":
             raise HTTPException(422, f"Habilidad diaria desconocida: {sid!r}")
+        if s in daily_in:
+            raise HTTPException(422, f"Habilidad diaria repetida: {sid!r}")
         daily_in.append(s)
     if len(daily_in) > 3:
         raise HTTPException(422, "La cantina muestra 3 habilidades diarias como máximo.")
@@ -154,37 +178,37 @@ def simulate(body: SimulateIn):
     n = len(chosen)
     fresh = n if gourmet else sum(1 for _, f in chosen if f)
 
-    # ---- skills by ingredient type (2/4/6 of the same type); drinks have their own four types
+    # ---- branch skills: n ingredients of one branch reach tier floor(min(n,6)/2); only that tier is active
     counts: dict[str, int] = {}
     for ing, _ in chosen:
         counts[ing["skill_type"]] = counts.get(ing["skill_type"], 0) + 1
     by_type, ingredient_skills = [], []
+    any_superseded = False
     for t, cnt in sorted(counts.items(), key=lambda kv: -kv[1]):
         tiers = sorted((s for s in skills.values() if s["kind"] == "ingredient" and s["skill_type"] == t),
                        key=lambda s: s["tier"])
+        reached = min(cnt, MAX_SLOTS) // 2
         row = {"skill_type": t, "skill_type_es": tiers[0]["skill_type_es"] if tiers else None, "count": cnt,
-               "tier_reached": sum(1 for th in TIERS if cnt >= th),
+               "tier_reached": reached,
                "next_tier_at": next((th for th in TIERS if cnt < th), None),
-               "skills": [{"id": s["id"], "name_es": s["name_es"], "name_en": s["name_en"], "effect_es": s["effect_es"],
-                           "tier": s["tier"], "ingredients_required": s["ingredients_required"],
-                           "unlocked": cnt >= (s["ingredients_required"] or 99), "needs_review": s["needs_review"],
-                           "numeric_details": s["numeric_details"]} for s in tiers]}
+               "skills": []}
+        for s in tiers:
+            tier = s["tier"] or 0
+            active, superseded = tier == reached and reached > 0, 0 < tier < reached
+            any_superseded |= superseded
+            row["skills"].append({"id": s["id"], "name_es": s["name_es"], "name_en": s["name_en"],
+                                  "effect_es": s["effect_es"], "tier": s["tier"],
+                                  "ingredients_required": s["ingredients_required"],
+                                  "unlocked": active,   # = active (kept for old clients)
+                                  "active": active, "superseded": superseded, "locked": tier > reached,
+                                  "needs_review": s["needs_review"], "numeric_details": s["numeric_details"]})
         by_type.append(row)
-        ingredient_skills += [x for x in row["skills"] if x["unlocked"]]
-    if len(by_type) > 1:
-        notes.append("Mezclas varios tipos de habilidad: las fuentes no detallan cómo se reparten los 3 huecos de "
-                     "habilidad ni si se activan a la vez; la lista muestra todas las desbloqueables.")
-    if len(ingredient_skills) > 3:
-        notes.append("Hay más de 3 habilidades desbloqueables y el plato solo muestra 3 (las de ingrediente tienen "
-                     "prioridad sobre las diarias, de arriba abajo). Qué 3 entran no está publicado.")
-    if any(t in counts for t in FOOD_TYPES) and any(t in counts for t in DRINK_TYPES):
-        notes.append("Mezclas comida y bebida: no consta si las bebidas ocupan hueco de ingrediente; aquí cuentan como un hueco.")
-    if ingredient_skills and any(s["tier"] and s["tier"] > 1 for s in ingredient_skills):
-        notes.append("Las fuentes dicen «2 = nivel 1, 4 = nivel 2, 6 = nivel 3» sin aclarar si con 4 o 6 ingredientes "
-                     "del mismo tipo salen también las habilidades de niveles inferiores; se listan como desbloqueadas.")
+        ingredient_skills += [x for x in row["skills"] if x["active"]]
+    if any_superseded:
+        notes.append("Cada rama da solo su nivel más alto (Fandom); confirmar en el juego.")
 
     # ---- daily skills fill the free skill slots
-    free_slots = max(0, 3 - min(3, len(ingredient_skills)))
+    free_slots = max(0, 3 - len(ingredient_skills))
     daily = {"free_skill_slots": free_slots,
              "provided": [{"id": s["id"], "name_es": s["name_es"], "name_en": s["name_en"], "effect_es": s["effect_es"]}
                           for s in daily_in[:free_slots]]}
@@ -207,7 +231,7 @@ def simulate(body: SimulateIn):
     cat = {c: sum(1 for i, _ in chosen if i["category"] == c) for c in ("meat", "fish", "veggie", "drink")}
     buffs = []
     for c, (key, label) in BUFF.items():
-        lvl = sum(1 for th in TIERS if cat[c] >= th)
+        lvl = min(cat[c], MAX_SLOTS) // 2
         buffs.append({"stat": key, "name_es": label, "from_category": c, "count": cat[c], "level": BUFF_SIZE.get(lvl),
                       "value_fextralife": {1: 5, 2: 10, 3: 15}.get(lvl) if key in ("attack", "defense") else None,
                       "needs_review": True})

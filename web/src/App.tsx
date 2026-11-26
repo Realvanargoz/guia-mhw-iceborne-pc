@@ -35,7 +35,7 @@ const QuestList = lazy(() => import("./pages/Quests").then((m) => ({ default: m.
 const QuestPage = lazy(() => import("./pages/Quests").then((m) => ({ default: m.QuestPage })));
 const GuideList = lazy(() => import("./pages/Guides").then((m) => ({ default: m.GuideList })));
 const GuidePage = lazy(() => import("./pages/Guides").then((m) => ({ default: m.GuidePage })));
-const CanteenPage = lazy(() => import("./pages/Canteen"));
+const CanteenPage = lazy(() => import("./pages/canteen/CanteenPage"));
 const MelderPage = lazy(() => import("./pages/Melder"));
 const CalendarPage = lazy(() => import("./pages/Calendar"));
 const Bestiary = lazy(() => import("./pages/Bestiary"));
@@ -44,7 +44,7 @@ const Builder = lazy(() => import("./pages/builder/index"));
 const DesignSystem = lazy(() => import("./pages/DesignSystem"));
 
 /** Páginas que usan el ancho --page-max-wide (clase .main--wide). */
-const WIDE = ["/bestiario", "/constructor", "/calendario", "/estadisticas"];
+const WIDE = ["/bestiario", "/constructor", "/calendario", "/estadisticas", "/cantina"];
 
 const svgProps = {
   viewBox: "0 0 24 24",

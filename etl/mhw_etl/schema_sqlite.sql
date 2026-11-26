@@ -447,6 +447,8 @@ CREATE TABLE canteen_ingredients (
   can_be_fresh    BOOLEAN,
   aliases         JSON NOT NULL DEFAULT '[]',
   item_id         INTEGER REFERENCES items(id),   -- matched by name_en when the ingredient is also an item (else NULL)
+  doc_id          TEXT,               -- code of the user's workbook (C01/P01/V01/B01)
+  unlock_es       TEXT,               -- unlock requirement as written in the workbook (Spanish)
   sort_order      INTEGER NOT NULL DEFAULT 0,
   sources         JSON NOT NULL DEFAULT '[]',
   needs_review    BOOLEAN NOT NULL DEFAULT 0,
@@ -471,6 +473,7 @@ CREATE TABLE canteen_skills (
   pool_note            TEXT,
   note_es              TEXT,
   numeric_details      JSON,
+  synergy_es           TEXT,            -- workbook 'Sinergia y Uso Recomendado' (branch and daily skills only)
   sort_order           INTEGER NOT NULL DEFAULT 0,
   sources              JSON NOT NULL DEFAULT '[]',
   needs_review         BOOLEAN NOT NULL DEFAULT 0,
@@ -486,6 +489,40 @@ CREATE TABLE canteen_rules (
   sources       JSON NOT NULL DEFAULT '[]',
   needs_review  BOOLEAN NOT NULL DEFAULT 0,
   review_notes  JSON NOT NULL DEFAULT '[]'
+);
+
+-- Branches = the 9 colour families of ingredient skills (3 tiers each). skill_ids = [tier1, tier2, tier3].
+CREATE TABLE canteen_branches (
+  id              TEXT PRIMARY KEY,   -- = skill_type (Courage | Resilience | ... | Trailblazer)
+  name_es         TEXT,
+  name_en         TEXT NOT NULL,
+  color_name_es   TEXT,
+  color_hex       TEXT,
+  glyph           TEXT,
+  branch_group    TEXT NOT NULL,      -- food | drink
+  categories      JSON NOT NULL DEFAULT '[]',
+  skill_ids       JSON NOT NULL DEFAULT '[]',
+  sort_order      INTEGER NOT NULL DEFAULT 0,
+  sources         JSON NOT NULL DEFAULT '[]',
+  needs_review    BOOLEAN NOT NULL DEFAULT 0,
+  review_notes    JSON NOT NULL DEFAULT '[]'
+);
+
+-- Recipes from the user's workbook (sheet 4) plus R17-R19. composition = [{count, category, branch}].
+CREATE TABLE canteen_recipes (
+  id                TEXT PRIMARY KEY,   -- R01..R19
+  name_es           TEXT NOT NULL,
+  plate_type_es     TEXT,
+  composition       JSON NOT NULL DEFAULT '[]',
+  variants_es       TEXT,
+  target_skill_ids  JSON NOT NULL DEFAULT '[]',
+  needs_daily       TEXT,               -- daily skill id needed on top of the plate (or NULL)
+  voucher_es        TEXT,
+  use_es            TEXT,
+  sort_order        INTEGER NOT NULL DEFAULT 0,
+  sources           JSON NOT NULL DEFAULT '[]',
+  needs_review      BOOLEAN NOT NULL DEFAULT 0,
+  review_notes      JSON NOT NULL DEFAULT '[]'
 );
 
 -- Loot / gathering rule seeds (research/loot/*.json): one row per entry, free-form data in JSON.

@@ -50,6 +50,10 @@
      "type": "quest",
      "name_en": "Greeting the Gluttons",
      "note_es": "origen del Vale según Fextralife"
+    },
+    {
+     "type": "guide",
+     "name_en": "cantina-combinaciones"
     }
    ],
    "sources": [
@@ -88,6 +92,60 @@
     {
      "title": "Fextralife MHW Wiki - Gourmet Voucher",
      "url": "https://monsterhunterworld.wiki.fextralife.com/Gourmet_Voucher"
+    }
+   ],
+   "needs_review": true
+  },
+  {
+   "slug": "cantina-combinaciones",
+   "kind": "cooking",
+   "title_es": "Cantina: combinaciones y mezclas",
+   "title_en": "Canteen: combinations and mixes",
+   "summary_es": "El tipo de ingrediente decide la estadística y la rama (color) decide la habilidad felyne. Cómo mezclar ramas para sacar 1, 2 o 3 habilidades y qué recetas merecen la pena.",
+   "body_md_es": "## Dos ejes independientes\nCada ingrediente tiene un **tipo** y una **rama** (su color). Los dos se cuentan por separado.\n\n**Tipo → estadística.** La carne da Ataque, el pescado Defensa y la verdura Resistencia elemental. El nivel depende de cuántos ingredientes de esa categoría pongas: 2 = P (pequeño), 4 = M (mediano), 6 = G (grande). Las bebidas no dan estadística, pero ocupan hueco. Cualquier plato da +50 de aguante.\n\n**Rama → habilidad felyne.** Con 2, 4 o 6 ingredientes de la misma rama, sumando todas las categorías, consigues la habilidad de nivel I, II o III de esa rama. Cada rama da **solo su nivel más alto**: 6 de Artillería dan Piro Felyne, no Bombardero ni Puntería.\n\n> Lo de \"solo el nivel más alto\" viene de Fandom y de la comunidad. Compruébalo en el juego antes de darlo por hecho.\n\n## Ramas y habilidades\n| Rama | Color | I (2) | II (4) | III (6) |\n|---|---|---|---|---|\n| Coraje | Rojo | Pulidor Felyne | Jinete Felyne | Boxeador Felyne |\n| Tesón | Azul | Acróbata Felyne | Patas Felyne | Sangre fría Felyne |\n| Vigor | Naranja | Elevador Felyne +2 | Cinturón negro Felyne | Heroicidad Felyne |\n| Ingenio | Morado | Limpiador Felyne | Médico Felyne | Especialista Felyne |\n| Artillería | Amarillo | Puntería Felyne | Bombardero Felyne | Piro Felyne |\n| Percepción | Verde | Cortador Felyne férreo | Cambio Felyne | Cortador Felyne +2 |\n| Fortuna | Dorado | Recolector Felyne | Magnate Felyne | Felyne afortunado |\n| Preparación | Hielo | Tacos Felyne | Sastrería Felyne | Salvaguardia Felyne |\n| Aventura | Ámbar | Jardinería Felyne | Carroñero Felyne | Zoología Felyne |\n\nLas cinco primeras ramas existen en carne, pescado y verdura (6 ingredientes de cada una). Percepción, Fortuna, Preparación y Aventura solo salen en bebidas; las dos últimas son de Iceborne. Ninguna fuente da color para Preparación y Aventura: aquí usamos Hielo y Ámbar.\n\n## Patrones de mezcla\n- **6 de una rama**: la habilidad III de esa rama.\n- **4 + 2**: la II de una rama y la I de otra.\n- **2 + 2 + 2**: tres habilidades de nivel I.\n- **Con bebidas**: 4 carnes de Vigor + 2 bebidas de Preparación = Cinturón negro Felyne + Tacos Felyne y Ataque M (las bebidas no suben estadística).\n\nEl plato tiene 3 huecos de habilidad. Primero se llenan con las habilidades de tus ramas y lo que quede lo ocupan las habilidades diarias del día.\n\n## Estrellas\nCada ingrediente fresco suma media estrella. Un Vale te da 3 estrellas directamente y el Vale gourmet hace que todos los ingredientes cuenten como frescos.\n\n## Recetas destacadas\n| Para qué | Ingredientes | Habilidades | Estadística |\n|---|---|---|---|\n| Sticky / Lanza pistola | 4 carnes Artillería + 2 carnes Coraje | Bombardero + Pulidor | Ataque G |\n| Moxie | 6 carnes Tesón | Sangre fría | Ataque G |\n| Vida extra en grupo | 6 bebidas Preparación | Salvaguardia | — |\n| Arco / Duales | 4 carnes Vigor + 2 carnes Artillería | Cinturón negro + Puntería | Ataque G |\n| Farmeo de tallas | 6 bebidas Percepción | Cortador Felyne +2 | — |\n| Fauna rara | 6 bebidas Aventura | Zoología | — |\n\nSi Seguro Felyne sale entre las diarias, junto con Salvaguardia te da 2 desmayos gratis.\n\n## Herramientas\nPrueba combinaciones en el [simulador](/cantina?tab=simulador) o elige una receta hecha en el [recetario](/cantina?tab=recetario). Lo básico de ingredientes, frescura y huecos está en [Cantina: ingredientes y habilidades](/guias/cooking).\n",
+   "steps_es": [
+    "Decide la estadística: carne para Ataque, pescado para Defensa, verdura para Resistencia elemental (2/4/6 = P/M/G).",
+    "Elige las habilidades felyne por rama: 6 de una rama para la III, 4 + 2 para II + I, o 2 + 2 + 2 para tres de nivel I.",
+    "Cuenta la rama sumando todas las categorías y usa bebidas si quieres Percepción, Fortuna, Preparación o Aventura.",
+    "Pon ingredientes frescos (media estrella cada uno) o usa un Vale o un Vale gourmet.",
+    "Revisa las diarias del día: rellenan los huecos de habilidad que tus ramas dejen libres."
+   ],
+   "related": [
+    {
+     "type": "item",
+     "name_en": "Voucher",
+     "note_es": "3 estrellas directas"
+    },
+    {
+     "type": "item",
+     "name_en": "Gourmet Voucher",
+     "note_es": "todos los ingredientes frescos"
+    },
+    {
+     "type": "guide",
+     "name_en": "cooking"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fandom - Monster Hunter World Food Guide",
+     "url": "https://www.fandom.com/articles/monster-hunter-world-food"
+    },
+    {
+     "title": "Fextralife MHW Wiki - Canteen",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Canteen"
+    },
+    {
+     "title": "Fextralife MHW Wiki - Food Skills",
+     "url": "https://monsterhunterworld.wiki.fextralife.com/Food_Skills"
+    },
+    {
+     "title": "Kiranico MHWorld Iceborne - Habilidades felyne (es)",
+     "url": "https://mhworld.kiranico.com/es/catskills"
+    },
+    {
+     "title": "TeamBRG - MHW Food Guide: Recipes and Buffs",
+     "url": "https://teambrg.com/monster-hunter-world/mhw-food-guide-recipes-buffs-list/"
     }
    ],
    "needs_review": true
